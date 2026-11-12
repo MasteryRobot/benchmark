@@ -1,0 +1,14 @@
+{
+  "dataset_v2.py": {
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/v0.3.3/src/lerobot/datasets/lerobot_dataset.py",
+    "sha256": "e2c150fe66028f968f5fb242f44d3183c1db7ad9ae4d140644d57bc79f99a6ff"
+  },
+  "dataset_v043.py": {
+    "url": "https://raw.githubusercontent.com/huggingface/lerobot/v0.4.3/src/lerobot/datasets/lerobot_dataset.py",
+    "sha256": "bb4b1f7cb2dca6b440f846b35670eba2ddb39434db0f03591a53fef6f022a9f8"
+  },
+  "isaac_requirements.html": {
+    "url": "https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/requirements.html",
+    "sha256": "605842a2ca2cf63c1f824ec4ddcda1433ff9ab9640223bb969bcca94c0319828"
+  }
+}

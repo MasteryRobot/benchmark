@@ -1,0 +1,33 @@
+{
+  "task": "04_phone_portrait_to_landscape",
+  "checked_at_utc": "2026-10-29T08:52:46.653682+00:00",
+  "inputs_sha256": {
+    "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+    "tasks/04_phone_portrait_to_landscape/scene.usda": "3321b849ccc88e1710cb38476ef764e6a44af429eb0542738cb1257422e1a40e",
+    "tasks/04_phone_portrait_to_landscape/task.json": "1f543ce9286adfa621a1146734cdf8d7ca1c28befa9e13b802f944557938c923",
+    "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+    "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+    "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+    "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+    "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+    "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+    "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+  },
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 20.0,
+    "success_hold_s": 0.25,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "drop_below_initial_m": 0.08
+  },
+  "mode": "reset_contact_smoke",
+  "scope": "Fresh reset, settling and measured contacts; autonomous manipulation is not implemented.",
+  "runtime_status": "BLOCKED",
+  "task_success": false,
+  "reason": "Isaac Sim is not installed in the selected Python environment."
+}

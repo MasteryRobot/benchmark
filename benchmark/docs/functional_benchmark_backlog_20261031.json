@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "assessment_date": "2026-10-31",
+  "scope": "Construction gap assessment; proposals do not certify implementation or physics",
+  "priority_definition": {
+    "P0": "完成首个有效端到端工具使用评测之前",
+    "P1": "公开泛化比较与发布之前",
+    "P2": "基础链路验证后的复杂任务扩展"
+  },
+  "readiness": "NOT_READY_FOR_FORMAL_TOOL_USE_BENCHMARK",
+  "gaps": [
+    {
+      "id": "G01",
+      "priority": "P0",
+      "title": "贯通同一后端的运行与采集",
+      "status": "PARTIAL_RUNTIME_BLOCKED",
+      "evidence": [
+        "runtime_checks/physx_gpu_probe_006.json",
+        "collection_runs/all_tasks_20261030/isaac_capture/20261031T073903_638468Z/collection_report.json",
+        "collection_runs/all_tasks_20261030/isaac_capture.log"
+      ],
+      "depends_on": [],
+      "deliverables": [
+        "版本固定的运行入口与依赖清单",
+        "同后端 reset/step/接触/RGBD 同步 smoke 报告"
+      ],
+      "acceptance": [
+        "在用户或组织已处理运行许可的环境中完成启动；本评估不代为接受许可",
+        "同一进程验证 54 关节名称、动作响应、物体状态与五路相机时间戳",
+        "重置和基础接触检查至少重复三次，记录全部运行及输入哈希",
+        "standalone PhysX smoke 不替代 Isaac Kit/渲染/任务验收"
+      ]
+    },
+    {
+      "id": "G02",
+      "priority": "P0",
+      "title": "真实掌心、成对接触及结果观测适配器",
+      "status": "MISSING_FUNCTIONAL_ADAPTER",
+      "evidence": [
+        "isaac_task_env.py:93-116",
+        "functional/evaluator.py:71-106"
+      ],
+      "depends_on": [
+        "G01"
+      ],
+      "deliverables": [
+        "版本化观测 schema",
+        "实际物理步采集器及离线回放"
+      ],
+      "acceptance": [
+        "逐物理步保存双掌位姿、对象位姿、带名称指关节、body→digit 映射及接触点/力/法向/对象 ID",
+        "外部支撑、对手辅助、合法工具工作接触分别分类",
+        "outcome 由被操作对象或物料实测状态计算，不由策略提供成功标志",
+        "原始记录与离线重评分一致；缺字段、非有限值、对象错配明确拒绝"
+      ]
+    },
+    {
+      "id": "G03",
+      "priority": "P0",
+      "title": "完整任务与重抓子任务及辅助手段隔离",
+      "status": "PARTIAL_CONTRACT",
+      "evidence": [
+        "functional/evaluator.py:95-142",
+        "docs/functional_benchmark_audit_20261031_review.json#synthetic_checks"
+      ],
+      "depends_on": [],
+      "deliverables": [
+        "端到端与强制重抓独立契约",
+        "单手/双手辅助/桌面辅助及腕部约束元数据"
+      ],
+      "acceptance": [
+        "完整任务接受直接功能抓取加真实用途结果；强制重抓子集要求非功能初抓",
+        "单手赛道检测并拒绝对手辅助；其他赛道明确允许范围",
+        "固定腕只限制指定重抓阶段，工具使用阶段由任务契约定义",
+        "按赛道分别报告成功率，不混合统计"
+      ]
+    },
+    {
+      "id": "G04",
+      "priority": "P0",
+      "title": "采样时序、时间保持与轨迹来源校验",
+      "status": "REPRODUCED_GAP",
+      "evidence": [
+        "functional/evaluator.py:71-72",
+        "functional/evaluate_trace.py:20",
+        "docs/functional_benchmark_audit_20261031_review.json#synthetic_checks/sparse_three_samples_pass_hold_timers"
+      ],
+      "depends_on": [
+        "G02"
+      ],
+      "deliverables": [
+        "时间戳/物理步序号验证器",
+        "终止帧及异常帧处理协议"
+      ],
+      "acceptance": [
+        "三帧大 dt 反例不能证明连续保持；dt 与引擎时间戳及步序号相互校验",
+        "缺帧、重复帧、倒序和超允许间隔明确失效或中断计时",
+        "终止帧之后记录不得继续累计成功；保留可读诊断",
+        "版本、资产、契约、输入与原始轨迹哈希绑定报告"
+      ]
+    },
+    {
+      "id": "G05",
+      "priority": "P0",
+      "title": "工具几何、功能位姿与实际结果标定",
+      "status": "UNCALIBRATED_AND_MISSING_OUTCOMES",
+      "evidence": [
+        "functional/example_contract.json",
+        "task_objects.py:41",
+        "task_objects.py:65",
+        "sharpa/index.json",
+        "reports/real_assets_20261031/validation.json"
+      ],
+      "depends_on": [
+        "G01"
+      ],
+      "deliverables": [
+        "对象坐标系握持/工作/禁触区域与有效位姿集合",
+        "勺子转移或另一刚性工具的真实功能场景",
+        "任务特定结果及失败判据"
+      ],
+      "acceptance": [
+        "确认勺碗碰撞保留容纳空间；用真实物料转移检查，不能仅凭视觉凹面",
+        "记录源/目标/洒落物料与守恒误差；预先定义用途质量阈值",
+        "区分合法工作接触与作弊支撑，不能把正常舀取全部判失败",
+        "阈值以实测标定并冻结；示例数值不直接作为正式标准",
+        "对已升级扫描外观和旧碰撞代理验证尺度、工作面、内腔及接触偏差；28 个视觉升级场景不自动视为物理合格"
+      ]
+    },
+    {
+      "id": "G06",
+      "priority": "P0",
+      "title": "闭环指级重抓及工具使用基线",
+      "status": "WORLD_FRAME_CANDIDATE_ONLY",
+      "evidence": [
+        "representative_policy.py:91-105",
+        "collection_checks/summary.json"
+      ],
+      "depends_on": [
+        "G02",
+        "G03",
+        "G05"
+      ],
+      "deliverables": [
+        "有实际失败记录的闭环基线",
+        "直接功能抓取、单手重抓、双手辅助、arm-only 对照"
+      ],
+      "acceptance": [
+        "指级动作改变手物相对位姿，保留连续接触与失败恢复轨迹",
+        "每个纳入正式 suite 的任务至少有可独立重放并验证的成功实例与失败实例",
+        "仅通过关节/允许执行器控制，不以瞬移或强制附着完成工具运动",
+        "oracle 状态策略和视觉/语言策略分榜，保持相同试验预算"
+      ]
+    },
+    {
+      "id": "G07",
+      "priority": "P1",
+      "title": "抓持有效性与连续滚动判定",
+      "status": "BODY_COUNT_PROXY_ONLY",
+      "evidence": [
+        "functional/evaluator.py:95",
+        "functional/evaluator.py:137-148",
+        "docs/functional_benchmark_audit_20261031_review.json#synthetic_checks"
+      ],
+      "depends_on": [
+        "G02",
+        "G05"
+      ],
+      "deliverables": [
+        "任务特定接触拓扑/稳定性判据",
+        "连续滚动及使用过程约束"
+      ],
+      "acceptance": [
+        "同一手指多链节不能冒充不同手指；不把任意两指接触等同力闭合",
+        "扰动保持、滑移、关节限位和握持区域实测检查",
+        "接触斑点迁移需与对象相对运动一致，排除噪声和接触点集合跳变",
+        "dynamic_relative_pose_during_use 按工具定义运动包络与工作轴，不无条件释放所有功能姿态约束"
+      ]
+    },
+    {
+      "id": "G08",
+      "priority": "P1",
+      "title": "随机初始分布和封存划分",
+      "status": "DESIGN_ONLY",
+      "evidence": [
+        "functional/README.md",
+        "isaac_task_env.py:80-88",
+        "tasks/index.json"
+      ],
+      "depends_on": [
+        "G05"
+      ],
+      "deliverables": [
+        "随机 reset 生成器",
+        "对象/用途/布局/语言开发与封存清单"
+      ],
+      "acceptance": [
+        "固定种子生成可达且无穿透的稳定初态，报告拒绝率与分布",
+        "对象几何家族和近重复资产不跨开发/封存边界",
+        "保留相同对象的不同用途与独立语言释义划分",
+        "以多种子独立试验验证，不把固定初态回放称泛化"
+      ]
+    },
+    {
+      "id": "G09",
+      "priority": "P1",
+      "title": "语言条件与反事实任务",
+      "status": "TITLES_ONLY",
+      "evidence": [
+        "functional/example_contract.json",
+        "representative_policy.py",
+        "functional/README.md"
+      ],
+      "depends_on": [
+        "G03",
+        "G05",
+        "G08"
+      ],
+      "deliverables": [
+        "语言到用途契约映射与观察权限协议",
+        "正确/错配/移除语言对照"
+      ],
+      "acceptance": [
+        "同对象不同指令对应不同真实结果，避免仅凭对象猜任务",
+        "封存释义不出现在训练模板内",
+        "策略观察不能泄露 evaluator 专用目标、答案或封存信息",
+        "三种语言条件用配对初态比较并提供逐任务结果"
+      ]
+    },
+    {
+      "id": "G10",
+      "priority": "P1",
+      "title": "独立评分、统计与完整失败归档",
+      "status": "NO_FORMAL_EVALUATION",
+      "evidence": [
+        "functional/evaluate_trace.py",
+        "collection_checks/summary.json",
+        "docs/functional_benchmark_audit_20261031_review.json"
+      ],
+      "depends_on": [
+        "G04",
+        "G06",
+        "G08"
+      ],
+      "deliverables": [
+        "官方任务清单与独立 scorer",
+        "逐回合账本、分阶段指标和不确定性报告"
+      ],
+      "acceptance": [
+        "成功率分母包括所有合格启动回合；环境启动失败单列，数值失败按预注册规则处理",
+        "无有效回合时成功率写未测/null，不写 0%",
+        "报告端到端与条件阶段成功率、质量、时间、掉落、重抓次数及资源预算",
+        "报告每种子结果和适当的置信区间；不把同模型所有回合当独立训练重复",
+        "每个公开结果可由原始测量与固定 scorer 重建"
+      ]
+    },
+    {
+      "id": "G11",
+      "priority": "P2",
+      "title": "复杂工具和材料过程",
+      "status": "ASSETS_OR_APPROXIMATION_ONLY",
+      "evidence": [
+        "sharpa/index.json",
+        "task_objects.py:112",
+        "towel_roll/attempts/gpu_native_finger_002/report.json"
+      ],
+      "depends_on": [
+        "G05",
+        "G06",
+        "G10"
+      ],
+      "deliverables": [
+        "剪刀/螺丝刀/锤子等任务特定物理与评分",
+        "柔性材料单独 suite"
+      ],
+      "acceptance": [
+        "剪切需可验证断裂结果，螺丝需螺纹/扭矩/深度，锤击需钉入结果",
+        "声明并校准物理近似，不以刚体位姿完成代替材料过程",
+        "柔性任务记录数值稳定性、原生接触和松手后结果",
+        "毛巾失败调试不混入工具使用端到端成功率"
+      ]
+    },
+    {
+      "id": "G12",
+      "priority": "P1",
+      "title": "发布证据、资产来源及统一入口",
+      "status": "PARTIAL_RELEASE_INFRASTRUCTURE",
+      "evidence": [
+        "benchmark_suites.json",
+        "benchmark_cli.py",
+        "README.md",
+        "sharpa/index.json"
+      ],
+      "depends_on": [
+        "G03",
+        "G05",
+        "G10"
+      ],
+      "deliverables": [
+        "版本化 benchmark card 与 provenance 清单",
+        "functional 正式 runner/manifest",
+        "可复现环境与报告索引"
+      ],
+      "acceptance": [
+        "统一入口能运行功能场景、保存实际轨迹并调用独立评分",
+        "场景数、可执行任务数和验证成功任务数分列",
+        "资产来源、许可和可分发性逐项记录，脱敏不视为授权",
+        "旧报告保持不可变，新状态链接到具体运行时间和哈希"
+      ]
+    }
+  ]
+}

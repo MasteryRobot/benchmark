@@ -1,0 +1,25 @@
+{
+  "task": "sharpa_dex_place_pens_in_holder",
+  "checked_at_utc": "2026-10-29T09:44:39.053091+00:00",
+  "inputs_sha256": {
+    "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+    "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+    "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+    "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+    "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a",
+    "run_sharpa_episode.py": "3a66feb0f4f33896369f664e26370109b298afa2f0f5b39c5e4812dfebbd0222",
+    "sharpa/contract.py": "ef9e5b7bb62c6ecb5c8c977f76cdd72b10116219e9b80362da69a45c82234512",
+    "sharpa/evaluator.py": "dafac39e53c904127e781723805df23e71bb9bfa928f24f9073d18afa4b0f65a",
+    "sharpa/isaac_env.py": "9148eb9ff1d79f3e946ccf2797f44aacfc332fecf1b996f2296abd2fdf275e2e",
+    "sharpa/scenes/sharpa_dex_place_pens_in_holder/task.json": "e782af962de03f4ddfdd7c60ec36ef80f183dfa0fbeba7088eb1b84cecd2c3f6",
+    "sharpa/scenes/sharpa_dex_place_pens_in_holder/scene.usda": "8d1e1f77ec5db42c64d245d888a039697de3dab1a48ee21b3959d1ea257b9843"
+  },
+  "runtime_status": "BLOCKED",
+  "task_success": false,
+  "source_status": "UNVERIFIED_PROVISIONAL_TASK",
+  "coverage_level": "RIGID_BODY_TASK_APPROXIMATION",
+  "mode": "reset_contact_smoke",
+  "task_evaluation_status": "LOCAL_APPROXIMATION",
+  "scope": "Measured Isaac reset/contacts and user replay only; not autonomous policy validation.",
+  "reason": "Isaac Sim is not installed in the selected Python environment."
+}

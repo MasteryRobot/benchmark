@@ -1,0 +1,104 @@
+{
+  "id": "05_flip_phone",
+  "title": "手机翻面",
+  "object": "phone",
+  "preferred_hand": "left",
+  "action": "flip",
+  "scene": "scene.usda",
+  "object_prim": "/World/Task/Object",
+  "fixture_prim": "/World/Task/Fixture",
+  "goal_prim": "/World/Task/Goal",
+  "object_design": {
+    "mass": 0.185,
+    "size": [
+      0.075,
+      0.151,
+      0.011
+    ],
+    "long_axis": "Y",
+    "screen_normal": "+Z",
+    "grasp_local": [
+      0,
+      0,
+      0
+    ]
+  },
+  "initial_pose_world": [
+    [
+      0.9510565162951536,
+      0.30901699437494745,
+      0.0,
+      -0.25
+    ],
+    [
+      -0.30901699437494745,
+      0.9510565162951536,
+      -0.0,
+      0.42
+    ],
+    [
+      -0.0,
+      0.0,
+      1.0,
+      0.8140000000000001
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "goal_pose_world": [
+    [
+      0.9510565162951536,
+      -0.30901699437494745,
+      -3.7843667304341506e-17,
+      -0.25
+    ],
+    [
+      -0.30901699437494745,
+      -0.9510565162951536,
+      -1.1647083184890926e-16,
+      0.435
+    ],
+    [
+      0.0,
+      1.2246467991473532e-16,
+      -1.0,
+      1.01
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "grasp_reference_world_m": [
+    -0.25,
+    0.42,
+    0.8140000000000001
+  ],
+  "success": {
+    "position_tolerance_m": 0.015,
+    "rotation_tolerance_deg": 12,
+    "minimum_lift_m": 0.1,
+    "requires_grasp_contact": true
+  },
+  "units": "m",
+  "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+  "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 20.0,
+    "success_hold_s": 0.25,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "drop_below_initial_m": 0.08
+  }
+}

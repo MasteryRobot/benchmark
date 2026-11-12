@@ -1,0 +1,12 @@
+#usda 1.0
+(
+    subLayers = [@../../tasks/06_reorient_battery/scene.usda@]
+)
+over "World"
+{
+    over "PhysicsScene" (prepend apiSchemas = ["PhysxSceneAPI"])
+    {
+        bool physxScene:enableGPUDynamics = true
+        token physxScene:broadphaseType = "GPU"
+    }
+}

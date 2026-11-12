@@ -1,0 +1,196 @@
+{
+  "id": "sharpa_dex_hammer_nails",
+  "title": "锤击钉入木板（本地仿真原型）",
+  "task_type": "scene_only",
+  "bodies": [
+    {
+      "id": "object_1",
+      "position": [
+        -0.38,
+        0.35,
+        0.8127
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.018,
+            0.13,
+            0.018
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.22,
+            0.48,
+            0.65
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.075,
+            0.032,
+            0.035
+          ],
+          "position": [
+            0,
+            0.055,
+            0
+          ],
+          "color": [
+            0.22,
+            0.48,
+            0.65
+          ]
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.18,
+      "prop_kind": "hammer"
+    },
+    {
+      "id": "object_2",
+      "position": [
+        -0.16,
+        0.35,
+        0.8177
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.003,
+            0.045
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.6,
+            0.62,
+            0.64
+          ],
+          "axis": "Z"
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.025,
+      "prop_kind": "nail"
+    },
+    {
+      "id": "support_1",
+      "position": [
+        0.18,
+        0.49,
+        0.8002
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.18,
+            0.14,
+            0.01
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.22,
+            0.48,
+            0.65
+          ]
+        }
+      ],
+      "dynamic": false,
+      "mass_kg": null,
+      "prop_kind": "board"
+    }
+  ],
+  "goals": [],
+  "limitations": [
+    "Not implemented: penetration / material failure.",
+    "Physical props and reset/control available; no task-success predicate until missing process is implemented."
+  ],
+  "source_task": "hammer_nails",
+  "source_group": "provisional_tabletop_inventory",
+  "official_source": null,
+  "source_url_candidate": "https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0",
+  "source_status": "UNVERIFIED_PROVISIONAL_TASK",
+  "coverage_level": "SCENE_ASSETS_ONLY",
+  "schema_version": 1,
+  "suite": "sharpa_prototypes",
+  "units": "m",
+  "up_axis": "Z",
+  "object_source": "YCB CC-BY-4.0 textured scans for mapped visuals; remaining props and all collision proxies are local analytic designs. See visual_assets for per-body sources.",
+  "robot_model": "Existing neutral 54-DOF dual arm; not a certified Sharpa robot replica.",
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 30,
+    "success_hold_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25
+  },
+  "visual_assets": {
+    "object_1": {
+      "asset_id": "048_hammer",
+      "usd": "assets/realistic/048_hammer.usdc",
+      "scale": 0.41126893297644523,
+      "translate": [
+        0.0,
+        0.0030000000000000027,
+        -0.010742440127847022
+      ],
+      "visual_size_m": [
+        0.05432037674693834,
+        0.136,
+        0.013515119675471945
+      ],
+      "collision_proxy_bounds_m": [
+        [
+          -0.0375,
+          -0.065,
+          -0.0175
+        ],
+        [
+          0.0375,
+          0.07100000000000001,
+          0.0175
+        ]
+      ],
+      "source": "https://ycb-benchmarks.s3.amazonaws.com/data/google/048_hammer_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "physics_status": "Existing analytic collision proxy retained; mesh/contact fidelity requires validation."
+    }
+  }
+}

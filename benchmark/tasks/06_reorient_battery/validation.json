@@ -1,0 +1,28 @@
+{
+  "task": "06_reorient_battery",
+  "physics_steps": 1200,
+  "seconds": 5,
+  "robot_joint_drift_rad": 0.0,
+  "initial_object_position_m": [
+    0.25,
+    0.41999998688697815,
+    0.8119999766349792
+  ],
+  "settled_object_position_m": [
+    0.24928143620491028,
+    0.41977953910827637,
+    0.8112301826477051
+  ],
+  "settled_orientation_wxyz": [
+    0.6923539042472839,
+    0.7025924921035767,
+    0.07436634600162506,
+    0.14655904471874237
+  ],
+  "object_displacement_m": 0.0010758782736957073,
+  "object_min_z_m": 0.8032879290709317,
+  "linear_speed_m_s": 0.0004081151564605534,
+  "angular_speed_rad_s": 0.007281915750354528,
+  "sensor_count": 5,
+  "stable": true
+}

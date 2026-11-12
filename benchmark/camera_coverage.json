@@ -1,0 +1,36 @@
+{
+  "LeftWrist": {
+    "tabletop_visible_fraction": 0.5264997087944089,
+    "tabletop_in_frame_fraction": 0.5460104834012813,
+    "chopstick_samples_visible_fraction": 1.0
+  },
+  "RightWrist": {
+    "tabletop_visible_fraction": 0.5264997087944089,
+    "tabletop_in_frame_fraction": 0.5460104834012813,
+    "chopstick_samples_visible_fraction": 1.0
+  },
+  "Head": {
+    "tabletop_visible_fraction": 0.5090273733255678,
+    "tabletop_in_frame_fraction": 0.668025626092021,
+    "chopstick_samples_visible_fraction": 1.0
+  },
+  "LeftSide": {
+    "tabletop_visible_fraction": 0.9379732090856144,
+    "tabletop_in_frame_fraction": 0.958357600465929,
+    "chopstick_samples_visible_fraction": 1.0
+  },
+  "RightSide": {
+    "tabletop_visible_fraction": 0.9368083867210251,
+    "tabletop_in_frame_fraction": 0.958357600465929,
+    "chopstick_samples_visible_fraction": 1.0
+  },
+  "combined": {
+    "grid_points": 3434,
+    "grid_spacing_m": 0.02,
+    "depth_tolerance_m": 0.02,
+    "tabletop_visible_fraction": 0.9959231217239372,
+    "global_three_visible_fraction": 0.9947582993593477,
+    "seen_by_at_least_two": 0.982527664531159,
+    "scope": "Current table-ready pose only; 2 cm sampling, 2 cm depth tolerance; objects/arms can occlude tabletop."
+  }
+}

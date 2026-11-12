@@ -1,0 +1,20 @@
+{
+  "status": "EXPERIMENTAL_NOT_CALIBRATED",
+  "reason": "Retry after actual pinch-phase instability; leave near edge accessible and reduce finger force.",
+  "finger_max_force_nm": 0.25,
+  "finger_stiffness_nm_rad": 2.0,
+  "finger_damping_nm_s_rad": 0.1,
+  "control": {
+    "physics_dt_s": 0.0020833333333333333,
+    "finger_closed_fraction": 0.5,
+    "max_joint_speed_fraction": 0.2
+  },
+  "variant": {
+    "id": "thick8_raised_accessible_edge",
+    "near_y_m": 0.25,
+    "support_height_m": 0.05,
+    "support_front_inset_m": 0.025,
+    "elasticity_damping": 0.1,
+    "bend_damping": 0.1
+  }
+}

@@ -1,0 +1,12 @@
+#usda 1.0
+(
+    subLayers = [@../../tasks/08_pick_lipstick/scene.usda@]
+)
+over "World"
+{
+    over "PhysicsScene" (prepend apiSchemas = ["PhysxSceneAPI"])
+    {
+        bool physxScene:enableGPUDynamics = true
+        token physxScene:broadphaseType = "GPU"
+    }
+}

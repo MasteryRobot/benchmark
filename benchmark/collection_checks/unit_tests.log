@@ -1,0 +1,35 @@
+test_capture_matches_three_tasks_and_control_period (test_collection.CollectionTests) ... ok
+test_empty_collection_cannot_create_training_dataset (test_collection.CollectionTests) ... ok
+test_failed_and_synthetic_episodes_are_rejected (test_collection.CollectionTests) ... ok
+test_features_keep_rgb_and_joint_order (test_collection.CollectionTests) ... ok
+test_square_pixels_and_updated_principal_point (test_collection.CollectionTests) ... ok
+test_success_flag_without_provenance_is_rejected (test_collection.CollectionTests) ... ok
+test_bad_observations_and_missing_state_fail (test_sharpa.ScenarioTests) ... ok
+test_catch_needs_contact_low_speed_and_hold (test_sharpa.ScenarioTests) ... ok
+test_every_evaluated_initial_state_is_unsuccessful (test_sharpa.ScenarioTests) ... ok
+test_manifest_layer_and_initial_geometry_all_scenes (test_sharpa.ScenarioTests) ... ok
+test_photography_requires_current_frame_at_bimanual_pose (test_sharpa.ScenarioTests) ... ok
+test_released_cards_require_prior_touch_all_goals_and_hold (test_sharpa.ScenarioTests) ... ok
+test_repeatability_checks_all_bodies (test_sharpa.ScenarioTests) ... ok
+test_replay_rejects_invalid_targets_and_cross_task_capture (test_sharpa.ScenarioTests) ... ok
+test_scene_only_never_reports_task_success (test_sharpa.ScenarioTests) ... ok
+test_tennis_requires_held_racket_contact_then_valid_crossing (test_sharpa.ScenarioTests) ... ok
+test_all_ten_goals_require_continuous_hold (test_task_runtime.EvaluatorTests) ... ok
+test_contact_loss_restarts_hold (test_task_runtime.EvaluatorTests) ... ok
+test_drop_terminates_and_timeout_truncates (test_task_runtime.EvaluatorTests) ... ok
+test_initial_pose_is_never_success (test_task_runtime.EvaluatorTests) ... ok
+test_invalid_state_is_rejected (test_task_runtime.EvaluatorTests) ... ok
+test_manifest_rejects_misaligned_local_metadata (test_task_runtime.EvaluatorTests) ... ok
+test_orientation_detects_phone_flip_and_swab_roll (test_task_runtime.EvaluatorTests) ... ok
+test_pose_without_hand_contacts_does_not_succeed (test_task_runtime.EvaluatorTests) ... ok
+test_replay_validates_task_names_limits_and_duration (test_task_runtime.EvaluatorTests) ... ok
+test_reset_uses_settled_height_and_clears_state (test_task_runtime.EvaluatorTests) ... ok
+test_rotation_error_near_pi_is_finite (test_task_runtime.EvaluatorTests) ... ok
+test_runtime_override_validation (test_task_runtime.EvaluatorTests) ... ok
+test_runtime_report_requires_fresh_complete_smoke_evidence (test_task_runtime.EvaluatorTests) ... ok
+test_speed_and_position_reject_success (test_task_runtime.EvaluatorTests) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 2.408s
+
+OK

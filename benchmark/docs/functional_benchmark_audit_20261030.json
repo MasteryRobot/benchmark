@@ -1,0 +1,74 @@
+{
+  "audited_utc": "2026-10-30T12:16:01.135807+00:00",
+  "scope": "Current local sources; synthetic checks only; no new simulation or training.",
+  "physical_trials_run": 0,
+  "functional_unit_test_exit_code": 0,
+  "functional_unit_test_log": "test_assisting_hand_preserves_contact_but_not_functional_goal (test_functional.FunctionalTests) ... ok\ntest_contact_gap_support_and_arm_cheating_are_terminal (test_functional.FunctionalTests) ... ok\ntest_missing_measurements_nan_and_duplicate_body_do_not_pass (test_functional.FunctionalTests) ... ok\ntest_relative_change_contact_regrasp_then_new_outcome_required (test_functional.FunctionalTests) ... ok\ntest_stale_outcome_cannot_pass (test_functional.FunctionalTests) ... ok\ntest_world_rotation_without_relative_motion_cannot_pass (test_functional.FunctionalTests) ... ok\ntest_world_transform_invariance (test_functional.FunctionalTests) ... ok\ntest_wrong_region_or_unchanged_contact_bodies_cannot_pass (test_functional.FunctionalTests) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.640s\n\nOK\n",
+  "synthetic_contract_behavior_checks": {
+    "direct_functional_grasp_then_outcome": {
+      "predicate_success": false,
+      "done": false,
+      "reason": "running",
+      "stage": "reorient",
+      "regrasp_evidence": false
+    },
+    "opposite_hand_support_allowed_by_default": {
+      "predicate_success": false,
+      "done": false,
+      "reason": "running",
+      "stage": "reorient",
+      "regrasp_evidence": false
+    },
+    "assisted_trace_can_pass_default_contract": {
+      "predicate_success": true,
+      "done": true,
+      "reason": "success",
+      "stage": "use",
+      "regrasp_evidence": true
+    },
+    "two_bodies_from_one_finger_are_not_rejected": {
+      "predicate_success": true,
+      "done": true,
+      "reason": "success",
+      "stage": "use",
+      "regrasp_evidence": true
+    }
+  },
+  "interpretation": {
+    "direct_functional_grasp_then_outcome": "Expected for mandatory-regrasp subtask; insufficient as sole evaluator for full end-to-end suite.",
+    "opposite_hand_support_allowed_by_default": "Current contract does not isolate single-hand from assisted tracks.",
+    "two_bodies_from_one_finger_are_not_rejected": "Body count alone cannot certify distinct digits, opposed support, or resistance to disturbances."
+  },
+  "baseline_task_entries": 10,
+  "source_sha256": {
+    "functional/evaluator.py": "6c8f02e41861f643ef8556214ce576cc0ed96fc7e2abc93c4b4fe5da841d8425",
+    "functional/example_contract.json": "ce6585e9f23f35da1e71860b8cbd62d71a451f282bea396117035e4c8bebaac1",
+    "functional/evaluate_trace.py": "29f341cb2feb757615df56657654c9f548b38f9649c1f710555c76e13c3c6a8b",
+    "tests/test_functional.py": "a7d6573b72e1478c0a835cc62ecc0cd86d6c400a22303fe83ed1f3a1b094b9f3",
+    "isaac_task_env.py": "7d54d268101063ef0cfe7765fdf93cc8a2cfffbeaffc373b3ba814cad56fde5b",
+    "representative_policy.py": "687b090d50c6078551be42aaf54b7e8320c2f2a7f3217f4a6e6a96ce08b8a327",
+    "task_objects.py": "98cec189d9fd518efb24afedd0d668f192b17482bbe0b804388c11785baee637",
+    "benchmark_suites.json": "3bb51a47f93a6769ef26ae8baf795b73cd93db4b1cad1d14cde2f62557522f00",
+    "collection_checks/summary.json": "b46662d018749eb8a543e2d3c4e5524a898d4bceaa0b88ebfbf99d87f98e2b79",
+    "runtime_checks/physx_gpu_probe_006.json": "bc5ee15fff01094ca9f8928c84ab6dcf26eeef6845c95f0e0826c97d07fd1481",
+    "tasks/index.json": "bb0e88e918ea71cd1a885e3b12896084e0835673e3f91f6c799e0bbbf2150207",
+    "sharpa/index.json": "5cb7d285e2874b6194113ee670e394b5c4888562a581fb2cd8ea8cb7d7d0f76c"
+  },
+  "runtime_evidence": {
+    "checked_at_utc": "2026-10-30T11:16:10.324746+00:00",
+    "task_success": false,
+    "status": "PASS",
+    "backend": "Standalone NVIDIA PhysX 0.7.0.74035321",
+    "scope": "GPU articulation smoke only; not Isaac Sim or task success",
+    "device": "CUDA",
+    "shape": [
+      1,
+      15,
+      7
+    ],
+    "max_link_position_change_m": 0.8944454193115234,
+    "physics_steps": 120,
+    "simulated_seconds": 0.5
+  },
+  "recorded_successful_collected_episodes": 0
+}

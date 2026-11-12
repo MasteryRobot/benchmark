@@ -1,0 +1,18 @@
+{
+  "tasks/index.json": "bb0e88e918ea71cd1a885e3b12896084e0835673e3f91f6c799e0bbbf2150207",
+  "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+  "dealer_table.usdc": "9eba518d7ba3393fc6eb4852054146a21d0998e21afcd917cdfd90b6175e2e61",
+  "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+  "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+  "build_task_scenes.py": "e55b9710b3b3c54351faab44ec047214e43897e13a64c691bed424e72d6ed9ac",
+  "tasks/01_pick_spoon/scene.usda": "61352d932ea427a895661e1d516d6d5e4c7129d73810d7056b854b428ede16c7",
+  "tasks/02_pick_knife/scene.usda": "17e8dc57c52735825b680eec8ca7bd9c1b96d685bd415a29af510e799e941b03",
+  "tasks/03_pick_phone/scene.usda": "1402d2f84cb689e5498546de98be1a97ed7f5b62f0d85b0d1b29dfc1123a76f8",
+  "tasks/04_phone_portrait_to_landscape/scene.usda": "3321b849ccc88e1710cb38476ef764e6a44af429eb0542738cb1257422e1a40e",
+  "tasks/05_flip_phone/scene.usda": "706ecb726e35f6ad8fe5749c55876d620c54bc62ed899d15bb8091e7689ce12b",
+  "tasks/06_reorient_battery/scene.usda": "f8d0e843865ba17ba2bb7fb134d6b982c42f87a60eac54fab54422daf0fda1aa",
+  "tasks/07_reorient_lighter/scene.usda": "93fd33dad1b518ff5ca4fb1c5c6d8059e70d83dbb559f3e7acd2bd992d175df4",
+  "tasks/08_pick_lipstick/scene.usda": "9ace748d843eabb11cc0014c2189e2e9dbcee055319aa581c93d9777e5ef2348",
+  "tasks/09_rotate_cotton_swab/scene.usda": "a5a99b753bf5893a465f8011ab2c6e274e377d16d2d60cf9dc084931c4662e6d",
+  "tasks/10_pick_scissors/scene.usda": "e5cb1746ad1ec7ab603df9e30a3b31dca96f6f44f68f75bd79a3cea2bd7a9f8b"
+}

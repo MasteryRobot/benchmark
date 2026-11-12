@@ -1,0 +1,500 @@
+[
+  {
+    "scene": "01_pick_spoon.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "02_pick_knife.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "03_pick_phone.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "04_phone_portrait_to_landscape.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "05_flip_phone.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "06_reorient_battery.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "07_reorient_lighter.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "08_pick_lipstick.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "09_rotate_cotton_swab.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "10_pick_scissors.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "bimanual_roll_towel.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_baton_catching.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_camera_photography.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_card_dealing.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_demo_apple_peeling.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_demo_bartending.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_demo_dessert_service.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_demo_gpu_installation.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_demo_needle_threading.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_demo_paper_cutting.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_demo_pen_spinning.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_demo_screwdriver_use.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_assemble_gears_on_base.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_clean_garment_with_lint_roller.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_clean_knife_with_cloth.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_clean_plate_with_eraser.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_close_kraft_paper_box.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_collect_toys_into_basket.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_collect_waste_into_bin.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_cover_ball_with_cup.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_deal_playing_cards.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_empty_dustpan_into_bin.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_fit_trash_bag_into_bin.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_fold_and_close_box.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_fold_towel.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_form_kraft_paper_box.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_grind_medicine_with_mortar_and_pestle.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_hammer_nails.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_hang_garment_on_hanger.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_insert_batteries_into_charger.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_insert_batteries_into_device.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_insert_knife_into_cutlery_bin.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_insert_plug_into_socket.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_insert_socket_module_into_board.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_iron_garment.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_nest_cups.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_organize_objects_in_drawer.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_pack_blueberries_in_bag.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_pack_object_in_storage_bag.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_place_ball_in_box.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_place_ball_in_cup_then_cup_in_box.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_place_books_on_shelf.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_place_coffee_filter_in_dripper.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_place_cup_on_plate.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_place_fruits_in_basket.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_place_knife_and_fork_on_plate.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_place_pens_in_holder.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_play_tic_tac_toe.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_pry_nails_from_board.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_relocate_tennis_ball.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_remove_block_from_box.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_reorient_and_relocate_carton.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_reorient_cup_upright.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_reposition_and_stack_blocks.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_rotate_bottle_cap.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_scoop_salt_from_jar_into_cup.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_scrub_cup_interior.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_seal_box_with_tape.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_secure_coiled_cable_with_velcro_tie.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_sort_utensils.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_stack_napkins_in_holder.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_stack_two_plates.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_staple_paper.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_sweep_waste_into_dustpan.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_tighten_bottle_cap.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_tomato_boxed_lunch_packaging.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_transfer_liquid_with_dropper.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_transfer_pills_between_cups.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_transfer_salt_between_cups_with_spoon.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_turn_book_pages.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_dex_unscrew_bottle_cap.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_table_tennis.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  },
+  {
+    "scene": "sharpa_windmill_assembly.usda",
+    "required_cameras": 5,
+    "gpu_dynamics": true,
+    "gpu_broadphase": true
+  }
+]

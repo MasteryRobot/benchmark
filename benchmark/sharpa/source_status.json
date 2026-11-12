@@ -1,0 +1,22 @@
+{
+  "status": "AWAITING_VERIFIABLE_OFFICIAL_SOURCES",
+  "checked_at_utc": "2026-10-29T09:45:43.617687+00:00",
+  "requested_scope": "As comprehensive as possible across demonstrated Sharpa demos",
+  "local_scene_entries": 72,
+  "official_total": null,
+  "verified_official_tasks": [],
+  "source_claim_correction": "Earlier conversational statements of confirmed official inventory lacked retrievable source evidence.",
+  "local_sources": [
+    "59 provisional tabletop identifiers",
+    "5 conversation demo candidates",
+    "8 additional unverified demo candidates"
+  ],
+  "known_duplicate_entries": [
+    [
+      "sharpa_card_dealing",
+      "sharpa_dex_deal_playing_cards"
+    ]
+  ],
+  "provenance": "All geometry, physical parameters and goal predicates are locally designed; no official asset or policy import.",
+  "source_urls": "Candidate locators in catalog.py are unverified, not source evidence."
+}

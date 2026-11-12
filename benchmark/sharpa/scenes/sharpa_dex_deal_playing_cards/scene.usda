@@ -1,0 +1,301 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+    timeCodesPerSecond = 240
+    subLayers = [@../../../tasks/workcell.usdc@]
+)
+def Xform "World"
+{
+    def Scope "SharpaLooks"
+    {
+        def Material "card_1_Physics" (prepend apiSchemas = ["PhysicsMaterialAPI"])
+        {
+            float physics:staticFriction = 0.8
+            float physics:dynamicFriction = 0.65
+            float physics:restitution = 0.01
+        }
+        def Material "card_1_0"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/card_1_0/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.86, 0.88, 0.92)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "card_2_Physics" (prepend apiSchemas = ["PhysicsMaterialAPI"])
+        {
+            float physics:staticFriction = 0.8
+            float physics:dynamicFriction = 0.65
+            float physics:restitution = 0.01
+        }
+        def Material "card_2_0"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/card_2_0/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.86, 0.88, 0.92)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "card_3_Physics" (prepend apiSchemas = ["PhysicsMaterialAPI"])
+        {
+            float physics:staticFriction = 0.8
+            float physics:dynamicFriction = 0.65
+            float physics:restitution = 0.01
+        }
+        def Material "card_3_0"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/card_3_0/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.86, 0.88, 0.92)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "card_4_Physics" (prepend apiSchemas = ["PhysicsMaterialAPI"])
+        {
+            float physics:staticFriction = 0.8
+            float physics:dynamicFriction = 0.65
+            float physics:restitution = 0.01
+        }
+        def Material "card_4_0"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/card_4_0/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.86, 0.88, 0.92)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "card_5_Physics" (prepend apiSchemas = ["PhysicsMaterialAPI"])
+        {
+            float physics:staticFriction = 0.8
+            float physics:dynamicFriction = 0.65
+            float physics:restitution = 0.01
+        }
+        def Material "card_5_0"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/card_5_0/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.86, 0.88, 0.92)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+    }
+    def Xform "Task"
+    {
+        custom string task:id = "sharpa_dex_deal_playing_cards"
+        custom string task:provenance = "UNVERIFIED_LOCAL_PROTOTYPE"
+        def Xform "card_1" (prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"])
+        {
+            double3 xformOp:translate = (-0.25, 0.37, 0.7958)
+            quatd xformOp:orient = (1, 0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+            float physics:mass = 0.0018
+            bool physics:rigidBodyEnabled = true
+            bool physxRigidBody:enableCCD = true
+            int physxRigidBody:solverPositionIterationCount = 32
+            int physxRigidBody:solverVelocityIterationCount = 16
+            float physxRigidBody:angularDamping = 0.5
+            def Cube "part_0" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, 0, 0)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.063, 0.088, 0.0014)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.86, 0.88, 0.92)]
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0001
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/card_1_Physics>
+                rel material:binding = </World/SharpaLooks/card_1_0>
+            }
+        }
+        def Xform "card_2" (prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"])
+        {
+            double3 xformOp:translate = (-0.25, 0.37, 0.7976)
+            quatd xformOp:orient = (1, 0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+            float physics:mass = 0.0018
+            bool physics:rigidBodyEnabled = true
+            bool physxRigidBody:enableCCD = true
+            int physxRigidBody:solverPositionIterationCount = 32
+            int physxRigidBody:solverVelocityIterationCount = 16
+            float physxRigidBody:angularDamping = 0.5
+            def Cube "part_0" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, 0, 0)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.063, 0.088, 0.0014)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.86, 0.88, 0.92)]
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0001
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/card_2_Physics>
+                rel material:binding = </World/SharpaLooks/card_2_0>
+            }
+        }
+        def Xform "card_3" (prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"])
+        {
+            double3 xformOp:translate = (-0.25, 0.37, 0.7994)
+            quatd xformOp:orient = (1, 0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+            float physics:mass = 0.0018
+            bool physics:rigidBodyEnabled = true
+            bool physxRigidBody:enableCCD = true
+            int physxRigidBody:solverPositionIterationCount = 32
+            int physxRigidBody:solverVelocityIterationCount = 16
+            float physxRigidBody:angularDamping = 0.5
+            def Cube "part_0" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, 0, 0)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.063, 0.088, 0.0014)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.86, 0.88, 0.92)]
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0001
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/card_3_Physics>
+                rel material:binding = </World/SharpaLooks/card_3_0>
+            }
+        }
+        def Xform "card_4" (prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"])
+        {
+            double3 xformOp:translate = (-0.25, 0.37, 0.8012)
+            quatd xformOp:orient = (1, 0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+            float physics:mass = 0.0018
+            bool physics:rigidBodyEnabled = true
+            bool physxRigidBody:enableCCD = true
+            int physxRigidBody:solverPositionIterationCount = 32
+            int physxRigidBody:solverVelocityIterationCount = 16
+            float physxRigidBody:angularDamping = 0.5
+            def Cube "part_0" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, 0, 0)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.063, 0.088, 0.0014)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.86, 0.88, 0.92)]
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0001
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/card_4_Physics>
+                rel material:binding = </World/SharpaLooks/card_4_0>
+            }
+        }
+        def Xform "card_5" (prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"])
+        {
+            double3 xformOp:translate = (-0.25, 0.37, 0.803)
+            quatd xformOp:orient = (1, 0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+            float physics:mass = 0.0018
+            bool physics:rigidBodyEnabled = true
+            bool physxRigidBody:enableCCD = true
+            int physxRigidBody:solverPositionIterationCount = 32
+            int physxRigidBody:solverVelocityIterationCount = 16
+            float physxRigidBody:angularDamping = 0.5
+            def Cube "part_0" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, 0, 0)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.063, 0.088, 0.0014)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.86, 0.88, 0.92)]
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0001
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/card_5_Physics>
+                rel material:binding = </World/SharpaLooks/card_5_0>
+            }
+        }
+        def Xform "Goals"
+        {
+            def BasisCurves "card_1"
+            {
+                double3 xformOp:translate = (-0.3, 0.6, 0.7957)
+                quatd xformOp:orient = (1, 0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+                uniform token type = "linear"
+                uniform token wrap = "nonperiodic"
+                int[] curveVertexCounts = [2, 2, 2]
+                point3f[] points = [(-0.025, 0, 0), (0.025, 0, 0), (0, -0.025, 0), (0, 0.025, 0), (0, 0, 0), (0, 0, 0.035)]
+                float[] widths = [0.001]
+                color3f[] primvars:displayColor = [(0.1, 0.9, 0.7)]
+            }
+            def BasisCurves "card_2"
+            {
+                double3 xformOp:translate = (-0.15, 0.6, 0.7957)
+                quatd xformOp:orient = (1, 0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+                uniform token type = "linear"
+                uniform token wrap = "nonperiodic"
+                int[] curveVertexCounts = [2, 2, 2]
+                point3f[] points = [(-0.025, 0, 0), (0.025, 0, 0), (0, -0.025, 0), (0, 0.025, 0), (0, 0, 0), (0, 0, 0.035)]
+                float[] widths = [0.001]
+                color3f[] primvars:displayColor = [(0.1, 0.9, 0.7)]
+            }
+            def BasisCurves "card_3"
+            {
+                double3 xformOp:translate = (0, 0.6, 0.7957)
+                quatd xformOp:orient = (1, 0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+                uniform token type = "linear"
+                uniform token wrap = "nonperiodic"
+                int[] curveVertexCounts = [2, 2, 2]
+                point3f[] points = [(-0.025, 0, 0), (0.025, 0, 0), (0, -0.025, 0), (0, 0.025, 0), (0, 0, 0), (0, 0, 0.035)]
+                float[] widths = [0.001]
+                color3f[] primvars:displayColor = [(0.1, 0.9, 0.7)]
+            }
+            def BasisCurves "card_4"
+            {
+                double3 xformOp:translate = (0.15, 0.6, 0.7957)
+                quatd xformOp:orient = (1, 0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+                uniform token type = "linear"
+                uniform token wrap = "nonperiodic"
+                int[] curveVertexCounts = [2, 2, 2]
+                point3f[] points = [(-0.025, 0, 0), (0.025, 0, 0), (0, -0.025, 0), (0, 0.025, 0), (0, 0, 0), (0, 0, 0.035)]
+                float[] widths = [0.001]
+                color3f[] primvars:displayColor = [(0.1, 0.9, 0.7)]
+            }
+            def BasisCurves "card_5"
+            {
+                double3 xformOp:translate = (0.3, 0.6, 0.7957)
+                quatd xformOp:orient = (1, 0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+                uniform token type = "linear"
+                uniform token wrap = "nonperiodic"
+                int[] curveVertexCounts = [2, 2, 2]
+                point3f[] points = [(-0.025, 0, 0), (0.025, 0, 0), (0, -0.025, 0), (0, 0.025, 0), (0, 0, 0), (0, 0, 0.035)]
+                float[] widths = [0.001]
+                color3f[] primvars:displayColor = [(0.1, 0.9, 0.7)]
+            }
+        }
+    }
+    over "PhysicsScene"
+    {
+        bool physxScene:enableCCD = true
+    }
+}

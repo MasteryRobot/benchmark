@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "tasks": ["03_pick_phone", "04_phone_portrait_to_landscape", "09_rotate_cotton_swab"],
+  "resolution": [460, 260],
+  "fps": 30,
+  "cameras": ["Head", "LeftWrist", "RightWrist", "LeftSide", "RightSide"],
+  "save_depth": true,
+  "depth_representation": "distance_to_image_plane_m_float32",
+  "formats": ["v2.1", "v3.0"],
+  "success_only": true,
+  "initial_target_successes_per_task": 1,
+  "action_representation": "absolute_joint_targets_rad",
+  "observation_state": "joint_positions_rad",
+  "camera_policy": "Native 460x260 rendering; preserve horizontal field of view, use square pixels and record effective intrinsics and per-frame extrinsics.",
+  "acceptance_policy": "Only measured Isaac Sim episodes passing the unchanged task evaluator may enter training exports. Failed attempts remain in raw diagnostics."
+}

@@ -1,0 +1,12 @@
+#usda 1.0
+(
+    subLayers = [@../../sharpa/scenes/sharpa_dex_place_pens_in_holder/scene.usda@]
+)
+over "World"
+{
+    over "PhysicsScene" (prepend apiSchemas = ["PhysxSceneAPI"])
+    {
+        bool physxScene:enableGPUDynamics = true
+        token physxScene:broadphaseType = "GPU"
+    }
+}

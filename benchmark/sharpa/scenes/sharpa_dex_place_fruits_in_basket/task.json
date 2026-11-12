@@ -1,0 +1,310 @@
+{
+  "id": "sharpa_dex_place_fruits_in_basket",
+  "title": "水果装篮（本地仿真原型）",
+  "task_type": "place_all",
+  "bodies": [
+    {
+      "id": "object_1",
+      "position": [
+        -0.38,
+        0.35,
+        0.8272
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "sphere",
+          "size": [
+            0.032
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.8,
+            0.22,
+            0.13
+          ]
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.16384,
+      "prop_kind": "fruit"
+    },
+    {
+      "id": "object_2",
+      "position": [
+        -0.16,
+        0.35,
+        0.8312
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "sphere",
+          "size": [
+            0.036
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.8,
+            0.22,
+            0.13
+          ]
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.23327999999999993,
+      "prop_kind": "apple"
+    },
+    {
+      "id": "support_1",
+      "position": [
+        0.18,
+        0.49,
+        0.7952
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.21,
+            0.17,
+            0.005
+          ],
+          "position": [
+            0,
+            0,
+            0.0025
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.005,
+            0.17,
+            0.1
+          ],
+          "position": [
+            -0.1025,
+            0,
+            0.05
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.005,
+            0.17,
+            0.1
+          ],
+          "position": [
+            0.1025,
+            0,
+            0.05
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.19999999999999998,
+            0.005,
+            0.1
+          ],
+          "position": [
+            0,
+            -0.0825,
+            0.05
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.19999999999999998,
+            0.005,
+            0.1
+          ],
+          "position": [
+            0,
+            0.0825,
+            0.05
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        }
+      ],
+      "dynamic": false,
+      "mass_kg": null,
+      "prop_kind": "basket"
+    }
+  ],
+  "goals": [
+    {
+      "body": "object_1",
+      "position": [
+        0.135,
+        0.49,
+        0.8320000000000001
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "position_tolerance_m": 0.012,
+      "rotation_tolerance_deg": 180,
+      "contact": "released",
+      "require_prior_hand_contact": true
+    },
+    {
+      "body": "object_2",
+      "position": [
+        0.22499999999999998,
+        0.49,
+        0.8360000000000001
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "position_tolerance_m": 0.012,
+      "rotation_tolerance_deg": 180,
+      "contact": "released",
+      "require_prior_hand_contact": true
+    }
+  ],
+  "limitations": [],
+  "source_task": "place_fruits_in_basket",
+  "source_group": "provisional_tabletop_inventory",
+  "official_source": null,
+  "source_url_candidate": "https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0",
+  "source_status": "UNVERIFIED_PROVISIONAL_TASK",
+  "coverage_level": "RIGID_BODY_TASK_APPROXIMATION",
+  "schema_version": 1,
+  "suite": "sharpa_prototypes",
+  "units": "m",
+  "up_axis": "Z",
+  "object_source": "YCB CC-BY-4.0 textured scans for mapped visuals; remaining props and all collision proxies are local analytic designs. See visual_assets for per-body sources.",
+  "robot_model": "Existing neutral 54-DOF dual arm; not a certified Sharpa robot replica.",
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 30,
+    "success_hold_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25
+  },
+  "visual_assets": {
+    "object_1": {
+      "asset_id": "017_orange",
+      "usd": "assets/realistic/017_orange.usdc",
+      "scale": 0.8650285189089828,
+      "translate": [
+        0.0,
+        0.0,
+        -0.0011392436172022978
+      ],
+      "visual_size_m": [
+        0.06241872786743438,
+        0.064,
+        0.06172151488119374
+      ],
+      "collision_proxy_bounds_m": [
+        [
+          -0.032,
+          -0.032,
+          -0.032
+        ],
+        [
+          0.032,
+          0.032,
+          0.032
+        ]
+      ],
+      "source": "https://ycb-benchmarks.s3.amazonaws.com/data/google/017_orange_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "physics_status": "Existing analytic collision proxy retained; mesh/contact fidelity requires validation."
+    },
+    "object_2": {
+      "asset_id": "013_apple",
+      "usd": "assets/realistic/013_apple.usdc",
+      "scale": 0.9542996500901282,
+      "translate": [
+        0.0,
+        0.0,
+        -0.001698177109668672
+      ],
+      "visual_size_m": [
+        0.072,
+        0.07144936910189797,
+        0.06860364754532923
+      ],
+      "collision_proxy_bounds_m": [
+        [
+          -0.036,
+          -0.036,
+          -0.036
+        ],
+        [
+          0.036,
+          0.036,
+          0.036
+        ]
+      ],
+      "source": "https://ycb-benchmarks.s3.amazonaws.com/data/google/013_apple_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "physics_status": "Existing analytic collision proxy retained; mesh/contact fidelity requires validation."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-30T11:13:05.134656+00:00",
+  "task_success": false,
+  "status": "ERROR",
+  "backend": "Standalone NVIDIA PhysX 0.7.0.74035321",
+  "scope": "GPU articulation smoke only; not Isaac Sim or task success",
+  "error": "AttributeError: 'TensorBinding' object has no attribute 'device'",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/benchmark/runtime_checks/probe_physx_gpu.py\", line 33, in main\n    report['device'] = str(binding.device)\n                           ^^^^^^^^^^^^^^\nAttributeError: 'TensorBinding' object has no attribute 'device'\n"
+}

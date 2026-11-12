@@ -1,0 +1,70 @@
+{
+  "id": "sharpa_demo_pen_spinning",
+  "title": "手内转笔（本地原型）",
+  "source_group": "public_demo_candidates",
+  "source_task": "pen_spinning",
+  "bodies": [
+    {
+      "id": "object_1",
+      "position": [
+        -0.27,
+        0.35,
+        0.8702
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cylinder",
+          "size": [
+            0.006,
+            0.15
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.6,
+            0.62,
+            0.64
+          ],
+          "axis": "Z"
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.025,
+      "prop_kind": "pen"
+    }
+  ],
+  "goals": [],
+  "task_type": "scene_only",
+  "limitations": [
+    "Pen geometry and two-hand contact observation available; continuous in-hand turn counting and grasp transitions are not implemented."
+  ],
+  "source_status": "UNVERIFIED_DEMO_CANDIDATE",
+  "coverage_level": "SCENE_ASSETS_ONLY",
+  "official_source": null,
+  "schema_version": 1,
+  "suite": "sharpa_prototypes",
+  "units": "m",
+  "up_axis": "Z",
+  "object_source": "Locally authored primitives; dimensions and masses are design estimates, not vendor data.",
+  "robot_model": "Existing neutral 54-DOF dual arm; not a certified Sharpa robot replica.",
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 30,
+    "success_hold_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25
+  }
+}

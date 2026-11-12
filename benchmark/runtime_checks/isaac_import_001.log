@@ -1,0 +1,4 @@
+[Warning] PYTHONPATH: path doesn't exist (/data/benchmark/.venvs/isaac6/lib/python3.12/site-packages/isaacsim/exts/isaacsim.simulation_app)
+[Warning] Unable to expose 'isaacsim.simulation_app' API: Extension not found. Please install 'isaacsim[all,extscache]' to install the full Isaac Sim bundle
+ISAAC_IMPORT_OK
+KIT_API_OK

@@ -1,0 +1,18 @@
+{
+  "scene": "03_pick_phone",
+  "physics_device": "cuda:0",
+  "gpu_dynamics": true,
+  "broadphase": "GPU",
+  "steps": 240,
+  "seconds": 1.0,
+  "dof_count": 54,
+  "joint_drift_rad": 0.0,
+  "object_position_m": [
+    -0.25,
+    0.41999998688697815,
+    0.8112000226974487
+  ],
+  "object_displacement_m": 0.00279998779296875,
+  "finite_state": true,
+  "scope": "GPU physics smoke check only; not task success or all-scene dynamics verification"
+}

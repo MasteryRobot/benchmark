@@ -1,0 +1,28 @@
+{
+  "task": "03_pick_phone",
+  "physics_steps": 1200,
+  "seconds": 5,
+  "robot_joint_drift_rad": 0.0,
+  "initial_object_position_m": [
+    -0.25,
+    0.41999998688697815,
+    0.8140000104904175
+  ],
+  "settled_object_position_m": [
+    -0.25,
+    0.41999998688697815,
+    0.8112002015113831
+  ],
+  "settled_orientation_wxyz": [
+    0.9876883625984192,
+    2.0050048288311473e-09,
+    -5.109687117865747e-10,
+    -0.1564343273639679
+  ],
+  "object_displacement_m": 0.002799808979034424,
+  "object_min_z_m": 0.8048502016284323,
+  "linear_speed_m_s": 0.0004045630048494786,
+  "angular_speed_rad_s": 2.8998472316743573e-06,
+  "sensor_count": 5,
+  "stable": true
+}

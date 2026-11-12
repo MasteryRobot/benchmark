@@ -1,0 +1,442 @@
+[
+  {
+    "task": "01_pick_spoon",
+    "hand": "left",
+    "pregrasp_reference_world_m": [
+      -0.26328773075812273,
+      0.3791045697993084,
+      0.8805
+    ],
+    "lift_reference_world_m": [
+      -0.25,
+      0.435,
+      1.06
+    ],
+    "pregrasp_reachable": true,
+    "lift_reachable": true,
+    "joint_names": [
+      "Joint1_R",
+      "Joint2_R",
+      "Joint3_R",
+      "Joint4_R",
+      "Joint5_R",
+      "Joint6_R",
+      "Joint7_R"
+    ],
+    "pregrasp_q_rad": [
+      -1.4872585985400761,
+      -0.6361768575009761,
+      -0.8868708923403551,
+      -1.9030724262535756,
+      -0.6512579193552127,
+      -0.3541296266277262,
+      0.7182456993575174
+    ],
+    "lift_q_rad": [
+      -1.541837685048919,
+      -1.3439448640864735,
+      -1.5775602569908693,
+      -2.1941338406545396,
+      -0.27196590589412595,
+      0.577911812592586,
+      0.15091391704644244
+    ],
+    "scope": "Palm-down arm pregrasp/lift waypoints, not finger contact IK or an executable collision-free trajectory. Object reorientation targets are task specifications."
+  },
+  {
+    "task": "02_pick_knife",
+    "hand": "right",
+    "pregrasp_reference_world_m": [
+      0.26390576474687266,
+      0.37720245676671804,
+      0.88
+    ],
+    "lift_reference_world_m": [
+      0.25,
+      0.435,
+      1.06
+    ],
+    "pregrasp_reachable": true,
+    "lift_reachable": true,
+    "joint_names": [
+      "Joint1_L",
+      "Joint2_L",
+      "Joint3_L",
+      "Joint4_L",
+      "Joint5_L",
+      "Joint6_L",
+      "Joint7_L"
+    ],
+    "pregrasp_q_rad": [
+      2.4055500352389707,
+      -0.45789034124667566,
+      -0.23752218453568097,
+      -1.9058654111897748,
+      0.8291858288626183,
+      -0.668544358151811,
+      -1.1037924495615974
+    ],
+    "lift_q_rad": [
+      0.735419123707303,
+      0.9498777358469618,
+      1.746749474830825,
+      -2.194137414080111,
+      1.6807496710594192,
+      -1.0272,
+      -1.0760773682725182
+    ],
+    "scope": "Palm-down arm pregrasp/lift waypoints, not finger contact IK or an executable collision-free trajectory. Object reorientation targets are task specifications."
+  },
+  {
+    "task": "03_pick_phone",
+    "hand": "left",
+    "pregrasp_reference_world_m": [
+      -0.25,
+      0.42,
+      0.889
+    ],
+    "lift_reference_world_m": [
+      -0.25,
+      0.435,
+      1.06
+    ],
+    "pregrasp_reachable": true,
+    "lift_reachable": true,
+    "joint_names": [
+      "Joint1_R",
+      "Joint2_R",
+      "Joint3_R",
+      "Joint4_R",
+      "Joint5_R",
+      "Joint6_R",
+      "Joint7_R"
+    ],
+    "pregrasp_q_rad": [
+      -2.4536452437592713,
+      -0.5398476853925469,
+      0.18133052936229221,
+      -1.824486522427571,
+      -0.9379337676880903,
+      -0.6083683218168425,
+      1.0328158633815354
+    ],
+    "lift_q_rad": [
+      -0.5740964224806372,
+      0.5982269650516635,
+      -2.0198202288838782,
+      -2.1941334668473242,
+      -1.467730130514346,
+      -0.6874342468265627,
+      1.0778273538548766
+    ],
+    "scope": "Palm-down arm pregrasp/lift waypoints, not finger contact IK or an executable collision-free trajectory. Object reorientation targets are task specifications."
+  },
+  {
+    "task": "04_phone_portrait_to_landscape",
+    "hand": "right",
+    "pregrasp_reference_world_m": [
+      0.25,
+      0.42,
+      0.956946792869336
+    ],
+    "lift_reference_world_m": [
+      0.25,
+      0.435,
+      1.06
+    ],
+    "pregrasp_reachable": true,
+    "lift_reachable": true,
+    "joint_names": [
+      "Joint1_L",
+      "Joint2_L",
+      "Joint3_L",
+      "Joint4_L",
+      "Joint5_L",
+      "Joint6_L",
+      "Joint7_L"
+    ],
+    "pregrasp_q_rad": [
+      -0.8791055809394622,
+      0.41764311513879515,
+      -2.9458745168188525,
+      -2.0256843450076905,
+      0.9638689408955907,
+      -0.3807703613964823,
+      -0.9571331473913761
+    ],
+    "lift_q_rad": [
+      -1.5527362819051151,
+      1.7986134971741004,
+      -1.3695442085504284,
+      -2.194144823601234,
+      -0.2718038329756006,
+      0.5779344606901788,
+      0.3534899387364134
+    ],
+    "scope": "Palm-down arm pregrasp/lift waypoints, not finger contact IK or an executable collision-free trajectory. Object reorientation targets are task specifications."
+  },
+  {
+    "task": "05_flip_phone",
+    "hand": "left",
+    "pregrasp_reference_world_m": [
+      -0.25,
+      0.42,
+      0.889
+    ],
+    "lift_reference_world_m": [
+      -0.25,
+      0.435,
+      1.06
+    ],
+    "pregrasp_reachable": true,
+    "lift_reachable": true,
+    "joint_names": [
+      "Joint1_R",
+      "Joint2_R",
+      "Joint3_R",
+      "Joint4_R",
+      "Joint5_R",
+      "Joint6_R",
+      "Joint7_R"
+    ],
+    "pregrasp_q_rad": [
+      -2.4536452437592713,
+      -0.5398476853925469,
+      0.18133052936229221,
+      -1.824486522427571,
+      -0.9379337676880903,
+      -0.6083683218168425,
+      1.0328158633815354
+    ],
+    "lift_q_rad": [
+      1.5140989843693775,
+      0.7869251005183213,
+      1.8486413961321633,
+      -2.1941264415043995,
+      -0.8137717684031293,
+      0.3046927743228643,
+      0.6401927414813015
+    ],
+    "scope": "Palm-down arm pregrasp/lift waypoints, not finger contact IK or an executable collision-free trajectory. Object reorientation targets are task specifications."
+  },
+  {
+    "task": "06_reorient_battery",
+    "hand": "right",
+    "pregrasp_reference_world_m": [
+      0.25,
+      0.42,
+      0.887
+    ],
+    "lift_reference_world_m": [
+      0.25,
+      0.435,
+      1.06
+    ],
+    "pregrasp_reachable": true,
+    "lift_reachable": true,
+    "joint_names": [
+      "Joint1_L",
+      "Joint2_L",
+      "Joint3_L",
+      "Joint4_L",
+      "Joint5_L",
+      "Joint6_L",
+      "Joint7_L"
+    ],
+    "pregrasp_q_rad": [
+      2.4511301392161067,
+      -0.5438884177868406,
+      -0.18287450359232602,
+      -1.8179093974937834,
+      0.9364155035070219,
+      -0.6125503486961857,
+      -1.0329716053852083
+    ],
+    "lift_q_rad": [
+      1.5417562238896731,
+      -1.3279720135733366,
+      1.570886383945797,
+      -2.1941373558356165,
+      0.29024325543543833,
+      0.573806865141529,
+      -0.16781903663813763
+    ],
+    "scope": "Palm-down arm pregrasp/lift waypoints, not finger contact IK or an executable collision-free trajectory. Object reorientation targets are task specifications."
+  },
+  {
+    "task": "07_reorient_lighter",
+    "hand": "left",
+    "pregrasp_reference_world_m": [
+      -0.24752786404500043,
+      0.4276084521303612,
+      0.888
+    ],
+    "lift_reference_world_m": [
+      -0.25,
+      0.435,
+      1.06
+    ],
+    "pregrasp_reachable": true,
+    "lift_reachable": true,
+    "joint_names": [
+      "Joint1_R",
+      "Joint2_R",
+      "Joint3_R",
+      "Joint4_R",
+      "Joint5_R",
+      "Joint6_R",
+      "Joint7_R"
+    ],
+    "pregrasp_q_rad": [
+      1.7152215514652884,
+      1.0627729645841932,
+      1.8813516889931594,
+      -1.7991725204090951,
+      -0.4287595881924086,
+      -0.08110802453595935,
+      0.3805153335739183
+    ],
+    "lift_q_rad": [
+      -2.6033329337962465,
+      -0.30509070178261916,
+      -0.1341887065511788,
+      -2.1941305733944163,
+      -1.214686187296035,
+      -0.21186914669806076,
+      0.9557259964355822
+    ],
+    "scope": "Palm-down arm pregrasp/lift waypoints, not finger contact IK or an executable collision-free trajectory. Object reorientation targets are task specifications."
+  },
+  {
+    "task": "08_pick_lipstick",
+    "hand": "right",
+    "pregrasp_reference_world_m": [
+      0.24536474508437578,
+      0.4342658477444273,
+      0.887
+    ],
+    "lift_reference_world_m": [
+      0.25,
+      0.435,
+      1.06
+    ],
+    "pregrasp_reachable": true,
+    "lift_reachable": true,
+    "joint_names": [
+      "Joint1_L",
+      "Joint2_L",
+      "Joint3_L",
+      "Joint4_L",
+      "Joint5_L",
+      "Joint6_L",
+      "Joint7_L"
+    ],
+    "pregrasp_q_rad": [
+      -0.5242526105200562,
+      0.6024695315632175,
+      2.779803873731366,
+      -1.7760847346018838,
+      1.0078996303951557,
+      -0.6684821753432048,
+      -1.065815303550187
+    ],
+    "lift_q_rad": [
+      -2.525656811608468,
+      -0.6531910038479511,
+      -1.1808617837594504,
+      -2.1941446165791683,
+      1.4976687942966493,
+      -0.742763149764634,
+      -1.0843228883870066
+    ],
+    "scope": "Palm-down arm pregrasp/lift waypoints, not finger contact IK or an executable collision-free trajectory. Object reorientation targets are task specifications."
+  },
+  {
+    "task": "09_rotate_cotton_swab",
+    "hand": "left",
+    "pregrasp_reference_world_m": [
+      -0.25,
+      0.42,
+      0.88
+    ],
+    "lift_reference_world_m": [
+      -0.25,
+      0.435,
+      1.06
+    ],
+    "pregrasp_reachable": true,
+    "lift_reachable": true,
+    "joint_names": [
+      "Joint1_R",
+      "Joint2_R",
+      "Joint3_R",
+      "Joint4_R",
+      "Joint5_R",
+      "Joint6_R",
+      "Joint7_R"
+    ],
+    "pregrasp_q_rad": [
+      0.6798953184913148,
+      0.5602560474552165,
+      -2.929681651850229,
+      -1.7945706426609138,
+      -0.9358116299151866,
+      -0.6348272797985568,
+      1.0403737377712927
+    ],
+    "lift_q_rad": [
+      -1.5896036078799274,
+      -0.9025840745897015,
+      -1.3679189135191405,
+      -2.194133763374414,
+      -0.7177438974308991,
+      0.3808730690685963,
+      0.5561349098021132
+    ],
+    "scope": "Palm-down arm pregrasp/lift waypoints, not finger contact IK or an executable collision-free trajectory. Object reorientation targets are task specifications."
+  },
+  {
+    "task": "10_pick_scissors",
+    "hand": "right",
+    "pregrasp_reference_world_m": [
+      0.26390576474687266,
+      0.37720245676671804,
+      0.88
+    ],
+    "lift_reference_world_m": [
+      0.25,
+      0.435,
+      1.06
+    ],
+    "pregrasp_reachable": true,
+    "lift_reachable": true,
+    "joint_names": [
+      "Joint1_L",
+      "Joint2_L",
+      "Joint3_L",
+      "Joint4_L",
+      "Joint5_L",
+      "Joint6_L",
+      "Joint7_L"
+    ],
+    "pregrasp_q_rad": [
+      2.4055500352389707,
+      -0.45789034124667566,
+      -0.23752218453568097,
+      -1.9058654111897748,
+      0.8291858288626183,
+      -0.668544358151811,
+      -1.1037924495615974
+    ],
+    "lift_q_rad": [
+      1.5973505707833346,
+      -1.83716828445618,
+      1.790576998688417,
+      -2.19413744657645,
+      -0.3166601146992697,
+      0.5673833858531641,
+      0.3949110352270192
+    ],
+    "scope": "Palm-down arm pregrasp/lift waypoints, not finger contact IK or an executable collision-free trajectory. Object reorientation targets are task specifications."
+  }
+]

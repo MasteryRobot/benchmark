@@ -1,0 +1,120 @@
+{
+  "id": "sharpa_dex_reorient_and_relocate_carton",
+  "title": "翻转搬移纸盒（本地仿真原型）",
+  "task_type": "place_all",
+  "bodies": [
+    {
+      "id": "object_1",
+      "position": [
+        -0.38,
+        0.35,
+        0.8227
+      ],
+      "orientation_wxyz": [
+        0.7071067811865476,
+        0.7071067811865476,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.065,
+            0.055,
+            0.13
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.22,
+            0.48,
+            0.65
+          ]
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.07,
+      "prop_kind": "carton"
+    }
+  ],
+  "goals": [
+    {
+      "body": "object_1",
+      "position": [
+        0.2,
+        0.49,
+        0.8600000000000001
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "position_tolerance_m": 0.012,
+      "rotation_tolerance_deg": 12,
+      "contact": "released",
+      "require_prior_hand_contact": true
+    }
+  ],
+  "limitations": [],
+  "source_task": "reorient_and_relocate_carton",
+  "source_group": "provisional_tabletop_inventory",
+  "official_source": null,
+  "source_url_candidate": "https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0",
+  "source_status": "UNVERIFIED_PROVISIONAL_TASK",
+  "coverage_level": "RIGID_BODY_TASK_APPROXIMATION",
+  "schema_version": 1,
+  "suite": "sharpa_prototypes",
+  "units": "m",
+  "up_axis": "Z",
+  "object_source": "YCB CC-BY-4.0 textured scans for mapped visuals; remaining props and all collision proxies are local analytic designs. See visual_assets for per-body sources.",
+  "robot_model": "Existing neutral 54-DOF dual arm; not a certified Sharpa robot replica.",
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 30,
+    "success_hold_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25
+  },
+  "visual_assets": {
+    "object_1": {
+      "asset_id": "004_sugar_box",
+      "usd": "assets/realistic/004_sugar_box.usdc",
+      "scale": 0.5840997429961131,
+      "translate": [
+        0.0,
+        6.44217828388305e-10,
+        0.0
+      ],
+      "visual_size_m": [
+        0.028910600879335613,
+        0.055,
+        0.10281031626346085
+      ],
+      "collision_proxy_bounds_m": [
+        [
+          -0.0325,
+          -0.0275,
+          -0.065
+        ],
+        [
+          0.0325,
+          0.0275,
+          0.065
+        ]
+      ],
+      "source": "https://ycb-benchmarks.s3.amazonaws.com/data/google/004_sugar_box_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "physics_status": "Existing analytic collision proxy retained; mesh/contact fidelity requires validation."
+    }
+  }
+}

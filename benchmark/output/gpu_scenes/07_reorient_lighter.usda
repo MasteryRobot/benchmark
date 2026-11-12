@@ -1,0 +1,12 @@
+#usda 1.0
+(
+    subLayers = [@../../tasks/07_reorient_lighter/scene.usda@]
+)
+over "World"
+{
+    over "PhysicsScene" (prepend apiSchemas = ["PhysxSceneAPI"])
+    {
+        bool physxScene:enableGPUDynamics = true
+        token physxScene:broadphaseType = "GPU"
+    }
+}

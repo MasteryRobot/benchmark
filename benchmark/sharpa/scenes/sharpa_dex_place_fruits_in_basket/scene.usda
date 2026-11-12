@@ -1,0 +1,293 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+    timeCodesPerSecond = 240
+    subLayers = [@../../../tasks/workcell.usdc@]
+)
+def Xform "World"
+{
+    def Scope "SharpaLooks"
+    {
+        def Material "object_1_Physics" (prepend apiSchemas = ["PhysicsMaterialAPI"])
+        {
+            float physics:staticFriction = 0.8
+            float physics:dynamicFriction = 0.65
+            float physics:restitution = 0.01
+        }
+        def Material "object_1_0"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/object_1_0/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8, 0.22, 0.13)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "object_2_Physics" (prepend apiSchemas = ["PhysicsMaterialAPI"])
+        {
+            float physics:staticFriction = 0.8
+            float physics:dynamicFriction = 0.65
+            float physics:restitution = 0.01
+        }
+        def Material "object_2_0"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/object_2_0/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8, 0.22, 0.13)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_Physics" (prepend apiSchemas = ["PhysicsMaterialAPI"])
+        {
+            float physics:staticFriction = 0.8
+            float physics:dynamicFriction = 0.65
+            float physics:restitution = 0.01
+        }
+        def Material "support_1_0"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_0/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.38, 0.51, 0.56)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_1"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_1/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.38, 0.51, 0.56)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_2"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_2/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.38, 0.51, 0.56)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_3"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_3/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.38, 0.51, 0.56)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_4"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_4/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.38, 0.51, 0.56)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+    }
+    def Xform "Task"
+    {
+        custom string task:id = "sharpa_dex_place_fruits_in_basket"
+        custom string task:provenance = "UNVERIFIED_LOCAL_PROTOTYPE"
+        def Xform "object_1" (prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"])
+        {
+            double3 xformOp:translate = (-0.38, 0.35, 0.8272)
+            quatd xformOp:orient = (1, 0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+            float physics:mass = 0.16384
+            bool physics:rigidBodyEnabled = true
+            bool physxRigidBody:enableCCD = true
+            int physxRigidBody:solverPositionIterationCount = 32
+            int physxRigidBody:solverVelocityIterationCount = 16
+            float physxRigidBody:angularDamping = 0.5
+            def Sphere "part_0" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, 0, 0)
+                double xformOp:rotateZ = 0
+                double radius = 0.032
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                color3f[] primvars:displayColor = [(0.8, 0.22, 0.13)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/object_1_Physics>
+                rel material:binding = </World/SharpaLooks/object_1_0>
+            }
+            def Xform "RealisticVisual" (
+                prepend references = @../../../assets/realistic/017_orange.usdc@</Asset>
+            )
+            {
+                double3 xformOp:translate = (0, 0, -0.0011392436172)
+                double3 xformOp:scale = (0.865028518909, 0.865028518909, 0.865028518909)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                custom string asset:source = "https://ycb-benchmarks.s3.amazonaws.com/data/google/017_orange_google_16k.tgz"
+                custom string asset:license = "CC-BY-4.0"
+            }
+        }
+        def Xform "object_2" (prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"])
+        {
+            double3 xformOp:translate = (-0.16, 0.35, 0.8312)
+            quatd xformOp:orient = (1, 0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+            float physics:mass = 0.23328
+            bool physics:rigidBodyEnabled = true
+            bool physxRigidBody:enableCCD = true
+            int physxRigidBody:solverPositionIterationCount = 32
+            int physxRigidBody:solverVelocityIterationCount = 16
+            float physxRigidBody:angularDamping = 0.5
+            def Sphere "part_0" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, 0, 0)
+                double xformOp:rotateZ = 0
+                double radius = 0.036
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                color3f[] primvars:displayColor = [(0.8, 0.22, 0.13)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/object_2_Physics>
+                rel material:binding = </World/SharpaLooks/object_2_0>
+            }
+            def Xform "RealisticVisual" (
+                prepend references = @../../../assets/realistic/013_apple.usdc@</Asset>
+            )
+            {
+                double3 xformOp:translate = (0, 0, -0.00169817710967)
+                double3 xformOp:scale = (0.95429965009, 0.95429965009, 0.95429965009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                custom string asset:source = "https://ycb-benchmarks.s3.amazonaws.com/data/google/013_apple_google_16k.tgz"
+                custom string asset:license = "CC-BY-4.0"
+            }
+        }
+        def Xform "support_1"
+        {
+            double3 xformOp:translate = (0.18, 0.49, 0.7952)
+            quatd xformOp:orient = (1, 0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+            def Cube "part_0" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, 0, 0.0025)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.21, 0.17, 0.005)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.38, 0.51, 0.56)]
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_0>
+            }
+            def Cube "part_1" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.1025, 0, 0.05)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.005, 0.17, 0.1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.38, 0.51, 0.56)]
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_1>
+            }
+            def Cube "part_2" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.1025, 0, 0.05)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.005, 0.17, 0.1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.38, 0.51, 0.56)]
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_2>
+            }
+            def Cube "part_3" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, -0.0825, 0.05)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.2, 0.005, 0.1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.38, 0.51, 0.56)]
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_3>
+            }
+            def Cube "part_4" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, 0.0825, 0.05)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.2, 0.005, 0.1)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.38, 0.51, 0.56)]
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_4>
+            }
+        }
+        def Xform "Goals"
+        {
+            def BasisCurves "object_1"
+            {
+                double3 xformOp:translate = (0.135, 0.49, 0.832)
+                quatd xformOp:orient = (1, 0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+                uniform token type = "linear"
+                uniform token wrap = "nonperiodic"
+                int[] curveVertexCounts = [2, 2, 2]
+                point3f[] points = [(-0.025, 0, 0), (0.025, 0, 0), (0, -0.025, 0), (0, 0.025, 0), (0, 0, 0), (0, 0, 0.035)]
+                float[] widths = [0.001]
+                color3f[] primvars:displayColor = [(0.1, 0.9, 0.7)]
+            }
+            def BasisCurves "object_2"
+            {
+                double3 xformOp:translate = (0.225, 0.49, 0.836)
+                quatd xformOp:orient = (1, 0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+                uniform token type = "linear"
+                uniform token wrap = "nonperiodic"
+                int[] curveVertexCounts = [2, 2, 2]
+                point3f[] points = [(-0.025, 0, 0), (0.025, 0, 0), (0, -0.025, 0), (0, 0.025, 0), (0, 0, 0), (0, 0, 0.035)]
+                float[] widths = [0.001]
+                color3f[] primvars:displayColor = [(0.1, 0.9, 0.7)]
+            }
+        }
+    }
+    over "PhysicsScene"
+    {
+        bool physxScene:enableCCD = true
+    }
+}

@@ -1,0 +1,21 @@
+/data/benchmark/runtime_checks/probe_physx_gpu.py:29: DeprecationWarning: PhysX(config=...) is deprecated; use ovphysx.set_global_config() for settings with a GlobalConfigKey before constructing PhysX. Carbonite-only settings still use PhysXConfig.carbonite_overrides.
+  physx = PhysX(active_cuda_gpus='0', config=PhysXConfig(
+/data/benchmark/runtime_checks/probe_physx_gpu.py:32: DeprecationWarning: ovphysx tensor bindings are deprecated and will be removed in a future release; use PhysX.read for reads and PhysX.write for writes.
+  binding = physx.create_tensor_binding(
+[Warning] [omni_physx_sdk] [ovphysx] Auto-warmup: performing initial simulation step. Call ovphysx_warmup() explicitly to control when this happens.
+{
+  "checked_at_utc": "2026-10-30T11:16:10.324746+00:00",
+  "task_success": false,
+  "status": "PASS",
+  "backend": "Standalone NVIDIA PhysX 0.7.0.74035321",
+  "scope": "GPU articulation smoke only; not Isaac Sim or task success",
+  "device": "CUDA",
+  "shape": [
+    1,
+    15,
+    7
+  ],
+  "max_link_position_change_m": 0.8944454193115234,
+  "physics_steps": 120,
+  "simulated_seconds": 0.5
+}

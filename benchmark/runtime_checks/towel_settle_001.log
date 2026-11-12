@@ -1,0 +1,24 @@
+/data/benchmark/towel_roll/native_physx.py:92: DeprecationWarning: PhysX(config=...) is deprecated; use ovphysx.set_global_config() for settings with a GlobalConfigKey before constructing PhysX. Carbonite-only settings still use PhysXConfig.carbonite_overrides.
+  physx = PhysX(active_cuda_gpus='0', config=PhysXConfig(
+/data/benchmark/towel_roll/native_physx.py:96: DeprecationWarning: ovphysx tensor bindings are deprecated and will be removed in a future release; use PhysX.read for reads and PhysX.write for writes.
+  result = physx.create_tensor_binding(pattern=pattern, tensor_type=kind)
+{
+  "task": "bimanual_roll_towel",
+  "created_utc": "2026-10-30T11:31:50.428172+00:00",
+  "status": "STARTUP_ERROR",
+  "physics_started": false,
+  "task_success": false,
+  "finger_contact_verified": false,
+  "cloth_position_commands": 0,
+  "cloth_attachments": 0,
+  "backend": "Standalone NVIDIA PhysX GPU; NOT Isaac Sim Kit",
+  "arm_locked_after_approach": true,
+  "error": "RuntimeError: Empty binding: 30",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/benchmark/towel_roll/native_physx.py\", line 101, in main\n    joint = binding(robot, TensorType.ARTICULATION_DOF_POSITION)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/benchmark/towel_roll/native_physx.py\", line 98, in binding\n    if result.count == 0: raise RuntimeError('Empty binding: ' + str(kind))\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Empty binding: 30\n",
+  "recorded_frames": 0,
+  "code_sha256": {
+    "native_physx.py": "80d66b0a498592d3f1d650562d6bd49a61ca96e717df2fd6ccf87c6f77ca59bd",
+    "surface.py": "416bccab66f95daa56119df75fcc930ef41add78872d6694aa1777c9bfa83d03",
+    "joint_plan.py": "71c785fe5a29fa518b589afcdda4b46335327a8d2eaa25119ae11371bb2ed8ee"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "sharpa_dex_collect_waste_into_bin",
+  "title": "垃圾入桶（本地仿真原型）",
+  "task_type": "scene_only",
+  "bodies": [
+    {
+      "id": "object_1",
+      "position": [
+        -0.38,
+        0.35,
+        0.8127
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.035,
+            0.035,
+            0.035
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.22,
+            0.48,
+            0.65
+          ]
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.07,
+      "prop_kind": "block"
+    },
+    {
+      "id": "object_2",
+      "position": [
+        -0.16,
+        0.35,
+        0.7957
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.2,
+            0.16,
+            0.001
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.79,
+            0.67,
+            0.44
+          ]
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.01,
+      "prop_kind": "paper"
+    },
+    {
+      "id": "support_1",
+      "position": [
+        0.18,
+        0.49,
+        0.7952
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.19,
+            0.17,
+            0.005
+          ],
+          "position": [
+            0,
+            0,
+            0.0025
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.005,
+            0.17,
+            0.15
+          ],
+          "position": [
+            -0.0925,
+            0,
+            0.075
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.005,
+            0.17,
+            0.15
+          ],
+          "position": [
+            0.0925,
+            0,
+            0.075
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.18,
+            0.005,
+            0.15
+          ],
+          "position": [
+            0,
+            -0.0825,
+            0.075
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.18,
+            0.005,
+            0.15
+          ],
+          "position": [
+            0,
+            0.0825,
+            0.075
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        }
+      ],
+      "dynamic": false,
+      "mass_kg": null,
+      "prop_kind": "bin"
+    }
+  ],
+  "goals": [],
+  "limitations": [
+    "Not implemented: paper deformation.",
+    "Physical props and reset/control available; no task-success predicate until missing process is implemented."
+  ],
+  "source_task": "collect_waste_into_bin",
+  "source_group": "provisional_tabletop_inventory",
+  "official_source": null,
+  "source_url_candidate": "https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0",
+  "source_status": "UNVERIFIED_PROVISIONAL_TASK",
+  "coverage_level": "SCENE_ASSETS_ONLY",
+  "schema_version": 1,
+  "suite": "sharpa_prototypes",
+  "units": "m",
+  "up_axis": "Z",
+  "object_source": "Locally authored primitives; dimensions and masses are design estimates, not vendor data.",
+  "robot_model": "Existing neutral 54-DOF dual arm; not a certified Sharpa robot replica.",
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 30,
+    "success_hold_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25
+  }
+}

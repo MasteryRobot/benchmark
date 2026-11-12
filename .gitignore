@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.cache/
+benchmark/tmp/
+benchmark/assets/**
+benchmark/dealer_table.usdc
+benchmark/tasks/workcell.usdc
+benchmark/output/views/
+benchmark/output/pdf/

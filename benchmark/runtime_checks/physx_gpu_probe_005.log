@@ -1,0 +1,17 @@
+/data/benchmark/runtime_checks/probe_physx_gpu.py:31: DeprecationWarning: ovphysx tensor bindings are deprecated and will be removed in a future release; use PhysX.read for reads and PhysX.write for writes.
+  binding = physx.create_tensor_binding(
+{
+  "checked_at_utc": "2026-10-30T11:15:12.772594+00:00",
+  "task_success": false,
+  "status": "ERROR",
+  "backend": "Standalone NVIDIA PhysX 0.7.0.74035321",
+  "scope": "GPU articulation smoke only; not Isaac Sim or task success",
+  "device": "CPU",
+  "shape": [
+    1,
+    15,
+    7
+  ],
+  "error": "ValueError: invalid literal for int() with base 10: b'\\x01\\x00\\x00\\x00'",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/benchmark/runtime_checks/probe_physx_gpu.py\", line 35, in main\n    if int(binding.native_device.device_type) != 2:\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: b'\\x01\\x00\\x00\\x00'\n"
+}

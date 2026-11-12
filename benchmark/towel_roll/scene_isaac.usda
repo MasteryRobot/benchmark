@@ -1,0 +1,23 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+    subLayers = [@scene.usda@]
+)
+
+over "World"
+{
+    over "PhysicsScene" (
+        prepend apiSchemas = ["PhysxSceneAPI"]
+    )
+    {
+        bool physxScene:enableGPUDynamics = true
+        token physxScene:broadphaseType = "GPU"
+        token physxScene:solverType = "TGS"
+    }
+    over "TowelRoll"
+    {
+        custom string task:physicsScope = "GPU preparation layer. Run run_towel_roll.py --backend isaac --prepare-only to author a surface-deformable layer. Cooking, runtime, articulated control and measured roll success remain unverified."
+    }
+}

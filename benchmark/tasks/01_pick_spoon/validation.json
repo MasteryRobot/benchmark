@@ -1,0 +1,28 @@
+{
+  "task": "01_pick_spoon",
+  "physics_steps": 1200,
+  "seconds": 5,
+  "robot_joint_drift_rad": 0.0,
+  "initial_object_position_m": [
+    -0.25,
+    0.41999998688697815,
+    0.7975000143051147
+  ],
+  "settled_object_position_m": [
+    -0.2499779313802719,
+    0.419994592666626,
+    0.793493926525116
+  ],
+  "settled_orientation_wxyz": [
+    0.9873934388160706,
+    0.02489418350160122,
+    -0.00395671371370554,
+    -0.15626545250415802
+  ],
+  "object_displacement_m": 0.004006152506917715,
+  "object_min_z_m": 0.7934548517889071,
+  "linear_speed_m_s": 0.0008095555822364986,
+  "angular_speed_rad_s": 0.008863391354680061,
+  "sensor_count": 5,
+  "stable": true
+}

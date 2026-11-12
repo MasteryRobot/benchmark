@@ -1,0 +1,12 @@
+#usda 1.0
+(
+    subLayers = [@../../sharpa/scenes/sharpa_dex_place_ball_in_cup_then_cup_in_box/scene.usda@]
+)
+over "World"
+{
+    over "PhysicsScene" (prepend apiSchemas = ["PhysxSceneAPI"])
+    {
+        bool physxScene:enableGPUDynamics = true
+        token physxScene:broadphaseType = "GPU"
+    }
+}

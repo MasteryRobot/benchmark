@@ -1,0 +1,13 @@
+{
+  "preset": "table_ready",
+  "palm_down_thumbs_inward": true,
+  "joint_anchor_max_error_m": 5.7234591553703024e-08,
+  "revolute_joints": 54,
+  "sensor_cameras": 5,
+  "camera_extrinsics_max_error": 9.992007221626409e-16,
+  "camera_model": "Generic RGBD",
+  "wrist_mounts": "palm side, wrist root",
+  "camera_support_geometry": false,
+  "usd_self_contained": true,
+  "result": "PASS"
+}

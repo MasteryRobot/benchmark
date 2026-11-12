@@ -1,0 +1,8 @@
+Collecting isaacsim-extscache-kit==6.0.1.0
+  WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)')': /isaacsim-extscache-kit/isaacsim_extscache_kit-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl
+error: ssl-verification-failed
+
+× Failed to establish a secure connection to pypi.nvidia.com while fetching https://pypi.nvidia.com/isaacsim-extscache-kit/isaacsim_extscache_kit-6.0.1.0-cp312-none-manylinux_2_35_x86_64.whl
+╰─> [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)
+
+hint: You may need to use --cert or check your proxy/firewall configuration

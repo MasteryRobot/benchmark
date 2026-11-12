@@ -1,0 +1,30 @@
+{
+  "status": "INCOMPLETE",
+  "checked_at_utc": "2026-10-29T09:45:43.641100+00:00",
+  "local_scene_entries": 72,
+  "baseline_scene_entries": 10,
+  "capability_counts": {
+    "RIGID_BODY_TASK_APPROXIMATION": 25,
+    "SCENE_ASSETS_ONLY": 47
+  },
+  "offline_status": "PASS",
+  "original_baseline_preserved": true,
+  "runtime_status": "BLOCKED",
+  "runtime_status_counts": {
+    "BLOCKED": 72
+  },
+  "usd_composition_status_counts": {
+    "NOT_RUN": 72
+  },
+  "environment_status": "BLOCKED",
+  "autonomous_policy": "NOT_IMPLEMENTED",
+  "official_coverage": "UNVERIFIED",
+  "official_total": null,
+  "previews": "CPU_SCHEMATIC_ONLY",
+  "blockers": [
+    "Official sources/task identities not independently confirmed.",
+    "Isaac Sim, USD Python bindings and functioning NVIDIA driver unavailable.",
+    "47 scene-only tasks still require process-specific physics and task predicates.",
+    "No autonomous demonstration trajectories or policies implemented."
+  ]
+}

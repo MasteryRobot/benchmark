@@ -1,0 +1,208 @@
+{
+  "checked_at_utc": "2026-10-29T08:52:49.108571+00:00",
+  "runtime_status": "BLOCKED",
+  "tasks": 10,
+  "rows": [
+    {
+      "task": "01_pick_spoon",
+      "checked_at_utc": "2026-10-29T08:52:45.267014+00:00",
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/01_pick_spoon/scene.usda": "61352d932ea427a895661e1d516d6d5e4c7129d73810d7056b854b428ede16c7",
+        "tasks/01_pick_spoon/task.json": "3874623eb47e59693ea730805cd76bbf7fdce349e4059be5fb6702c355092e6d",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "runtime_status": "BLOCKED",
+      "task_success": false,
+      "reason": "Isaac Sim is not installed in the selected Python environment.",
+      "returncode": 2
+    },
+    {
+      "task": "02_pick_knife",
+      "checked_at_utc": "2026-10-29T08:52:45.696559+00:00",
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/02_pick_knife/scene.usda": "17e8dc57c52735825b680eec8ca7bd9c1b96d685bd415a29af510e799e941b03",
+        "tasks/02_pick_knife/task.json": "d49829d0b7fc66c900e5cf0b56c3c9b92ba5347f15faed83feb8754ec0266de3",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "runtime_status": "BLOCKED",
+      "task_success": false,
+      "reason": "Isaac Sim is not installed in the selected Python environment.",
+      "returncode": 2
+    },
+    {
+      "task": "03_pick_phone",
+      "checked_at_utc": "2026-10-29T08:52:46.076274+00:00",
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/03_pick_phone/scene.usda": "1402d2f84cb689e5498546de98be1a97ed7f5b62f0d85b0d1b29dfc1123a76f8",
+        "tasks/03_pick_phone/task.json": "747a6e66e2e68e4c922324c03fae680a81bd94f720a96f28fd22a3a5ab05821c",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "runtime_status": "BLOCKED",
+      "task_success": false,
+      "reason": "Isaac Sim is not installed in the selected Python environment.",
+      "returncode": 2
+    },
+    {
+      "task": "04_phone_portrait_to_landscape",
+      "checked_at_utc": "2026-10-29T08:52:46.456799+00:00",
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/04_phone_portrait_to_landscape/scene.usda": "3321b849ccc88e1710cb38476ef764e6a44af429eb0542738cb1257422e1a40e",
+        "tasks/04_phone_portrait_to_landscape/task.json": "1f543ce9286adfa621a1146734cdf8d7ca1c28befa9e13b802f944557938c923",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "runtime_status": "BLOCKED",
+      "task_success": false,
+      "reason": "Isaac Sim is not installed in the selected Python environment.",
+      "returncode": 2
+    },
+    {
+      "task": "05_flip_phone",
+      "checked_at_utc": "2026-10-29T08:52:46.834991+00:00",
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/05_flip_phone/scene.usda": "706ecb726e35f6ad8fe5749c55876d620c54bc62ed899d15bb8091e7689ce12b",
+        "tasks/05_flip_phone/task.json": "79f851dd097cb41bcc1ef5bc2cdb01ddbc3bdd35c70188c36894f12cdc446bdc",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "runtime_status": "BLOCKED",
+      "task_success": false,
+      "reason": "Isaac Sim is not installed in the selected Python environment.",
+      "returncode": 2
+    },
+    {
+      "task": "06_reorient_battery",
+      "checked_at_utc": "2026-10-29T08:52:47.214593+00:00",
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/06_reorient_battery/scene.usda": "f8d0e843865ba17ba2bb7fb134d6b982c42f87a60eac54fab54422daf0fda1aa",
+        "tasks/06_reorient_battery/task.json": "177ac2c77cf2b25635e54a6f257da23c1f58df77c70131914f49254e25260c04",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "runtime_status": "BLOCKED",
+      "task_success": false,
+      "reason": "Isaac Sim is not installed in the selected Python environment.",
+      "returncode": 2
+    },
+    {
+      "task": "07_reorient_lighter",
+      "checked_at_utc": "2026-10-29T08:52:47.591082+00:00",
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/07_reorient_lighter/scene.usda": "93fd33dad1b518ff5ca4fb1c5c6d8059e70d83dbb559f3e7acd2bd992d175df4",
+        "tasks/07_reorient_lighter/task.json": "9d2c0cf953a469ae7f810dd89766766c2a2b08b71390201a9decd27f25e93eda",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "runtime_status": "BLOCKED",
+      "task_success": false,
+      "reason": "Isaac Sim is not installed in the selected Python environment.",
+      "returncode": 2
+    },
+    {
+      "task": "08_pick_lipstick",
+      "checked_at_utc": "2026-10-29T08:52:47.967263+00:00",
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/08_pick_lipstick/scene.usda": "9ace748d843eabb11cc0014c2189e2e9dbcee055319aa581c93d9777e5ef2348",
+        "tasks/08_pick_lipstick/task.json": "7016ea41d1015eacf98ef4b5b34160690844f36dcb653dcc9063bfb6b92b87f8",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "runtime_status": "BLOCKED",
+      "task_success": false,
+      "reason": "Isaac Sim is not installed in the selected Python environment.",
+      "returncode": 2
+    },
+    {
+      "task": "09_rotate_cotton_swab",
+      "checked_at_utc": "2026-10-29T08:52:48.346680+00:00",
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/09_rotate_cotton_swab/scene.usda": "a5a99b753bf5893a465f8011ab2c6e274e377d16d2d60cf9dc084931c4662e6d",
+        "tasks/09_rotate_cotton_swab/task.json": "dffa7ba2cae740c91d0aebec6d18ce25cc8e13362d0f1f37ee96ae2579d38afd",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "runtime_status": "BLOCKED",
+      "task_success": false,
+      "reason": "Isaac Sim is not installed in the selected Python environment.",
+      "returncode": 2
+    },
+    {
+      "task": "10_pick_scissors",
+      "checked_at_utc": "2026-10-29T08:52:48.724519+00:00",
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/10_pick_scissors/scene.usda": "e5cb1746ad1ec7ab603df9e30a3b31dca96f6f44f68f75bd79a3cea2bd7a9f8b",
+        "tasks/10_pick_scissors/task.json": "47aa6f330ed21f1de1f768010e32894f86599a126ad859ca96838d0c0e01a42e",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "runtime_status": "BLOCKED",
+      "task_success": false,
+      "reason": "Isaac Sim is not installed in the selected Python environment.",
+      "returncode": 2
+    }
+  ],
+  "scope": "Fresh reset/contact smoke tests; PASS is not a manipulation success rate."
+}

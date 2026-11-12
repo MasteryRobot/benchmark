@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-10-29",
+  "offline_assets": "PASS",
+  "offline_tasks": 10,
+  "unit_tests": {
+    "checked_at_utc": "2026-10-29T08:57:49.614087+00:00",
+    "result": "PASS",
+    "tests_run": 14,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "scope": "CPU regression tests for success evaluation, reset state, replay inputs and evidence freshness; not Isaac execution."
+  },
+  "isaac_adapter": "IMPLEMENTED_NOT_RUNTIME_VERIFIED",
+  "physics_validation": "BLOCKED",
+  "usd_composition": "NOT_RUN",
+  "autonomous_grasp_and_reorientation_policy": "NOT_IMPLEMENTED",
+  "blockers": [
+    "Selected Python has no isaacsim package.",
+    "Selected Python has no pxr USD bindings.",
+    "NVIDIA driver is unavailable in this environment.",
+    "Dependency installation is blocked by network restrictions."
+  ],
+  "next_commands": [
+    "python -B run_all_task_episodes.py",
+    "python -B check_task_scenes.py"
+  ],
+  "next_commands_environment": "Run with a working Isaac Sim Python environment and NVIDIA GPU driver.",
+  "historical_physics_reports": "Retained in each task validation.json; no current input fingerprints.",
+  "original_snapshot": "../benchmark_before_20261029",
+  "scene_geometry_modified": false
+}

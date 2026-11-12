@@ -1,0 +1,28 @@
+{
+  "task": "07_reorient_lighter",
+  "physics_steps": 1200,
+  "seconds": 5,
+  "robot_joint_drift_rad": 0.0,
+  "initial_object_position_m": [
+    -0.25,
+    0.41999998688697815,
+    0.8130000233650208
+  ],
+  "settled_object_position_m": [
+    -0.25006189942359924,
+    0.42007049918174744,
+    0.8112756013870239
+  ],
+  "settled_orientation_wxyz": [
+    0.701494574546814,
+    0.6952278017997742,
+    -0.11457179486751556,
+    -0.10694435238838196
+  ],
+  "object_displacement_m": 0.0017269726376980543,
+  "object_min_z_m": 0.8013144441726526,
+  "linear_speed_m_s": 0.00040260088280774653,
+  "angular_speed_rad_s": 0.0005142161389812827,
+  "sensor_count": 5,
+  "stable": true
+}

@@ -1,0 +1,1392 @@
+{
+  "backend": "MuJoCo 3.17.0 CPU flex",
+  "simulated_seconds": 3.0,
+  "wall_seconds": 90.12529683113098,
+  "physics_success_verified": false,
+  "isaac_run": false,
+  "limitations": [
+    "Two prescribed corner constraints replace articulated finger grasps.",
+    "No robot is controlled by this CPU demo.",
+    "Robot inset is a static CAD scene, not a replay.",
+    "Rendered cloth vertices come from this CPU solver, not an ideal rolled shape.",
+    "A displayed roll attempt is not a successful benchmark episode."
+  ],
+  "changes_from_historical_cpu_exploration": [
+    "Correct centered grid placement",
+    "Correct initial constrained corner positions",
+    "Enable flex self collision",
+    "Release both constraints at the end"
+  ],
+  "warnings": [],
+  "final": {
+    "time_s": 2.999999999999891,
+    "phase": "RELEASE / OBSERVE",
+    "proxy_active": false,
+    "length_extent_m": 0.3382294611290527,
+    "height_m": 0.007174582505748761,
+    "max_speed_m_s": 0.006263579157935435,
+    "contacts": 1013
+  },
+  "metrics": [
+    {
+      "time_s": 0.002,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.3999999999759658,
+      "height_m": 0.0014987321392759823,
+      "max_speed_m_s": 0.0006339303625836581,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.022000000000000006,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.40000000032914096,
+      "height_m": 0.001498653506833314,
+      "max_speed_m_s": 0.002426133819099933,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.04200000000000002,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.40000000071740643,
+      "height_m": 0.00149858403405434,
+      "max_speed_m_s": 0.0017319919138486378,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.06200000000000004,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.4000000026104842,
+      "height_m": 0.0014985533557182462,
+      "max_speed_m_s": 0.0009747139836220212,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.08200000000000006,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.40000000341696734,
+      "height_m": 0.001498541065909631,
+      "max_speed_m_s": 0.0008113048659910298,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.10200000000000008,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.4000000058574765,
+      "height_m": 0.0014985359457471148,
+      "max_speed_m_s": 0.0008154354691263361,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.1220000000000001,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.4000000120853724,
+      "height_m": 0.001498533748435782,
+      "max_speed_m_s": 0.0008172235889514894,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.1420000000000001,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.40000001847733213,
+      "height_m": 0.0014985327814451832,
+      "max_speed_m_s": 0.0008180216162308398,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.16200000000000012,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.40000002435267434,
+      "height_m": 0.0014985323459492106,
+      "max_speed_m_s": 0.0008183783453973524,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.18200000000000013,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.40000002942077584,
+      "height_m": 0.001498532148179521,
+      "max_speed_m_s": 0.0008185385544200939,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.20200000000000015,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.40000003361406206,
+      "height_m": 0.0014985320581228923,
+      "max_speed_m_s": 0.0008186112272495525,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.22200000000000017,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.40000003697526004,
+      "height_m": 0.0014985320168781069,
+      "max_speed_m_s": 0.0008186444351284452,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.2420000000000002,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.40000003959292024,
+      "height_m": 0.001498531997877195,
+      "max_speed_m_s": 0.0008186596514319813,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.2620000000000002,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.4000000415678886,
+      "height_m": 0.0014985319890931104,
+      "max_speed_m_s": 0.0008186666226048877,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.2820000000000002,
+      "phase": "SETTLE",
+      "proxy_active": true,
+      "length_extent_m": 0.40000004299744757,
+      "height_m": 0.001498531985024476,
+      "max_speed_m_s": 0.000818669803582417,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.3020000000000002,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000004396883615,
+      "height_m": 0.001498531983137541,
+      "max_speed_m_s": 0.0008186712382986809,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.32200000000000023,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000000828992194,
+      "height_m": 0.0014546608892832547,
+      "max_speed_m_s": 0.02534460648542565,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.34200000000000025,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000000145241243,
+      "height_m": 0.0014557123455301024,
+      "max_speed_m_s": 0.025380481338938488,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.36200000000000027,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000000699874844,
+      "height_m": 0.0014599845087052143,
+      "max_speed_m_s": 0.025468256386451123,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.3820000000000003,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.400000014369777,
+      "height_m": 0.001471027764403443,
+      "max_speed_m_s": 0.025732435940390094,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.4020000000000003,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.4000000255653895,
+      "height_m": 0.001493584964034289,
+      "max_speed_m_s": 0.026394425553162414,
+      "contacts": 637
+    },
+    {
+      "time_s": 0.4220000000000003,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.4000000345058625,
+      "height_m": 0.0015334840272774874,
+      "max_speed_m_s": 0.027766293451334082,
+      "contacts": 635
+    },
+    {
+      "time_s": 0.44200000000000034,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000003574058657,
+      "height_m": 0.0015975395207808996,
+      "max_speed_m_s": 0.030191500011029042,
+      "contacts": 635
+    },
+    {
+      "time_s": 0.46200000000000035,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.4000000489001015,
+      "height_m": 0.0016934337488890838,
+      "max_speed_m_s": 0.033844224397304744,
+      "contacts": 635
+    },
+    {
+      "time_s": 0.4820000000000004,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.4000000652554421,
+      "height_m": 0.0018298966265517524,
+      "max_speed_m_s": 0.03793281553220651,
+      "contacts": 635
+    },
+    {
+      "time_s": 0.5020000000000003,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000008897680345,
+      "height_m": 0.002016552366605917,
+      "max_speed_m_s": 0.04083261298008884,
+      "contacts": 634
+    },
+    {
+      "time_s": 0.5220000000000004,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.4000001280476559,
+      "height_m": 0.0022656441540209737,
+      "max_speed_m_s": 0.04475519292955539,
+      "contacts": 633
+    },
+    {
+      "time_s": 0.5420000000000004,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000018874127474,
+      "height_m": 0.0025909083709588776,
+      "max_speed_m_s": 0.049444564846680715,
+      "contacts": 632
+    },
+    {
+      "time_s": 0.5620000000000004,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.4000002703097314,
+      "height_m": 0.002999634637846804,
+      "max_speed_m_s": 0.05304601317383055,
+      "contacts": 630
+    },
+    {
+      "time_s": 0.5820000000000004,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000037758872076,
+      "height_m": 0.0035017597528056443,
+      "max_speed_m_s": 0.05849163619535519,
+      "contacts": 630
+    },
+    {
+      "time_s": 0.6020000000000004,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.4000005142160557,
+      "height_m": 0.0041069481299380595,
+      "max_speed_m_s": 0.061193128821015845,
+      "contacts": 627
+    },
+    {
+      "time_s": 0.6220000000000004,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.4000006953385106,
+      "height_m": 0.00483044079314221,
+      "max_speed_m_s": 0.06514593463260111,
+      "contacts": 626
+    },
+    {
+      "time_s": 0.6420000000000005,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000093306116713,
+      "height_m": 0.005678717773637043,
+      "max_speed_m_s": 0.06961225400850866,
+      "contacts": 624
+    },
+    {
+      "time_s": 0.6620000000000005,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.4000011897820785,
+      "height_m": 0.006665947175754083,
+      "max_speed_m_s": 0.07282835678189661,
+      "contacts": 623
+    },
+    {
+      "time_s": 0.6820000000000005,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000140432268827,
+      "height_m": 0.007791617441604504,
+      "max_speed_m_s": 0.07402802465006852,
+      "contacts": 621
+    },
+    {
+      "time_s": 0.7020000000000005,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000154929554865,
+      "height_m": 0.009062068331854078,
+      "max_speed_m_s": 0.08050044149465134,
+      "contacts": 621
+    },
+    {
+      "time_s": 0.7220000000000005,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000149080508374,
+      "height_m": 0.01048806902519206,
+      "max_speed_m_s": 0.08725474503516178,
+      "contacts": 619
+    },
+    {
+      "time_s": 0.7420000000000005,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000105038235195,
+      "height_m": 0.012059745041867354,
+      "max_speed_m_s": 0.09786613902892946,
+      "contacts": 616
+    },
+    {
+      "time_s": 0.7620000000000006,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.40000018551011807,
+      "height_m": 0.013771453478569895,
+      "max_speed_m_s": 0.11011323366210095,
+      "contacts": 615
+    },
+    {
+      "time_s": 0.7820000000000006,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3999998472844653,
+      "height_m": 0.01561285773382981,
+      "max_speed_m_s": 0.22290340745553522,
+      "contacts": 614
+    },
+    {
+      "time_s": 0.8020000000000006,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39999922975140895,
+      "height_m": 0.017584884728054084,
+      "max_speed_m_s": 0.16094353540018833,
+      "contacts": 614
+    },
+    {
+      "time_s": 0.8220000000000006,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39999832445651434,
+      "height_m": 0.019654100173311484,
+      "max_speed_m_s": 0.13405702837864936,
+      "contacts": 614
+    },
+    {
+      "time_s": 0.8420000000000006,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3999971209863495,
+      "height_m": 0.02181883850874955,
+      "max_speed_m_s": 0.17515086922769973,
+      "contacts": 611
+    },
+    {
+      "time_s": 0.8620000000000007,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.399995568985217,
+      "height_m": 0.024051387452500794,
+      "max_speed_m_s": 0.1625371469181716,
+      "contacts": 610
+    },
+    {
+      "time_s": 0.8820000000000007,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39999351249854115,
+      "height_m": 0.02633668725075533,
+      "max_speed_m_s": 0.13850432852233452,
+      "contacts": 609
+    },
+    {
+      "time_s": 0.9020000000000007,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39999017935231934,
+      "height_m": 0.028649661165923268,
+      "max_speed_m_s": 0.15783449399412863,
+      "contacts": 607
+    },
+    {
+      "time_s": 0.9220000000000007,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3999851248285353,
+      "height_m": 0.0309644603870034,
+      "max_speed_m_s": 0.2035360053691679,
+      "contacts": 606
+    },
+    {
+      "time_s": 0.9420000000000007,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3999778342937576,
+      "height_m": 0.03325362063259907,
+      "max_speed_m_s": 0.23256058207282918,
+      "contacts": 603
+    },
+    {
+      "time_s": 0.9620000000000007,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39996671577190157,
+      "height_m": 0.03550089587146554,
+      "max_speed_m_s": 0.19858786819800264,
+      "contacts": 602
+    },
+    {
+      "time_s": 0.9820000000000008,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39993272825504117,
+      "height_m": 0.03765398824229882,
+      "max_speed_m_s": 0.1793198302930895,
+      "contacts": 599
+    },
+    {
+      "time_s": 1.0020000000000007,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39986938032417085,
+      "height_m": 0.039677427557089806,
+      "max_speed_m_s": 0.1702525626753565,
+      "contacts": 597
+    },
+    {
+      "time_s": 1.0220000000000007,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3997677767937607,
+      "height_m": 0.04153831989326995,
+      "max_speed_m_s": 0.151673212062446,
+      "contacts": 594
+    },
+    {
+      "time_s": 1.0420000000000007,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39959347711579907,
+      "height_m": 0.04320227522030218,
+      "max_speed_m_s": 0.1535869966459912,
+      "contacts": 591
+    },
+    {
+      "time_s": 1.0620000000000007,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39934688981364835,
+      "height_m": 0.0446419249590132,
+      "max_speed_m_s": 0.16573866607993454,
+      "contacts": 591
+    },
+    {
+      "time_s": 1.0820000000000007,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39901945365938574,
+      "height_m": 0.045826533696660454,
+      "max_speed_m_s": 0.1753427042526621,
+      "contacts": 586
+    },
+    {
+      "time_s": 1.1020000000000008,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39859088236469137,
+      "height_m": 0.04673757102406395,
+      "max_speed_m_s": 0.18161756067732118,
+      "contacts": 586
+    },
+    {
+      "time_s": 1.1220000000000008,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39805280648829816,
+      "height_m": 0.047347884103455584,
+      "max_speed_m_s": 0.18539958403549273,
+      "contacts": 582
+    },
+    {
+      "time_s": 1.1420000000000008,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39732755344993004,
+      "height_m": 0.04764366171365386,
+      "max_speed_m_s": 0.18878509559773357,
+      "contacts": 581
+    },
+    {
+      "time_s": 1.1620000000000008,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3963387466718622,
+      "height_m": 0.04761111264023388,
+      "max_speed_m_s": 0.19416237724438049,
+      "contacts": 579
+    },
+    {
+      "time_s": 1.1820000000000008,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.39507675366885653,
+      "height_m": 0.04724368889575481,
+      "max_speed_m_s": 0.20582603099885738,
+      "contacts": 579
+    },
+    {
+      "time_s": 1.2020000000000008,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3934636178756937,
+      "height_m": 0.04654084913925616,
+      "max_speed_m_s": 0.21382820309838838,
+      "contacts": 577
+    },
+    {
+      "time_s": 1.2220000000000009,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3914948583744217,
+      "height_m": 0.04550967265928285,
+      "max_speed_m_s": 0.22206218413800152,
+      "contacts": 575
+    },
+    {
+      "time_s": 1.2420000000000009,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3889752594231387,
+      "height_m": 0.04416340154175169,
+      "max_speed_m_s": 0.23477635244540454,
+      "contacts": 573
+    },
+    {
+      "time_s": 1.262000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3857139828623727,
+      "height_m": 0.04251756090900938,
+      "max_speed_m_s": 0.24893645241963874,
+      "contacts": 571
+    },
+    {
+      "time_s": 1.282000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.38183702181008145,
+      "height_m": 0.04059914721810387,
+      "max_speed_m_s": 0.2700162557182952,
+      "contacts": 570
+    },
+    {
+      "time_s": 1.302000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3786976342583251,
+      "height_m": 0.038434864189930806,
+      "max_speed_m_s": 0.29383333137805895,
+      "contacts": 567
+    },
+    {
+      "time_s": 1.322000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3757375441981134,
+      "height_m": 0.03606349552707466,
+      "max_speed_m_s": 0.3195682862637342,
+      "contacts": 565
+    },
+    {
+      "time_s": 1.342000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3727233960643145,
+      "height_m": 0.03351983554678839,
+      "max_speed_m_s": 0.35029624322259384,
+      "contacts": 563
+    },
+    {
+      "time_s": 1.362000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3698201231997209,
+      "height_m": 0.03084213336302044,
+      "max_speed_m_s": 0.3935510287779087,
+      "contacts": 561
+    },
+    {
+      "time_s": 1.382000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.36694064527635223,
+      "height_m": 0.02931172605118726,
+      "max_speed_m_s": 0.4515626670866691,
+      "contacts": 556
+    },
+    {
+      "time_s": 1.402000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3637633260791137,
+      "height_m": 0.026686234590283964,
+      "max_speed_m_s": 0.5102494171179692,
+      "contacts": 554
+    },
+    {
+      "time_s": 1.422000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.361291571360903,
+      "height_m": 0.022436379774539827,
+      "max_speed_m_s": 0.5513231257370295,
+      "contacts": 578
+    },
+    {
+      "time_s": 1.442000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.35677346918328134,
+      "height_m": 0.020400212392344463,
+      "max_speed_m_s": 0.5744797792691327,
+      "contacts": 588
+    },
+    {
+      "time_s": 1.462000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3540667107912178,
+      "height_m": 0.01855300762567469,
+      "max_speed_m_s": 0.4999014227050891,
+      "contacts": 569
+    },
+    {
+      "time_s": 1.482000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.351432463525709,
+      "height_m": 0.01645736743660664,
+      "max_speed_m_s": 0.3406816182789332,
+      "contacts": 618
+    },
+    {
+      "time_s": 1.5020000000000011,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3500758694912369,
+      "height_m": 0.013759358703057667,
+      "max_speed_m_s": 0.34370644874518297,
+      "contacts": 585
+    },
+    {
+      "time_s": 1.5220000000000011,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.34834613870897274,
+      "height_m": 0.013242690371775612,
+      "max_speed_m_s": 0.3449665137260338,
+      "contacts": 601
+    },
+    {
+      "time_s": 1.5420000000000011,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.34713747981509224,
+      "height_m": 0.012075281240843672,
+      "max_speed_m_s": 0.34817752733298174,
+      "contacts": 665
+    },
+    {
+      "time_s": 1.5620000000000012,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3461665787693078,
+      "height_m": 0.010965442261018365,
+      "max_speed_m_s": 0.35514743999325504,
+      "contacts": 712
+    },
+    {
+      "time_s": 1.5820000000000012,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.34483082899681017,
+      "height_m": 0.010301718621979261,
+      "max_speed_m_s": 0.3533377819893011,
+      "contacts": 759
+    },
+    {
+      "time_s": 1.6020000000000012,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.344092029723423,
+      "height_m": 0.010326500421089957,
+      "max_speed_m_s": 0.3402656031521064,
+      "contacts": 688
+    },
+    {
+      "time_s": 1.6220000000000012,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3430340292661782,
+      "height_m": 0.010071036797688282,
+      "max_speed_m_s": 0.3305864403473011,
+      "contacts": 697
+    },
+    {
+      "time_s": 1.6420000000000012,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3414789215792707,
+      "height_m": 0.009994772337406088,
+      "max_speed_m_s": 0.3130985527767044,
+      "contacts": 761
+    },
+    {
+      "time_s": 1.6620000000000013,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33993034658187116,
+      "height_m": 0.011009197385208558,
+      "max_speed_m_s": 0.3021373405023345,
+      "contacts": 798
+    },
+    {
+      "time_s": 1.6820000000000013,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33950936194102643,
+      "height_m": 0.010739428962703745,
+      "max_speed_m_s": 0.3154714989389609,
+      "contacts": 774
+    },
+    {
+      "time_s": 1.7020000000000013,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3390075446084752,
+      "height_m": 0.009936634502318187,
+      "max_speed_m_s": 0.3274675269470694,
+      "contacts": 743
+    },
+    {
+      "time_s": 1.7220000000000013,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3384539342349275,
+      "height_m": 0.009326229369055139,
+      "max_speed_m_s": 0.3413028722582828,
+      "contacts": 815
+    },
+    {
+      "time_s": 1.7420000000000013,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33811589958995264,
+      "height_m": 0.008911406063974558,
+      "max_speed_m_s": 0.3508341839454546,
+      "contacts": 841
+    },
+    {
+      "time_s": 1.7620000000000013,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3377664706796511,
+      "height_m": 0.008606009727015085,
+      "max_speed_m_s": 0.3522371974924135,
+      "contacts": 844
+    },
+    {
+      "time_s": 1.7820000000000014,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3374153005083647,
+      "height_m": 0.008369940768789719,
+      "max_speed_m_s": 0.30971354420064884,
+      "contacts": 904
+    },
+    {
+      "time_s": 1.8020000000000014,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33724004316941897,
+      "height_m": 0.008457123546973588,
+      "max_speed_m_s": 0.3125404659845457,
+      "contacts": 807
+    },
+    {
+      "time_s": 1.8220000000000014,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33714395164977745,
+      "height_m": 0.00874270398894883,
+      "max_speed_m_s": 0.31373250869568675,
+      "contacts": 901
+    },
+    {
+      "time_s": 1.8420000000000014,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.337097189896872,
+      "height_m": 0.008779764368808007,
+      "max_speed_m_s": 0.31518798904114753,
+      "contacts": 875
+    },
+    {
+      "time_s": 1.8620000000000014,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3370278260870247,
+      "height_m": 0.010335391856851284,
+      "max_speed_m_s": 0.31288444736862503,
+      "contacts": 859
+    },
+    {
+      "time_s": 1.8820000000000014,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33696455913736056,
+      "height_m": 0.011956639943385472,
+      "max_speed_m_s": 0.3123848252626905,
+      "contacts": 847
+    },
+    {
+      "time_s": 1.9020000000000015,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33689748248502477,
+      "height_m": 0.01362807719443293,
+      "max_speed_m_s": 0.312127734505835,
+      "contacts": 851
+    },
+    {
+      "time_s": 1.9220000000000015,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33682977803582026,
+      "height_m": 0.015301944405144652,
+      "max_speed_m_s": 0.3110329954306373,
+      "contacts": 833
+    },
+    {
+      "time_s": 1.9420000000000015,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3367549532665522,
+      "height_m": 0.016971696253907376,
+      "max_speed_m_s": 0.3115637368294824,
+      "contacts": 815
+    },
+    {
+      "time_s": 1.9620000000000015,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3366714014204089,
+      "height_m": 0.018624347976207822,
+      "max_speed_m_s": 0.31357536550267967,
+      "contacts": 803
+    },
+    {
+      "time_s": 1.9820000000000015,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.336574879434211,
+      "height_m": 0.020236688441809925,
+      "max_speed_m_s": 0.31655094262481714,
+      "contacts": 789
+    },
+    {
+      "time_s": 2.002000000000001,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3364786217612446,
+      "height_m": 0.021779108946762937,
+      "max_speed_m_s": 0.31953115070363647,
+      "contacts": 759
+    },
+    {
+      "time_s": 2.021999999999999,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33636426054322077,
+      "height_m": 0.02327333473690618,
+      "max_speed_m_s": 0.32482939207178574,
+      "contacts": 832
+    },
+    {
+      "time_s": 2.0419999999999967,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3362273986938771,
+      "height_m": 0.024689292956275644,
+      "max_speed_m_s": 0.33071738550216956,
+      "contacts": 805
+    },
+    {
+      "time_s": 2.0619999999999945,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33607418459013066,
+      "height_m": 0.026014514798594734,
+      "max_speed_m_s": 0.3377052861119603,
+      "contacts": 768
+    },
+    {
+      "time_s": 2.0819999999999923,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33590045959945714,
+      "height_m": 0.02724987435521775,
+      "max_speed_m_s": 0.3453553399704566,
+      "contacts": 789
+    },
+    {
+      "time_s": 2.10199999999999,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33569700938901603,
+      "height_m": 0.0283972808291173,
+      "max_speed_m_s": 0.35293530195481176,
+      "contacts": 809
+    },
+    {
+      "time_s": 2.121999999999988,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3354324186545084,
+      "height_m": 0.0294404842571524,
+      "max_speed_m_s": 0.36139618461960005,
+      "contacts": 766
+    },
+    {
+      "time_s": 2.1419999999999857,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3351257022113788,
+      "height_m": 0.030386723392731407,
+      "max_speed_m_s": 0.370306597738694,
+      "contacts": 774
+    },
+    {
+      "time_s": 2.1619999999999835,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33472485125506746,
+      "height_m": 0.031215594893722276,
+      "max_speed_m_s": 0.3801436602117098,
+      "contacts": 762
+    },
+    {
+      "time_s": 2.1819999999999813,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33426174835456374,
+      "height_m": 0.031934503594868824,
+      "max_speed_m_s": 0.3883763802516429,
+      "contacts": 820
+    },
+    {
+      "time_s": 2.201999999999979,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33367396648134745,
+      "height_m": 0.03254880234270585,
+      "max_speed_m_s": 0.3969537369933478,
+      "contacts": 784
+    },
+    {
+      "time_s": 2.221999999999977,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3330088604025743,
+      "height_m": 0.0330636397716082,
+      "max_speed_m_s": 0.40416968434626127,
+      "contacts": 743
+    },
+    {
+      "time_s": 2.2419999999999747,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.33229522010650236,
+      "height_m": 0.03345605827309772,
+      "max_speed_m_s": 0.41102557761445846,
+      "contacts": 734
+    },
+    {
+      "time_s": 2.2619999999999725,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3316267252630559,
+      "height_m": 0.03373110135427848,
+      "max_speed_m_s": 0.416762745422079,
+      "contacts": 699
+    },
+    {
+      "time_s": 2.2819999999999703,
+      "phase": "ROLL ATTEMPT",
+      "proxy_active": true,
+      "length_extent_m": 0.3313832028883384,
+      "height_m": 0.03389434493274446,
+      "max_speed_m_s": 0.4227953608200622,
+      "contacts": 720
+    },
+    {
+      "time_s": 2.301999999999968,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33117614463178596,
+      "height_m": 0.03345573497620857,
+      "max_speed_m_s": 0.7320340923757632,
+      "contacts": 796
+    },
+    {
+      "time_s": 2.321999999999966,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3309838975642626,
+      "height_m": 0.02272142459596449,
+      "max_speed_m_s": 1.4839874861874598,
+      "contacts": 757
+    },
+    {
+      "time_s": 2.3419999999999637,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3308509442029254,
+      "height_m": 0.011876503385480963,
+      "max_speed_m_s": 1.5527337306392222,
+      "contacts": 845
+    },
+    {
+      "time_s": 2.3619999999999615,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3306772235529893,
+      "height_m": 0.010168482467281192,
+      "max_speed_m_s": 0.6906457707438887,
+      "contacts": 839
+    },
+    {
+      "time_s": 2.3819999999999593,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3303687456463669,
+      "height_m": 0.008632570524071737,
+      "max_speed_m_s": 0.608770250350732,
+      "contacts": 829
+    },
+    {
+      "time_s": 2.401999999999957,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33017485802753516,
+      "height_m": 0.010227340235507199,
+      "max_speed_m_s": 0.4945245761439916,
+      "contacts": 770
+    },
+    {
+      "time_s": 2.421999999999955,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3299246035524099,
+      "height_m": 0.01060875919665527,
+      "max_speed_m_s": 0.3709047226091047,
+      "contacts": 773
+    },
+    {
+      "time_s": 2.4419999999999527,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33021796146960136,
+      "height_m": 0.011195797415082587,
+      "max_speed_m_s": 0.42263415863269194,
+      "contacts": 845
+    },
+    {
+      "time_s": 2.4619999999999505,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3314860346649152,
+      "height_m": 0.010123808397635159,
+      "max_speed_m_s": 0.24945452352426278,
+      "contacts": 790
+    },
+    {
+      "time_s": 2.4819999999999482,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3326989107641857,
+      "height_m": 0.009559077693644946,
+      "max_speed_m_s": 0.15911383793420722,
+      "contacts": 850
+    },
+    {
+      "time_s": 2.501999999999946,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3340473133196556,
+      "height_m": 0.008487505239959448,
+      "max_speed_m_s": 0.10588297659295764,
+      "contacts": 865
+    },
+    {
+      "time_s": 2.521999999999944,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3346215467062509,
+      "height_m": 0.008052903331233208,
+      "max_speed_m_s": 0.04552563555311601,
+      "contacts": 937
+    },
+    {
+      "time_s": 2.5419999999999416,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3348110979436005,
+      "height_m": 0.007778784156206475,
+      "max_speed_m_s": 0.04425231283682174,
+      "contacts": 961
+    },
+    {
+      "time_s": 2.5619999999999394,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3350062897491158,
+      "height_m": 0.007718504358029343,
+      "max_speed_m_s": 0.02649346644478202,
+      "contacts": 987
+    },
+    {
+      "time_s": 2.5819999999999372,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3353385457405676,
+      "height_m": 0.007642200034655877,
+      "max_speed_m_s": 0.02802410645515637,
+      "contacts": 975
+    },
+    {
+      "time_s": 2.601999999999935,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.335527355233531,
+      "height_m": 0.007588650307884581,
+      "max_speed_m_s": 0.0278936701017459,
+      "contacts": 976
+    },
+    {
+      "time_s": 2.621999999999933,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3356667383702994,
+      "height_m": 0.007544420711960265,
+      "max_speed_m_s": 0.016073229010568665,
+      "contacts": 974
+    },
+    {
+      "time_s": 2.6419999999999306,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3358716965865562,
+      "height_m": 0.007498655560802425,
+      "max_speed_m_s": 0.017814318951682496,
+      "contacts": 990
+    },
+    {
+      "time_s": 2.6619999999999284,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33605583656403454,
+      "height_m": 0.007473087830698333,
+      "max_speed_m_s": 0.01247177339048212,
+      "contacts": 976
+    },
+    {
+      "time_s": 2.681999999999926,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3362108514637421,
+      "height_m": 0.007435319808062779,
+      "max_speed_m_s": 0.010270498992303754,
+      "contacts": 993
+    },
+    {
+      "time_s": 2.701999999999924,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3363742287512874,
+      "height_m": 0.007422265626408464,
+      "max_speed_m_s": 0.01170061879134036,
+      "contacts": 989
+    },
+    {
+      "time_s": 2.721999999999922,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.336531866357516,
+      "height_m": 0.00738059794346424,
+      "max_speed_m_s": 0.009666163790058059,
+      "contacts": 1000
+    },
+    {
+      "time_s": 2.7419999999999196,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33667805494803316,
+      "height_m": 0.0073651634160813995,
+      "max_speed_m_s": 0.00892293808920549,
+      "contacts": 997
+    },
+    {
+      "time_s": 2.7619999999999174,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33681985422838756,
+      "height_m": 0.007334408949712157,
+      "max_speed_m_s": 0.008536424592538557,
+      "contacts": 1002
+    },
+    {
+      "time_s": 2.781999999999915,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3369606564211995,
+      "height_m": 0.007325670748343227,
+      "max_speed_m_s": 0.008382760430923149,
+      "contacts": 1006
+    },
+    {
+      "time_s": 2.801999999999913,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.337095274514256,
+      "height_m": 0.0072963622288265695,
+      "max_speed_m_s": 0.00887816653642238,
+      "contacts": 1010
+    },
+    {
+      "time_s": 2.821999999999911,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3372248064470893,
+      "height_m": 0.007289888593168925,
+      "max_speed_m_s": 0.008501988349615948,
+      "contacts": 1003
+    },
+    {
+      "time_s": 2.8419999999999086,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33735079205694196,
+      "height_m": 0.007266917303484166,
+      "max_speed_m_s": 0.007440873574097078,
+      "contacts": 1011
+    },
+    {
+      "time_s": 2.8619999999999064,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33747272001424533,
+      "height_m": 0.007258751537545294,
+      "max_speed_m_s": 0.0072068634724730615,
+      "contacts": 1004
+    },
+    {
+      "time_s": 2.881999999999904,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33758786473648783,
+      "height_m": 0.007244110572015239,
+      "max_speed_m_s": 0.007054381952513453,
+      "contacts": 1010
+    },
+    {
+      "time_s": 2.901999999999902,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3377029955315469,
+      "height_m": 0.0072297060563590865,
+      "max_speed_m_s": 0.006885377820607694,
+      "contacts": 1004
+    },
+    {
+      "time_s": 2.9219999999999,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33781511121863,
+      "height_m": 0.007222206240365847,
+      "max_speed_m_s": 0.006738742685513082,
+      "contacts": 1006
+    },
+    {
+      "time_s": 2.9419999999998976,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33792463961457164,
+      "height_m": 0.00720434836708006,
+      "max_speed_m_s": 0.006605974370202346,
+      "contacts": 1008
+    },
+    {
+      "time_s": 2.9619999999998954,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.33803165837535526,
+      "height_m": 0.0071987256581305115,
+      "max_speed_m_s": 0.00648477018735311,
+      "contacts": 1012
+    },
+    {
+      "time_s": 2.981999999999893,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3381369129431405,
+      "height_m": 0.007182322607959701,
+      "max_speed_m_s": 0.007581286969883758,
+      "contacts": 1012
+    },
+    {
+      "time_s": 2.999999999999891,
+      "phase": "RELEASE / OBSERVE",
+      "proxy_active": false,
+      "length_extent_m": 0.3382294611290527,
+      "height_m": 0.007174582505748761,
+      "max_speed_m_s": 0.006263579157935435,
+      "contacts": 1013
+    }
+  ],
+  "source_sha256": "7e96eaad7a3582486d43590cfe8df720b359abe885e0cb1aa9f6fa1b047b84f3"
+}

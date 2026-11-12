@@ -1,0 +1,20 @@
+{
+  "scope": "Each wrist joint independently perturbed by 0.12 rad in PhysX; USD file unchanged.",
+  "cases": {
+    "LeftWrist": {
+      "joint": "Joint7_R",
+      "joint_motion_rad": 0.11999678611755371,
+      "camera_world_matrix_change": 0.09753559725995053,
+      "camera_parent_matrix_error": 2.220446049250313e-16,
+      "other_camera_max_matrix_change": 0.0
+    },
+    "RightWrist": {
+      "joint": "Joint7_L",
+      "joint_motion_rad": 0.11999666690826416,
+      "camera_world_matrix_change": 0.10519390448151322,
+      "camera_parent_matrix_error": 1.1102230246251565e-16,
+      "other_camera_max_matrix_change": 0.0
+    }
+  },
+  "result": "PASS"
+}

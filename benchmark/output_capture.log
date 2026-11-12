@@ -1,0 +1,1225 @@
+Starting kit application with the following args:  ['/home/ubuntu/miniforge3/envs/isaaclab/lib/python3.12/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py', '/home/ubuntu/miniforge3/envs/isaaclab/lib/python3.12/site-packages/isaacsim/apps/isaacsim.exp.base.python.kit', '--/app/tokens/exe-path=/home/ubuntu/miniforge3/envs/isaaclab/lib/python3.12/site-packages/isaacsim/kit', '--/persistent/app/viewport/displayOptions=3094', '--/rtx/materialDb/syncLoads=True', '--/rtx/hydra/materialSyncLoads=True', '--/omni/kit/plugin/syncUsdLoads=True', '--/app/renderer/resolution/width=1280', '--/app/renderer/resolution/height=720', '--/app/window/width=1440', '--/app/window/height=900', '--/renderer/multiGpu/enabled=False', '--/app/fastShutdown=True', '--/app/installSignalHandlers=0', '--ext-folder', '/home/ubuntu/miniforge3/envs/isaaclab/lib/python3.12/site-packages/isaacsim/exts', '--ext-folder', '/home/ubuntu/miniforge3/envs/isaaclab/lib/python3.12/site-packages/isaacsim/apps', '--/renderer/activeGpu=0', '--/physics/cudaDevice=0', '--/plugins/carb.tasking.plugin/threadCount=8', '--/plugins/omni.tbb.globalcontrol/maxThreadCount=8', '--portable', '--no-window', '--/app/window/hideUi=1']
+Passing the following args to the base kit application:  ['--rebuild']
+2026-10-31T15:23:59Z [Info] [carb] Logging to file: /home/ubuntu/miniforge3/envs/isaaclab/lib/python3.12/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim Python/6.0/kit_20261031_232359.log
+2026-10-31T15:23:59Z [2ms] [Error] [carb] No space left on device for creating change watches. Sysctl value `fs.inotify.max_user_watches` may be insufficient. This message is logged once.
+[0.268s] [ext: omni.assets.plugins-0.0.0] startup
+[0.271s] [ext: omni.blobkey-1.1.2] startup
+[0.272s] [ext: omni.kit.async_engine-0.0.3] startup
+[0.343s] [ext: omni.client.lib-1.1.1] startup
+[0.382s] [ext: omni.client-1.3.0] startup
+[0.394s] [ext: omni.protobuf.lib-1.0.0] startup
+[0.400s] [ext: omni.grpc.lib-1.0.0] startup
+[0.415s] [ext: omni.metrics.core-0.0.3] startup
+[0.416s] [ext: omni.datastore-0.0.0] startup
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1793460239.885831 2596203 descriptor_database.cc:633] File already exists in database: grpc/health/v1/health.proto
+W0000 00:00:1793460239.886240 2596203 message.cc:301] Protobuf GeneratedMessageFactory: File is already registered: grpc/health/v1/health.proto
+[0.419s] [ext: omni.gpu_foundation.shadercache.vulkan-1.0.0] startup
+[0.422s] [ext: omni.hsscclient-1.1.4] startup
+[0.424s] [ext: omni.stats-1.0.1] startup
+[0.426s] [ext: omni.ujitso.default-1.0.0] startup
+[0.452s] [ext: omni.gpu_foundation-0.0.0] startup
+[0.764s] [ext: carb.windowing.plugins-1.0.1] startup
+[0.765s] [ext: omni.kit.renderer.init-1.0.1] startup
+2026-10-31T15:24:00Z [601ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+2026-10-31T15:24:00Z [973ms] [Warning] [omni.rtx] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics (ARL)
+2026-10-31T15:24:00Z [973ms] [Warning] [omni.rtx] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics (ARL)
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 595.91.07     | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 5090          | Yes: 0 |     | 32607   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2b85      | 2b8507b9.. |
+|     |                                  |        |     |            | 2         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Graphics (ARL)          |        |     | 47665   MB | 8086      | 0          |
+|     |                                  |        |     |            | 7d67      | 8680677d.. |
+|     |                                  |        |     |            | 0         |            |
+|=============================================================================================|
+| OS: 24.04.4 LTS (Noble Numbat) ubuntu, Version: 24.04.4, Kernel: 7.0.0-34-generic
+| Processor: Intel(R) Core(TM) Ultra 9 285K
+| Cores: 24 | Logical Cores: 24
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 63554 | Free Memory: 42929
+| Total Page/Swap (MB): 8191 | Free Page/Swap: 3284
+|---------------------------------------------------------------------------------------------|
+2026-10-31T15:24:00Z [1,260ms] [Warning] [omni.rtx] CPU performance profile is set to powersave. This profile sets the CPU to the lowest frequency reducing performance.
+2026-10-31T15:24:00Z [1,270ms] [Warning] [omni.rtx] IOMMU is enabled.
+[1.615s] [ext: omni.kit.pipapi-0.0.0] startup
+[1.616s] [ext: omni.kit.telemetry-0.5.2] startup
+[1.641s] [ext: omni.kit.loop-isaac-1.6.0] startup
+[1.643s] [ext: omni.kit.test-2.0.7] startup
+[1.694s] [ext: omni.materialx.libs-1.0.9] startup
+[1.704s] [ext: omni.gpucompute.plugins-0.0.0] startup
+[1.706s] [ext: omni.usd.config-1.0.7] startup
+[1.708s] [ext: omni.usd.libs-1.0.3] startup
+[1.882s] [ext: omni.iray.libs-0.0.1] startup
+[1.927s] [ext: omni.mdl-57.0.3] startup
+[1.968s] [ext: omni.mdl.neuraylib-0.2.20] startup
+[1.971s] [ext: omni.kit.usd.mdl-1.1.9] startup
+[2.109s] [ext: omni.appwindow-1.2.2] startup
+[2.111s] [ext: omni.kit.renderer.core-1.2.2] startup
+2026-10-31T15:24:01Z [1,936ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-10-31T15:24:01Z [1,936ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+[2.146s] [ext: omni.kit.renderer.capture-2.0.1] startup
+[2.149s] [ext: omni.kit.renderer.imgui-2.0.6] startup
+2026-10-31T15:24:01Z [1,962ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-10-31T15:24:01Z [1,962ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+2026-10-31T15:24:01Z [1,964ms] [Warning] [carb.windowing-glfw.plugin] GLFW initialization failed.
+2026-10-31T15:24:01Z [1,964ms] [Warning] [carb] Failed to startup plugin carb.windowing-glfw.plugin (interfaces: [carb::windowing::IGLContext v1.0],[carb::windowing::IWindowing v1.5]) (impl: carb.windowing-glfw.plugin)
+[2.208s] [ext: omni.ui-3.2.0] startup
+[2.223s] [ext: omni.kit.mainwindow-1.0.3] startup
+[2.224s] [ext: carb.audio-0.1.0] startup
+[2.229s] [ext: omni.uiaudio-1.0.0] startup
+[2.230s] [ext: omni.kit.uiapp-0.0.0] startup
+[2.230s] [ext: omni.usd.schema.metrics.assembler-110.1.0] startup
+[2.232s] [ext: omni.usd.schema.audio-0.0.1] startup
+[2.235s] [ext: omni.usd_resolver-1.0.0] startup
+[2.239s] [ext: omni.usd.core-1.8.3] startup
+[2.245s] [ext: omni.metropolis.schema-0.0.3] startup
+[2.246s] [ext: isaacsim.anim.robot.schema-0.1.1] startup
+[2.247s] [ext: omni.usd.schema.anim-0.0.1] startup
+[2.266s] [ext: omni.usd.schema.geospatial-0.0.1] startup
+[2.269s] [ext: omni.usd.schema.omnigraph-1.0.1] startup
+[2.274s] [ext: omni.usd.schema.semantics-0.0.0] startup
+[2.276s] [ext: omni.activity.core-1.0.3] startup
+[2.278s] [ext: omni.cubric-0.1.0] startup
+[2.279s] [ext: omni.graph.exec-0.9.6] startup
+[2.280s] [ext: omni.hydra.scene_delegate-0.3.5] startup
+[2.284s] [ext: usdrt.scenegraph-7.6.3] startup
+[2.321s] [ext: omni.hydra.usdrt_delegate-7.5.2] startup
+[2.330s] [ext: omni.inspect-1.0.2] startup
+[2.332s] [ext: omni.kit.actions.core-1.0.0] startup
+[2.334s] [ext: omni.kit.audiodeviceenum-1.0.2] startup
+[2.336s] [ext: omni.kit.commands-1.5.0] startup
+[2.339s] [ext: omni.kit.exec.core-0.13.5] startup
+[2.341s] [ext: omni.kit.usd_undo-0.1.8] startup
+[2.342s] [ext: omni.kit.window.popup_dialog-2.0.25] startup
+[2.346s] [ext: omni.kit.widget.nucleus_connector-2.3.1] startup
+[2.349s] [ext: omni.timeline-1.1.0] startup
+[2.352s] [ext: omni.usd-1.16.0] startup
+[2.394s] [ext: omni.graph.core-3.1.2] startup
+[2.402s] [ext: omni.kit.notification_manager-1.0.11] startup
+[2.405s] [ext: isaacsim.core.deprecation_manager-0.4.2] startup
+[2.406s] [ext: isaacsim.replicator.agent.schema-0.1.1] startup
+[2.407s] [ext: isaacsim.robot.schema-6.3.7] startup
+[2.411s] [ext: isaacsim.robot_motion.schema-0.2.1] startup
+[2.412s] [ext: omni.anim.behavior.schema-110.1.0] startup
+[2.416s] [ext: omni.anim.graph.schema-110.1.1] startup
+[2.424s] [ext: omni.anim.navigation.schema-110.1.0] startup
+[2.427s] [ext: omni.behavior.tree.schema-110.1.0] startup
+[2.428s] [ext: omni.kit.asset_converter-6.0.1] startup
+[2.451s] [ext: omni.usd.schema.flow-110.0.0] startup
+[2.452s] [ext: omni.usd.schema.mujoco-1.1.1] startup
+[2.453s] [ext: omni.usd.schema.newton-1.2.1] startup
+[2.454s] [ext: omni.usd.schema.omni_lens_distortion-1.0.0] startup
+[2.454s] [ext: omni.usd.schema.omni_projectors-1.0.0] startup
+[2.454s] [ext: omni.usd.schema.omni_sensors-0.0.0] startup
+[2.462s] [ext: omni.usd.schema.omniscripting-1.0.1] startup
+[2.466s] [ext: omni.usd.schema.physical_lighting-0.1.0] startup
+[2.469s] [ext: omni.usd.schema.physx-110.1.13] startup
+[2.505s] [ext: omni.usd.schema.render_settings.rtx-1.0.2] startup
+[2.509s] [ext: omni.usd.schema.usd_particle_field-1.0.0] startup
+[2.509s] [ext: isaacsim.core.version-2.1.1] startup
+[2.510s] [ext: omni.kit.menu.core-1.2.0] startup
+[2.510s] [ext: omni.kit.menu.utils-2.2.4] startup
+[2.516s] [ext: isaacsim.app.about-2.3.1] startup
+[2.523s] [ext: isaacsim.asset.transformer-1.2.5] startup
+[2.526s] [ext: omni.scene.optimizer.core-110.1.0] startup
+[2.586s] [ext: isaacsim.asset.importer.utils-1.8.1] startup
+[2.589s] [ext: omni.convexdecomposition-110.1.13] startup
+[2.592s] [ext: omni.physics-110.1.13] startup
+[2.597s] [ext: omni.physx.gpu-110.1.13] startup
+[2.597s] [ext: omni.physx.foundation-110.1.13] startup
+[2.600s] [ext: omni.usdphysics-110.1.13] startup
+[2.602s] [ext: omni.physx.cooking-110.1.13] startup
+[2.606s] [ext: omni.physx-110.1.13] startup
+[2.621s] [ext: omni.physics.physx-110.1.13] startup
+[2.624s] [ext: isaacsim.asset.exporter.urdf-2.0.5] startup
+[2.630s] [ext: omni.kit.clipboard-1.1.1] startup
+[2.631s] [ext: omni.kit.usd.layers-2.6.1] startup
+[2.640s] [ext: omni.kit.widget.context_menu-1.4.0] startup
+[2.641s] [ext: omni.kit.context_menu-1.9.0] startup
+[2.642s] [ext: omni.kit.helper.file_utils-0.1.10] startup
+[2.644s] [ext: omni.kit.widget.nucleus_info-2.0.2] startup
+[2.644s] [ext: omni.kit.search_core-1.0.8] startup
+[2.645s] [ext: omni.kit.widget.path_field-2.0.13] startup
+[2.645s] [ext: omni.kit.widget.browser_bar-2.0.10] startup
+[2.646s] [ext: omni.kit.widget.filebrowser-2.13.4] startup
+[2.651s] [ext: omni.kit.widget.options_menu-1.1.6] startup
+[2.653s] [ext: omni.kit.widget.options_button-1.0.3] startup
+[2.653s] [ext: omni.kit.widget.search_delegate-1.0.9] startup
+[2.654s] [ext: omni.ui.scene-2.0.3] startup
+[2.661s] [ext: omni.kit.window.filepicker-2.15.5] startup
+[2.674s] [ext: omni.kit.window.file_importer-1.1.21] startup
+[2.676s] [ext: omni.kit.material.library-3.1.2] startup
+[2.682s] [ext: isaacsim.asset.transformer.rules-1.7.10] startup
+[2.692s] [ext: omni.usdex.libs-2.2.2] startup
+[2.703s] [ext: isaacsim.asset.importer.mjcf-3.10.1] startup
+[2.705s] [ext: isaacsim.asset.importer.urdf-3.11.2] startup
+[2.708s] [ext: omni.kit.primitive.mesh-1.1.0] startup
+[2.711s] [ext: omni.kit.stage_template.core-1.1.22] startup
+[2.711s] [ext: omni.kit.stage_templates-2.0.2] startup
+[2.712s] [ext: omni.usd.metrics.assembler-110.1.2] startup
+[2.716s] [ext: omni.warp.core-1.13.0] startup
+[2.818s] [ext: isaacsim.core.experimental.utils-0.17.2] startup
+[2.819s] [ext: omni.physics.stageupdate-110.1.13] startup
+[2.821s] [ext: omni.physics.tensors-110.1.13] startup
+[2.827s] [ext: omni.physx.tensors-110.1.13] startup
+[2.832s] [ext: isaacsim.core.simulation_manager-1.15.6] startup
+[2.844s] [ext: isaacsim.storage.native-1.9.3] startup
+[2.846s] [ext: omni.usd.metrics.assembler.physics-110.1.13] startup
+[2.847s] [ext: isaacsim.core.utils-4.1.7] startup
+[2.850s] [ext: isaacsim.core.prims-0.11.7] startup
+[4.346s] [ext: isaacsim.core.api-5.2.13] startup
+[4.356s] [ext: isaacsim.core.cloner-1.7.3] startup
+[4.358s] [ext: isaacsim.test.docstring-1.3.2] startup
+[4.362s] [ext: isaacsim.core.experimental.prims-1.8.9] startup
+[4.379s] [ext: isaacsim.core.experimental.primdata-0.3.2] startup
+[4.381s] [ext: omni.graph.tools-1.81.0] startup
+[4.404s] [ext: omni.graph-1.142.5] startup
+[4.439s] [ext: isaacsim.core.experimental.actuators-0.1.2] startup
+[4.452s] [ext: isaacsim.core.experimental.materials-0.7.1] startup
+[4.457s] [ext: isaacsim.core.experimental.objects-0.8.1] startup
+[4.515s] [ext: omni.hydra.engine.stats-1.0.5] startup
+[4.518s] [ext: omni.hydra.rtx.shadercache.vulkan-1.0.0] startup
+[4.519s] [ext: omni.index.libs-387500.4413.0] startup
+[4.519s] [ext: omni.index-1.0.1] startup
+[4.521s] [ext: omni.ujitso.client-0.0.0] startup
+[4.521s] [ext: omni.usd.schema.playback-1.0.0] startup
+[4.525s] [ext: omni.volume-0.5.2] startup
+[4.537s] [ext: omni.hydra.rtx-1.0.4] startup
+2026-10-31T15:24:04Z [4,399ms] [Warning] [omni.log] Source: omni.hydra was already registered.
+[4.638s] [ext: omni.kit.hydra_texture-1.6.0] startup
+[4.642s] [ext: omni.kit.raycast.query-1.2.0] startup
+[4.647s] [ext: omni.kit.viewport.legacy_gizmos-1.0.24] startup
+[4.650s] [ext: omni.kit.viewport.registry-104.0.6] startup
+[4.651s] [ext: omni.kit.viewport.scene_camera_model-1.0.7] startup
+[4.655s] [ext: omni.kit.widget.viewport-109.2.0] startup
+[4.660s] [ext: omni.kit.window.drop_support-1.0.8] startup
+[4.661s] [ext: omni.kit.viewport.window-109.0.2] startup
+[4.677s] [ext: omni.kit.viewport.utility-2.0.1] startup
+[4.678s] [ext: isaacsim.core.rendering_manager-0.4.3] startup
+[4.689s] [ext: omni.graph.action_core-1.1.9] startup
+[4.693s] [ext: omni.graph.action_nodes_core-2.11.0] startup
+[4.697s] [ext: omni.graph.action_nodes-2.11.0] startup
+[4.718s] [ext: omni.graph.action-2.10.2] startup
+[4.719s] [ext: omni.graph.image.core-0.6.1] startup
+[4.721s] [ext: omni.graph.image.nodes-1.3.1] startup
+[4.723s] [ext: omni.graph.nodes_core-2.11.0] startup
+[4.745s] [ext: omni.graph.nodes-2.12.0] startup
+[4.764s] [ext: omni.kit.hotkeys.core-1.3.12] startup
+[4.765s] [ext: omni.kit.property.adapter.core-1.1.1] startup
+[4.768s] [ext: omni.kit.property.adapter.usd-1.0.5] startup
+[4.769s] [ext: omni.kit.widget.filter-1.1.5] startup
+[4.770s] [ext: omni.kit.widget.highlight_label-1.0.3] startup
+[4.772s] [ext: omni.kit.widget.searchfield-1.1.8] startup
+[4.773s] [ext: omni.kit.window.file_exporter-1.0.36] startup
+[4.774s] [ext: omni.kit.widget.stage-4.4.0] startup
+[4.786s] [ext: omni.kit.window.content_browser_registry-0.0.6] startup
+[4.788s] [ext: omni.kit.window.file-2.0.10] startup
+[4.792s] [ext: omni.kit.window.content_browser-3.1.8] startup
+[4.803s] [ext: omni.kit.window.property-1.15.1] startup
+[4.819s] [ext: omni.kit.property.usd-4.9.4] startup
+[4.832s] [ext: omni.graph.scriptnode-2.10.2] startup
+[4.841s] [ext: omni.kit.widget.searchable_combobox-1.0.7] startup
+[4.842s] [ext: omni.kit.widget.settings-2.0.0] startup
+[4.845s] [ext: omni.kit.window.preferences-1.8.3] startup
+[4.853s] [ext: omni.kit.viewport.menubar.core-107.2.2] startup
+[4.871s] [ext: omni.syntheticdata-0.6.15] startup
+[4.910s] [ext: omni.replicator.nv-1.1.1] startup
+[4.917s] [ext: omni.videoencoding-0.2.1] startup
+[4.920s] [ext: omni.replicator.core-1.13.27] startup
+2026-10-31T15:24:04Z [4,745ms] [Warning] [pxr.Semantics] pxr.Semantics is deprecated - please use Semantics instead
+Warp 1.13.0 initialized:
+   CUDA Toolkit 12.9, Driver 13.2
+   Devices:
+     "cpu"      : "x86_64"
+     "cuda:0"   : "NVIDIA GeForce RTX 5090" (31 GiB, sm_120, mempool enabled)
+   Kernel cache:
+     /home/ubuntu/.cache/warp/1.13.0
+2026-10-31T15:24:04Z [5,015ms] [Warning] [omni.replicator.core.scripts.extension] No material configuration file, adding configuration to material settings directly.
+[5.346s] [ext: isaacsim.core.nodes-5.10.5] startup
+[5.376s] [ext: isaacsim.core.throttling-2.3.5] startup
+[5.377s] [ext: omni.kit.manipulator.viewport-107.0.1] startup
+[5.378s] [ext: omni.graph.visualization.nodes-2.1.4] startup
+[5.391s] [ext: omni.kit.window.extensions-1.5.10] startup
+[5.397s] [ext: isaacsim.gui.components-1.8.5] startup
+[5.402s] [ext: isaacsim.robot.surface_gripper-3.6.2] startup
+[5.413s] [ext: isaacsim.robot.manipulators-3.4.4] startup
+[5.422s] [ext: isaacsim.robot_motion.lula-4.1.3] startup
+[5.438s] [ext: isaacsim.robot_motion.motion_generation-8.2.9] startup
+[5.445s] [ext: isaacsim.cortex.framework-1.0.18] startup
+[5.446s] [ext: isaacsim.cortex.behaviors-2.0.17] startup
+[5.448s] [ext: isaacsim.examples.base-1.3.2] startup
+[5.450s] [ext: omni.kit.widget.zoombar-1.0.7] startup
+[5.451s] [ext: omni.kit.browser.core-2.3.18] startup
+[5.456s] [ext: omni.kit.browser.folder.core-2.0.2] startup
+[5.462s] [ext: omni.kit.widget.stage_icons-1.0.8] startup
+[5.463s] [ext: omni.kit.window.stage-2.6.1] startup
+[5.467s] [ext: omni.kit.menu.stage-1.2.7] startup
+[5.468s] [ext: omni.kit.usd.collect-3.0.6] startup
+[5.470s] [ext: omni.kit.widget.prompt-1.0.7] startup
+[5.471s] [ext: omni.kit.tool.collect-2.2.19] startup
+[5.473s] [ext: isaacsim.examples.browser-0.3.2] startup
+[5.476s] [ext: omni.kit.search.files-1.0.4] startup
+[5.477s] [ext: omni.kit.widget.calendar-1.0.9] startup
+[5.478s] [ext: omni.kit.widget.extended_searchfield-1.0.31] startup
+[5.485s] [ext: omni.simready.content.browser-0.3.7] startup
+[5.572s] [ext: isaacsim.gui.content_browser-0.4.3] startup
+[5.575s] [ext: omni.kit.selection-0.1.6] startup
+[5.576s] [ext: isaacsim.gui.menu-2.10.5] startup
+[5.583s] [ext: isaacsim.gui.property-1.6.4] startup
+[5.591s] [ext: omni.kit.viewport.actions-110.0.0] startup
+[5.595s] [ext: omni.kit.viewport.menubar.display-107.1.3] startup
+[5.597s] [ext: isaacsim.gui.sensors.icon-2.2.1] startup
+[5.600s] [ext: omni.behavior.scripting.core-110.1.0] startup
+[5.603s] [ext: isaacsim.replicator.behavior-1.5.4] startup
+[5.604s] [ext: isaacsim.replicator.experimental.domain_randomization-1.2.5] startup
+[5.618s] [ext: isaacsim.replicator.domain_randomization-1.2.2] startup
+[5.677s] [ext: isaacsim.replicator.writers-1.5.4] startup
+[5.701s] [ext: isaacsim.robot.experimental.wheeled_robots-0.2.11] startup
+[5.720s] [ext: isaacsim.robot.policy.examples-5.2.12] startup
+[5.738s] [ext: isaacsim.robot.wheeled_robots-5.2.4] startup
+[5.742s] [ext: isaacsim.robot.wheeled_robots.nodes-0.1.5] startup
+[5.759s] [ext: isaacsim.robot_motion.experimental.motion_generation-6.1.3] startup
+[5.768s] [ext: isaacsim.robot_motion.cumotion-1.3.1] startup
+[5.787s] [ext: omni.kit.numpy.common-0.1.3] startup
+[5.789s] [ext: isaacsim.sensors.camera-1.7.9] startup
+[5.810s] [ext: isaacsim.sensors.experimental.physics-3.0.2] startup
+[5.818s] [ext: omni.sensors.net-1.0.1] startup
+[5.823s] [ext: omni.sensors.nv.common-3.0.0] startup
+[5.911s] [ext: omni.sensors.nv.materials-2.0.0] startup
+[5.919s] [ext: omni.sensors.nv.acoustic-3.0.0] startup
+[5.927s] [ext: omni.sensors.nv.ids-2.0.1] startup
+[5.931s] [ext: omni.sensors.nv.lidar-3.0.0] startup
+[5.939s] [ext: omni.sensors.nv.radar-3.0.0] startup
+[5.944s] [ext: isaacsim.sensors.experimental.rtx-1.4.6] startup
+[6.112s] [ext: isaacsim.sensors.physics.nodes-1.5.3] startup
+[6.119s] [ext: isaacsim.util.debug_draw-3.2.3] startup
+[6.134s] [ext: isaacsim.sensors.physx-2.5.5] startup
+[6.143s] [ext: isaacsim.sensors.rtx-15.17.1] startup
+[6.155s] [ext: isaacsim.simulation_app-2.18.4] startup
+[6.155s] [ext: omni.anim.curve.core-1.6.0] startup
+[6.178s] [ext: omni.graph.ui_nodes-2.11.1] startup
+[6.219s] [ext: omni.hydra.scene_api-0.1.3] startup
+[6.227s] [ext: omni.kit.manipulator.camera-110.0.0] startup
+[6.232s] [ext: omni.kit.manipulator.selector-1.1.4] startup
+[6.234s] [ext: omni.kit.manipulator.transform-107.0.0] startup
+[6.240s] [ext: omni.kit.widget.toolbar-2.1.0] startup
+[6.249s] [ext: omni.kit.manipulator.tool.snap-1.5.14] startup
+[6.254s] [ext: omni.kit.viewport.manipulator.transform-107.0.4] startup
+[6.256s] [ext: omni.kit.manipulator.prim.core-108.0.2] startup
+[6.262s] [ext: omni.kit.manipulator.prim.usd-107.0.3] startup
+[6.264s] [ext: omni.kit.manipulator.prim-108.0.0] startup
+[6.264s] [ext: omni.kit.manipulator.selection-109.0.1] startup
+[6.265s] [ext: omni.kit.menu.create-2.0.2] startup
+[6.266s] [ext: omni.kit.property.audio-1.0.16] startup
+[6.270s] [ext: omni.kit.property.camera-1.0.14] startup
+[6.272s] [ext: omni.kit.property.geometry-2.1.2] startup
+[6.275s] [ext: omni.kit.property.light-1.0.14] startup
+2026-10-31T15:24:05Z [6,114ms] [Warning] [omni.usd] Encountered USD Warnings but USD Diagnostics are currently muted. To view USD Warnings, please set the '/persistent/app/usd/muteUsdDiagnostics' setting to false in Preferences page.
+[6.313s] [ext: omni.kit.property.material-1.14.6] startup
+[6.320s] [ext: omni.kit.property.render-1.2.2] startup
+[6.321s] [ext: omni.kit.property.transform-1.6.9] startup
+[6.325s] [ext: omni.kit.property.bundle-1.5.1] startup
+[6.326s] [ext: omni.kit.usdz_export-1.1.0] startup
+[6.329s] [ext: omni.kit.tool.asset_importer-6.0.1] startup
+[6.334s] [ext: omni.kit.ui.actions-1.0.5] startup
+[6.336s] [ext: omni.kit.viewport.menubar.camera-107.0.10] startup
+[6.340s] [ext: omni.kit.viewport.menubar.lighting-107.3.2] startup
+[6.343s] [ext: omni.kit.viewport.menubar.render-110.0.0] startup
+[6.345s] [ext: omni.kit.viewport.menubar.settings-110.0.1] startup
+[6.348s] [ext: omni.kit.window.console-1.1.9] startup
+[6.353s] [ext: omni.kit.window.status_bar-0.1.11] startup
+[6.356s] [ext: omni.kit.window.toolbar-3.0.3] startup
+[6.359s] [ext: omni.ocio-0.1.1] startup
+[6.360s] [ext: omni.physx.commands-110.1.13] startup
+[6.363s] [ext: omni.replicator.replicator_yaml-2.0.12] startup
+[6.371s] [ext: omni.rtx.window.settings-0.8.0] startup
+[6.376s] [ext: omni.rtx.settings.core-0.7.1] startup
+[6.379s] [ext: omni.usd.metrics.assembler.ui-110.1.1] startup
+[6.385s] [ext: semantics.schema.editor-2.0.2] startup
+[6.388s] [ext: semantics.schema.property-2.0.2] startup
+[6.390s] [ext: omni.kit.menu.common-2.0.2] startup
+[6.391s] [ext: isaacsim.exp.base-6.0.1] startup
+[6.392s] [ext: isaacsim.exp.base.python-6.0.1] startup
+[6.394s] Simulation App Starting
+[7.939s] Simulation App Startup Complete
+[7.947s] app ready
+REBUILD build_scene.py
+Saved standalone dealer_table.usdc
+REBUILD build_task_scenes.py
+Built 10 task scenes
+01_pick_spoon 031_spoon
+02_pick_knife 032_knife
+10_pick_scissors 037_scissors
+REBUILD build_sharpa_scenes.py
+Built 72 local prototype layers. Official coverage and live simulation NOT verified.
+REBUILD_DONE
+SCENE 1 83 01_pick_spoon
+2026-10-31T15:24:10Z [11,154ms] [Warning] [omni.syntheticdata.plugin] OgnSdPostRenderVarToHost : rendervar copy from texture directly to host buffer is counter-performant. Please use copy from texture to device buffer first.
+2026-10-31T15:24:13Z [14,067ms] [Warning] [carb] Client omni.hydratexture.plugin has acquired [carb::settings::ISettings v1.1] 100 times. Consider accessing this interface with carb::getCachedInterface() (Performance warning)
+CAPTURED 01_pick_spoon
+SCENE 2 83 02_pick_knife
+2026-10-31T15:24:14Z [14,361ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:24:14Z [14,933ms] [Warning] [carb] Client omni.hydratexture.plugin has acquired [carb::dictionary::IDictionary v1.2] 100 times. Consider accessing this interface with carb::getCachedInterface() (Performance warning)
+CAPTURED 02_pick_knife
+SCENE 3 83 03_pick_phone
+2026-10-31T15:24:16Z [17,285ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:24:17Z [17,940ms] [Warning] [carb] Client omni.kit.viewport.legacy_gizmos has acquired [carb::settings::ISettings v1.1] 100 times. Consider accessing this interface with carb::getCachedInterface() (Performance warning)
+2026-10-31T15:24:17Z [17,940ms] [Warning] [carb] Client omni.kit.viewport.legacy_gizmos has acquired [carb::dictionary::IDictionary v1.2] 100 times. Consider accessing this interface with carb::getCachedInterface() (Performance warning)
+CAPTURED 03_pick_phone
+SCENE 4 83 04_phone_portrait_to_landscape
+2026-10-31T15:24:19Z [20,228ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED 04_phone_portrait_to_landscape
+SCENE 5 83 05_flip_phone
+2026-10-31T15:24:22Z [23,000ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED 05_flip_phone
+SCENE 6 83 06_reorient_battery
+2026-10-31T15:24:25Z [25,578ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED 06_reorient_battery
+SCENE 7 83 07_reorient_lighter
+2026-10-31T15:24:27Z [28,259ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED 07_reorient_lighter
+SCENE 8 83 08_pick_lipstick
+2026-10-31T15:24:30Z [30,968ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED 08_pick_lipstick
+SCENE 9 83 09_rotate_cotton_swab
+2026-10-31T15:24:33Z [33,548ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED 09_rotate_cotton_swab
+SCENE 10 83 10_pick_scissors
+2026-10-31T15:24:35Z [36,282ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED 10_pick_scissors
+SCENE 11 83 sharpa_baton_catching
+2026-10-31T15:24:38Z [39,177ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_baton_catching
+SCENE 12 83 sharpa_camera_photography
+2026-10-31T15:24:41Z [41,727ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:24:41Z [41,818ms] [Warning] [omni.fabric.plugin] Unsupported type encountered during VtValue extraction
+2026-10-31T15:24:41Z [41,818ms] [Warning] [omni.fabric.plugin] Attempting to set an invalid data source to array attribute
+
+2026-10-31T15:24:41Z [41,859ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/camera_body': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:41Z [41,859ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/camera_body': widths primvar is not valid!
+2026-10-31T15:24:41Z [42,084ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/camera_body': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:41Z [42,084ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/camera_body': widths primvar is not valid!
+2026-10-31T15:24:42Z [42,618ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/camera_body': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:42Z [42,618ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/camera_body': widths primvar is not valid!
+2026-10-31T15:24:42Z [43,018ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/camera_body': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:42Z [43,018ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/camera_body': widths primvar is not valid!
+2026-10-31T15:24:43Z [43,404ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/camera_body': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:43Z [43,404ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/camera_body': widths primvar is not valid!
+2026-10-31T15:24:43Z [43,776ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/camera_body': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:43Z [43,777ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/camera_body': widths primvar is not valid!
+2026-10-31T15:24:43Z [44,128ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/camera_body': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:43Z [44,128ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/camera_body': widths primvar is not valid!
+CAPTURED sharpa_camera_photography
+SCENE 13 83 sharpa_card_dealing
+2026-10-31T15:24:44Z [44,399ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:24:44Z [44,525ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [44,525ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:24:44Z [44,526ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [44,526ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:24:44Z [44,526ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [44,526ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:24:44Z [44,526ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [44,526ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:24:44Z [44,526ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [44,526ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:24:44Z [44,752ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [44,752ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [44,752ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [44,752ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [44,752ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:24:44Z [44,752ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:24:44Z [44,752ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [44,752ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:24:44Z [44,752ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:24:44Z [44,752ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:24:44Z [45,330ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [45,330ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [45,330ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [45,330ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [45,330ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:44Z [45,330ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:24:44Z [45,330ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:24:44Z [45,330ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:24:44Z [45,330ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:24:44Z [45,330ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:24:45Z [45,739ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:45Z [45,739ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:45Z [45,739ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:45Z [45,739ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:45Z [45,739ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:45Z [45,739ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:24:45Z [45,739ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:24:45Z [45,739ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:24:45Z [45,739ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:24:45Z [45,739ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:24:45Z [46,132ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:45Z [46,132ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:45Z [46,132ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:45Z [46,132ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:45Z [46,132ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:45Z [46,132ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:24:45Z [46,132ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:24:45Z [46,132ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:24:45Z [46,132ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:24:45Z [46,132ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:24:46Z [46,485ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:46Z [46,485ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:46Z [46,485ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:46Z [46,485ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:24:46Z [46,485ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:46Z [46,485ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:24:46Z [46,485ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:46Z [46,485ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:24:46Z [46,485ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:24:46Z [46,485ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:24:46Z [46,837ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:46Z [46,837ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:46Z [46,837ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:24:46Z [46,837ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:46Z [46,837ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:24:46Z [46,837ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:24:46Z [46,837ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:46Z [46,837ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:24:46Z [46,837ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:46Z [46,837ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+CAPTURED sharpa_card_dealing
+SCENE 14 83 sharpa_demo_apple_peeling
+2026-10-31T15:24:46Z [47,097ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_demo_apple_peeling
+SCENE 15 83 sharpa_demo_bartending
+2026-10-31T15:24:49Z [50,003ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:24:49Z [50,133ms] [Warning] [carb] Client omni.kit.viewport.legacy_gizmos has acquired [carb::input::IInput v1.2] 100 times. Consider accessing this interface with carb::getCachedInterface() (Performance warning)
+CAPTURED sharpa_demo_bartending
+SCENE 16 83 sharpa_demo_dessert_service
+2026-10-31T15:24:52Z [52,819ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_demo_dessert_service
+SCENE 17 83 sharpa_demo_gpu_installation
+2026-10-31T15:24:55Z [55,517ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:24:55Z [55,650ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:55Z [55,650ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:24:55Z [55,973ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:55Z [55,973ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:24:56Z [56,489ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:56Z [56,489ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:24:56Z [56,894ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:56Z [56,894ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:24:56Z [57,276ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:56Z [57,276ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:24:57Z [57,632ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:57Z [57,632ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:24:57Z [57,995ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:24:57Z [57,995ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+CAPTURED sharpa_demo_gpu_installation
+SCENE 18 83 sharpa_demo_needle_threading
+2026-10-31T15:24:57Z [58,255ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_demo_needle_threading
+SCENE 19 83 sharpa_demo_paper_cutting
+2026-10-31T15:25:00Z [60,789ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_demo_paper_cutting
+SCENE 20 83 sharpa_demo_pen_spinning
+2026-10-31T15:25:03Z [63,407ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_demo_pen_spinning
+SCENE 21 83 sharpa_demo_screwdriver_use
+2026-10-31T15:25:05Z [66,132ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_demo_screwdriver_use
+SCENE 22 83 sharpa_dex_assemble_gears_on_base
+2026-10-31T15:25:08Z [68,951ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_assemble_gears_on_base
+SCENE 23 83 sharpa_dex_clean_garment_with_lint_roller
+2026-10-31T15:25:11Z [71,653ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_clean_garment_with_lint_roller
+SCENE 24 83 sharpa_dex_clean_knife_with_cloth
+2026-10-31T15:25:14Z [74,404ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_clean_knife_with_cloth
+SCENE 25 83 sharpa_dex_clean_plate_with_eraser
+2026-10-31T15:25:16Z [76,955ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_clean_plate_with_eraser
+SCENE 26 83 sharpa_dex_close_kraft_paper_box
+2026-10-31T15:25:19Z [79,687ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_close_kraft_paper_box
+SCENE 27 83 sharpa_dex_collect_toys_into_basket
+2026-10-31T15:25:22Z [82,509ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:25:22Z [82,646ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:22Z [82,646ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:22Z [82,646ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:22Z [82,646ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:22Z [82,929ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:22Z [82,929ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:22Z [82,929ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:22Z [82,929ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:23Z [83,449ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:23Z [83,449ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:23Z [83,449ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:23Z [83,449ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:23Z [83,855ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:23Z [83,855ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:23Z [83,855ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:23Z [83,855ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:23Z [84,248ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:23Z [84,248ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:23Z [84,248ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:23Z [84,248ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:24Z [84,592ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:24Z [84,592ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:24Z [84,592ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:24Z [84,592ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:24Z [84,961ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:24Z [84,961ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:24Z [84,962ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:24Z [84,962ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+CAPTURED sharpa_dex_collect_toys_into_basket
+SCENE 28 83 sharpa_dex_collect_waste_into_bin
+2026-10-31T15:25:24Z [85,240ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_collect_waste_into_bin
+SCENE 29 83 sharpa_dex_cover_ball_with_cup
+2026-10-31T15:25:27Z [87,834ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:25:27Z [87,974ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:27Z [87,974ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:27Z [88,267ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:27Z [88,267ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:28Z [88,799ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:28Z [88,799ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:28Z [89,218ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:28Z [89,218ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:29Z [89,645ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:29Z [89,645ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:29Z [89,998ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:29Z [89,998ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:30Z [90,365ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:30Z [90,365ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+CAPTURED sharpa_dex_cover_ball_with_cup
+SCENE 30 83 sharpa_dex_deal_playing_cards
+2026-10-31T15:25:30Z [90,646ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:25:30Z [90,785ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:30Z [90,785ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:25:30Z [90,785ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:30Z [90,785ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:25:30Z [90,785ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:30Z [90,785ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:25:30Z [90,785ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:30Z [90,785ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:25:30Z [90,786ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:30Z [90,786ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:25:30Z [91,062ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:30Z [91,062ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:30Z [91,062ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:25:30Z [91,062ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:30Z [91,062ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:30Z [91,062ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:30Z [91,062ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:25:30Z [91,062ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:25:30Z [91,062ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:25:30Z [91,062ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:25:31Z [91,592ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:31Z [91,592ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:31Z [91,592ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:31Z [91,592ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:31Z [91,592ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:31Z [91,592ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:25:31Z [91,592ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:25:31Z [91,592ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:25:31Z [91,592ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:25:31Z [91,592ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:25:31Z [91,990ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:31Z [91,990ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:31Z [91,990ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:31Z [91,990ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:31Z [91,990ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:31Z [91,990ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:25:31Z [91,990ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:25:31Z [91,990ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:25:31Z [91,990ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:25:31Z [91,990ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:25:32Z [92,380ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [92,380ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [92,380ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [92,380ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [92,380ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:25:32Z [92,380ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:25:32Z [92,380ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:25:32Z [92,380ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [92,380ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:25:32Z [92,380ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:25:32Z [92,732ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [92,732ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:25:32Z [92,732ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [92,732ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [92,732ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [92,732ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [92,732ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:25:32Z [92,732ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:25:32Z [92,732ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:25:32Z [92,732ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+2026-10-31T15:25:32Z [93,116ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [93,116ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_5': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [93,116ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [93,116ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_4': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [93,116ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/card_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:32Z [93,117ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_2': widths primvar is not valid!
+2026-10-31T15:25:32Z [93,117ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_4': widths primvar is not valid!
+2026-10-31T15:25:32Z [93,117ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_1': widths primvar is not valid!
+2026-10-31T15:25:32Z [93,117ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_5': widths primvar is not valid!
+2026-10-31T15:25:32Z [93,117ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/card_3': widths primvar is not valid!
+CAPTURED sharpa_dex_deal_playing_cards
+SCENE 31 83 sharpa_dex_empty_dustpan_into_bin
+2026-10-31T15:25:33Z [93,383ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:25:33Z [93,522ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:33Z [93,522ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:33Z [93,522ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:33Z [93,522ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:25:33Z [93,636ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:33Z [93,636ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:33Z [93,636ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:33Z [93,636ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:25:33Z [94,163ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:33Z [94,163ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:33Z [94,163ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:33Z [94,163ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:25:34Z [94,574ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:34Z [94,574ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:34Z [94,574ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:34Z [94,574ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:25:34Z [94,965ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:34Z [94,965ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:34Z [94,965ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:34Z [94,965ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:25:34Z [95,321ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:34Z [95,321ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:34Z [95,321ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:34Z [95,321ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:25:35Z [95,679ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:35Z [95,679ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:35Z [95,679ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:35Z [95,679ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+CAPTURED sharpa_dex_empty_dustpan_into_bin
+SCENE 32 83 sharpa_dex_fit_trash_bag_into_bin
+2026-10-31T15:25:35Z [95,978ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_fit_trash_bag_into_bin
+SCENE 33 83 sharpa_dex_fold_and_close_box
+2026-10-31T15:25:38Z [98,773ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_fold_and_close_box
+SCENE 34 83 sharpa_dex_fold_towel
+2026-10-31T15:25:41Z [101,488ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_fold_towel
+SCENE 35 83 sharpa_dex_form_kraft_paper_box
+2026-10-31T15:25:43Z [104,092ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_form_kraft_paper_box
+SCENE 36 83 sharpa_dex_grind_medicine_with_mortar_and_pestle
+2026-10-31T15:25:47Z [107,365ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_grind_medicine_with_mortar_and_pestle
+SCENE 37 83 sharpa_dex_hammer_nails
+2026-10-31T15:25:50Z [110,539ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_hammer_nails
+SCENE 38 83 sharpa_dex_hang_garment_on_hanger
+2026-10-31T15:25:53Z [113,520ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_hang_garment_on_hanger
+SCENE 39 83 sharpa_dex_insert_batteries_into_charger
+2026-10-31T15:25:55Z [116,109ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:25:55Z [116,247ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:55Z [116,247ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:55Z [116,247ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:55Z [116,247ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:56Z [116,577ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:56Z [116,577ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:56Z [116,577ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:56Z [116,577ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:56Z [117,094ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:56Z [117,094ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:56Z [117,094ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:56Z [117,094ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:57Z [117,498ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:57Z [117,498ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:57Z [117,498ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:57Z [117,498ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:57Z [117,908ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:57Z [117,908ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:57Z [117,908ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:57Z [117,908ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:57Z [118,262ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:57Z [118,262ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:57Z [118,262ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:57Z [118,262ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:25:58Z [118,615ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:58Z [118,615ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:25:58Z [118,615ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:25:58Z [118,615ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+CAPTURED sharpa_dex_insert_batteries_into_charger
+SCENE 40 83 sharpa_dex_insert_batteries_into_device
+2026-10-31T15:25:58Z [118,880ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_insert_batteries_into_device
+SCENE 41 83 sharpa_dex_insert_knife_into_cutlery_bin
+2026-10-31T15:26:01Z [121,752ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:26:01Z [121,916ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:01Z [121,916ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:01Z [122,305ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:01Z [122,305ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:02Z [122,845ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:02Z [122,845ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:02Z [123,253ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:02Z [123,253ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:03Z [123,647ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:03Z [123,647ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:03Z [124,010ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:03Z [124,010ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:04Z [124,380ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:04Z [124,380ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+CAPTURED sharpa_dex_insert_knife_into_cutlery_bin
+SCENE 42 83 sharpa_dex_insert_plug_into_socket
+2026-10-31T15:26:04Z [124,655ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_insert_plug_into_socket
+SCENE 43 83 sharpa_dex_insert_socket_module_into_board
+2026-10-31T15:26:07Z [127,653ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_insert_socket_module_into_board
+SCENE 44 83 sharpa_dex_iron_garment
+2026-10-31T15:26:10Z [131,050ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_iron_garment
+SCENE 45 83 sharpa_dex_nest_cups
+2026-10-31T15:26:13Z [133,980ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_nest_cups
+SCENE 46 83 sharpa_dex_organize_objects_in_drawer
+2026-10-31T15:26:16Z [136,764ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_organize_objects_in_drawer
+SCENE 47 83 sharpa_dex_pack_blueberries_in_bag
+2026-10-31T15:26:19Z [139,359ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_pack_blueberries_in_bag
+SCENE 48 83 sharpa_dex_pack_object_in_storage_bag
+2026-10-31T15:26:21Z [142,086ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_pack_object_in_storage_bag
+SCENE 49 83 sharpa_dex_place_ball_in_box
+2026-10-31T15:26:24Z [144,806ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:26:24Z [144,959ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:24Z [144,959ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:24Z [145,098ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:24Z [145,098ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:25Z [145,607ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:25Z [145,607ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:25Z [146,007ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:25Z [146,007ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:26Z [146,395ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:26Z [146,395ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:26Z [146,747ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:26Z [146,747ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:26Z [147,125ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:26Z [147,125ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+CAPTURED sharpa_dex_place_ball_in_box
+SCENE 50 83 sharpa_dex_place_ball_in_cup_then_cup_in_box
+2026-10-31T15:26:27Z [147,419ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_place_ball_in_cup_then_cup_in_box
+SCENE 51 83 sharpa_dex_place_books_on_shelf
+2026-10-31T15:26:29Z [150,280ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_place_books_on_shelf
+SCENE 52 83 sharpa_dex_place_coffee_filter_in_dripper
+2026-10-31T15:26:32Z [153,080ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_place_coffee_filter_in_dripper
+SCENE 53 83 sharpa_dex_place_cup_on_plate
+2026-10-31T15:26:35Z [155,870ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:26:35Z [156,033ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:35Z [156,033ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:35Z [156,179ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:35Z [156,179ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:36Z [156,731ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:36Z [156,731ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:36Z [157,154ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:36Z [157,154ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:37Z [157,561ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:37Z [157,561ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:37Z [157,939ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:37Z [157,939ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:37Z [158,300ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:37Z [158,300ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+CAPTURED sharpa_dex_place_cup_on_plate
+SCENE 54 83 sharpa_dex_place_fruits_in_basket
+2026-10-31T15:26:38Z [158,566ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:26:38Z [158,727ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:38Z [158,727ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:38Z [158,727ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:38Z [158,727ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:38Z [159,202ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:38Z [159,202ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:38Z [159,202ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:38Z [159,202ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:39Z [159,785ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:39Z [159,785ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:39Z [159,785ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:39Z [159,785ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:39Z [160,204ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:39Z [160,204ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:39Z [160,204ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:39Z [160,204ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:40Z [160,608ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:40Z [160,608ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:40Z [160,609ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:40Z [160,609ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:40Z [160,967ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:40Z [160,967ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:40Z [160,967ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:40Z [160,967ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:40Z [161,328ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:40Z [161,328ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:40Z [161,328ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:40Z [161,328ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+CAPTURED sharpa_dex_place_fruits_in_basket
+SCENE 55 83 sharpa_dex_place_knife_and_fork_on_plate
+2026-10-31T15:26:41Z [161,602ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:26:41Z [161,765ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:41Z [161,765ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:41Z [161,765ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:41Z [161,765ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:41Z [162,130ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:41Z [162,130ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:41Z [162,130ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:41Z [162,130ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:42Z [162,668ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:42Z [162,668ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:42Z [162,668ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:42Z [162,668ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:42Z [163,088ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:42Z [163,088ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:42Z [163,089ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:42Z [163,089ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:43Z [163,509ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:43Z [163,509ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:43Z [163,509ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:43Z [163,509ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:43Z [163,864ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:43Z [163,865ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:43Z [163,864ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:43Z [163,865ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:43Z [164,248ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:43Z [164,248ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:43Z [164,248ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:43Z [164,248ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+CAPTURED sharpa_dex_place_knife_and_fork_on_plate
+SCENE 56 83 sharpa_dex_place_pens_in_holder
+2026-10-31T15:26:44Z [164,515ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:26:44Z [164,671ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:44Z [164,671ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:44Z [164,671ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:44Z [164,671ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:44Z [164,913ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:44Z [164,913ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:44Z [164,913ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:44Z [164,913ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:45Z [165,456ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:45Z [165,456ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:45Z [165,456ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:45Z [165,456ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:45Z [165,861ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:45Z [165,861ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:45Z [165,861ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:45Z [165,861ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:45Z [166,270ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:45Z [166,270ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:45Z [166,270ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:45Z [166,270ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:46Z [166,634ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:46Z [166,634ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:46Z [166,634ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:46Z [166,634ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:26:46Z [167,012ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:46Z [167,012ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:46Z [167,012ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:46Z [167,012ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+CAPTURED sharpa_dex_place_pens_in_holder
+SCENE 57 83 sharpa_dex_play_tic_tac_toe
+2026-10-31T15:26:46Z [167,292ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_play_tic_tac_toe
+SCENE 58 83 sharpa_dex_pry_nails_from_board
+2026-10-31T15:26:49Z [170,050ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_pry_nails_from_board
+SCENE 59 83 sharpa_dex_relocate_tennis_ball
+2026-10-31T15:26:52Z [172,693ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:26:52Z [172,849ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:52Z [172,850ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:52Z [173,288ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:52Z [173,288ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:53Z [173,816ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:53Z [173,816ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:53Z [174,225ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:53Z [174,225ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:54Z [174,634ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:54Z [174,634ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:54Z [175,007ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:54Z [175,007ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:55Z [175,366ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:55Z [175,366ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+CAPTURED sharpa_dex_relocate_tennis_ball
+SCENE 60 83 sharpa_dex_remove_block_from_box
+2026-10-31T15:26:55Z [175,632ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:26:55Z [175,787ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:55Z [175,787ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:55Z [176,144ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:55Z [176,144ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:56Z [176,729ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:56Z [176,729ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:56Z [177,137ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:56Z [177,137ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:57Z [177,531ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:57Z [177,531ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:57Z [177,878ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:57Z [177,878ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:57Z [178,231ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:57Z [178,231ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+CAPTURED sharpa_dex_remove_block_from_box
+SCENE 61 83 sharpa_dex_reorient_and_relocate_carton
+2026-10-31T15:26:58Z [178,531ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:26:58Z [178,682ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:58Z [178,682ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:58Z [179,145ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:58Z [179,145ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:59Z [179,674ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:59Z [179,674ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:26:59Z [180,088ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:26:59Z [180,088ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:00Z [180,505ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:00Z [180,505ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:00Z [180,871ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:00Z [180,871ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:00Z [181,232ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:00Z [181,232ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+CAPTURED sharpa_dex_reorient_and_relocate_carton
+SCENE 62 83 sharpa_dex_reorient_cup_upright
+2026-10-31T15:27:01Z [181,536ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:27:01Z [181,695ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:01Z [181,695ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:01Z [182,042ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:01Z [182,042ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:02Z [182,578ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:02Z [182,578ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:02Z [182,986ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:02Z [182,986ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:03Z [183,387ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:03Z [183,387ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:03Z [183,741ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:03Z [183,741ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:03Z [184,105ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:03Z [184,105ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+CAPTURED sharpa_dex_reorient_cup_upright
+SCENE 63 83 sharpa_dex_reposition_and_stack_blocks
+2026-10-31T15:27:04Z [184,381ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:27:04Z [184,544ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:04Z [184,544ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:04Z [184,544ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:04Z [184,544ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:04Z [184,544ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:04Z [184,544ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:04Z [184,923ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:04Z [184,923ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:04Z [184,923ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:04Z [184,923ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:04Z [184,923ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:04Z [184,923ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:05Z [185,446ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:05Z [185,446ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:05Z [185,446ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:05Z [185,446ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:05Z [185,446ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:05Z [185,446ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:05Z [185,858ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:05Z [185,858ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:05Z [185,858ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:05Z [185,858ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:05Z [185,858ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:05Z [185,858ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:05Z [186,262ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:05Z [186,262ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:05Z [186,262ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:05Z [186,262ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:05Z [186,262ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:05Z [186,262ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:06Z [186,629ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:06Z [186,629ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:06Z [186,629ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:06Z [186,629ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:06Z [186,629ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:06Z [186,629ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:06Z [186,984ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:06Z [186,984ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:06Z [186,984ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:06Z [186,984ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:06Z [186,984ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:06Z [186,984ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+CAPTURED sharpa_dex_reposition_and_stack_blocks
+SCENE 64 83 sharpa_dex_rotate_bottle_cap
+2026-10-31T15:27:06Z [187,263ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_rotate_bottle_cap
+SCENE 65 83 sharpa_dex_scoop_salt_from_jar_into_cup
+2026-10-31T15:27:09Z [190,084ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_scoop_salt_from_jar_into_cup
+SCENE 66 83 sharpa_dex_scrub_cup_interior
+2026-10-31T15:27:12Z [192,767ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_scrub_cup_interior
+SCENE 67 83 sharpa_dex_seal_box_with_tape
+2026-10-31T15:27:15Z [195,560ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_seal_box_with_tape
+SCENE 68 83 sharpa_dex_secure_coiled_cable_with_velcro_tie
+2026-10-31T15:27:17Z [198,315ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_secure_coiled_cable_with_velcro_tie
+SCENE 69 83 sharpa_dex_sort_utensils
+2026-10-31T15:27:20Z [201,043ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:27:20Z [201,204ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:20Z [201,204ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:20Z [201,204ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:20Z [201,204ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:20Z [201,204ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:20Z [201,204ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:20Z [201,335ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:20Z [201,335ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:20Z [201,335ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:20Z [201,335ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:20Z [201,335ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:20Z [201,335ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:21Z [201,855ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:21Z [201,855ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:21Z [201,855ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:21Z [201,855ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:21Z [201,856ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:21Z [201,856ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:21Z [202,270ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:21Z [202,270ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:21Z [202,270ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:21Z [202,270ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:21Z [202,270ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:21Z [202,270ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:22Z [202,680ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:22Z [202,680ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:22Z [202,680ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:22Z [202,680ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:22Z [202,680ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:22Z [202,680ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:22Z [203,044ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:22Z [203,044ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:22Z [203,044ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:22Z [203,044ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:22Z [203,044ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+2026-10-31T15:27:22Z [203,044ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:23Z [203,413ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:23Z [203,413ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:23Z [203,413ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:23Z [203,413ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:23Z [203,413ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_3': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:23Z [203,413ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_3': widths primvar is not valid!
+CAPTURED sharpa_dex_sort_utensils
+SCENE 70 83 sharpa_dex_stack_napkins_in_holder
+2026-10-31T15:27:23Z [203,709ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_stack_napkins_in_holder
+SCENE 71 83 sharpa_dex_stack_two_plates
+2026-10-31T15:27:26Z [206,536ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:27:26Z [206,704ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:26Z [206,704ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:26Z [206,953ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:26Z [206,953ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:27Z [207,487ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:27Z [207,487ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:27Z [207,892ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:27Z [207,892ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:27Z [208,311ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:27Z [208,311ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:28Z [208,683ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:28Z [208,683ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:28Z [209,042ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:28Z [209,042ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+CAPTURED sharpa_dex_stack_two_plates
+SCENE 72 83 sharpa_dex_staple_paper
+2026-10-31T15:27:28Z [209,324ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_staple_paper
+SCENE 73 83 sharpa_dex_sweep_waste_into_dustpan
+2026-10-31T15:27:31Z [211,964ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_sweep_waste_into_dustpan
+SCENE 74 83 sharpa_dex_tighten_bottle_cap
+2026-10-31T15:27:34Z [214,782ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_tighten_bottle_cap
+SCENE 75 83 sharpa_dex_tomato_boxed_lunch_packaging
+2026-10-31T15:27:37Z [217,531ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_tomato_boxed_lunch_packaging
+SCENE 76 83 sharpa_dex_transfer_liquid_with_dropper
+2026-10-31T15:27:39Z [220,296ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_transfer_liquid_with_dropper
+SCENE 77 83 sharpa_dex_transfer_pills_between_cups
+2026-10-31T15:27:42Z [223,027ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:27:42Z [223,199ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:42Z [223,200ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:42Z [223,200ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:42Z [223,200ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:43Z [223,421ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:43Z [223,421ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:43Z [223,421ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:43Z [223,421ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:43Z [223,944ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:43Z [223,944ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:43Z [223,944ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:43Z [223,944ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:44Z [224,384ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:44Z [224,384ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:44Z [224,384ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:44Z [224,384ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:44Z [224,783ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:44Z [224,783ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:44Z [224,783ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:44Z [224,783ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:44Z [225,178ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:44Z [225,178ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:44Z [225,178ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:44Z [225,178ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+2026-10-31T15:27:45Z [225,538ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_1': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:45Z [225,538ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_1': widths primvar is not valid!
+2026-10-31T15:27:45Z [225,538ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/object_2': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:45Z [225,538ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/object_2': widths primvar is not valid!
+CAPTURED sharpa_dex_transfer_pills_between_cups
+SCENE 78 83 sharpa_dex_transfer_salt_between_cups_with_spoon
+2026-10-31T15:27:45Z [225,839ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_transfer_salt_between_cups_with_spoon
+SCENE 79 83 sharpa_dex_turn_book_pages
+2026-10-31T15:27:48Z [228,686ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_turn_book_pages
+SCENE 80 83 sharpa_dex_unscrew_bottle_cap
+2026-10-31T15:27:51Z [231,434ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_dex_unscrew_bottle_cap
+SCENE 81 83 sharpa_table_tennis
+2026-10-31T15:27:53Z [234,142ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED sharpa_table_tennis
+SCENE 82 83 sharpa_windmill_assembly
+2026-10-31T15:27:56Z [236,969ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+2026-10-31T15:27:56Z [237,142ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/collar': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:56Z [237,142ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/collar': widths primvar is not valid!
+2026-10-31T15:27:56Z [237,142ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/rotor': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:56Z [237,142ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/rotor': widths primvar is not valid!
+2026-10-31T15:27:57Z [237,422ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/collar': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:57Z [237,422ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/collar': widths primvar is not valid!
+2026-10-31T15:27:57Z [237,422ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/rotor': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:57Z [237,422ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/rotor': widths primvar is not valid!
+2026-10-31T15:27:57Z [237,947ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/collar': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:57Z [237,947ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/collar': widths primvar is not valid!
+2026-10-31T15:27:57Z [237,947ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/rotor': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:57Z [237,947ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/rotor': widths primvar is not valid!
+2026-10-31T15:27:58Z [238,360ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/collar': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:58Z [238,360ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/rotor': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:58Z [238,360ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/collar': widths primvar is not valid!
+2026-10-31T15:27:58Z [238,360ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/rotor': widths primvar is not valid!
+2026-10-31T15:27:58Z [238,757ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/collar': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:58Z [238,757ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/rotor': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:58Z [238,757ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/collar': widths primvar is not valid!
+2026-10-31T15:27:58Z [238,757ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/rotor': widths primvar is not valid!
+2026-10-31T15:27:58Z [239,115ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/collar': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:58Z [239,115ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/rotor': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:58Z [239,115ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/collar': widths primvar is not valid!
+2026-10-31T15:27:58Z [239,115ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/rotor': widths primvar is not valid!
+2026-10-31T15:27:59Z [239,475ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/collar': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:59Z [239,475ms] [Warning] [rtx.hydra] Processing 'widths' primvar for geometry '/World/Task/Goals/rotor': Not enough data size for HdInterpolationVertex. Switching to HdInterpolationConstant
+2026-10-31T15:27:59Z [239,475ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/collar': widths primvar is not valid!
+2026-10-31T15:27:59Z [239,475ms] [Warning] [rtx.hydra] Curve '/World/Task/Goals/rotor': widths primvar is not valid!
+CAPTURED sharpa_windmill_assembly
+SCENE 83 83 bimanual_roll_towel
+2026-10-31T15:27:59Z [239,756ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+CAPTURED bimanual_roll_towel
+ALL_DONE 83
+2026-10-31T15:28:02Z [242,783ms] [Warning] [carb] Plugin interface for a client: omni.hydratexture.plugin was already released.
+[243.077s] Simulation App Shutting Down

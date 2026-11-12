@@ -1,0 +1,314 @@
+{
+  "audit_completed_utc": "2026-10-31T09:01:42.123294+00:00",
+  "evidence_level": "LOCAL_SOURCE_AND_SYNTHETIC_AUDIT_ONLY",
+  "new_physical_trials": 0,
+  "physical_success_verified": false,
+  "inventory": {
+    "registered_entries": 83,
+    "baseline": 10,
+    "prototypes": 72,
+    "prototype_coverage": {
+      "RIGID_BODY_TASK_APPROXIMATION": 25,
+      "SCENE_ASSETS_ONLY": 47
+    },
+    "recorded_successful_collected_episodes": 0
+  },
+  "synthetic_checks": {
+    "synthetic_positive_control": {
+      "synthetic_only": true,
+      "expected_current_predicate_success": true,
+      "matches_expected_current_behavior": true,
+      "contract_overrides": {},
+      "result": {
+        "predicate_success": true,
+        "done": true,
+        "reason": "success",
+        "stage": "use",
+        "relative_position_error_m": 0.0,
+        "relative_rotation_error_deg": 0.0,
+        "regrasp_evidence": true,
+        "functional_contact_region": true,
+        "wrist_translation_max_m": 0.0,
+        "wrist_rotation_max_deg": 0.0,
+        "outcome_gain_since_ready": 0.01,
+        "elapsed_s": 0.6500000000000004,
+        "samples_consumed": 65
+      }
+    },
+    "direct_functional_grasp_rejected": {
+      "synthetic_only": true,
+      "expected_current_predicate_success": false,
+      "matches_expected_current_behavior": true,
+      "contract_overrides": {},
+      "result": {
+        "predicate_success": false,
+        "done": false,
+        "reason": "running",
+        "stage": "reorient",
+        "relative_position_error_m": 0.0,
+        "relative_rotation_error_deg": 0.0,
+        "regrasp_evidence": false,
+        "functional_contact_region": true,
+        "wrist_translation_max_m": 0.0,
+        "wrist_rotation_max_deg": 0.0,
+        "outcome_gain_since_ready": 0.0,
+        "elapsed_s": 0.6500000000000004,
+        "samples_consumed": 65
+      }
+    },
+    "assisted_trace_passes_default_contract": {
+      "synthetic_only": true,
+      "expected_current_predicate_success": true,
+      "matches_expected_current_behavior": true,
+      "contract_overrides": {},
+      "result": {
+        "predicate_success": true,
+        "done": true,
+        "reason": "success",
+        "stage": "use",
+        "relative_position_error_m": 0.0,
+        "relative_rotation_error_deg": 0.0,
+        "regrasp_evidence": true,
+        "functional_contact_region": true,
+        "wrist_translation_max_m": 0.0,
+        "wrist_rotation_max_deg": 0.0,
+        "outcome_gain_since_ready": 0.01,
+        "elapsed_s": 0.6600000000000004,
+        "samples_consumed": 66
+      }
+    },
+    "one_digit_multiple_links_pass": {
+      "synthetic_only": true,
+      "expected_current_predicate_success": true,
+      "matches_expected_current_behavior": true,
+      "contract_overrides": {},
+      "result": {
+        "predicate_success": true,
+        "done": true,
+        "reason": "success",
+        "stage": "use",
+        "relative_position_error_m": 0.0,
+        "relative_rotation_error_deg": 0.0,
+        "regrasp_evidence": true,
+        "functional_contact_region": true,
+        "wrist_translation_max_m": 0.0,
+        "wrist_rotation_max_deg": 0.0,
+        "outcome_gain_since_ready": 0.01,
+        "elapsed_s": 0.6500000000000004,
+        "samples_consumed": 65
+      }
+    },
+    "sparse_three_samples_pass_hold_timers": {
+      "synthetic_only": true,
+      "expected_current_predicate_success": true,
+      "matches_expected_current_behavior": true,
+      "contract_overrides": {},
+      "result": {
+        "predicate_success": true,
+        "done": true,
+        "reason": "success",
+        "stage": "use",
+        "relative_position_error_m": 0.0,
+        "relative_rotation_error_deg": 0.0,
+        "regrasp_evidence": true,
+        "functional_contact_region": true,
+        "wrist_translation_max_m": 0.0,
+        "wrist_rotation_max_deg": 0.0,
+        "outcome_gain_since_ready": 0.01,
+        "elapsed_s": 0.65,
+        "samples_consumed": 3
+      }
+    },
+    "arm_only_relative_motion_control": {
+      "synthetic_only": true,
+      "expected_current_predicate_success": false,
+      "matches_expected_current_behavior": true,
+      "contract_overrides": {
+        "track": "free_wrist"
+      },
+      "result": {
+        "predicate_success": false,
+        "done": false,
+        "reason": "running",
+        "stage": "reorient",
+        "relative_position_error_m": 0.0,
+        "relative_rotation_error_deg": 90.0,
+        "regrasp_evidence": false,
+        "functional_contact_region": true,
+        "wrist_translation_max_m": 0.0,
+        "wrist_rotation_max_deg": 90.0,
+        "outcome_gain_since_ready": 0.0,
+        "elapsed_s": 0.9500000000000006,
+        "samples_consumed": 95
+      }
+    },
+    "stale_outcome_control": {
+      "synthetic_only": true,
+      "expected_current_predicate_success": false,
+      "matches_expected_current_behavior": true,
+      "contract_overrides": {},
+      "result": {
+        "predicate_success": false,
+        "done": false,
+        "reason": "running",
+        "stage": "use",
+        "relative_position_error_m": 0.0,
+        "relative_rotation_error_deg": 0.0,
+        "regrasp_evidence": true,
+        "functional_contact_region": true,
+        "wrist_translation_max_m": 0.0,
+        "wrist_rotation_max_deg": 0.0,
+        "outcome_gain_since_ready": 0.0,
+        "elapsed_s": 0.9500000000000006,
+        "samples_consumed": 95
+      }
+    },
+    "same_bodies_rolling_rejected_by_default": {
+      "synthetic_only": true,
+      "expected_current_predicate_success": false,
+      "matches_expected_current_behavior": true,
+      "contract_overrides": {},
+      "result": {
+        "predicate_success": false,
+        "done": false,
+        "reason": "running",
+        "stage": "reorient",
+        "relative_position_error_m": 0.0,
+        "relative_rotation_error_deg": 0.0,
+        "regrasp_evidence": false,
+        "functional_contact_region": true,
+        "wrist_translation_max_m": 0.0,
+        "wrist_rotation_max_deg": 0.0,
+        "outcome_gain_since_ready": 0.0,
+        "elapsed_s": 0.6500000000000004,
+        "samples_consumed": 65
+      }
+    },
+    "contact_patch_option_accepts_same_bodies": {
+      "synthetic_only": true,
+      "expected_current_predicate_success": true,
+      "matches_expected_current_behavior": true,
+      "contract_overrides": {
+        "allow_contact_patch_motion": true
+      },
+      "result": {
+        "predicate_success": true,
+        "done": true,
+        "reason": "success",
+        "stage": "use",
+        "relative_position_error_m": 0.0,
+        "relative_rotation_error_deg": 0.0,
+        "regrasp_evidence": true,
+        "functional_contact_region": true,
+        "wrist_translation_max_m": 0.0,
+        "wrist_rotation_max_deg": 0.0,
+        "outcome_gain_since_ready": 0.01,
+        "elapsed_s": 0.6500000000000004,
+        "samples_consumed": 65
+      }
+    },
+    "dynamic_use_option_accepts_goal_pose_loss": {
+      "synthetic_only": true,
+      "expected_current_predicate_success": true,
+      "matches_expected_current_behavior": true,
+      "contract_overrides": {
+        "dynamic_relative_pose_during_use": true
+      },
+      "result": {
+        "predicate_success": true,
+        "done": true,
+        "reason": "success",
+        "stage": "use",
+        "relative_position_error_m": 0.0,
+        "relative_rotation_error_deg": 90.0,
+        "regrasp_evidence": true,
+        "functional_contact_region": true,
+        "wrist_translation_max_m": 0.0,
+        "wrist_rotation_max_deg": 0.0,
+        "outcome_gain_since_ready": 0.01,
+        "elapsed_s": 0.6500000000000004,
+        "samples_consumed": 65
+      }
+    }
+  },
+  "all_checks_match_expected_current_behavior": true,
+  "unit_tests": {
+    "returncode": 0,
+    "stdout": "{\n  \"task\": \"bimanual_roll_towel\",\n  \"checked_utc\": \"2026-10-31T09:01:41.148463+00:00\",\n  \"variant\": {\n    \"id\": \"baseline\",\n    \"center_x_m\": 0.0,\n    \"near_y_m\": 0.32,\n    \"support_height_m\": 0.0,\n    \"width_m\": 0.36,\n    \"length_m\": 0.4,\n    \"thickness_m\": 0.003\n  },\n  \"mode\": \"surface_authoring\",\n  \"status\": \"BLOCKED\",\n  \"physics_started\": false,\n  \"task_success\": false,\n  \"blockers\": [\n    \"NVIDIA driver is inaccessible in this execution environment\",\n    \"Isaac Sim is not installed in this Python environment\"\n  ],\n  \"gpu_probe\": {\n    \"returncode\": 9,\n    \"output\": \"driver unavailable\"\n  }\n}\n",
+    "stderr": "test_capture_matches_three_tasks_and_control_period (test_collection.CollectionTests) ... ok\ntest_empty_collection_cannot_create_training_dataset (test_collection.CollectionTests) ... ok\ntest_failed_and_synthetic_episodes_are_rejected (test_collection.CollectionTests) ... ok\ntest_features_keep_rgb_and_joint_order (test_collection.CollectionTests) ... ok\ntest_square_pixels_and_updated_principal_point (test_collection.CollectionTests) ... ok\ntest_success_flag_without_provenance_is_rejected (test_collection.CollectionTests) ... ok\ntest_assisting_hand_preserves_contact_but_not_functional_goal (test_functional.FunctionalTests) ... ok\ntest_contact_gap_support_and_arm_cheating_are_terminal (test_functional.FunctionalTests) ... ok\ntest_missing_measurements_nan_and_duplicate_body_do_not_pass (test_functional.FunctionalTests) ... ok\ntest_relative_change_contact_regrasp_then_new_outcome_required (test_functional.FunctionalTests) ... ok\ntest_stale_outcome_cannot_pass (test_functional.FunctionalTests) ... ok\ntest_world_rotation_without_relative_motion_cannot_pass (test_functional.FunctionalTests) ... ok\ntest_world_transform_invariance (test_functional.FunctionalTests) ... ok\ntest_wrong_region_or_unchanged_contact_bodies_cannot_pass (test_functional.FunctionalTests) ... ok\ntest_bad_observations_and_missing_state_fail (test_sharpa.ScenarioTests) ... ok\ntest_catch_needs_contact_low_speed_and_hold (test_sharpa.ScenarioTests) ... ok\ntest_every_evaluated_initial_state_is_unsuccessful (test_sharpa.ScenarioTests) ... ok\ntest_manifest_layer_and_initial_geometry_all_scenes (test_sharpa.ScenarioTests) ... ok\ntest_photography_requires_current_frame_at_bimanual_pose (test_sharpa.ScenarioTests) ... ok\ntest_released_cards_require_prior_touch_all_goals_and_hold (test_sharpa.ScenarioTests) ... ok\ntest_repeatability_checks_all_bodies (test_sharpa.ScenarioTests) ... ok\ntest_replay_rejects_invalid_targets_and_cross_task_capture (test_sharpa.ScenarioTests) ... ok\ntest_scene_only_never_reports_task_success (test_sharpa.ScenarioTests) ... ok\ntest_tennis_requires_held_racket_contact_then_valid_crossing (test_sharpa.ScenarioTests) ... ok\ntest_all_ten_goals_require_continuous_hold (test_task_runtime.EvaluatorTests) ... ok\ntest_contact_loss_restarts_hold (test_task_runtime.EvaluatorTests) ... ok\ntest_drop_terminates_and_timeout_truncates (test_task_runtime.EvaluatorTests) ... ok\ntest_initial_pose_is_never_success (test_task_runtime.EvaluatorTests) ... ok\ntest_invalid_state_is_rejected (test_task_runtime.EvaluatorTests) ... ok\ntest_manifest_rejects_misaligned_local_metadata (test_task_runtime.EvaluatorTests) ... ok\ntest_orientation_detects_phone_flip_and_swab_roll (test_task_runtime.EvaluatorTests) ... ok\ntest_pose_without_hand_contacts_does_not_succeed (test_task_runtime.EvaluatorTests) ... ok\ntest_replay_validates_task_names_limits_and_duration (test_task_runtime.EvaluatorTests) ... ok\ntest_reset_uses_settled_height_and_clears_state (test_task_runtime.EvaluatorTests) ... ok\ntest_rotation_error_near_pi_is_finite (test_task_runtime.EvaluatorTests) ... ok\ntest_runtime_override_validation (test_task_runtime.EvaluatorTests) ... ok\ntest_runtime_report_requires_fresh_complete_smoke_evidence (test_task_runtime.EvaluatorTests) ... ok\ntest_speed_and_position_reject_success (test_task_runtime.EvaluatorTests) ... ok\ntest_thick_towel_mesh_starts_at_physical_surface_height (test_towel_joint_interaction.JointInteractionTests) ... ok\ntest_trajectory_has_reachable_palms_and_bounded_joint_speed (test_towel_joint_interaction.JointInteractionTests) ... ok\ntest_unreachable_targets_stop_planning (test_towel_joint_interaction.JointInteractionTests) ... ok\ntest_vertex_commands_and_excessive_joint_speed_are_rejected (test_towel_joint_interaction.JointInteractionTests) ... ok\ntest_all_variants_have_correct_extent_area_and_support_height (test_towel_preparation.TowelPreparationTests) ... ok\ntest_invalid_geometry_rejected (test_towel_preparation.TowelPreparationTests) ... ok\ntest_missing_driver_or_runtime_never_becomes_a_physics_attempt (test_towel_preparation.TowelPreparationTests) ... ok\ntest_unified_towel_entry_reaches_preflight (test_towel_preparation.TowelPreparationTests) ... ok\n\n----------------------------------------------------------------------\nRan 46 tests in 4.020s\n\nOK\n"
+  },
+  "historical_runtime_evidence": {
+    "runtime_checks/physx_gpu_probe_006.json": {
+      "checked_at_utc": "2026-10-30T11:16:10.324746+00:00",
+      "status": "PASS",
+      "backend": "Standalone NVIDIA PhysX 0.7.0.74035321",
+      "scope": "GPU articulation smoke only; not Isaac Sim or task success",
+      "task_success": false,
+      "simulated_seconds": 0.5
+    },
+    "towel_roll/attempts/gpu_native_finger_001/report.json": {
+      "created_utc": "2026-10-30T11:33:08.012600+00:00",
+      "status": "PHYSICS_FAILED",
+      "backend": "Standalone NVIDIA PhysX GPU; NOT Isaac Sim Kit",
+      "physics_started": true,
+      "task_success": false,
+      "finger_contact_verified": false,
+      "error": "RuntimeError: Cloth numerical explosion"
+    },
+    "towel_roll/attempts/gpu_native_finger_002/report.json": {
+      "created_utc": "2026-10-30T11:37:02.500875+00:00",
+      "status": "PHYSICS_FAILED",
+      "backend": "Standalone NVIDIA PhysX GPU; NOT Isaac Sim Kit",
+      "physics_started": true,
+      "task_success": false,
+      "finger_contact_verified": false,
+      "error": "RuntimeError: Cloth numerical explosion"
+    },
+    "towel_roll/attempts/gpu_native_settle_001/report.json": {
+      "created_utc": "2026-10-30T11:31:50.428172+00:00",
+      "status": "STARTUP_ERROR",
+      "backend": "Standalone NVIDIA PhysX GPU; NOT Isaac Sim Kit",
+      "physics_started": false,
+      "task_success": false,
+      "finger_contact_verified": false,
+      "error": "RuntimeError: Empty binding: 30"
+    },
+    "towel_roll/attempts/gpu_native_settle_002/report.json": {
+      "created_utc": "2026-10-30T11:32:24.149705+00:00",
+      "status": "PHYSICS_ATTEMPT_RECORDED",
+      "backend": "Standalone NVIDIA PhysX GPU; NOT Isaac Sim Kit",
+      "physics_started": true,
+      "task_success": false,
+      "finger_contact_verified": false,
+      "simulated_seconds": 2.0
+    }
+  },
+  "changes_since_previous_audit": [],
+  "source_sha256": {
+    "functional/audit_gaps.py": "6368d14ebc98c9d1f47f0af5b96856f773357a86b78b7925ff2d5dafb9356b5c",
+    "functional/evaluator.py": "6c8f02e41861f643ef8556214ce576cc0ed96fc7e2abc93c4b4fe5da841d8425",
+    "functional/example_contract.json": "ce6585e9f23f35da1e71860b8cbd62d71a451f282bea396117035e4c8bebaac1",
+    "functional/evaluate_trace.py": "29f341cb2feb757615df56657654c9f548b38f9649c1f710555c76e13c3c6a8b",
+    "isaac_task_env.py": "7d54d268101063ef0cfe7765fdf93cc8a2cfffbeaffc373b3ba814cad56fde5b",
+    "representative_policy.py": "687b090d50c6078551be42aaf54b7e8320c2f2a7f3217f4a6e6a96ce08b8a327",
+    "task_objects.py": "98cec189d9fd518efb24afedd0d668f192b17482bbe0b804388c11785baee637",
+    "benchmark_cli.py": "f308ba4fc66305a2efda0c286640c4f644269835cf87a248ccacc7cf37ea84d6",
+    "benchmark_suites.json": "3bb51a47f93a6769ef26ae8baf795b73cd93db4b1cad1d14cde2f62557522f00",
+    "tasks/index.json": "bb0e88e918ea71cd1a885e3b12896084e0835673e3f91f6c799e0bbbf2150207",
+    "sharpa/index.json": "5cb7d285e2874b6194113ee670e394b5c4888562a581fb2cd8ea8cb7d7d0f76c",
+    "collection_checks/summary.json": "b46662d018749eb8a543e2d3c4e5524a898d4bceaa0b88ebfbf99d87f98e2b79",
+    "runtime_checks/physx_gpu_probe_006.json": "bc5ee15fff01094ca9f8928c84ab6dcf26eeef6845c95f0e0826c97d07fd1481",
+    "docs/functional_reference_sources_20261030.json": "c20c74fae72da354026594d139fa494f236e1ebe98eb10dae6aedde19efd937b",
+    "tests/test_collection.py": "5a0b35a66136a19717e8d0a4f607a0326aabf496f8f010ae4bb5a76cf9e0dbe8",
+    "tests/test_functional.py": "a7d6573b72e1478c0a835cc62ecc0cd86d6c400a22303fe83ed1f3a1b094b9f3",
+    "tests/test_sharpa.py": "36e7c10824c9fbd6fabd37c24a24a8d4c135c99718e065474e88cfd339bab65e",
+    "tests/test_task_runtime.py": "5754d600d690d49a91418b4bcdd2c068aa2d1371dc5ca19429c7f2f4a8176129",
+    "tests/test_towel_joint_interaction.py": "cbf320910f24aae013d71c8d6708ebc2293e0bfba33f9694a1c7fe83a77c3beb",
+    "tests/test_towel_preparation.py": "c742c697bc15b8a1bf2122f477e53560366a06210c2f9b87e6917a459cf80aa4",
+    "towel_roll/attempts/gpu_native_finger_001/report.json": "68e8e1eade83ee5dbda7e50e137267269f761e125391482040c2039443f486e7",
+    "towel_roll/attempts/gpu_native_finger_002/report.json": "c1cfe57e5b14cfab92d51a8ad3ef79160254b9d7d043b78d5993d40a02bfa1ee",
+    "towel_roll/attempts/gpu_native_settle_001/report.json": "079205d0cc213f49cfc022ef0f2bc7cb066c54ad8cbb23d690c2585101b6ef19",
+    "towel_roll/attempts/gpu_native_settle_002/report.json": "1a70942281acaa3989d1f99dc43e8ddbee7a558cd65e7019f6c3b6f7dee9c798"
+  },
+  "interpretation": "Expected behavior includes exposed gaps. Passing this audit is not benchmark acceptance."
+}

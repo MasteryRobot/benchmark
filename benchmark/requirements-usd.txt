@@ -1,0 +1,3 @@
+# Optional USD composition only; does not provide Isaac Sim or PhysX.
+-r requirements-authoring.txt
+usd-core>=24.3

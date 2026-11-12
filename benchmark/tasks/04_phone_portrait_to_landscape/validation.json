@@ -1,0 +1,28 @@
+{
+  "task": "04_phone_portrait_to_landscape",
+  "physics_steps": 1200,
+  "seconds": 5,
+  "robot_joint_drift_rad": 0.0,
+  "initial_object_position_m": [
+    0.25,
+    0.41999998688697815,
+    0.8819468021392822
+  ],
+  "settled_object_position_m": [
+    0.2500465214252472,
+    0.42029452323913574,
+    0.8813068866729736
+  ],
+  "settled_orientation_wxyz": [
+    0.8203374743461609,
+    0.5718796253204346,
+    5.990685895085335e-05,
+    -0.00034313835203647614
+  ],
+  "object_displacement_m": 0.0007059799390845001,
+  "object_min_z_m": 0.8089968920476055,
+  "linear_speed_m_s": 0.00014199396537151188,
+  "angular_speed_rad_s": 0.003204494947567582,
+  "sensor_count": 5,
+  "stable": true
+}

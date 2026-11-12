@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "format": "v2.1",
+  "episodes": 2,
+  "frames": 8,
+  "official_loader": "0.3.3",
+  "all_frames_decoded": true,
+  "scope": "Synthetic format test only; no successful robot episodes",
+  "resolution": [
+    460,
+    260
+  ],
+  "cameras": 5,
+  "alignment_and_values_checked": true,
+  "temporary_dataset_deleted_after_test": true
+}

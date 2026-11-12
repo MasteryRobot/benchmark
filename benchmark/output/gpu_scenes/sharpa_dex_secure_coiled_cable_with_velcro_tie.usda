@@ -1,0 +1,12 @@
+#usda 1.0
+(
+    subLayers = [@../../sharpa/scenes/sharpa_dex_secure_coiled_cable_with_velcro_tie/scene.usda@]
+)
+over "World"
+{
+    over "PhysicsScene" (prepend apiSchemas = ["PhysxSceneAPI"])
+    {
+        bool physxScene:enableGPUDynamics = true
+        token physxScene:broadphaseType = "GPU"
+    }
+}

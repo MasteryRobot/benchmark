@@ -1,0 +1,742 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+    timeCodesPerSecond = 240
+    subLayers = [@../../../tasks/workcell.usdc@]
+)
+def Xform "World"
+{
+    def Scope "SharpaLooks"
+    {
+        def Material "object_1_Physics" (prepend apiSchemas = ["PhysicsMaterialAPI"])
+        {
+            float physics:staticFriction = 0.8
+            float physics:dynamicFriction = 0.65
+            float physics:restitution = 0.01
+        }
+        def Material "object_1_0"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/object_1_0/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.22, 0.48, 0.65)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_Physics" (prepend apiSchemas = ["PhysicsMaterialAPI"])
+        {
+            float physics:staticFriction = 0.8
+            float physics:dynamicFriction = 0.65
+            float physics:restitution = 0.01
+        }
+        def Material "support_1_0"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_0/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_1"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_1/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_2"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_2/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_3"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_3/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_4"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_4/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_5"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_5/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_6"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_6/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_7"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_7/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_8"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_8/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_9"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_9/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_10"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_10/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_11"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_11/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_12"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_12/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_13"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_13/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_14"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_14/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_15"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_15/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_16"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_16/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_17"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_17/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_18"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_18/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_19"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_19/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_20"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_20/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_21"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_21/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_22"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_22/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_23"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_23/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+        def Material "support_1_24"
+        {
+            token outputs:surface.connect = </World/SharpaLooks/support_1_24/Surface.outputs:surface>
+            def Shader "Surface"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.84, 0.88, 0.9)
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+    }
+    def Xform "Task"
+    {
+        custom string task:id = "sharpa_dex_clean_plate_with_eraser"
+        custom string task:provenance = "UNVERIFIED_LOCAL_PROTOTYPE"
+        def Xform "object_1" (prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysxRigidBodyAPI"])
+        {
+            double3 xformOp:translate = (-0.38, 0.35, 0.8062)
+            quatd xformOp:orient = (1, 0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+            float physics:mass = 0.07
+            bool physics:rigidBodyEnabled = true
+            bool physxRigidBody:enableCCD = true
+            int physxRigidBody:solverPositionIterationCount = 32
+            int physxRigidBody:solverVelocityIterationCount = 16
+            float physxRigidBody:angularDamping = 0.5
+            def Cube "part_0" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, 0, 0)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.045, 0.065, 0.022)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.22, 0.48, 0.65)]
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/object_1_Physics>
+                rel material:binding = </World/SharpaLooks/object_1_0>
+            }
+        }
+        def Xform "support_1"
+        {
+            double3 xformOp:translate = (0.18, 0.49, 0.7952)
+            quatd xformOp:orient = (1, 0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient"]
+            def Cylinder "part_0" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0, 0, 0.0015)
+                double xformOp:rotateZ = 0
+                double radius = 0.09
+                double height = 0.003
+                uniform token axis = "Z"
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_0>
+            }
+            def Cube "part_1" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.0885, 0, 0.0075)
+                double xformOp:rotateZ = 0
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_1>
+            }
+            def Cube "part_2" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.0854844356266, 0.0229054854916, 0.0075)
+                double xformOp:rotateZ = 15
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_2>
+            }
+            def Cube "part_3" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.0766432482349, 0.04425, 0.0075)
+                double xformOp:rotateZ = 30
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_3>
+            }
+            def Cube "part_4" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.062578950135, 0.062578950135, 0.0075)
+                double xformOp:rotateZ = 45
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_4>
+            }
+            def Cube "part_5" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.04425, 0.0766432482349, 0.0075)
+                double xformOp:rotateZ = 60
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_5>
+            }
+            def Cube "part_6" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.0229054854916, 0.0854844356266, 0.0075)
+                double xformOp:rotateZ = 75
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_6>
+            }
+            def Cube "part_7" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (5.41906208623e-18, 0.0885, 0.0075)
+                double xformOp:rotateZ = 90
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_7>
+            }
+            def Cube "part_8" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.0229054854916, 0.0854844356266, 0.0075)
+                double xformOp:rotateZ = 105
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_8>
+            }
+            def Cube "part_9" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.04425, 0.0766432482349, 0.0075)
+                double xformOp:rotateZ = 120
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_9>
+            }
+            def Cube "part_10" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.062578950135, 0.062578950135, 0.0075)
+                double xformOp:rotateZ = 135
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_10>
+            }
+            def Cube "part_11" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.0766432482349, 0.04425, 0.0075)
+                double xformOp:rotateZ = 150
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_11>
+            }
+            def Cube "part_12" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.0854844356266, 0.0229054854916, 0.0075)
+                double xformOp:rotateZ = 165
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_12>
+            }
+            def Cube "part_13" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.0885, 1.08381241725e-17, 0.0075)
+                double xformOp:rotateZ = 180
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_13>
+            }
+            def Cube "part_14" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.0854844356266, -0.0229054854916, 0.0075)
+                double xformOp:rotateZ = 195
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_14>
+            }
+            def Cube "part_15" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.0766432482349, -0.04425, 0.0075)
+                double xformOp:rotateZ = 210
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_15>
+            }
+            def Cube "part_16" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.062578950135, -0.062578950135, 0.0075)
+                double xformOp:rotateZ = 225
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_16>
+            }
+            def Cube "part_17" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.04425, -0.0766432482349, 0.0075)
+                double xformOp:rotateZ = 240
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_17>
+            }
+            def Cube "part_18" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-0.0229054854916, -0.0854844356266, 0.0075)
+                double xformOp:rotateZ = 255
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_18>
+            }
+            def Cube "part_19" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (-1.62571862587e-17, -0.0885, 0.0075)
+                double xformOp:rotateZ = 270
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_19>
+            }
+            def Cube "part_20" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.0229054854916, -0.0854844356266, 0.0075)
+                double xformOp:rotateZ = 285
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_20>
+            }
+            def Cube "part_21" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.04425, -0.0766432482349, 0.0075)
+                double xformOp:rotateZ = 300
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_21>
+            }
+            def Cube "part_22" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.062578950135, -0.062578950135, 0.0075)
+                double xformOp:rotateZ = 315
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_22>
+            }
+            def Cube "part_23" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.0766432482349, -0.04425, 0.0075)
+                double xformOp:rotateZ = 330
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_23>
+            }
+            def Cube "part_24" (prepend apiSchemas = ["PhysicsCollisionAPI", "PhysxCollisionAPI", "MaterialBindingAPI"])
+            {
+                double3 xformOp:translate = (0.0854844356266, -0.0229054854916, 0.0075)
+                double xformOp:rotateZ = 345
+                double size = 1
+                float3 xformOp:scale = (0.003, 0.0240015668352, 0.009)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateZ", "xformOp:scale"]
+                color3f[] primvars:displayColor = [(0.84, 0.88, 0.9)]
+                token visibility = "invisible"
+                bool physics:collisionEnabled = true
+                float physxCollision:contactOffset = 0.0003
+                float physxCollision:restOffset = 0
+                rel material:binding:physics = </World/SharpaLooks/support_1_Physics>
+                rel material:binding = </World/SharpaLooks/support_1_24>
+            }
+            def Xform "RealisticVisual" (
+                prepend references = @../../../assets/realistic/029_plate.usdc@</Asset>
+            )
+            {
+                double3 xformOp:translate = (0, 0, 0.00921525548493)
+                double3 xformOp:scale = (0.689687215499, 0.689687215499, 0.689687215499)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+                custom string asset:source = "https://ycb-benchmarks.s3.amazonaws.com/data/google/029_plate_google_16k.tgz"
+                custom string asset:license = "CC-BY-4.0"
+            }
+        }
+        def Xform "Goals"
+        {
+        }
+    }
+    over "PhysicsScene"
+    {
+        bool physxScene:enableCCD = true
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "renderer": "Isaac Sim 6.0.1 RTX",
+  "views": [
+    "images/leftwrist.png",
+    "images/rightwrist.png",
+    "images/head.png",
+    "images/leftside.png",
+    "images/rightside.png"
+  ],
+  "articulations": [
+    "/World/Robot/DualArm/Joints/FixedBase"
+  ],
+  "revolute_joints": 54,
+  "sensor_cameras": 5,
+  "initial_state_errors_rad": [
+    2.022761829145736e-07
+  ],
+  "physics_steps": 600,
+  "simulated_seconds": 5.0,
+  "max_joint_drift_rad": [
+    0.0
+  ],
+  "chopstick_positions": [
+    [
+      -0.020762434229254723,
+      0.430040180683136,
+      0.8223530054092407
+    ],
+    [
+      0.02072463184595108,
+      0.4300459027290344,
+      0.822248101234436
+    ]
+  ],
+  "chopstick_displacement_m": [
+    0.0016645255964249372,
+    0.0017740029143169522
+  ],
+  "stable": true
+}

@@ -1,0 +1,616 @@
+{
+  "id": "sharpa_dex_sort_utensils",
+  "title": "分类摆放餐具（本地仿真原型）",
+  "task_type": "place_all",
+  "bodies": [
+    {
+      "id": "object_1",
+      "position": [
+        -0.38,
+        0.35,
+        0.8042
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.018,
+            0.09,
+            0.014
+          ],
+          "position": [
+            0,
+            -0.04,
+            0
+          ],
+          "color": [
+            0.19,
+            0.26,
+            0.29
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.028,
+            0.09,
+            0.003
+          ],
+          "position": [
+            0,
+            0.05,
+            0
+          ],
+          "color": [
+            0.67,
+            0.7,
+            0.73
+          ]
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.045,
+      "prop_kind": "knife"
+    },
+    {
+      "id": "object_2",
+      "position": [
+        -0.16,
+        0.35,
+        0.8042
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.018,
+            0.09,
+            0.014
+          ],
+          "position": [
+            0,
+            -0.04,
+            0
+          ],
+          "color": [
+            0.19,
+            0.26,
+            0.29
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.003,
+            0.06,
+            0.003
+          ],
+          "position": [
+            -0.009,
+            0.05,
+            0
+          ],
+          "color": [
+            0.67,
+            0.7,
+            0.73
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.003,
+            0.06,
+            0.003
+          ],
+          "position": [
+            -0.003,
+            0.05,
+            0
+          ],
+          "color": [
+            0.67,
+            0.7,
+            0.73
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.003,
+            0.06,
+            0.003
+          ],
+          "position": [
+            0.003,
+            0.05,
+            0
+          ],
+          "color": [
+            0.67,
+            0.7,
+            0.73
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.003,
+            0.06,
+            0.003
+          ],
+          "position": [
+            0.009,
+            0.05,
+            0
+          ],
+          "color": [
+            0.67,
+            0.7,
+            0.73
+          ]
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.045,
+      "prop_kind": "fork"
+    },
+    {
+      "id": "object_3",
+      "position": [
+        0.06,
+        0.35,
+        0.8042
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.018,
+            0.09,
+            0.014
+          ],
+          "position": [
+            0,
+            -0.04,
+            0
+          ],
+          "color": [
+            0.19,
+            0.26,
+            0.29
+          ]
+        },
+        {
+          "kind": "cylinder",
+          "size": [
+            0.022,
+            0.003
+          ],
+          "position": [
+            0,
+            0.04,
+            0
+          ],
+          "color": [
+            0.6,
+            0.62,
+            0.64
+          ],
+          "axis": "Z"
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.045,
+      "prop_kind": "spoon"
+    },
+    {
+      "id": "support_1",
+      "position": [
+        0.18,
+        0.49,
+        0.7952
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.19,
+            0.22,
+            0.005
+          ],
+          "position": [
+            0,
+            0,
+            0.0025
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.005,
+            0.22,
+            0.018
+          ],
+          "position": [
+            -0.0925,
+            0,
+            0.009
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.005,
+            0.22,
+            0.018
+          ],
+          "position": [
+            0.0925,
+            0,
+            0.009
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.18,
+            0.005,
+            0.018
+          ],
+          "position": [
+            0,
+            -0.1075,
+            0.009
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.18,
+            0.005,
+            0.018
+          ],
+          "position": [
+            0,
+            0.1075,
+            0.009
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        }
+      ],
+      "dynamic": false,
+      "mass_kg": null,
+      "prop_kind": "tray"
+    },
+    {
+      "id": "support_2",
+      "position": [
+        0.42,
+        0.49,
+        0.7952
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.19,
+            0.22,
+            0.005
+          ],
+          "position": [
+            0,
+            0,
+            0.0025
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.005,
+            0.22,
+            0.018
+          ],
+          "position": [
+            -0.0925,
+            0,
+            0.009
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.005,
+            0.22,
+            0.018
+          ],
+          "position": [
+            0.0925,
+            0,
+            0.009
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.18,
+            0.005,
+            0.018
+          ],
+          "position": [
+            0,
+            -0.1075,
+            0.009
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.18,
+            0.005,
+            0.018
+          ],
+          "position": [
+            0,
+            0.1075,
+            0.009
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        }
+      ],
+      "dynamic": false,
+      "mass_kg": null,
+      "prop_kind": "tray"
+    }
+  ],
+  "goals": [
+    {
+      "body": "object_1",
+      "position": [
+        0.18,
+        0.49,
+        0.8072
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "position_tolerance_m": 0.012,
+      "rotation_tolerance_deg": 12,
+      "contact": "released",
+      "require_prior_hand_contact": true
+    },
+    {
+      "body": "object_2",
+      "position": [
+        0.4,
+        0.49,
+        0.8072
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "position_tolerance_m": 0.012,
+      "rotation_tolerance_deg": 12,
+      "contact": "released",
+      "require_prior_hand_contact": true
+    },
+    {
+      "body": "object_3",
+      "position": [
+        0.44,
+        0.49,
+        0.8072
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "position_tolerance_m": 0.012,
+      "rotation_tolerance_deg": 12,
+      "contact": "released",
+      "require_prior_hand_contact": true
+    }
+  ],
+  "limitations": [],
+  "source_task": "sort_utensils",
+  "source_group": "provisional_tabletop_inventory",
+  "official_source": null,
+  "source_url_candidate": "https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0",
+  "source_status": "UNVERIFIED_PROVISIONAL_TASK",
+  "coverage_level": "RIGID_BODY_TASK_APPROXIMATION",
+  "schema_version": 1,
+  "suite": "sharpa_prototypes",
+  "units": "m",
+  "up_axis": "Z",
+  "object_source": "YCB CC-BY-4.0 textured scans for mapped visuals; remaining props and all collision proxies are local analytic designs. See visual_assets for per-body sources.",
+  "robot_model": "Existing neutral 54-DOF dual arm; not a certified Sharpa robot replica.",
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 30,
+    "success_hold_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25
+  },
+  "visual_assets": {
+    "object_1": {
+      "asset_id": "032_knife",
+      "usd": "assets/realistic/032_knife.usdc",
+      "scale": 0.8381904271613646,
+      "translate": [
+        0.0,
+        0.0050000000000000044,
+        0.0024774193129411598
+      ],
+      "visual_size_m": [
+        0.017022794518048754,
+        0.18,
+        0.0189548383198271
+      ],
+      "collision_proxy_bounds_m": [
+        [
+          -0.014,
+          -0.08499999999999999,
+          -0.007
+        ],
+        [
+          0.014,
+          0.095,
+          0.007
+        ]
+      ],
+      "source": "https://ycb-benchmarks.s3.amazonaws.com/data/google/032_knife_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "physics_status": "Existing analytic collision proxy retained; mesh/contact fidelity requires validation."
+    },
+    "object_2": {
+      "asset_id": "030_fork",
+      "usd": "assets/realistic/030_fork.usdc",
+      "scale": 0.774895570470213,
+      "translate": [
+        0.0,
+        -0.0024999999999999953,
+        -0.0008457790662675397
+      ],
+      "visual_size_m": [
+        0.020999999999999998,
+        0.15306396351322918,
+        0.012308441241348864
+      ],
+      "collision_proxy_bounds_m": [
+        [
+          -0.010499999999999999,
+          -0.08499999999999999,
+          -0.007
+        ],
+        [
+          0.010499999999999999,
+          0.08,
+          0.007
+        ]
+      ],
+      "source": "https://ycb-benchmarks.s3.amazonaws.com/data/google/030_fork_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "physics_status": "Existing analytic collision proxy retained; mesh/contact fidelity requires validation."
+    },
+    "object_3": {
+      "asset_id": "031_spoon",
+      "usd": "assets/realistic/031_spoon.usdc",
+      "scale": 0.750864542871774,
+      "translate": [
+        0.0,
+        -0.011499999999999996,
+        0.0008435309494514752
+      ],
+      "visual_size_m": [
+        0.031189164830216953,
+        0.147,
+        0.0156870620296771
+      ],
+      "collision_proxy_bounds_m": [
+        [
+          -0.022,
+          -0.08499999999999999,
+          -0.007
+        ],
+        [
+          0.022,
+          0.062,
+          0.007
+        ]
+      ],
+      "source": "https://ycb-benchmarks.s3.amazonaws.com/data/google/031_spoon_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "physics_status": "Existing analytic collision proxy retained; mesh/contact fidelity requires validation."
+    }
+  }
+}

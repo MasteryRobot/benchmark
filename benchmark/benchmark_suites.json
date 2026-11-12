@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "suites": [
+    {"id": "baseline", "manifest": "tasks/index.json", "runner": "run_task_episode.py"},
+    {"id": "sharpa_prototypes", "manifest": "sharpa/index.json", "runner": "run_sharpa_episode.py", "official_coverage": "UNVERIFIED"},
+    {"id": "deformable_demos", "manifest": "towel_roll/task.json", "runner": "run_towel_roll.py", "verification": "CPU_CANDIDATE_ONLY"}
+  ]
+}

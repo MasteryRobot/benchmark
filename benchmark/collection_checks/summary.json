@@ -1,0 +1,59 @@
+{
+  "status": "PARTIAL_BLOCKED",
+  "resolution": [
+    460,
+    260
+  ],
+  "cameras": 5,
+  "fps": 30,
+  "unit_tests_passed": true,
+  "unit_test_count": 30,
+  "format_checks": {
+    "v2.1": {
+      "status": "PASS",
+      "format": "v2.1",
+      "episodes": 2,
+      "frames": 8,
+      "official_loader": "0.3.3",
+      "all_frames_decoded": true,
+      "scope": "Synthetic format test only; no successful robot episodes",
+      "resolution": [
+        460,
+        260
+      ],
+      "cameras": 5,
+      "alignment_and_values_checked": true,
+      "temporary_dataset_deleted_after_test": true
+    },
+    "v3.0": {
+      "status": "PASS",
+      "format": "v3.0",
+      "episodes": 2,
+      "frames": 8,
+      "official_loader": "0.4.3",
+      "all_frames_decoded": true,
+      "scope": "Synthetic format test only; no successful robot episodes",
+      "resolution": [
+        460,
+        260
+      ],
+      "cameras": 5,
+      "alignment_and_values_checked": true,
+      "temporary_dataset_deleted_after_test": true
+    }
+  },
+  "real_successful_episodes": 0,
+  "isaac_capture_validated": false,
+  "candidate_policy_validated": false,
+  "blocking_reason": "Selected Python has no isaacsim; compatible camera rendering runtime is required. GPU is visible outside sandbox.",
+  "runtime_report": "collection_attempts/20261029T110106_671428Z/pipeline_report.json",
+  "source_sha256": {
+    "collection_config.json": "38f77a65c7da4672a6a9119ac09f3d00c984637539e581f65e7067f25c4bbac6",
+    "trajectory_capture.py": "5e5233434912ce0c8a3a8c78820f111a50b30ef7b49285bd02a2048849631dd1",
+    "representative_policy.py": "687b090d50c6078551be42aaf54b7e8320c2f2a7f3217f4a6e6a96ce08b8a327",
+    "collect_representative.py": "6527480a3006aedf43b27b930bf56745bf1aed0fe6e3d9a16786c763fe76559c",
+    "export_lerobot.py": "892d9fb34d27a3de58276c4859a2e2d0fa2acce782bb26b9367feeb478d46885",
+    "run_collection_pipeline.py": "322f7fa5907d69c0635b2c11007da2d9b795fceb5582001b6452c5b7c5694e93",
+    "isaac_task_env.py": "7d54d268101063ef0cfe7765fdf93cc8a2cfffbeaffc373b3ba814cad56fde5b"
+  }
+}

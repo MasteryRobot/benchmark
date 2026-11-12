@@ -1,0 +1,28 @@
+{
+  "task": "09_rotate_cotton_swab",
+  "physics_steps": 1200,
+  "seconds": 5,
+  "robot_joint_drift_rad": 0.0,
+  "initial_object_position_m": [
+    -0.25,
+    0.41999998688697815,
+    0.8029999732971191
+  ],
+  "settled_object_position_m": [
+    -0.2500000596046448,
+    0.41999998688697815,
+    0.8011001944541931
+  ],
+  "settled_orientation_wxyz": [
+    0.9876883625984192,
+    2.1709672637371114e-07,
+    1.5372926043255575e-08,
+    -0.1564343124628067
+  ],
+  "object_displacement_m": 0.0018997788429260254,
+  "object_min_z_m": 0.7990001783622585,
+  "linear_speed_m_s": 0.0004036231548525393,
+  "angular_speed_rad_s": 0.0009373469511047006,
+  "sensor_count": 5,
+  "stable": true
+}

@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-29T08:57:49.614087+00:00",
+  "result": "PASS",
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "scope": "CPU regression tests for success evaluation, reset state, replay inputs and evidence freshness; not Isaac execution."
+}

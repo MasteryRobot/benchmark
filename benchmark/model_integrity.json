@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "joint_definitions_preserved": 64,
+  "revolute_joints": 54,
+  "link_inertias_preserved": 65,
+  "mesh_triangle_data_preserved": 61,
+  "mounts_and_initial_pose_preserved": true,
+  "mesh_headers": "neutral",
+  "original_source_archives_in_project": false,
+  "geometry_review": "Both palm shell front/back/side projections and rendered robot views show no visible logo; no logo texture resources are referenced."
+}

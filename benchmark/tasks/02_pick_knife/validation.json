@@ -1,0 +1,28 @@
+{
+  "task": "02_pick_knife",
+  "physics_steps": 1200,
+  "seconds": 5,
+  "robot_joint_drift_rad": 0.0,
+  "initial_object_position_m": [
+    0.25,
+    0.41999998688697815,
+    0.8050000071525574
+  ],
+  "settled_object_position_m": [
+    0.2499999850988388,
+    0.42000001668930054,
+    0.8030009865760803
+  ],
+  "settled_orientation_wxyz": [
+    0.987688422203064,
+    -2.0843411618898244e-07,
+    -1.720791033221758e-06,
+    0.15643450617790222
+  ],
+  "object_displacement_m": 0.0019990205764770508,
+  "object_min_z_m": 0.7950009442793502,
+  "linear_speed_m_s": 0.0007373313419520855,
+  "angular_speed_rad_s": 0.005317123606801033,
+  "sensor_count": 5,
+  "stable": true
+}

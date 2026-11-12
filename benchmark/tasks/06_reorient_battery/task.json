@@ -1,0 +1,104 @@
+{
+  "id": "06_reorient_battery",
+  "title": "拿电池调整 pose",
+  "object": "battery",
+  "preferred_hand": "right",
+  "action": "positive_up",
+  "scene": "scene.usda",
+  "object_prim": "/World/Task/Object",
+  "fixture_prim": "/World/Task/Fixture",
+  "goal_prim": "/World/Task/Goal",
+  "object_design": {
+    "mass": 0.023,
+    "size": [
+      0.0145,
+      0.0145,
+      0.051
+    ],
+    "long_axis": "Z",
+    "positive_axis": "+Z",
+    "grasp_local": [
+      0,
+      0,
+      0
+    ]
+  },
+  "initial_pose_world": [
+    [
+      0.9510565162951536,
+      -6.861555643110583e-17,
+      0.30901699437494745,
+      0.25
+    ],
+    [
+      0.30901699437494745,
+      2.11176968422134e-16,
+      -0.9510565162951536,
+      0.42
+    ],
+    [
+      0.0,
+      1.0,
+      2.220446049250313e-16,
+      0.812
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "goal_pose_world": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.435
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      1.01
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "grasp_reference_world_m": [
+    0.25,
+    0.42,
+    0.812
+  ],
+  "success": {
+    "position_tolerance_m": 0.015,
+    "rotation_tolerance_deg": 12,
+    "minimum_lift_m": 0.1,
+    "requires_grasp_contact": true
+  },
+  "units": "m",
+  "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+  "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 20.0,
+    "success_hold_s": 0.25,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "drop_below_initial_m": 0.08
+  }
+}

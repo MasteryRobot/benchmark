@@ -1,0 +1,104 @@
+{
+  "id": "04_phone_portrait_to_landscape",
+  "title": "手机竖屏变横屏",
+  "object": "phone",
+  "preferred_hand": "right",
+  "action": "portrait_to_landscape",
+  "scene": "scene.usda",
+  "object_prim": "/World/Task/Object",
+  "fixture_prim": "/World/Task/Fixture",
+  "goal_prim": "/World/Task/Goal",
+  "object_design": {
+    "mass": 0.185,
+    "size": [
+      0.075,
+      0.151,
+      0.011
+    ],
+    "long_axis": "Y",
+    "screen_normal": "+Z",
+    "grasp_local": [
+      0,
+      0,
+      0
+    ]
+  },
+  "initial_pose_world": [
+    [
+      0.9999999999999999,
+      0.0,
+      0.0,
+      0.25
+    ],
+    [
+      0.0,
+      0.34202014332566877,
+      -0.9396926207859083,
+      0.42
+    ],
+    [
+      0.0,
+      0.9396926207859083,
+      0.34202014332566877,
+      0.8819467928693361
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "goal_pose_world": [
+    [
+      2.2204460492503128e-16,
+      -0.9999999999999999,
+      0.0,
+      0.25
+    ],
+    [
+      0.34202014332566877,
+      7.59437276011507e-17,
+      -0.9396926207859083,
+      0.435
+    ],
+    [
+      0.9396926207859083,
+      2.0865367673337428e-16,
+      0.34202014332566877,
+      1.055
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "grasp_reference_world_m": [
+    0.25,
+    0.42,
+    0.8819467928693361
+  ],
+  "success": {
+    "position_tolerance_m": 0.015,
+    "rotation_tolerance_deg": 12,
+    "minimum_lift_m": 0.1,
+    "requires_grasp_contact": true
+  },
+  "units": "m",
+  "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+  "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 20.0,
+    "success_hold_s": 0.25,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "drop_below_initial_m": 0.08
+  }
+}

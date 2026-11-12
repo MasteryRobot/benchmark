@@ -1,0 +1,118 @@
+{
+  "id": "sharpa_dex_relocate_tennis_ball",
+  "title": "搬移网球（本地仿真原型）",
+  "task_type": "place_all",
+  "bodies": [
+    {
+      "id": "object_1",
+      "position": [
+        -0.38,
+        0.35,
+        0.8282
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "sphere",
+          "size": [
+            0.033
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.32,
+            0.63,
+            0.83
+          ]
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.17968500000000004,
+      "prop_kind": "tennis_ball"
+    }
+  ],
+  "goals": [
+    {
+      "body": "object_1",
+      "position": [
+        0.2,
+        0.49,
+        0.8280000000000001
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "position_tolerance_m": 0.012,
+      "rotation_tolerance_deg": 180,
+      "contact": "released",
+      "require_prior_hand_contact": true
+    }
+  ],
+  "limitations": [],
+  "source_task": "relocate_tennis_ball",
+  "source_group": "provisional_tabletop_inventory",
+  "official_source": null,
+  "source_url_candidate": "https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0",
+  "source_status": "UNVERIFIED_PROVISIONAL_TASK",
+  "coverage_level": "RIGID_BODY_TASK_APPROXIMATION",
+  "schema_version": 1,
+  "suite": "sharpa_prototypes",
+  "units": "m",
+  "up_axis": "Z",
+  "object_source": "YCB CC-BY-4.0 textured scans for mapped visuals; remaining props and all collision proxies are local analytic designs. See visual_assets for per-body sources.",
+  "robot_model": "Existing neutral 54-DOF dual arm; not a certified Sharpa robot replica.",
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 30,
+    "success_hold_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25
+  },
+  "visual_assets": {
+    "object_1": {
+      "asset_id": "056_tennis_ball",
+      "usd": "assets/realistic/056_tennis_ball.usdc",
+      "scale": 0.984633746083843,
+      "translate": [
+        0.0,
+        0.0,
+        -0.00028209591651699034
+      ],
+      "visual_size_m": [
+        0.0659458451439654,
+        0.066,
+        0.06543580486349396
+      ],
+      "collision_proxy_bounds_m": [
+        [
+          -0.033,
+          -0.033,
+          -0.033
+        ],
+        [
+          0.033,
+          0.033,
+          0.033
+        ]
+      ],
+      "source": "https://ycb-benchmarks.s3.amazonaws.com/data/google/056_tennis_ball_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "physics_status": "Existing analytic collision proxy retained; mesh/contact fidelity requires validation."
+    }
+  }
+}

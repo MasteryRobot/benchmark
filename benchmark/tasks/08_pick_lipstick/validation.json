@@ -1,0 +1,28 @@
+{
+  "task": "08_pick_lipstick",
+  "physics_steps": 1200,
+  "seconds": 5,
+  "robot_joint_drift_rad": 0.0,
+  "initial_object_position_m": [
+    0.25,
+    0.41999998688697815,
+    0.8119999766349792
+  ],
+  "settled_object_position_m": [
+    0.2509373426437378,
+    0.41963329911231995,
+    0.8120951652526855
+  ],
+  "settled_orientation_wxyz": [
+    0.6769465804100037,
+    0.717594563961029,
+    0.14738748967647552,
+    0.07126209884881973
+  ],
+  "object_displacement_m": 0.0010110054863616824,
+  "object_min_z_m": 0.8012998222122464,
+  "linear_speed_m_s": 0.0012855629902333021,
+  "angular_speed_rad_s": 0.02848193794488907,
+  "sensor_count": 5,
+  "stable": true
+}

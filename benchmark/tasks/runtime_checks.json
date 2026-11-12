@@ -1,0 +1,578 @@
+{
+  "checked_at_utc": "2026-10-29T08:53:47.715485+00:00",
+  "offline_status": "PASS",
+  "tasks": 10,
+  "rows": [
+    {
+      "task": "01_pick_spoon",
+      "offline_status": "PASS",
+      "usd_composition": "NOT_RUN",
+      "physics_status": "BLOCKED",
+      "autonomous_manipulation": "NOT_IMPLEMENTED",
+      "saved_ik_forward_check": {
+        "pregrasp": {
+          "position_error_m": 2.0770370905276122e-16,
+          "rotation_error_deg": 1.759872178274449e-14
+        },
+        "lift": {
+          "position_error_m": 2.830524433501838e-16,
+          "rotation_error_deg": 1.725037237158995e-14
+        }
+      },
+      "camera_assets": {
+        "LeftWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8261371527777778
+        },
+        "RightWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8212662760416667
+        },
+        "Head": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 1.0
+        },
+        "LeftSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6913020833333333
+        },
+        "RightSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.691533203125
+        }
+      },
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/01_pick_spoon/scene.usda": "61352d932ea427a895661e1d516d6d5e4c7129d73810d7056b854b428ede16c7",
+        "tasks/01_pick_spoon/task.json": "3874623eb47e59693ea730805cd76bbf7fdce349e4059be5fb6702c355092e6d",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "legacy_physics_report": "PRESENT_WITHOUT_CURRENT_INPUT_FINGERPRINT"
+    },
+    {
+      "task": "02_pick_knife",
+      "offline_status": "PASS",
+      "usd_composition": "NOT_RUN",
+      "physics_status": "BLOCKED",
+      "autonomous_manipulation": "NOT_IMPLEMENTED",
+      "saved_ik_forward_check": {
+        "pregrasp": {
+          "position_error_m": 2.5438405243138006e-16,
+          "rotation_error_deg": 3.5918995815492155e-15
+        },
+        "lift": {
+          "position_error_m": 1.7554167342883506e-16,
+          "rotation_error_deg": 1.3758082516520277e-13
+        }
+      },
+      "camera_assets": {
+        "LeftWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8214822048611111
+        },
+        "RightWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8254568142361111
+        },
+        "Head": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 1.0
+        },
+        "LeftSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6916634114583333
+        },
+        "RightSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6912065972222222
+        }
+      },
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/02_pick_knife/scene.usda": "17e8dc57c52735825b680eec8ca7bd9c1b96d685bd415a29af510e799e941b03",
+        "tasks/02_pick_knife/task.json": "d49829d0b7fc66c900e5cf0b56c3c9b92ba5347f15faed83feb8754ec0266de3",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "legacy_physics_report": "PRESENT_WITHOUT_CURRENT_INPUT_FINGERPRINT"
+    },
+    {
+      "task": "03_pick_phone",
+      "offline_status": "PASS",
+      "usd_composition": "NOT_RUN",
+      "physics_status": "BLOCKED",
+      "autonomous_manipulation": "NOT_IMPLEMENTED",
+      "saved_ik_forward_check": {
+        "pregrasp": {
+          "position_error_m": 3.510833468576701e-16,
+          "rotation_error_deg": 2.1358272491870465e-14
+        },
+        "lift": {
+          "position_error_m": 3.510833468576701e-16,
+          "rotation_error_deg": 1.2235626124978486e-14
+        }
+      },
+      "camera_assets": {
+        "LeftWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.827216796875
+        },
+        "RightWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8210915798611111
+        },
+        "Head": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 1.0
+        },
+        "LeftSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6913020833333333
+        },
+        "RightSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6915082465277778
+        }
+      },
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/03_pick_phone/scene.usda": "1402d2f84cb689e5498546de98be1a97ed7f5b62f0d85b0d1b29dfc1123a76f8",
+        "tasks/03_pick_phone/task.json": "747a6e66e2e68e4c922324c03fae680a81bd94f720a96f28fd22a3a5ab05821c",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "legacy_physics_report": "PRESENT_WITHOUT_CURRENT_INPUT_FINGERPRINT"
+    },
+    {
+      "task": "04_phone_portrait_to_landscape",
+      "offline_status": "PASS",
+      "usd_composition": "NOT_RUN",
+      "physics_status": "BLOCKED",
+      "autonomous_manipulation": "NOT_IMPLEMENTED",
+      "saved_ik_forward_check": {
+        "pregrasp": {
+          "position_error_m": 3.4219371797089426e-16,
+          "rotation_error_deg": 3.293139915721706e-15
+        },
+        "lift": {
+          "position_error_m": 2.9893669801409083e-16,
+          "rotation_error_deg": 8.748075691180022e-15
+        }
+      },
+      "camera_assets": {
+        "LeftWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8204524739583333
+        },
+        "RightWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.82412109375
+        },
+        "Head": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 1.0
+        },
+        "LeftSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.69154296875
+        },
+        "RightSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.691533203125
+        }
+      },
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/04_phone_portrait_to_landscape/scene.usda": "3321b849ccc88e1710cb38476ef764e6a44af429eb0542738cb1257422e1a40e",
+        "tasks/04_phone_portrait_to_landscape/task.json": "1f543ce9286adfa621a1146734cdf8d7ca1c28befa9e13b802f944557938c923",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "legacy_physics_report": "PRESENT_WITHOUT_CURRENT_INPUT_FINGERPRINT"
+    },
+    {
+      "task": "05_flip_phone",
+      "offline_status": "PASS",
+      "usd_composition": "NOT_RUN",
+      "physics_status": "BLOCKED",
+      "autonomous_manipulation": "NOT_IMPLEMENTED",
+      "saved_ik_forward_check": {
+        "pregrasp": {
+          "position_error_m": 3.510833468576701e-16,
+          "rotation_error_deg": 2.1358272491870465e-14
+        },
+        "lift": {
+          "position_error_m": 5.551115123125783e-17,
+          "rotation_error_deg": 2.2513672284265287e-14
+        }
+      },
+      "camera_assets": {
+        "LeftWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8260123697916667
+        },
+        "RightWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8211490885416667
+        },
+        "Head": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 1.0
+        },
+        "LeftSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6914963107638888
+        }
+      },
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/05_flip_phone/scene.usda": "706ecb726e35f6ad8fe5749c55876d620c54bc62ed899d15bb8091e7689ce12b",
+        "tasks/05_flip_phone/task.json": "79f851dd097cb41bcc1ef5bc2cdb01ddbc3bdd35c70188c36894f12cdc446bdc",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "legacy_physics_report": "PRESENT_WITHOUT_CURRENT_INPUT_FINGERPRINT"
+    },
+    {
+      "task": "06_reorient_battery",
+      "offline_status": "PASS",
+      "usd_composition": "NOT_RUN",
+      "physics_status": "BLOCKED",
+      "autonomous_manipulation": "NOT_IMPLEMENTED",
+      "saved_ik_forward_check": {
+        "pregrasp": {
+          "position_error_m": 2.2887833992611187e-16,
+          "rotation_error_deg": 1.080642909197064e-14
+        },
+        "lift": {
+          "position_error_m": 2.3551386880256624e-16,
+          "rotation_error_deg": 3.8240043754865834e-15
+        }
+      },
+      "camera_assets": {
+        "LeftWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8200553385416667
+        },
+        "RightWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8263465711805555
+        },
+        "Head": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 1.0
+        },
+        "LeftSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6914854600694444
+        },
+        "RightSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6912326388888889
+        }
+      },
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/06_reorient_battery/scene.usda": "f8d0e843865ba17ba2bb7fb134d6b982c42f87a60eac54fab54422daf0fda1aa",
+        "tasks/06_reorient_battery/task.json": "177ac2c77cf2b25635e54a6f257da23c1f58df77c70131914f49254e25260c04",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "legacy_physics_report": "PRESENT_WITHOUT_CURRENT_INPUT_FINGERPRINT"
+    },
+    {
+      "task": "07_reorient_lighter",
+      "offline_status": "PASS",
+      "usd_composition": "NOT_RUN",
+      "physics_status": "BLOCKED",
+      "autonomous_manipulation": "NOT_IMPLEMENTED",
+      "saved_ik_forward_check": {
+        "pregrasp": {
+          "position_error_m": 2.9893669801409083e-16,
+          "rotation_error_deg": 1.1277487546622459e-14
+        },
+        "lift": {
+          "position_error_m": 3.925231146709438e-16,
+          "rotation_error_deg": 5.533055657885587e-15
+        }
+      },
+      "camera_assets": {
+        "LeftWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8254969618055555
+        },
+        "RightWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8202517361111111
+        },
+        "Head": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 1.0
+        },
+        "LeftSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6913943142361111
+        },
+        "RightSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.691435546875
+        }
+      },
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/07_reorient_lighter/scene.usda": "93fd33dad1b518ff5ca4fb1c5c6d8059e70d83dbb559f3e7acd2bd992d175df4",
+        "tasks/07_reorient_lighter/task.json": "9d2c0cf953a469ae7f810dd89766766c2a2b08b71390201a9decd27f25e93eda",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "legacy_physics_report": "PRESENT_WITHOUT_CURRENT_INPUT_FINGERPRINT"
+    },
+    {
+      "task": "08_pick_lipstick",
+      "offline_status": "PASS",
+      "usd_composition": "NOT_RUN",
+      "physics_status": "BLOCKED",
+      "autonomous_manipulation": "NOT_IMPLEMENTED",
+      "saved_ik_forward_check": {
+        "pregrasp": {
+          "position_error_m": 3.6821932062951477e-16,
+          "rotation_error_deg": 1.3514159547833278e-14
+        },
+        "lift": {
+          "position_error_m": 2.3551386880256624e-16,
+          "rotation_error_deg": 1.1370178627356296e-14
+        }
+      },
+      "camera_assets": {
+        "LeftWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8202604166666667
+        },
+        "RightWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8252864583333334
+        },
+        "Head": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 1.0
+        },
+        "LeftSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6915245225694444
+        },
+        "RightSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6912065972222222
+        }
+      },
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/08_pick_lipstick/scene.usda": "9ace748d843eabb11cc0014c2189e2e9dbcee055319aa581c93d9777e5ef2348",
+        "tasks/08_pick_lipstick/task.json": "7016ea41d1015eacf98ef4b5b34160690844f36dcb653dcc9063bfb6b92b87f8",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "legacy_physics_report": "PRESENT_WITHOUT_CURRENT_INPUT_FINGERPRINT"
+    },
+    {
+      "task": "09_rotate_cotton_swab",
+      "offline_status": "PASS",
+      "usd_composition": "NOT_RUN",
+      "physics_status": "BLOCKED",
+      "autonomous_manipulation": "NOT_IMPLEMENTED",
+      "saved_ik_forward_check": {
+        "pregrasp": {
+          "position_error_m": 2.830524433501838e-16,
+          "rotation_error_deg": 1.219704789933202e-14
+        },
+        "lift": {
+          "position_error_m": 2.5438405243138006e-16,
+          "rotation_error_deg": 1.879198736499277e-14
+        }
+      },
+      "camera_assets": {
+        "LeftWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8234309895833334
+        },
+        "RightWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8203287760416667
+        },
+        "Head": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 1.0
+        },
+        "LeftSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6914214409722222
+        }
+      },
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/09_rotate_cotton_swab/scene.usda": "a5a99b753bf5893a465f8011ab2c6e274e377d16d2d60cf9dc084931c4662e6d",
+        "tasks/09_rotate_cotton_swab/task.json": "dffa7ba2cae740c91d0aebec6d18ce25cc8e13362d0f1f37ee96ae2579d38afd",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "legacy_physics_report": "PRESENT_WITHOUT_CURRENT_INPUT_FINGERPRINT"
+    },
+    {
+      "task": "10_pick_scissors",
+      "offline_status": "PASS",
+      "usd_composition": "NOT_RUN",
+      "physics_status": "BLOCKED",
+      "autonomous_manipulation": "NOT_IMPLEMENTED",
+      "saved_ik_forward_check": {
+        "pregrasp": {
+          "position_error_m": 2.5438405243138006e-16,
+          "rotation_error_deg": 3.5918995815492155e-15
+        },
+        "lift": {
+          "position_error_m": 3.925231146709438e-16,
+          "rotation_error_deg": 1.0085073821756899e-14
+        }
+      },
+      "camera_assets": {
+        "LeftWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8210753038194445
+        },
+        "RightWrist": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.8267469618055555
+        },
+        "Head": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 1.0
+        },
+        "LeftSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6916167534722222
+        },
+        "RightSide": {
+          "width": 1280,
+          "height": 720,
+          "finite_positive_fraction": 0.6912065972222222
+        }
+      },
+      "inputs_sha256": {
+        "tasks/workcell.usdc": "226e794340161db74e93818f3fdc93a3ad0cfef96e85064d2c8cd499d168e48c",
+        "tasks/10_pick_scissors/scene.usda": "e5cb1746ad1ec7ab603df9e30a3b31dca96f6f44f68f75bd79a3cea2bd7a9f8b",
+        "tasks/10_pick_scissors/task.json": "47aa6f330ed21f1de1f768010e32894f86599a126ad859ca96838d0c0e01a42e",
+        "poses.json": "2ba3e01216f36f9b3c9dee7448d22d126b3785f4234dcca8ebceb83da0eb8684",
+        "cameras.json": "be16edb2d498501f33ff7846893d77fd8aabd15ec53d60a352bd96efcb97728e",
+        "assets/dual_arm/robot.urdf": "21f3392bb41b138abc3073ec63d4cc0553dc26bf5386aeb2647a50468444a547",
+        "task_runtime.py": "da36c03ab4fd6b8babcac3aef95272018467ad8dd29ea088e7ebeacabb322473",
+        "isaac_task_env.py": "48ec1b7e85decea80be10ab65d79644b90ec2431222e9f9d226a3e7c78c59a73",
+        "run_task_episode.py": "d88ed4d93d60dec7aa231b10d6f4631bc2bd5a5ddd48df20766523a8a6ccf53b",
+        "robot_model.py": "fdb39a0e8e93d3f80c03ed5419f168dcc4b864e852dfb83442733a432590a33a"
+      },
+      "legacy_physics_report": "PRESENT_WITHOUT_CURRENT_INPUT_FINGERPRINT"
+    }
+  ],
+  "scope": "Metadata, local USDA poses/references, images/depth and saved IK forward checks. Live physics and manipulation require separate execution."
+}

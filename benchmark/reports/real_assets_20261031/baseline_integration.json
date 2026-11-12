@@ -1,0 +1,65 @@
+[
+  {
+    "id": "01_pick_spoon",
+    "scene": "tasks/01_pick_spoon/scene.usda",
+    "title": "拿勺子",
+    "bindings": [
+      {
+        "body_id": "Object",
+        "asset_id": "031_spoon",
+        "usd": "assets/realistic/031_spoon.usdc",
+        "scale": 0.8785625861602703,
+        "translate": [
+          0.0,
+          -0.0030000023543834686,
+          0.007877474783208833
+        ],
+        "source": "https://ycb-benchmarks.s3.amazonaws.com/data/google/031_spoon_google_16k.tgz",
+        "license": "CC-BY-4.0",
+        "physics_status": "Original colliders, mass, poses and grasp reference unchanged; scan/proxy fidelity not validated."
+      }
+    ]
+  },
+  {
+    "id": "02_pick_knife",
+    "scene": "tasks/02_pick_knife/scene.usda",
+    "title": "拿刀具",
+    "bindings": [
+      {
+        "body_id": "Object",
+        "asset_id": "032_knife",
+        "usd": "assets/realistic/032_knife.usdc",
+        "scale": 0.9662473033900224,
+        "translate": [
+          -0.0005000000819563866,
+          0.01125000150501726,
+          0.0029253578794513745
+        ],
+        "source": "https://ycb-benchmarks.s3.amazonaws.com/data/google/032_knife_google_16k.tgz",
+        "license": "CC-BY-4.0",
+        "physics_status": "Original colliders, mass, poses and grasp reference unchanged; scan/proxy fidelity not validated."
+      }
+    ]
+  },
+  {
+    "id": "10_pick_scissors",
+    "scene": "tasks/10_pick_scissors/scene.usda",
+    "title": "拿剪刀",
+    "bindings": [
+      {
+        "body_id": "Object",
+        "asset_id": "037_scissors",
+        "usd": "assets/realistic/037_scissors.usdc",
+        "scale": 0.8037600739815248,
+        "translate": [
+          -3.469446951953614e-18,
+          0.010694935073165004,
+          0.0006548931788957751
+        ],
+        "source": "https://ycb-benchmarks.s3.amazonaws.com/data/google/037_scissors_google_16k.tgz",
+        "license": "CC-BY-4.0",
+        "physics_status": "Original colliders, mass, poses and grasp reference unchanged; scan/proxy fidelity not validated."
+      }
+    ]
+  }
+]

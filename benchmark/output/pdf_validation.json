@@ -1,0 +1,15 @@
+{
+  "pages": 85,
+  "scenes": 83,
+  "camera_images": 415,
+  "overview_images": 83,
+  "all_image_hashes_verified": true,
+  "pdf_bytes": 63350971,
+  "linked_index_entries": 83,
+  "outline_entries": 83,
+  "all_scene_pages_have_six_images": true,
+  "latin_text_verified": true,
+  "visual_review": "85 rendered pages inspected via five contact sheets; representative page inspected at 1600 px",
+  "visual_review_passed": true,
+  "rgb_depth_pairs_validated": 415
+}

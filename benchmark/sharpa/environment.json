@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-10-29T09:44:02.198126+00:00",
+  "python_version": "3.10.12",
+  "packages": {
+    "numpy": true,
+    "scipy": true,
+    "PIL": true,
+    "pxr": false,
+    "trimesh": false,
+    "shapely": false,
+    "isaacsim": false
+  },
+  "nvidia_driver_available": false,
+  "gpu_probe": "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.",
+  "cpu_authoring_ready": true,
+  "usd_composition_ready": false,
+  "isaac_runtime_ready": false,
+  "status": "BLOCKED"
+}

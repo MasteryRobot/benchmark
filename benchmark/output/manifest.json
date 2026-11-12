@@ -1,0 +1,3165 @@
+{
+  "renderer": "Isaac Sim 6.0.1 RTX RayTracedLighting",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "resolution": [
+    1280,
+    720
+  ],
+  "capture_state": "authored initial state; timeline paused; no task success claim",
+  "scenes": [
+    {
+      "id": "01_pick_spoon",
+      "title": "拿勺子",
+      "scene": "tasks/01_pick_spoon/scene.usda",
+      "scene_sha256": "abb52b0142c1cf423ea1cde4b061de5810f416e3efba7719c23d4d4f24fc2df8",
+      "views": {
+        "Head": {
+          "file": "output/views/01_pick_spoon/Head.png",
+          "sha256": "cd4b07142d8cf1d1aee54fb2bce0d7a19686b8f023f32333839a3ebca3be3dde",
+          "std": 58.989111337431716,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/01_pick_spoon/LeftWrist.png",
+          "sha256": "f7a02650bf80cad53516ddfb59f78ec081169491f1064798cb6c121d44510625",
+          "std": 52.016273409699195,
+          "finite_depth_fraction": 0.8261360677083334
+        },
+        "RightWrist": {
+          "file": "output/views/01_pick_spoon/RightWrist.png",
+          "sha256": "74a2c78458563c376efead0cb9975e9d2bec480575b29bd4aa412faf9f014986",
+          "std": 53.74550436974084,
+          "finite_depth_fraction": 0.8212673611111111
+        },
+        "LeftSide": {
+          "file": "output/views/01_pick_spoon/LeftSide.png",
+          "sha256": "94cb4aa71b4d8855cbe68d88ae333f49401d092c30cc7fdbd3f3597b43e8683f",
+          "std": 56.95259317739369,
+          "finite_depth_fraction": 0.6913020833333333
+        },
+        "RightSide": {
+          "file": "output/views/01_pick_spoon/RightSide.png",
+          "sha256": "5234c40efa9627d3f907b081c34b341ac56ae54df26830704ca527606c360014",
+          "std": 57.57908959218795,
+          "finite_depth_fraction": 0.6915321180555556
+        }
+      }
+    },
+    {
+      "id": "02_pick_knife",
+      "title": "拿刀具",
+      "scene": "tasks/02_pick_knife/scene.usda",
+      "scene_sha256": "802cc12a602525c4c833e322947ec9289576531453012960c3d3b8a54bc3e277",
+      "views": {
+        "Head": {
+          "file": "output/views/02_pick_knife/Head.png",
+          "sha256": "d683921e431d3dedfdd0d709b24f9d64af6af78d7fd52879abe4098460b6206d",
+          "std": 58.72317385109915,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/02_pick_knife/LeftWrist.png",
+          "sha256": "d4051ace03edac631458ad2eecf65720ecd5096cb440882afc9f3ae19311e2cf",
+          "std": 53.76482637459433,
+          "finite_depth_fraction": 0.8214822048611111
+        },
+        "RightWrist": {
+          "file": "output/views/02_pick_knife/RightWrist.png",
+          "sha256": "b7756bae43a3c2e07625a4e00e35828c20ccc4b058f1d7668c83f83402755b0b",
+          "std": 52.83369107904875,
+          "finite_depth_fraction": 0.8254600694444445
+        },
+        "LeftSide": {
+          "file": "output/views/02_pick_knife/LeftSide.png",
+          "sha256": "40b831b7e0f1d73cc45dd95fc128f2122fe71a19baf3902ae8cd78284ebcbcb6",
+          "std": 57.373708538699056,
+          "finite_depth_fraction": 0.6916634114583333
+        },
+        "RightSide": {
+          "file": "output/views/02_pick_knife/RightSide.png",
+          "sha256": "c0c83cbd21d6341537780411bb674d01215833c77472a1d16c306e8bf92fa73a",
+          "std": 57.10870263557649,
+          "finite_depth_fraction": 0.6912055121527778
+        }
+      }
+    },
+    {
+      "id": "03_pick_phone",
+      "title": "拿手机",
+      "scene": "tasks/03_pick_phone/scene.usda",
+      "scene_sha256": "1402d2f84cb689e5498546de98be1a97ed7f5b62f0d85b0d1b29dfc1123a76f8",
+      "views": {
+        "Head": {
+          "file": "output/views/03_pick_phone/Head.png",
+          "sha256": "33e805afa667e3a966f6d4b79f1de791c61fb96e6e64549fb6f4b4f4f4dc0a65",
+          "std": 59.12681902106151,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/03_pick_phone/LeftWrist.png",
+          "sha256": "cedd71aa439a7c2fd2d78f246fabeadf411859c8a1e951974a386ef53ee2d8f9",
+          "std": 52.869572559951386,
+          "finite_depth_fraction": 0.8272178819444445
+        },
+        "RightWrist": {
+          "file": "output/views/03_pick_phone/RightWrist.png",
+          "sha256": "8a9b7c9fbd11d9b67d9ab4a667302acacd658251cee01059b0c635abdc01e3c1",
+          "std": 53.83334291019098,
+          "finite_depth_fraction": 0.8210904947916666
+        },
+        "LeftSide": {
+          "file": "output/views/03_pick_phone/LeftSide.png",
+          "sha256": "9f0dcf3d8c92f541a43ca60620c176348e5ce3762a149cd9baf30fff5c295e29",
+          "std": 57.061399331539704,
+          "finite_depth_fraction": 0.6913020833333333
+        },
+        "RightSide": {
+          "file": "output/views/03_pick_phone/RightSide.png",
+          "sha256": "230f482fca859220dd2147a57e5233ef02e798f51c24994406606546ccee726a",
+          "std": 57.646273371834475,
+          "finite_depth_fraction": 0.6915071614583334
+        }
+      }
+    },
+    {
+      "id": "04_phone_portrait_to_landscape",
+      "title": "手机竖屏变横屏",
+      "scene": "tasks/04_phone_portrait_to_landscape/scene.usda",
+      "scene_sha256": "3321b849ccc88e1710cb38476ef764e6a44af429eb0542738cb1257422e1a40e",
+      "views": {
+        "Head": {
+          "file": "output/views/04_phone_portrait_to_landscape/Head.png",
+          "sha256": "eeb55fce41f419ba6f7547bbbead3aae6083b2e573980e0a3477799bf63dc71d",
+          "std": 58.97711948179603,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/04_phone_portrait_to_landscape/LeftWrist.png",
+          "sha256": "e95cc59d3238c616fb6106b12e92b50079e9d032eb4475abf7fcc01f0c5c3577",
+          "std": 53.70066043318671,
+          "finite_depth_fraction": 0.8204709201388889
+        },
+        "RightWrist": {
+          "file": "output/views/04_phone_portrait_to_landscape/RightWrist.png",
+          "sha256": "24c6e5378d4a3dd8ecab239715bdab0732e67068108e991b09ff457c81296fd5",
+          "std": 54.267779258910764,
+          "finite_depth_fraction": 0.82412109375
+        },
+        "LeftSide": {
+          "file": "output/views/04_phone_portrait_to_landscape/LeftSide.png",
+          "sha256": "88aeb1251b0c3bcb4ee3417e96632a84ba9f7b98a061e09de32f9d26ffc96894",
+          "std": 57.38065135429858,
+          "finite_depth_fraction": 0.6915451388888889
+        },
+        "RightSide": {
+          "file": "output/views/04_phone_portrait_to_landscape/RightSide.png",
+          "sha256": "a790858aeebdd7b9a2500b291b95c91d45ea6f8a78eecfa6f23be0a9a8efbe1c",
+          "std": 57.12727640646801,
+          "finite_depth_fraction": 0.6915321180555556
+        }
+      }
+    },
+    {
+      "id": "05_flip_phone",
+      "title": "手机翻面",
+      "scene": "tasks/05_flip_phone/scene.usda",
+      "scene_sha256": "706ecb726e35f6ad8fe5749c55876d620c54bc62ed899d15bb8091e7689ce12b",
+      "views": {
+        "Head": {
+          "file": "output/views/05_flip_phone/Head.png",
+          "sha256": "b2b3fc84f3e3fa28be1233f18832e3e80d2dd4078e39129539b97ad4ad1ae6c1",
+          "std": 59.110855457939984,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/05_flip_phone/LeftWrist.png",
+          "sha256": "8095b53c4fba3d1bb9c90b73751ca99160ad868dbe8d9b336ea6d28cf127dfec",
+          "std": 53.0210505434051,
+          "finite_depth_fraction": 0.8260123697916667
+        },
+        "RightWrist": {
+          "file": "output/views/05_flip_phone/RightWrist.png",
+          "sha256": "5e13a0e28bd9f70403f0e0c3818d89fb3bd6bd0f50192a860af793709d8db826",
+          "std": 53.733108794170505,
+          "finite_depth_fraction": 0.8211480034722223
+        },
+        "LeftSide": {
+          "file": "output/views/05_flip_phone/LeftSide.png",
+          "sha256": "07823faa9130b42e596ad5abe8845e480f66688e76339d61d869b472a8fe7684",
+          "std": 57.07386184885758,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/05_flip_phone/RightSide.png",
+          "sha256": "4db07e311566403b4157ec9b5a302bb8d5aff6d4c0249b2c72ff60091653c639",
+          "std": 57.48170739440127,
+          "finite_depth_fraction": 0.6914952256944444
+        }
+      }
+    },
+    {
+      "id": "06_reorient_battery",
+      "title": "拿电池调整 pose",
+      "scene": "tasks/06_reorient_battery/scene.usda",
+      "scene_sha256": "f8d0e843865ba17ba2bb7fb134d6b982c42f87a60eac54fab54422daf0fda1aa",
+      "views": {
+        "Head": {
+          "file": "output/views/06_reorient_battery/Head.png",
+          "sha256": "cc3e570f72fdd5cf3cd98831aad711a08da22d26eca5e477ba66fb81d78c3f68",
+          "std": 58.592834257271065,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/06_reorient_battery/LeftWrist.png",
+          "sha256": "fcf877a1d1f863dc97a34b297ea89dca238e9ebb36f5dcfdc402f707d19ea36e",
+          "std": 53.82075994124189,
+          "finite_depth_fraction": 0.8200553385416667
+        },
+        "RightWrist": {
+          "file": "output/views/06_reorient_battery/RightWrist.png",
+          "sha256": "95d88c551225c0faba711ed21a9c47fe6cd2dadb63ffda16f43600846b834a83",
+          "std": 52.70933969217062,
+          "finite_depth_fraction": 0.8263433159722222
+        },
+        "LeftSide": {
+          "file": "output/views/06_reorient_battery/LeftSide.png",
+          "sha256": "fc4f7c7c8e16a558ef59dddb2121f56d504476936a789b78d098af6ad0c1f81a",
+          "std": 57.401584851626644,
+          "finite_depth_fraction": 0.6914854600694444
+        },
+        "RightSide": {
+          "file": "output/views/06_reorient_battery/RightSide.png",
+          "sha256": "5a76a9a8f326cd8283d4b411d23cb2e6800bad3e54d1900d860f956b3b426f4b",
+          "std": 57.109028697273445,
+          "finite_depth_fraction": 0.6912315538194445
+        }
+      }
+    },
+    {
+      "id": "07_reorient_lighter",
+      "title": "拿打火机调整到使用姿态",
+      "scene": "tasks/07_reorient_lighter/scene.usda",
+      "scene_sha256": "93fd33dad1b518ff5ca4fb1c5c6d8059e70d83dbb559f3e7acd2bd992d175df4",
+      "views": {
+        "Head": {
+          "file": "output/views/07_reorient_lighter/Head.png",
+          "sha256": "35936344b39d99dda6ac4a365819a0e7959451e120b78f94da9107ec70e83b2a",
+          "std": 59.01507981640667,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/07_reorient_lighter/LeftWrist.png",
+          "sha256": "0204f9348d3975a4ebfe78bae6cf3d5998610bbfb44131e18f821d4bcb95f57d",
+          "std": 52.18393293420373,
+          "finite_depth_fraction": 0.8254991319444445
+        },
+        "RightWrist": {
+          "file": "output/views/07_reorient_lighter/RightWrist.png",
+          "sha256": "e9e4cfdcddc8ded4dc9b8aaf6254d8565c4f9471b95e04863c04f8b3bd36e9cd",
+          "std": 53.75160092298181,
+          "finite_depth_fraction": 0.8202506510416666
+        },
+        "LeftSide": {
+          "file": "output/views/07_reorient_lighter/LeftSide.png",
+          "sha256": "b452ee66bbbbf2cd6e18d3d9e86117bcd3dede2ccb72cd724c8cd0e780725c85",
+          "std": 56.97756289306691,
+          "finite_depth_fraction": 0.6913943142361111
+        },
+        "RightSide": {
+          "file": "output/views/07_reorient_lighter/RightSide.png",
+          "sha256": "6ee5553410a7e8a1769dbf7bc0f501c3002bb1096a0db2cb6279466b0e68be7b",
+          "std": 57.59441479063202,
+          "finite_depth_fraction": 0.6914344618055556
+        }
+      }
+    },
+    {
+      "id": "08_pick_lipstick",
+      "title": "拿口红",
+      "scene": "tasks/08_pick_lipstick/scene.usda",
+      "scene_sha256": "9ace748d843eabb11cc0014c2189e2e9dbcee055319aa581c93d9777e5ef2348",
+      "views": {
+        "Head": {
+          "file": "output/views/08_pick_lipstick/Head.png",
+          "sha256": "ceec4cee245575db77faca4bc23ef91b5def3aeb7b75dd1de564a52b95c7d937",
+          "std": 58.66787066142351,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/08_pick_lipstick/LeftWrist.png",
+          "sha256": "96bd69569e72be958c86478f8987faa873bfecf2c80a3308fc67de6197281975",
+          "std": 53.851091117651556,
+          "finite_depth_fraction": 0.8202615017361111
+        },
+        "RightWrist": {
+          "file": "output/views/08_pick_lipstick/RightWrist.png",
+          "sha256": "adce57e70e12e34fe5583bc6d0d1bec05e3917692b082ed8dcb829119b3e7725",
+          "std": 52.86316124697967,
+          "finite_depth_fraction": 0.8252875434027778
+        },
+        "LeftSide": {
+          "file": "output/views/08_pick_lipstick/LeftSide.png",
+          "sha256": "a8f0e7d0ba30ac11440b20e41a7ad8895b419eaf1276b3b8cd83c64ae84a7d1b",
+          "std": 57.29164641603506,
+          "finite_depth_fraction": 0.6915245225694444
+        },
+        "RightSide": {
+          "file": "output/views/08_pick_lipstick/RightSide.png",
+          "sha256": "1377d23f95b06461d0ed2dc3df0496d2b94a333ebc33c304f4477fb4431b2845",
+          "std": 57.08412950577801,
+          "finite_depth_fraction": 0.6912055121527778
+        }
+      }
+    },
+    {
+      "id": "09_rotate_cotton_swab",
+      "title": "拿棉签转棉签",
+      "scene": "tasks/09_rotate_cotton_swab/scene.usda",
+      "scene_sha256": "a5a99b753bf5893a465f8011ab2c6e274e377d16d2d60cf9dc084931c4662e6d",
+      "views": {
+        "Head": {
+          "file": "output/views/09_rotate_cotton_swab/Head.png",
+          "sha256": "9bc384eef2fc5668310bcdd4cc364c0f828dbdb499de9afac7d809fc37e4dc06",
+          "std": 58.94463255703913,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/09_rotate_cotton_swab/LeftWrist.png",
+          "sha256": "0ccf608ceda967cb5e9f7e50fe11dc1d112d7dabece9d28ec030a7b3df511802",
+          "std": 51.8999663884253,
+          "finite_depth_fraction": 0.8234288194444445
+        },
+        "RightWrist": {
+          "file": "output/views/09_rotate_cotton_swab/RightWrist.png",
+          "sha256": "6215cd424b15db65a33a3f5c51470d628fb0851c519c4814495e3096ca1d08ea",
+          "std": 53.78712537873961,
+          "finite_depth_fraction": 0.8203287760416667
+        },
+        "LeftSide": {
+          "file": "output/views/09_rotate_cotton_swab/LeftSide.png",
+          "sha256": "9883d8471001126ab66cf73836936fc94ab1a3a930c147a94320f11af064011d",
+          "std": 56.93074951394065,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/09_rotate_cotton_swab/RightSide.png",
+          "sha256": "00e0f0b6d3d60fe28126d824000925d2d544b87c3a6c7f4821aa769f25aca260",
+          "std": 57.57809568002769,
+          "finite_depth_fraction": 0.6914203559027777
+        }
+      }
+    },
+    {
+      "id": "10_pick_scissors",
+      "title": "拿剪刀",
+      "scene": "tasks/10_pick_scissors/scene.usda",
+      "scene_sha256": "d905b95009c891b989c364fe63c3a54bdfd0bddeea2d6ccc43acf4fe9d4f74e8",
+      "views": {
+        "Head": {
+          "file": "output/views/10_pick_scissors/Head.png",
+          "sha256": "ca095e870a28d9070a71f4dc84243f43c0890e1feb2852e429ad7b3c427564f7",
+          "std": 58.67743764782944,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/10_pick_scissors/LeftWrist.png",
+          "sha256": "7fae9277431741af579e0f4f8466290de55308d3e133a2acd55869cc6c9897b1",
+          "std": 53.758221702528566,
+          "finite_depth_fraction": 0.8210753038194445
+        },
+        "RightWrist": {
+          "file": "output/views/10_pick_scissors/RightWrist.png",
+          "sha256": "7ef4c8113d4c349220a10c143b62d6ed6a447e1168ca0d51c45cb2630a9ea380",
+          "std": 52.745847116785406,
+          "finite_depth_fraction": 0.8267469618055555
+        },
+        "LeftSide": {
+          "file": "output/views/10_pick_scissors/LeftSide.png",
+          "sha256": "6a1246eca471c48de0b74f9d0af5b1a262edb04296af4413ff92c0d9102bcceb",
+          "std": 57.33664940343798,
+          "finite_depth_fraction": 0.6916167534722222
+        },
+        "RightSide": {
+          "file": "output/views/10_pick_scissors/RightSide.png",
+          "sha256": "07605f2b198e0d0110bb5f806e8d111f54ceb70efbda2015c292c2699e67bfff",
+          "std": 57.01634603960919,
+          "finite_depth_fraction": 0.6912055121527778
+        }
+      }
+    },
+    {
+      "id": "sharpa_baton_catching",
+      "title": "运动棒接取（本地原型）",
+      "scene": "sharpa/scenes/sharpa_baton_catching/scene.usda",
+      "scene_sha256": "7d25dffd2be6b3a56ecb40affc942912cb8c434b254eac8f0b407a660e38453a",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_baton_catching/Head.png",
+          "sha256": "6e94a5578c19696cd33f75158aafe0d3384af709829eaccc25223fa957d52240",
+          "std": 59.823615588933315,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_baton_catching/LeftWrist.png",
+          "sha256": "6981eea36fd0cbb0fede13183474f0c96727426aba04a1d8b57713bc9cd29051",
+          "std": 54.20016557458684,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_baton_catching/RightWrist.png",
+          "sha256": "106ac41d10bb0da012a53d787f73ff859969a148e954c44f8e92b92dd43d5e19",
+          "std": 54.04700472537959,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_baton_catching/LeftSide.png",
+          "sha256": "f9e21d03541864faee42ad05c6ac89f46aab34a2e0b382efd55f805db8d2b10d",
+          "std": 57.61659011534937,
+          "finite_depth_fraction": 0.6918359375
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_baton_catching/RightSide.png",
+          "sha256": "3a7e9530c4533466d7db8dc67f8ef59a530066138e4bb3a496fcc4247ae6adeb",
+          "std": 57.71854024559717,
+          "finite_depth_fraction": 0.6917393663194444
+        }
+      }
+    },
+    {
+      "id": "sharpa_camera_photography",
+      "title": "双手持相机拍照（本地原型）",
+      "scene": "sharpa/scenes/sharpa_camera_photography/scene.usda",
+      "scene_sha256": "78c574bbc891fdd3027673400423e4cd1d21a842762e32cc7f72d72fbe8705ac",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_camera_photography/Head.png",
+          "sha256": "9d2e3a40cc0da240182d7b1dd6d22e97b569dce6eadd7b851bce9dc181365df6",
+          "std": 59.812304644049455,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_camera_photography/LeftWrist.png",
+          "sha256": "19ec9e7bfc4b754280f57c2303e0a112a504475c8fcefc1d19383cbdca85e496",
+          "std": 54.268167761708966,
+          "finite_depth_fraction": 0.8250336371527778
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_camera_photography/RightWrist.png",
+          "sha256": "a397f3c3ccc47704c337e931701472d37bd1de689b7853842963ccb5a01d1669",
+          "std": 54.535481331206185,
+          "finite_depth_fraction": 0.8251378038194445
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_camera_photography/LeftSide.png",
+          "sha256": "23129a76b592f979b22b19e199e03c95c02b42db9a8712450de4b172e228e507",
+          "std": 57.59398478988894,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_camera_photography/RightSide.png",
+          "sha256": "2e75ef59e62f922bef79b95c9e11e41cfb9ba9b13328bf5f4f2db789ced7d691",
+          "std": 57.79362845267601,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_card_dealing",
+      "title": "多张纸牌分发（本地原型）",
+      "scene": "sharpa/scenes/sharpa_card_dealing/scene.usda",
+      "scene_sha256": "d9f2ee3289762d4ff6e9195d49aed68b13065356d514ac28bb9ab30f167e6276",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_card_dealing/Head.png",
+          "sha256": "a7b3c22d546c9f0a1c84aaf45fdcb49f26a60cc402a0f650d96c062ab609561e",
+          "std": 60.1474694711208,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_card_dealing/LeftWrist.png",
+          "sha256": "7260eb7f778072eafeb436e119ab66e7b3d16535a5974b40caebf005639942f7",
+          "std": 56.89728071690903,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_card_dealing/RightWrist.png",
+          "sha256": "feda3dd1b73aa34fdb0b967c85d2e2e507acbbdff57488d9ae856772e2b12dc3",
+          "std": 54.1967235405187,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_card_dealing/LeftSide.png",
+          "sha256": "3b49e6b93ccf5d88f68f7cfff5fb6791e207694342a899c6d6190d5ba64f5d0d",
+          "std": 57.73059470335337,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_card_dealing/RightSide.png",
+          "sha256": "396a577013b4ded39d18962869806a53435f1a106af170f57283059e941c9213",
+          "std": 57.758411921350714,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_demo_apple_peeling",
+      "title": "苹果削皮（本地原型）",
+      "scene": "sharpa/scenes/sharpa_demo_apple_peeling/scene.usda",
+      "scene_sha256": "7d880a9f3565facb0e4f6aa3b0f2bd74fb030b6001efd77da17f1079767390cd",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_demo_apple_peeling/Head.png",
+          "sha256": "0b69946e5b8b4f1969f319005f378518f5a31606b209a8775ed2a47aa4431f5c",
+          "std": 60.11849566655352,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_demo_apple_peeling/LeftWrist.png",
+          "sha256": "00a9627c311d90224cf97c99ed8c20f14ecad586b0f6c474e9a0b0acf203b3bb",
+          "std": 54.84596586328117,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_demo_apple_peeling/RightWrist.png",
+          "sha256": "8645ba83ca35c4cd5770af208f903b59827a049e135ec1d830fcb804232b23b5",
+          "std": 54.88024523438826,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_demo_apple_peeling/LeftSide.png",
+          "sha256": "55cbffb57d563936208269f83b7498f3adcb02f7caaf59eef10d9a68c8f1fec3",
+          "std": 57.826244323226305,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_demo_apple_peeling/RightSide.png",
+          "sha256": "3311596dbd2b241fb6290b1dcd79410508b0d7e12e72bcb169b9f2f15533f025",
+          "std": 57.9662785836696,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_demo_bartending",
+      "title": "调饮与摇壶（本地原型）",
+      "scene": "sharpa/scenes/sharpa_demo_bartending/scene.usda",
+      "scene_sha256": "66f81c196cf698f0adef1ba8e0c969b1dc76ba9f28fb840dd1f5f2f9eebef9c4",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_demo_bartending/Head.png",
+          "sha256": "c602523b17280c79f631facf1b9325047db64e90e49af1c1bba7c98e0d150b12",
+          "std": 60.32096255617014,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_demo_bartending/LeftWrist.png",
+          "sha256": "d50c75a1858b969138910439f7347393178580f3028f8a1a4c6dec1a3137700e",
+          "std": 57.12629501756824,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_demo_bartending/RightWrist.png",
+          "sha256": "b03ddc1c6bc474c488cb78b28586b8059acb74affe1147bdc0b2282f247d9cdd",
+          "std": 55.40162684351402,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_demo_bartending/LeftSide.png",
+          "sha256": "a42853dc773c5945490dd59bed0e4c7588c8fc35e93dc12df22ff78c2ffd1ded",
+          "std": 57.56266127649651,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_demo_bartending/RightSide.png",
+          "sha256": "7b2cae5df3eb207fd76220a1608fb74cb15549bc791df7cd1a59c402f3a6442b",
+          "std": 58.09842180302152,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_demo_dessert_service",
+      "title": "甜品取杯与加料（本地原型）",
+      "scene": "sharpa/scenes/sharpa_demo_dessert_service/scene.usda",
+      "scene_sha256": "aa084f2828dca093873b7f37ea939edf98152723925ba02c73d75a3b17a27af7",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_demo_dessert_service/Head.png",
+          "sha256": "6ee30809b5d49a0e7b06263444742f3a26c1e952a6c6756c00dae4c43721b334",
+          "std": 60.618367746922644,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_demo_dessert_service/LeftWrist.png",
+          "sha256": "9a3e79de99c9a794444f4649b9d59ff0e7122bf163dc18a0f02f1595ba8c9659",
+          "std": 56.31925434655296,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_demo_dessert_service/RightWrist.png",
+          "sha256": "cc26cb655abc70e366c15a1a8286d44efe8733ea171d4125eda6d9e32c7e58fb",
+          "std": 58.61112506924622,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_demo_dessert_service/LeftSide.png",
+          "sha256": "b97bb37ab8047044c89b172e883fc9c24144849f040dbd365253697bd33f6b92",
+          "std": 57.67744531253739,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_demo_dessert_service/RightSide.png",
+          "sha256": "5b84d6b9bc044ce53e59e3dbb5dbe2b024f09a7c3dc4466970f2b6f5996a0572",
+          "std": 57.90733945303617,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_demo_gpu_installation",
+      "title": "显卡插装（本地原型）",
+      "scene": "sharpa/scenes/sharpa_demo_gpu_installation/scene.usda",
+      "scene_sha256": "a1d0a2dea91a00388a6a796fcfccebbe47891739dca624ae4b29fcd2059adbb2",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_demo_gpu_installation/Head.png",
+          "sha256": "fd132822575d2b755333dea5b386aad6478c13ec0eb26a9481265d31f16f0943",
+          "std": 60.31788475962598,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_demo_gpu_installation/LeftWrist.png",
+          "sha256": "f02c661a0d23007ab63b5eb7dfe81525a76de17be2ff22574348d42b4680481e",
+          "std": 56.31910695639047,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_demo_gpu_installation/RightWrist.png",
+          "sha256": "fe272adbc7c696c1682e0292baeeae57f86ea5347c7fb5ab3fee756e16614e44",
+          "std": 57.13959756109048,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_demo_gpu_installation/LeftSide.png",
+          "sha256": "1d6afc2de32706a81d01349db7d400c5c89f0bdf322f286574cc9add95a5fb29",
+          "std": 57.648752484380644,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_demo_gpu_installation/RightSide.png",
+          "sha256": "b87a218e7455507be1a513eff9bdb2fe761a6f8fbbacd0edb9c44da7c677a2e5",
+          "std": 57.90231464482718,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_demo_needle_threading",
+      "title": "穿针引线（本地原型）",
+      "scene": "sharpa/scenes/sharpa_demo_needle_threading/scene.usda",
+      "scene_sha256": "b90f61980ac3be6d051b04b99fe3fcac8d7bb6ed665365e51002268bd17e2e7a",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_demo_needle_threading/Head.png",
+          "sha256": "bbb7cedee4769550618da9def6068d6906dbb4d33d61cd9d6e14069dffe5da6b",
+          "std": 60.1923606387075,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_demo_needle_threading/LeftWrist.png",
+          "sha256": "09f2f9ea024180fc8cbfb6c31e76a0a0a0eb641ff61b7de4444c118df6fda0a4",
+          "std": 54.72803813749106,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_demo_needle_threading/RightWrist.png",
+          "sha256": "2843bb7e8209a4e0ec79267646211a1f55ba1c6dc65749e26865eef6204579e8",
+          "std": 58.303699965046384,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_demo_needle_threading/LeftSide.png",
+          "sha256": "d46a1e8a933b28590738f1b16b19dbddd154a8a5b09bf1fd6bae581a767955da",
+          "std": 57.556082457393416,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_demo_needle_threading/RightSide.png",
+          "sha256": "4ba5736eb8df6e0b87ff5e40fa0a4043d90984a6d06726712cf6e2b14b709d71",
+          "std": 57.838766031362624,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_demo_paper_cutting",
+      "title": "剪纸（本地原型）",
+      "scene": "sharpa/scenes/sharpa_demo_paper_cutting/scene.usda",
+      "scene_sha256": "1e639ea35479790ac67ac89e0d5b871f6e78d593b101c6bd63ecfd3a93337790",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_demo_paper_cutting/Head.png",
+          "sha256": "defad35943c175a4f9967414af7228891e005138099e73ef22db94e126902383",
+          "std": 61.56932296286673,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_demo_paper_cutting/LeftWrist.png",
+          "sha256": "a104cca7adf80d9df70069caf9c0d569802d625616e11a1f28fc1c0c5b771524",
+          "std": 59.299009288054464,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_demo_paper_cutting/RightWrist.png",
+          "sha256": "ab285b294070332d1d41e463b7ed000e69038d38ed51f4f41d22ae61069daa6d",
+          "std": 59.40199919821984,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_demo_paper_cutting/LeftSide.png",
+          "sha256": "e614d2fcd87806710bab5d0b8baa61dfb348ee97e966671390342b83d12acc37",
+          "std": 57.852295414632096,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_demo_paper_cutting/RightSide.png",
+          "sha256": "660fc7cf95a0d478b3530f668d6650a620ee11f54103e4932255f5720560d3e9",
+          "std": 57.9475599310309,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_demo_pen_spinning",
+      "title": "手内转笔（本地原型）",
+      "scene": "sharpa/scenes/sharpa_demo_pen_spinning/scene.usda",
+      "scene_sha256": "8d64d6fdecd0a2826d2e9cc9f03cce7917f2e85f35cb23da7dd2fc2736833487",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_demo_pen_spinning/Head.png",
+          "sha256": "aa00c0383d266b815fbe5fa23b6ce62f3b9d913e2d79348d715ce4d8acc5a479",
+          "std": 59.750866649535,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_demo_pen_spinning/LeftWrist.png",
+          "sha256": "6ae18490d110a12149287f70d8825994037a3d0be3c626640f98b59f064ec802",
+          "std": 54.28524465239697,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_demo_pen_spinning/RightWrist.png",
+          "sha256": "e538734e9b17091b16466c086d4236de10dd7352bb3f418df5bd7a09e792af8f",
+          "std": 53.90634911162401,
+          "finite_depth_fraction": 0.8193294270833333
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_demo_pen_spinning/LeftSide.png",
+          "sha256": "7d25a49f0d1548f7f82cb6e028ed8caacd18e77f89daf63bf153b5ab586dddd1",
+          "std": 57.65286427649192,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_demo_pen_spinning/RightSide.png",
+          "sha256": "f08320c7f4391c6953a843b0138013efedfa3710ba4fbd35165ae55cedb8d702",
+          "std": 57.77046295256791,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_demo_screwdriver_use",
+      "title": "螺丝刀拧装（本地原型）",
+      "scene": "sharpa/scenes/sharpa_demo_screwdriver_use/scene.usda",
+      "scene_sha256": "d7c764a019307bb5142ec0d8977fd85a32b00b05407202cba37ad06cf5ba19a5",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_demo_screwdriver_use/Head.png",
+          "sha256": "3a3b4857fff43c35f49e3ed5a74606c2e17d6613d76394910b2d20eb8aafe5d7",
+          "std": 60.21190424372842,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_demo_screwdriver_use/LeftWrist.png",
+          "sha256": "14fb76bbd71cd3a20c10de2ccc6f9611e72867a4aa89056b475a2a99b3ae4de0",
+          "std": 54.79384675981944,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_demo_screwdriver_use/RightWrist.png",
+          "sha256": "d2a449a263b74b3fe1988170ab15e2e941ada1622b1413ecbd1b86589cdc8c5d",
+          "std": 58.27047313656291,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_demo_screwdriver_use/LeftSide.png",
+          "sha256": "efc0aa6041c2840aa0b96168c405d6b178480352f3d9eeabbab8ef4d71f07396",
+          "std": 57.5280772574603,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_demo_screwdriver_use/RightSide.png",
+          "sha256": "e71b95754403daaa8e87871b7598b3d17cc77c01c4e1a76cfa093971d52ec303",
+          "std": 57.75307166249874,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_assemble_gears_on_base",
+      "title": "底板齿轮装配（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_assemble_gears_on_base/scene.usda",
+      "scene_sha256": "443f0990634c794d235a108828ba729945a7d922313cda39b45f74aa3d92d8e3",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_assemble_gears_on_base/Head.png",
+          "sha256": "54e344814aef711b332c00320d10ae897b71c9ce958300fe31b3510043b8966f",
+          "std": 60.29990449606449,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_assemble_gears_on_base/LeftWrist.png",
+          "sha256": "582b57fcd9caee9b27aa7293c31f2812f33ede964a5087c0f624ce12e80eb342",
+          "std": 55.21444694679965,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_assemble_gears_on_base/RightWrist.png",
+          "sha256": "0f97e1dcfd7bba0eb99b4b7bf6c5b4e8ef9b1146758e8637cb7c1ceadf6c8ad1",
+          "std": 57.757199189060465,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_assemble_gears_on_base/LeftSide.png",
+          "sha256": "67b7db70408991eb7bb5435c9ac10a925c9c59e5a43b8c7135551b41e33413a2",
+          "std": 57.62137608598067,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_assemble_gears_on_base/RightSide.png",
+          "sha256": "c3b4c1e17cf02f999218c04ea030224971307157e888a0f19b46e34f97c57aab",
+          "std": 57.887710109432724,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_clean_garment_with_lint_roller",
+      "title": "滚筒清理衣物（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_clean_garment_with_lint_roller/scene.usda",
+      "scene_sha256": "8a6b57abadbfcd1ac4ee0be538a86d5963b9dbc2ba92f7693750fa4d82ee6550",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_clean_garment_with_lint_roller/Head.png",
+          "sha256": "9bf760a84bd30464e79edc46775ef4e0cd4a9368e871db0e14ae88f4c29310b0",
+          "std": 61.836066714681756,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_clean_garment_with_lint_roller/LeftWrist.png",
+          "sha256": "be285858cba90cc73ee2b467236534cf7f0ae4eb2d3a8638916f5c4d308a8a73",
+          "std": 62.767911115727564,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_clean_garment_with_lint_roller/RightWrist.png",
+          "sha256": "73b0a8027c8950a2d8f4bab99eb94462e188e932a3eb0877d95c7ff1debae665",
+          "std": 57.086927295678194,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_clean_garment_with_lint_roller/LeftSide.png",
+          "sha256": "b3baf62c819059341106bf1b606b2dab6f72e9b9b17550408124aeb247367fe3",
+          "std": 57.86330011836746,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_clean_garment_with_lint_roller/RightSide.png",
+          "sha256": "c8acdcd511ae9119b8dc907615ab30ec3ad9044c391535c6431f7ffe9943a2a2",
+          "std": 57.85964120685676,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_clean_knife_with_cloth",
+      "title": "用布擦刀具（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_clean_knife_with_cloth/scene.usda",
+      "scene_sha256": "65a8ae851500b92247d48dba65fdb1214ddfa8f9b168b6fd0129c33e5b48705f",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_clean_knife_with_cloth/Head.png",
+          "sha256": "9ab1babaa73e1b2212170b127c89d1906b6f144d252dc1e0fa775ce03d1d9762",
+          "std": 60.58283725569456,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_clean_knife_with_cloth/LeftWrist.png",
+          "sha256": "f785cfade30233c20cbda481413dedc28163e77f168f8a9bce6bab5adb72a798",
+          "std": 58.97192265936664,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_clean_knife_with_cloth/RightWrist.png",
+          "sha256": "67e8d91478bf26e712944e16d4b597913475f534d899bf487a060eecdf9279e3",
+          "std": 55.11865894174525,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_clean_knife_with_cloth/LeftSide.png",
+          "sha256": "207ff3c9c454e94ad512f3d414fe4c7cf7af16b18342b4706441dcdcff7c2573",
+          "std": 57.65725706343202,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_clean_knife_with_cloth/RightSide.png",
+          "sha256": "36b32f93734735dc1cd6964a0f7908333bd5b295bd8be6b2276240915823f92e",
+          "std": 57.81533621319469,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_clean_plate_with_eraser",
+      "title": "擦净盘子（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_clean_plate_with_eraser/scene.usda",
+      "scene_sha256": "8bf75a44ab92b8b88fee76f85adb9b0e62479a9133107a5cfc4deaaac3b3c74c",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_clean_plate_with_eraser/Head.png",
+          "sha256": "2ed406d6ea3cf68cbe2d50c0041ab474d2913718ad6cf55e72c7652db6029f7c",
+          "std": 60.04869479766698,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_clean_plate_with_eraser/LeftWrist.png",
+          "sha256": "bcd7b26ae7725cab8f721ebea40f01c2b52ebf1f5f7e1efa71a3e3e044a4c36e",
+          "std": 54.353148484022874,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_clean_plate_with_eraser/RightWrist.png",
+          "sha256": "eb430ed09292790b4fe9ca93a7b9cbc902f42f13f07baab92b86c91dc4a6dfba",
+          "std": 54.441149423972654,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_clean_plate_with_eraser/LeftSide.png",
+          "sha256": "489fdc1f0e137e327299b6bad640753114955417bc11859307b49e6e9cb24ef0",
+          "std": 57.73476294006882,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_clean_plate_with_eraser/RightSide.png",
+          "sha256": "d8fffb038ec4eb0c1f6621be59dbe4cf69cb248e4bac9926149cf4fcb105844a",
+          "std": 57.78475733214504,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_close_kraft_paper_box",
+      "title": "封合牛皮纸盒（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_close_kraft_paper_box/scene.usda",
+      "scene_sha256": "548e3460e6c4c787ed470372d32f00aada909a6ebfa478e1352c4fc40fd7de32",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_close_kraft_paper_box/Head.png",
+          "sha256": "6895c22708a20bcebbc34532391c3466dcab69b88f0b91372402674fe54e72e9",
+          "std": 60.85966283386901,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_close_kraft_paper_box/LeftWrist.png",
+          "sha256": "beb7859de9e29ad85c51c72beab01d364a434a8df63b0b07f3bfa6bc0d94e7ad",
+          "std": 60.783224105684205,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_close_kraft_paper_box/RightWrist.png",
+          "sha256": "fb4d2493bca30675cac2477a5912b6876f31e890fd76503edfe8a3e7adac2106",
+          "std": 55.739657860358534,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_close_kraft_paper_box/LeftSide.png",
+          "sha256": "3fcdeabfc89e74baa33b0ba10d03b33c56eec64d0b0b8581f56a3b5e6ec52097",
+          "std": 57.11312051384025,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_close_kraft_paper_box/RightSide.png",
+          "sha256": "2b6c6a53096c0ee99c7c8bc86b1b4035ea3928dd457424f2de0a7ffda6a90f1e",
+          "std": 57.76691039279142,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_collect_toys_into_basket",
+      "title": "玩具装篮（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_collect_toys_into_basket/scene.usda",
+      "scene_sha256": "8a2e732ecf6b14eb9a79ea248a8fe46b5268f5e4f76fc7a1d3e38ab842fc350d",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_collect_toys_into_basket/Head.png",
+          "sha256": "7545535ea5e61df649932600138753b591aeb0b2c986ee6a369c4e9e0256cfae",
+          "std": 59.79865546160544,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_collect_toys_into_basket/LeftWrist.png",
+          "sha256": "0caaf959b65520c5d5861a32cc0668be9c5aa6d684d18cb0536628176777b519",
+          "std": 55.03898683401089,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_collect_toys_into_basket/RightWrist.png",
+          "sha256": "08841722d061a79279dc3024ca57a69f4636a16eb70ce251ec3e08f1b1a26ca3",
+          "std": 54.26364646762943,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_collect_toys_into_basket/LeftSide.png",
+          "sha256": "2bd85ff202d7c3087dfe1b5fac8d7d14cdb09a4399751ae4fda20208e3561865",
+          "std": 57.51316751748038,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_collect_toys_into_basket/RightSide.png",
+          "sha256": "b5d782f7aad2b863e12de81c8f3f0511149ef5fa866356e0c2e6800b08a1d68e",
+          "std": 57.64959564434921,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_collect_waste_into_bin",
+      "title": "垃圾入桶（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_collect_waste_into_bin/scene.usda",
+      "scene_sha256": "d81d6a789de0a968cff0fd16d60f86480c103d5c538cede99211518af07acc4e",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_collect_waste_into_bin/Head.png",
+          "sha256": "c180724adcdbc73865687dd3cf6f0a351dfac7b931142d6de4c358b219792042",
+          "std": 60.97509180985716,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_collect_waste_into_bin/LeftWrist.png",
+          "sha256": "da7748eb8935cac671d6cad5ec5ac9c256650291e2aad34c06e1515807ba9fe1",
+          "std": 61.114432432032515,
+          "finite_depth_fraction": 0.8197992621527778
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_collect_waste_into_bin/RightWrist.png",
+          "sha256": "9f278316cbcabf0a2d4baad40d5f29149db2034034a3bc54b7d29fa9996d8361",
+          "std": 55.21376848785803,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_collect_waste_into_bin/LeftSide.png",
+          "sha256": "6207fb17a370ba873233ca9d3ee6b7ef853a06e55dd12f375f2e3a86639a2c62",
+          "std": 57.52479188779428,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_collect_waste_into_bin/RightSide.png",
+          "sha256": "1d3fee142acb858f2b222a0d07cc141addeccd0016aabb308593f70bba546f09",
+          "std": 57.5490616570393,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_cover_ball_with_cup",
+      "title": "杯子罩住球（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_cover_ball_with_cup/scene.usda",
+      "scene_sha256": "42295387207eb9e767bd0b33adcd3d4031d8477520104e3a49187d8d4510b1c5",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_cover_ball_with_cup/Head.png",
+          "sha256": "08502e0f2b27e2f0469e6a26d360c1b7e194dde35fd511b47177f77ab3ea6efe",
+          "std": 60.042473437059115,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_cover_ball_with_cup/LeftWrist.png",
+          "sha256": "47abc3900d0a9d88c6ff2528a3af646771144a168bd5158ce584865a110e23a4",
+          "std": 54.22336123940721,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_cover_ball_with_cup/RightWrist.png",
+          "sha256": "40b2834faabae4378e5bc6ab6432f4c20870630554bae0e3d09b67118665e011",
+          "std": 54.10030953167012,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_cover_ball_with_cup/LeftSide.png",
+          "sha256": "82b6351425bba1820136e6abc859ca118b1b9392c28c564c7427c1fb44ee2c82",
+          "std": 57.57918335890199,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_cover_ball_with_cup/RightSide.png",
+          "sha256": "962818e7d2dfef36b8cdbeaa7d6e66962482e41a06a06a62327e9cd8c7c19ed8",
+          "std": 57.81023174262191,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_deal_playing_cards",
+      "title": "逐张发牌（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_deal_playing_cards/scene.usda",
+      "scene_sha256": "0f0a0ba1d858ad2745a8ae535f909cfe47011ce6a9da3fec01b02d026dc7ddb4",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_deal_playing_cards/Head.png",
+          "sha256": "9045e539ed33a87a746642e9467ac28e6a47675ec351548ab814834c7e07769d",
+          "std": 60.11301678621953,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_deal_playing_cards/LeftWrist.png",
+          "sha256": "4c464b7103f317c8f65b6c2cb6450a77f69819fb88ea69667920c87fc590f0b8",
+          "std": 56.84118552910613,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_deal_playing_cards/RightWrist.png",
+          "sha256": "ecf83b18c7b82084f3c15eb26f4a1ac9c7d83788e38f05a7dfc7540fe81d8198",
+          "std": 54.26449185034369,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_deal_playing_cards/LeftSide.png",
+          "sha256": "42fa328a48c6f5c535dcb56b8eec49f704f59840b7e23149587d6121edb79d94",
+          "std": 57.66724555415718,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_deal_playing_cards/RightSide.png",
+          "sha256": "a32e718e6e087d4c653ea04dbc91118e1dc09793e02cd6f6cb17d5d7b60deb57",
+          "std": 57.68351347362467,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_empty_dustpan_into_bin",
+      "title": "簸箕倒入垃圾桶（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_empty_dustpan_into_bin/scene.usda",
+      "scene_sha256": "1a261a558d006debb508c44cd5c6795d7eebeed72fe15f63dd6e09eaee376ee9",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_empty_dustpan_into_bin/Head.png",
+          "sha256": "d72b94587f55469c5565f14f3dc1dcdd6f3f7074dbcdd50f1cfcd8093a4340a0",
+          "std": 59.856566666833686,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_empty_dustpan_into_bin/LeftWrist.png",
+          "sha256": "4aa4ffdea6d3678f76768ad26b274d7daa6ef73f066128f9bd8c36a98b6599ac",
+          "std": 54.7980274194162,
+          "finite_depth_fraction": 0.8197992621527778
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_empty_dustpan_into_bin/RightWrist.png",
+          "sha256": "4451fab2c5f9fe5d1d9f3c7f5cafd4aa6a0d8b2c81705909b2b45982eaa95e8d",
+          "std": 53.41618110846606,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_empty_dustpan_into_bin/LeftSide.png",
+          "sha256": "26fd88ad28ef1eb652359cca3a2490d1e467a1fe0a16be9bb6dbbdfc07940e49",
+          "std": 57.39284337402678,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_empty_dustpan_into_bin/RightSide.png",
+          "sha256": "c360783c7094052941c67eaa90094c68d110569ed177ab03dfb28deff417bbd2",
+          "std": 57.64878986213767,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_fit_trash_bag_into_bin",
+      "title": "垃圾袋套桶（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_fit_trash_bag_into_bin/scene.usda",
+      "scene_sha256": "5d185af07b9ef38453e164692e46625f7098e434bf3c72a71d26ebda0abba99f",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_fit_trash_bag_into_bin/Head.png",
+          "sha256": "f8431b6ccce133ba2423d0e154023bc177e5a3c70deb259430cf0fd1c6ecbc38",
+          "std": 60.752405588019585,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_fit_trash_bag_into_bin/LeftWrist.png",
+          "sha256": "2f8023a03779ca6ea6a7a2be085e747b6e486ef047a830022f1ce19c3a288cec",
+          "std": 54.809458629860735,
+          "finite_depth_fraction": 0.8197992621527778
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_fit_trash_bag_into_bin/RightWrist.png",
+          "sha256": "3d63ca0c7bedbbde3d8d666ab567ac186dfbfcdf94e35b9996cf296f91cd8017",
+          "std": 53.89217484973704,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_fit_trash_bag_into_bin/LeftSide.png",
+          "sha256": "03d85d6e044e2013e4f92b0cb60d8ca9b916488f86ed159712dc4f6210b3d621",
+          "std": 57.668746320184276,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_fit_trash_bag_into_bin/RightSide.png",
+          "sha256": "fde80bf7e63f8ba5557d02c5f70a005b69e620a7fd4ec07fbf81dbe39487cf75",
+          "std": 57.69788949950191,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_fold_and_close_box",
+      "title": "折叠合上纸盒（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_fold_and_close_box/scene.usda",
+      "scene_sha256": "6e86d98c61e0519dbb2b5382b6acb90f690a38b1d09c7cf742262ef877efd969",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_fold_and_close_box/Head.png",
+          "sha256": "f460bf53b1074fc2ef82a0720815a75a086be6fa63ba43876ee4966461c04ec7",
+          "std": 61.21292322365933,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_fold_and_close_box/LeftWrist.png",
+          "sha256": "e0609a082ba5c60ea52cca754634c7ebfb65bb3f5104203aca369b611d863a47",
+          "std": 55.01673800388993,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_fold_and_close_box/RightWrist.png",
+          "sha256": "23b62bd69bb7935c1ca32c226e83e008b05722ad8028f02818bbccf99dbe89df",
+          "std": 54.28279935017462,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_fold_and_close_box/LeftSide.png",
+          "sha256": "19c9efba3452993c477f2fc997ad68d77cf8acbd131366523866331d9d3ddc6d",
+          "std": 57.74778366396983,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_fold_and_close_box/RightSide.png",
+          "sha256": "c4bd89989fdff55c614dd14decc1559ef7d36c78f35b1e5a7386222be313b455",
+          "std": 57.71060922083962,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_fold_towel",
+      "title": "折叠毛巾（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_fold_towel/scene.usda",
+      "scene_sha256": "d427f8fce62a9fc09ab5b5e71391ec211458035371f01a458308e34e9fa4732f",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_fold_towel/Head.png",
+          "sha256": "ba6a544fba3b8e998570a20d4c061a28f84223f9fc5e34792f37abe36a6de874",
+          "std": 61.50913266105973,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_fold_towel/LeftWrist.png",
+          "sha256": "e49fc741916b4c1b8f1209d1db54b57720b32f7ff38076147482989effceeae9",
+          "std": 54.37539798913398,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_fold_towel/RightWrist.png",
+          "sha256": "9d531c2ae5f91b95fe66111725dc03e3a01142903b186bf722bc04465c3496f6",
+          "std": 55.02170237440027,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_fold_towel/LeftSide.png",
+          "sha256": "f5ce8a5e72a331c7335908a8708a4e9f8bc9b9ef6396dbd232f0d51a95c0751d",
+          "std": 58.11346474372079,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_fold_towel/RightSide.png",
+          "sha256": "c58824d428726cd901da0c835f2dad83e7804fe0ce15348dc7832bb1a032f45c",
+          "std": 57.69918723871996,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_form_kraft_paper_box",
+      "title": "牛皮纸成盒（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_form_kraft_paper_box/scene.usda",
+      "scene_sha256": "746a035422f621b8442f1666356c0ecd4c5a66bbc5d6757158d3bb9aa5ee180f",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_form_kraft_paper_box/Head.png",
+          "sha256": "0b7f025e0f36bab5ade694fb9210eaef38b74f0bc076e9ff1b56993792f34c85",
+          "std": 61.34813191871565,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_form_kraft_paper_box/LeftWrist.png",
+          "sha256": "52db313998a91ef8dc5d3bf57ab85143129921ef7f0e7c76c1407d8f9b213cc5",
+          "std": 54.14581441531723,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_form_kraft_paper_box/RightWrist.png",
+          "sha256": "49375b0103be082450e4d108a108c4d6b0156bf6a3d59edeb017588fd84d1f53",
+          "std": 54.93930659410725,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_form_kraft_paper_box/LeftSide.png",
+          "sha256": "84b6cdf80db02097c74123418e9f27a0cd548179237a999bbd1766e0251d22ab",
+          "std": 58.1112322327433,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_form_kraft_paper_box/RightSide.png",
+          "sha256": "7bcbca82e6a15dad2ed48fc5ab4bca91a32b7370861182838b5edceceb567b35",
+          "std": 57.74728973433264,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_grind_medicine_with_mortar_and_pestle",
+      "title": "研钵研磨药片（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_grind_medicine_with_mortar_and_pestle/scene.usda",
+      "scene_sha256": "24290b3e77eb83093874462f5d1340b01517bea209abcd7c9f26b9f3f89156b7",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_grind_medicine_with_mortar_and_pestle/Head.png",
+          "sha256": "9dd129a1a2f47c4c9aa8c5a0494738248b7e920107168a2eb3724efb317fabb6",
+          "std": 60.26464566129421,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_grind_medicine_with_mortar_and_pestle/LeftWrist.png",
+          "sha256": "922a7a652caaa4adb61df37b653d4e52b0ade5e78c68fd90e2c684072bb60a20",
+          "std": 54.84077195338806,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_grind_medicine_with_mortar_and_pestle/RightWrist.png",
+          "sha256": "f418e2961f4f88c52a5ef4d42c23daf313fc5983c0df4bf7cefd1f1f89fc966f",
+          "std": 56.56630786151344,
+          "finite_depth_fraction": 0.8193728298611112
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_grind_medicine_with_mortar_and_pestle/LeftSide.png",
+          "sha256": "b331c688b8820c144d4446812908e3dca8efca0084425a81c8397ea927a5b072",
+          "std": 57.66336479968132,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_grind_medicine_with_mortar_and_pestle/RightSide.png",
+          "sha256": "456489fa89a7f41e31313a1073a6e280ca9a35fa9077066359bd599b9920b963",
+          "std": 57.74871601199652,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_hammer_nails",
+      "title": "锤击钉入木板（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_hammer_nails/scene.usda",
+      "scene_sha256": "2ea75ea96ef4cc1696110a2dab7578b414f625bb1003f0adef5c213fa5422394",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_hammer_nails/Head.png",
+          "sha256": "2ea0bfca7d6fa22085eeaa2442e80403e9c54e0b430dfbabeb7c79881bb8bf35",
+          "std": 60.25173562596019,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_hammer_nails/LeftWrist.png",
+          "sha256": "1216bb7964d70296ac84d054911000709a7f98c11d67d72c9b265313a236643c",
+          "std": 54.82397455591103,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_hammer_nails/RightWrist.png",
+          "sha256": "88f349227445df6831adb872c9b4009b9ac67724199e29d5d010b692bc0a03f8",
+          "std": 58.00502115227442,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_hammer_nails/LeftSide.png",
+          "sha256": "796aa959609e817f13d5abfaa941e0fab532d021a508f11083c56a57d496798b",
+          "std": 57.45562221420527,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_hammer_nails/RightSide.png",
+          "sha256": "134e9998762a6ba27fcd63c46e24cbc40153a510debaf92d05671d6d1de62319",
+          "std": 57.80149484240069,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_hang_garment_on_hanger",
+      "title": "衣物挂衣架（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_hang_garment_on_hanger/scene.usda",
+      "scene_sha256": "e42f3d9c52f99cac957fe94794aef554bec7d04787050d1596e16666b54d10dd",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_hang_garment_on_hanger/Head.png",
+          "sha256": "2c1c0ec82b99a3236b4791c4b75122c9da362ef78aeaec7ac519073468b34633",
+          "std": 61.96270520271269,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_hang_garment_on_hanger/LeftWrist.png",
+          "sha256": "16b211131009b75c4091ae3dba84f81994edf74c1f4e083a8dde47b88a1ed44f",
+          "std": 55.484494543922864,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_hang_garment_on_hanger/RightWrist.png",
+          "sha256": "1424e2ea6b7414a54586a114953470e64561ffc1995cc6c2d66aef0ebccc741b",
+          "std": 55.43957765647731,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_hang_garment_on_hanger/LeftSide.png",
+          "sha256": "2ba4ec677e932e09c322900bd6438f1d73d624d4cebdd3c32aeee696277ca42e",
+          "std": 58.197547566030835,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_hang_garment_on_hanger/RightSide.png",
+          "sha256": "1cff63a99c7704496ef3a48ad069e34450a207bc66cce39d49c4cabb300f35db",
+          "std": 57.86862279788998,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_insert_batteries_into_charger",
+      "title": "电池装入充电座（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_insert_batteries_into_charger/scene.usda",
+      "scene_sha256": "1577a327584c5593e5af4d600d0de28c78dde3b60f8b20fa8745fda68f4ee653",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_insert_batteries_into_charger/Head.png",
+          "sha256": "79b771e6f1b532e3ba7b23c2f1d23c0879ebdc13c081e4885e9a4b58b68c9947",
+          "std": 59.88967401344112,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_insert_batteries_into_charger/LeftWrist.png",
+          "sha256": "569d3b4b8bd2a7f0e086f1a590875525f59ad399529476105429e2404be39540",
+          "std": 54.48343279862605,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_insert_batteries_into_charger/RightWrist.png",
+          "sha256": "e9341289ee3ca1d0b959b306ae22b7bed5959fc23080a7318e2b942aed7cb444",
+          "std": 54.53984924070646,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_insert_batteries_into_charger/LeftSide.png",
+          "sha256": "8bd10eae2219e70498d02f747cd752a2f52dbe2e44e3947072e29ac9b5a8a5a8",
+          "std": 57.6364964069223,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_insert_batteries_into_charger/RightSide.png",
+          "sha256": "815659f9e278e245a9de94d182074304987ee6710268d8e0128af71ab7de7caf",
+          "std": 57.729964206138526,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_insert_batteries_into_device",
+      "title": "电池装入设备（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_insert_batteries_into_device/scene.usda",
+      "scene_sha256": "3fdd1a326eeeca2eb6881f1a23aebd32974296c01db58e07d216ecfbb6a9687c",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_insert_batteries_into_device/Head.png",
+          "sha256": "1496499b4c6371c6c0a97220d914b5b644f993c728ecceb1ee3d503aa25ab742",
+          "std": 59.84037573753631,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_insert_batteries_into_device/LeftWrist.png",
+          "sha256": "3548c7b77fe135c8017ac5d71f7ed24bfe8b1203199fd746615766f845af5beb",
+          "std": 54.40083330185488,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_insert_batteries_into_device/RightWrist.png",
+          "sha256": "1b4342c9f192b52bffaabcde901584e0a3c8753f3f14435ac77a5704a01bc13c",
+          "std": 54.49853069192333,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_insert_batteries_into_device/LeftSide.png",
+          "sha256": "1acf27b88f86bfd2ae664e9211f2c55b1c6b2aecdf955dbe85440104f5a8180f",
+          "std": 57.6147290105206,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_insert_batteries_into_device/RightSide.png",
+          "sha256": "b679d98e7ba0446e0d686261f923c3f06e4ba312fdeb29ffb7472f459307d46e",
+          "std": 57.70037088072615,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_insert_knife_into_cutlery_bin",
+      "title": "刀具插入收纳筒（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_insert_knife_into_cutlery_bin/scene.usda",
+      "scene_sha256": "ce237a769ff08f10b9b513e9e62ba2180571fff90579ac37e172f4217b093829",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_insert_knife_into_cutlery_bin/Head.png",
+          "sha256": "03d0e04acbff343d1a32c80d0ce863c5005465411976941180d69da371353d6b",
+          "std": 59.86343427323599,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_insert_knife_into_cutlery_bin/LeftWrist.png",
+          "sha256": "f7fbf6b148dad0620dfaf2feb6ab5a797d32f9c0f34d39f07c368728856561ea",
+          "std": 54.30564300385501,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_insert_knife_into_cutlery_bin/RightWrist.png",
+          "sha256": "c09bfadfb4b70581b688a021188a0eee144143fd44cd3454e7f6f6f10ae335d7",
+          "std": 54.54733184090282,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_insert_knife_into_cutlery_bin/LeftSide.png",
+          "sha256": "366826a31fa4df3a6647a51613fc825c1d72c566dc4688b45e9fd7c920e98182",
+          "std": 57.65784556271136,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_insert_knife_into_cutlery_bin/RightSide.png",
+          "sha256": "3d49bf6ba818db498a1cac3b7ed7eb0d2f689a35bfb8680901f6edc2be394ed4",
+          "std": 57.606672330449946,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_insert_plug_into_socket",
+      "title": "插入电源插头（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_insert_plug_into_socket/scene.usda",
+      "scene_sha256": "2bcbcf64e780dc2e3429bed7de909929dac15aa6dfd98598dd5c4dff2ae93acf",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_insert_plug_into_socket/Head.png",
+          "sha256": "5a0f6227601af0f5cfb17ced0952c971016bc63d700ee7c3b2ed636a977822be",
+          "std": 59.88094058723476,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_insert_plug_into_socket/LeftWrist.png",
+          "sha256": "ae2ed0dbb6615ba226a75635f649d559256266691a0a8770832054f5561516e5",
+          "std": 54.26217536871391,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_insert_plug_into_socket/RightWrist.png",
+          "sha256": "0c745099f43efb7a1f0460f871c4efb736fb451737a529bf27beb875bffa4c71",
+          "std": 54.696998839289606,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_insert_plug_into_socket/LeftSide.png",
+          "sha256": "ca2217bf0703c35bb6f83759267cf1f805f8c566345d1994d80e38c183883c8e",
+          "std": 57.59746128078736,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_insert_plug_into_socket/RightSide.png",
+          "sha256": "bbee80a62fc3dc68c4d42f0ccb3a655feeaa3fe9c761b480c873061f8517c04d",
+          "std": 57.70888927802274,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_insert_socket_module_into_board",
+      "title": "插座模块入底板（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_insert_socket_module_into_board/scene.usda",
+      "scene_sha256": "a7eb3262f6f8f658faf11edfaff2978830a99bd7c40939932bbd2e0c708d2e45",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_insert_socket_module_into_board/Head.png",
+          "sha256": "49e3056670baf5759243515b43b7ae1f60a62557b3c83c8bccede4485055d2b7",
+          "std": 59.86439933003817,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_insert_socket_module_into_board/LeftWrist.png",
+          "sha256": "3f66257aaffaa5c8d9918d00cd24d632ecc91b4181651ca5e11f42f70e66317e",
+          "std": 54.25411902312072,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_insert_socket_module_into_board/RightWrist.png",
+          "sha256": "f4a6b6a64277842ff1261c33b849dbb67499840f74f15d8b46995cfdffc61250",
+          "std": 54.75518567782934,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_insert_socket_module_into_board/LeftSide.png",
+          "sha256": "873a7e70d96ad12795876435800d1abde21a91144d1f2d80bbff63cc191f1e41",
+          "std": 57.59259377110416,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_insert_socket_module_into_board/RightSide.png",
+          "sha256": "319e70318a57cf448a266ec9f7906ca49c0fb1dbfcf60a9c6d890111c1d60b67",
+          "std": 57.71721953646394,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_iron_garment",
+      "title": "熨烫衣物（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_iron_garment/scene.usda",
+      "scene_sha256": "b0d6b4c1abc7d22a8036d4c9edeb8e08db8198a1d9b8bc93c00b8adbf18e0c96",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_iron_garment/Head.png",
+          "sha256": "27b9a9b0c25210fb1205ecad196944b233320b1688c2dcc000e9f1d5beb57d0e",
+          "std": 61.71750738645361,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_iron_garment/LeftWrist.png",
+          "sha256": "8c1d637ff4c83952efc9d956c4e87a2aeda5e42efa595e471e7a1bc0061430db",
+          "std": 62.80235667916118,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_iron_garment/RightWrist.png",
+          "sha256": "daac665e9464943e3a6b4a72a295762f2a73da5adcd16631095a6dd51f02cc64",
+          "std": 57.03449112830082,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_iron_garment/LeftSide.png",
+          "sha256": "2c396ec733248a057a31b582c6d64d7f05832a59547ec8c9a08ce5602c1f7555",
+          "std": 57.76717327803222,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_iron_garment/RightSide.png",
+          "sha256": "aa76d43b00b4f6ed3da28a2343da9d45ce4c0d69b4c02f5ccfff7510e19eaf41",
+          "std": 57.77566757610595,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_nest_cups",
+      "title": "杯子嵌套（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_nest_cups/scene.usda",
+      "scene_sha256": "875fa62069d53ef4701bcf447b0ff496b9795d4f8da62cc5eed55327da2ee38f",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_nest_cups/Head.png",
+          "sha256": "92aa018ff0f498404144078d7f152ba154b37ed64e155a82222d2cf40aa4cafd",
+          "std": 60.171730128535096,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_nest_cups/LeftWrist.png",
+          "sha256": "13701ae2050693ac1146d4974b059bbe3c2ffc4640e149e041d8f593cc3ef90c",
+          "std": 54.292957667565304,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_nest_cups/RightWrist.png",
+          "sha256": "d1745b5d55b22577f89d7c8256ded30238a57f7e2156470aec4fd095460cf045",
+          "std": 54.856215266486664,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_nest_cups/LeftSide.png",
+          "sha256": "8aa8bc9469f3ddd08d7df3ee179d6198f66071db7d06b78e99896b305abaacd8",
+          "std": 57.64098327696358,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_nest_cups/RightSide.png",
+          "sha256": "fa2613864191eea5b6638bce77abc2d0b5cfc8b6920f9d45472d5b73ec3d72f4",
+          "std": 57.92669451758156,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_organize_objects_in_drawer",
+      "title": "抽屉整理（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_organize_objects_in_drawer/scene.usda",
+      "scene_sha256": "dedcb9f579bd049f60f67ecbd0a35df43dd26b25d422b51959a340caf0cf8a76",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_organize_objects_in_drawer/Head.png",
+          "sha256": "02c84e934dfcff956bff327b8ea61bacab8f5920ffc001cad5ca310a3c211505",
+          "std": 60.048675435724704,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_organize_objects_in_drawer/LeftWrist.png",
+          "sha256": "a16cf909caf67b00bfded676dbe39e0e5f6f4604f6d9b68107a84d8344716eae",
+          "std": 54.72195445866187,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_organize_objects_in_drawer/RightWrist.png",
+          "sha256": "322556277f4e7fa789557a16610ffaf036b432a13c60e0496be0f599fda0a782",
+          "std": 56.180907609388946,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_organize_objects_in_drawer/LeftSide.png",
+          "sha256": "6a843ceb31d3b93d3bc5beed37e80bf4cd4c570051b3e92820f7ec3a5f418b3a",
+          "std": 57.38658399115896,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_organize_objects_in_drawer/RightSide.png",
+          "sha256": "cce71f87ad7d659b239536e30bf0fbb0afbd3bbaf18b20b5ba861a860da7ba80",
+          "std": 57.63529448733202,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_pack_blueberries_in_bag",
+      "title": "蓝莓装袋（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_pack_blueberries_in_bag/scene.usda",
+      "scene_sha256": "f5dbaef56af2de2675ebe20e9d0debf0acb2fd1a11abacfd594f515feb914d04",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_pack_blueberries_in_bag/Head.png",
+          "sha256": "3c581e4dd9d9c4f5490fa8e1332271c671d8d7a90dd0c5684c92d79b2bdf45b8",
+          "std": 60.48468781298158,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_pack_blueberries_in_bag/LeftWrist.png",
+          "sha256": "df85209f49f38eb653b3d5600eb2bb9085427ef8df0453a0842a603eed7d8d42",
+          "std": 56.06577304109266,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_pack_blueberries_in_bag/RightWrist.png",
+          "sha256": "858064d525e3b371e28b8c5475c927b0d017400d326de9748bc9b127ca32161c",
+          "std": 54.51585205313648,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_pack_blueberries_in_bag/LeftSide.png",
+          "sha256": "03a16b894e38090e4d888fafbee61310561f327cd8118f18af0c83025ff3471b",
+          "std": 58.131795564398786,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_pack_blueberries_in_bag/RightSide.png",
+          "sha256": "8261bbd363147a3ae519f866a97cfab478ded7a5d31c117053a38f7afd2e1e1e",
+          "std": 57.731094535501384,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_pack_object_in_storage_bag",
+      "title": "物品放入收纳袋（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_pack_object_in_storage_bag/scene.usda",
+      "scene_sha256": "2f917314241d7d5aa4661ddb8726fca209a3edc1cb62ac361e9af56a8089c44e",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_pack_object_in_storage_bag/Head.png",
+          "sha256": "8ec0c988c027f0dd58248d1753bfcd7c175a1bf16819b605d35671ff54e3b3fb",
+          "std": 60.795906207655264,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_pack_object_in_storage_bag/LeftWrist.png",
+          "sha256": "ff6bb483953aa806c9f32329195928c8c86f5a5df4b0e5446748f965571615d6",
+          "std": 60.01885880538439,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_pack_object_in_storage_bag/RightWrist.png",
+          "sha256": "d15698dafcbe5b06c9e5e516dbe8a70fbfaa55bb994aafbb51d85b44f3f4176e",
+          "std": 55.423445611072395,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_pack_object_in_storage_bag/LeftSide.png",
+          "sha256": "0bdde63c97ea34d8437edce7bbc66fa0ea04bef7e4ed8075a5f1231685574ef3",
+          "std": 57.65286612032098,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_pack_object_in_storage_bag/RightSide.png",
+          "sha256": "f03106d6a22382decce8c4c6ee888e4fc485c2d7e8dda16f137c6db53d3c225c",
+          "std": 57.817752829355456,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_place_ball_in_box",
+      "title": "球放入盒内（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_place_ball_in_box/scene.usda",
+      "scene_sha256": "bca89b6a79961dcd95fb82dce0a9fd940ef78a640ba3f1f6e2e2e9ef9cfcac79",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_place_ball_in_box/Head.png",
+          "sha256": "c7be4d9c9d3111dbbdba1954c9cf379b13fc3f0f58449e4ee2d494c04f8b5203",
+          "std": 59.71101451399945,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_place_ball_in_box/LeftWrist.png",
+          "sha256": "191f2967399e1068be17e0937cef5b4d9bdc63a04e1052fd0b9424fb85c24f26",
+          "std": 54.42237723586954,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_place_ball_in_box/RightWrist.png",
+          "sha256": "4955fd9783e8a923243dc66b8ee81b2d1cb61e91d26552537a86886f0426aebe",
+          "std": 54.552554970495954,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_place_ball_in_box/LeftSide.png",
+          "sha256": "02cf73352ef485c7e1d60c6645504a85092d5a909223191972c1c12991a721ce",
+          "std": 57.5163343772549,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_place_ball_in_box/RightSide.png",
+          "sha256": "a22c8c3758df1ae868ed779d1dd55356ed519a0509dd5efe1b91f5fb4634dde2",
+          "std": 57.64016871611408,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_place_ball_in_cup_then_cup_in_box",
+      "title": "球入杯再连杯入盒（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_place_ball_in_cup_then_cup_in_box/scene.usda",
+      "scene_sha256": "32d6c355be297fe00528951c9490d9901f5d8b551135fe1e188bc12517dc2805",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_place_ball_in_cup_then_cup_in_box/Head.png",
+          "sha256": "d58cfb36284fc3eb0ccbeee71afb1070c47cccd9b77b9cd42ee4b0d3919d31f3",
+          "std": 59.95855475002086,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_place_ball_in_cup_then_cup_in_box/LeftWrist.png",
+          "sha256": "9172d521a26022ac17fd8fc5a8412040739b408e08fe025a10176dfa891fcd6c",
+          "std": 55.3001983406224,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_place_ball_in_cup_then_cup_in_box/RightWrist.png",
+          "sha256": "b1bb050f92362f30ef25f190523805b1d707ea292885656d6734d7853562b83c",
+          "std": 54.748153142913004,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_place_ball_in_cup_then_cup_in_box/LeftSide.png",
+          "sha256": "508b8c4665d3139b159d7beb05d22b476509cf4372d3b14f8214e92c82a3d1a9",
+          "std": 57.537325019403205,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_place_ball_in_cup_then_cup_in_box/RightSide.png",
+          "sha256": "98f2ae4b132b73d8ae3726a98d84e04a56660652e0a0d52a0e5e275ad7a3921e",
+          "std": 57.707557842529454,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_place_books_on_shelf",
+      "title": "书本上架（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_place_books_on_shelf/scene.usda",
+      "scene_sha256": "f1a10325437c6e5920058b19d2e73dbbe2fbb3d52318e854976f92b1d5b86560",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_place_books_on_shelf/Head.png",
+          "sha256": "2cb0e613f88b4eb42b30c8deb346c3a73554511faead3a0fb3375868e15d48b8",
+          "std": 60.42390772690918,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_place_books_on_shelf/LeftWrist.png",
+          "sha256": "439217340b206a2ad5e43cd1844ff2351a61fe16d0be84d80867505ee8981831",
+          "std": 56.66599949203459,
+          "finite_depth_fraction": 0.8265483940972222
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_place_books_on_shelf/RightWrist.png",
+          "sha256": "7c5dba0c5fa464d667465e47191e42da52cfb4130472dbfe21d0a58ac621bc9d",
+          "std": 53.64651894804174,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_place_books_on_shelf/LeftSide.png",
+          "sha256": "66302d32aeeccf16609dddf18e6cf40291f1effb193164ed731bda44d940c396",
+          "std": 57.49175373203857,
+          "finite_depth_fraction": 0.6923198784722222
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_place_books_on_shelf/RightSide.png",
+          "sha256": "41c33cb6495971108d1e541dbb1fad218437660f6792382648195196203010ea",
+          "std": 57.80974081907853,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_place_coffee_filter_in_dripper",
+      "title": "咖啡滤纸入滤杯（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_place_coffee_filter_in_dripper/scene.usda",
+      "scene_sha256": "1616b23dcb0b42ca90e0b104f57562f78979f9801d009a42607c7e20304a2190",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_place_coffee_filter_in_dripper/Head.png",
+          "sha256": "0759c3876fab5991040f3ccc09187173a6e01c8295fe9aba5a5275ce39a7587a",
+          "std": 60.288413277319464,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_place_coffee_filter_in_dripper/LeftWrist.png",
+          "sha256": "0a24cc0fb55a20384bd65a0a27b666ca7739399ab26ed16e2d3d5e1daffdee29",
+          "std": 54.66804558892856,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_place_coffee_filter_in_dripper/RightWrist.png",
+          "sha256": "c162b5f611a19796192800ded90825d38e52e0cc152dc846c571d9b6911bb6e5",
+          "std": 55.368824884198155,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_place_coffee_filter_in_dripper/LeftSide.png",
+          "sha256": "2fcaa9839f158ca616b7b00916a4a9b05c280e11961db2b5db465df98034bbee",
+          "std": 57.73419709523519,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_place_coffee_filter_in_dripper/RightSide.png",
+          "sha256": "39131edc044ae2e53e27d7df6d2643bd133fe3eb1086f27198b1e5f992c447a8",
+          "std": 57.76451108182893,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_place_cup_on_plate",
+      "title": "杯子放到盘上（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_place_cup_on_plate/scene.usda",
+      "scene_sha256": "2d5bf076998ba77358ce1a5640e7a22961ddd2bd907563c71fa9004fb2225e92",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_place_cup_on_plate/Head.png",
+          "sha256": "50b571dc648787693d3622680e14f00f7dd64d88c50ca82fc2bd4f385c8602d2",
+          "std": 60.164304044755504,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_place_cup_on_plate/LeftWrist.png",
+          "sha256": "c470ebe99da7bab3cbbdfb0ef1bd3612e0b57f955fe0069cf328c02ca5a5d40f",
+          "std": 54.37434901656075,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_place_cup_on_plate/RightWrist.png",
+          "sha256": "1934dcbf0915bbdfe7946e14f5ffda809b3dce384c5ea9ffdfa29d910fedd990",
+          "std": 54.57078278330434,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_place_cup_on_plate/LeftSide.png",
+          "sha256": "ce3a626bc8c48a474b805bba155d3ae7396f92151be204bd3cf3f12cdf0efa51",
+          "std": 57.74239618468605,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_place_cup_on_plate/RightSide.png",
+          "sha256": "34f4034ba2127892d8dabfe7dfc9cac3a568e9273665bc3dd56b28944ff21f9a",
+          "std": 57.76178271805294,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_place_fruits_in_basket",
+      "title": "水果装篮（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_place_fruits_in_basket/scene.usda",
+      "scene_sha256": "6d199c1313d2b7fee00e56cc64909ad60113cb435d6703d354600e927b4766ee",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_place_fruits_in_basket/Head.png",
+          "sha256": "ea66e85fb093c6a5f63e29787504614c0c781327f1f98b598a0773dfb2453653",
+          "std": 59.89465890985409,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_place_fruits_in_basket/LeftWrist.png",
+          "sha256": "14db8a91659fd75a9826123ed4973639d8868016602404df1b0ccd4992ef8916",
+          "std": 55.21505003657155,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_place_fruits_in_basket/RightWrist.png",
+          "sha256": "a121d8524d40c7b57aac392bb5304cac749ff6fb4c17c08a608c4746129e5e85",
+          "std": 54.51638753659497,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_place_fruits_in_basket/LeftSide.png",
+          "sha256": "8d0da437f998dd86bd169f5c8caf8de8da08e37e0675963b9f0638992f91375a",
+          "std": 57.610847530705065,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_place_fruits_in_basket/RightSide.png",
+          "sha256": "a60787f4dd82309bc2ee37034c1e00ca48acef5ccf7f343cb373cef36f7bbe76",
+          "std": 57.68921091712392,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_place_knife_and_fork_on_plate",
+      "title": "刀叉摆上餐盘（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_place_knife_and_fork_on_plate/scene.usda",
+      "scene_sha256": "7922eefbc43f84a629215a3a7c0e3c193a4b417f9f43ab6419c2259998755776",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_place_knife_and_fork_on_plate/Head.png",
+          "sha256": "0b9e43b40bda56903c4a53c19eaef029aa199dc64a2cbc868d67489d950a488e",
+          "std": 60.128875453275185,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_place_knife_and_fork_on_plate/LeftWrist.png",
+          "sha256": "63cf09028e7fec23ec3d8abd5647e35fa7bcaf36eb5bd35c09e9a58efaea05cf",
+          "std": 54.68400516242202,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_place_knife_and_fork_on_plate/RightWrist.png",
+          "sha256": "bcbb49846995380f7ff004d822c47f99a98df3e3c1641e910cd2d4fc44a59f15",
+          "std": 54.79751604064193,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_place_knife_and_fork_on_plate/LeftSide.png",
+          "sha256": "da1f0ccfb0a834b67fd9009b01ae24886e1d8b156a4dcbc9b93b4608b8596ab7",
+          "std": 57.774935385836265,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_place_knife_and_fork_on_plate/RightSide.png",
+          "sha256": "13138c4d66c1a02b8b1feca7b627f9163137103e495afe5a95553024a1460c59",
+          "std": 57.975364262895276,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_place_pens_in_holder",
+      "title": "笔放入笔筒（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_place_pens_in_holder/scene.usda",
+      "scene_sha256": "8d1e1f77ec5db42c64d245d888a039697de3dab1a48ee21b3959d1ea257b9843",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_place_pens_in_holder/Head.png",
+          "sha256": "79427b4c25d3b2dc43eca9e71bfec089c6345807a5aa2326285232eab4dcd20c",
+          "std": 59.871947847421886,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_place_pens_in_holder/LeftWrist.png",
+          "sha256": "4c45c5da3682298579b3f32dd892a77386f974ce7410e5ebfe90d9fc3160502a",
+          "std": 54.68973388944815,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_place_pens_in_holder/RightWrist.png",
+          "sha256": "95e762e8e0b823cbc65fede50fb270a89af38cc86fa40b232e07118a40bd96c0",
+          "std": 54.794766564085734,
+          "finite_depth_fraction": 0.819599609375
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_place_pens_in_holder/LeftSide.png",
+          "sha256": "44d670fac2cb2a1a69e0b5147ce92f6ef545b5a3ac86fe673eb16b3a442a6b7d",
+          "std": 57.505663309126184,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_place_pens_in_holder/RightSide.png",
+          "sha256": "07950329ba66fcca2a41b6b5b55453ed3a713cd2aeee05edfaa85177ffba2a9e",
+          "std": 57.71574975678943,
+          "finite_depth_fraction": 0.6912141927083333
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_play_tic_tac_toe",
+      "title": "井字棋落子（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_play_tic_tac_toe/scene.usda",
+      "scene_sha256": "9fc238ba80c38e3ea43f289976dd8d6fb8079657f2ff72068e27ef7823c8e296",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_play_tic_tac_toe/Head.png",
+          "sha256": "1ec542588d3960ee9670bce7ff5f646964e594f4065bda7b77bf7a7b2c27fa99",
+          "std": 60.42176895115382,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_play_tic_tac_toe/LeftWrist.png",
+          "sha256": "037ed2bd7b20e1c2d32f4124e66ed6fb4278ab074a9c84b78c6329b4b3acb0be",
+          "std": 55.247415892865384,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_play_tic_tac_toe/RightWrist.png",
+          "sha256": "f8a561adb63612edbb55244717fe1bce96b1c7605dbc269f6f6bcfc13bb9916f",
+          "std": 58.267111225840054,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_play_tic_tac_toe/LeftSide.png",
+          "sha256": "5dd8f94fef8333f8986e52d514b4c1d82b0199e3a1e9690c8dada47e8c7a3cac",
+          "std": 57.64588591266898,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_play_tic_tac_toe/RightSide.png",
+          "sha256": "5cd0647cd0e422f8c67e1675bf2b41e25c98c27a3dd582ecf3cf2291c1e3e3bc",
+          "std": 57.84503428317959,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_pry_nails_from_board",
+      "title": "拔出木板钉子（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_pry_nails_from_board/scene.usda",
+      "scene_sha256": "7303c3a155bda51514f022cac473bd3d11a7a98bc345e2807202a9fb0d8b0e06",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_pry_nails_from_board/Head.png",
+          "sha256": "09cfaa588a281ca346d060ba1eedd0a4213bfc2c1849e520cae6812a325ebb08",
+          "std": 60.26497074090822,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_pry_nails_from_board/LeftWrist.png",
+          "sha256": "e704c035813a2ae4b6d3821b378af3c285677033812351f42d419fa366d5c1c6",
+          "std": 54.8256058244215,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_pry_nails_from_board/RightWrist.png",
+          "sha256": "4b45ddaec2eca27c2a05cec6c80436370a45309d2dcec679daa0a75bb680c865",
+          "std": 57.85210899534594,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_pry_nails_from_board/LeftSide.png",
+          "sha256": "8d44504549c67f4deda703c5ca26f0f7418fb7f4533015b24b342db9b13f8b55",
+          "std": 57.62355516236887,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_pry_nails_from_board/RightSide.png",
+          "sha256": "a54046e982efe495e282b7a16a98d68412e3e906d3b1b8e5fc918afa7e1534ed",
+          "std": 57.78876421503004,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_relocate_tennis_ball",
+      "title": "搬移网球（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_relocate_tennis_ball/scene.usda",
+      "scene_sha256": "70fb1f736cccc22cb1dbeb943be7758b998b18c40be02752c3e1674953505fa1",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_relocate_tennis_ball/Head.png",
+          "sha256": "45694f341cf873503c14980fe94e3bcdbf5287f92297e6f37bb40674b99b2db0",
+          "std": 59.86156189633127,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_relocate_tennis_ball/LeftWrist.png",
+          "sha256": "d12ab778d9314087a54f0a1675cfbc53ced028eda40a1e50579b2b11ef8c8c92",
+          "std": 54.12362082659496,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_relocate_tennis_ball/RightWrist.png",
+          "sha256": "0b88743a7463260dbe760a9171c56e5e0fd05f70e2a258fed19afd0e50787a31",
+          "std": 53.99642446085827,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_relocate_tennis_ball/LeftSide.png",
+          "sha256": "1c21c2f00558bd6fa24ef9bc268d7c10e5bd09c177ad891194471e1c81120889",
+          "std": 57.56814247026186,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_relocate_tennis_ball/RightSide.png",
+          "sha256": "c224f32c221fd01b47762af58be39bf9ba1531a76daa3ede715ff6a509744aa5",
+          "std": 57.789056000665425,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_remove_block_from_box",
+      "title": "取出盒内积木（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_remove_block_from_box/scene.usda",
+      "scene_sha256": "9865f890490d8108acc755378f2a64c576aaf9c8391874c4bc49f75a27109ded",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_remove_block_from_box/Head.png",
+          "sha256": "3d51f17f3def13533307780c9525ca754a715d7e3f6a518293ac8e92e99c8cc6",
+          "std": 59.67089968541007,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_remove_block_from_box/LeftWrist.png",
+          "sha256": "daf6ccd22c4735578615b95a44d3bb14bec5062239607b6ede68eea29a6ea108",
+          "std": 54.45062364748375,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_remove_block_from_box/RightWrist.png",
+          "sha256": "d488a1f2fbd444eb507304e0495ee6e376939436c3a1228cb5a8778599b1e7eb",
+          "std": 54.495526502402384,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_remove_block_from_box/LeftSide.png",
+          "sha256": "6c3be6f02ca9060fbbd1eb6c81abb71d649e6508f40785b782166f8918430c71",
+          "std": 57.44361366928448,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_remove_block_from_box/RightSide.png",
+          "sha256": "3b366c3d6f02392faaec73e1924700761a25aec310223978702003a793c5b4ec",
+          "std": 57.71123893024927,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_reorient_and_relocate_carton",
+      "title": "翻转搬移纸盒（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_reorient_and_relocate_carton/scene.usda",
+      "scene_sha256": "f9b4a6515dc2da92115dd739ebe6dd7d3c42665cdb87782f3bcf9bb71be7963e",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_reorient_and_relocate_carton/Head.png",
+          "sha256": "2d5fba10217221166250d5546a89d2413ae4253f51769833ec27adee7dc08b5a",
+          "std": 59.91547939686288,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_reorient_and_relocate_carton/LeftWrist.png",
+          "sha256": "7491fa72e14ee118461af76dfddb1412bc12c667d202a79321cc9462e603afc6",
+          "std": 54.147430094451515,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_reorient_and_relocate_carton/RightWrist.png",
+          "sha256": "439174e30fb33db613d6a40d0d2a67880bb6117016c002fee00088f3cae18cff",
+          "std": 54.04425892075336,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_reorient_and_relocate_carton/LeftSide.png",
+          "sha256": "3ac5cb084473a9d1afce5c1719885ded07c8a5d5f454b367050de9b8513ec879",
+          "std": 57.60209192780471,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_reorient_and_relocate_carton/RightSide.png",
+          "sha256": "a8b3a7ea335f0bae7eba4cb0c3efa48fb38b5014a120878f253157a3a7b66caa",
+          "std": 57.79011648042097,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_reorient_cup_upright",
+      "title": "把杯子扶正（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_reorient_cup_upright/scene.usda",
+      "scene_sha256": "6b70fcf7ad345c77623b8f130f1b9903271dcc2303909b7bc6a8c0002d126730",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_reorient_cup_upright/Head.png",
+          "sha256": "1cd04645dea1eb22ccabe7933a9b527d0f069cb07c8460c4eccf391cd942b636",
+          "std": 59.86970633719081,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_reorient_cup_upright/LeftWrist.png",
+          "sha256": "e47fabfd60a6e3846ade113d70bd069c2f412bcbb6a8e50fd7a234cfe9eca2a4",
+          "std": 54.14601530755207,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_reorient_cup_upright/RightWrist.png",
+          "sha256": "5308b643ee8fcf61a303a461e1f4e5f7149d06414ac7b5c1f75750af3d66e56e",
+          "std": 53.99162045205112,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_reorient_cup_upright/LeftSide.png",
+          "sha256": "66e78b44988c5964c7acbe510a5dc7dbf2ab656030e5bb8ac37498c2e2bf5592",
+          "std": 57.68777701773338,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_reorient_cup_upright/RightSide.png",
+          "sha256": "022b123249c71f895076cf114a4246abe9e8e296bf323cd59644eac96c064b5f",
+          "std": 57.70252733247271,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_reposition_and_stack_blocks",
+      "title": "移动并堆叠积木（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_reposition_and_stack_blocks/scene.usda",
+      "scene_sha256": "5e6a7ed380445f10c237b1b016754a9ec0526fdd4927f933cece4e1dcf4a66ee",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_reposition_and_stack_blocks/Head.png",
+          "sha256": "262839387f179fb98f54a5b6a04f97ae8b6a01cdbe5cfb080c2406af88599e61",
+          "std": 59.932941999425694,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_reposition_and_stack_blocks/LeftWrist.png",
+          "sha256": "1b42fc6320c7152627244f85a85a91b73a587ccc853df38013355815c910c296",
+          "std": 54.65296187565293,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_reposition_and_stack_blocks/RightWrist.png",
+          "sha256": "77111eca9a859fa122207e62cab54e1501c92873be0d893893533a2e93d6e6ce",
+          "std": 54.173824046330296,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_reposition_and_stack_blocks/LeftSide.png",
+          "sha256": "9b4e96beb19534b962a15cb9171c292444eb9b13c56247a64766233a8d7e7866",
+          "std": 57.54402421926961,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_reposition_and_stack_blocks/RightSide.png",
+          "sha256": "cf9c7cc12935fc0ceda129a686b3225bb6fb2b658d2e6d6fc3cdb80d7c3d252e",
+          "std": 57.7853224531439,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_rotate_bottle_cap",
+      "title": "旋转瓶盖（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_rotate_bottle_cap/scene.usda",
+      "scene_sha256": "cb9e9a53f4018076ddc13913ae66d55e2dd48480ab00761e048b904228b7243f",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_rotate_bottle_cap/Head.png",
+          "sha256": "f2fffb3d61f0bdac812da60926710df6f7d1951e97c33147d22ad3a59e9894f0",
+          "std": 60.01601546312802,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_rotate_bottle_cap/LeftWrist.png",
+          "sha256": "972fc37fb2ab3bc993d07eb720fa911eb05a59621e628dad871c088ac0cfcd5d",
+          "std": 55.28545001686439,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_rotate_bottle_cap/RightWrist.png",
+          "sha256": "7a89a105d8f015fb592d5faa0eac47d5f335b1975d7138e89db85a8d53f4d21e",
+          "std": 54.02983755140776,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_rotate_bottle_cap/LeftSide.png",
+          "sha256": "321251a53af294f97c088a5c62428e0ab2be50bd91699846347d956e3f06b543",
+          "std": 57.61216436670508,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_rotate_bottle_cap/RightSide.png",
+          "sha256": "ae76895ee3bfd4ddc30387db090fbd20df37dea39fb14abb2a434dfe87cbbf46",
+          "std": 57.73634998395127,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_scoop_salt_from_jar_into_cup",
+      "title": "从罐中舀盐入杯（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_scoop_salt_from_jar_into_cup/scene.usda",
+      "scene_sha256": "dd8f27ea592bf52acb8eb68ea9ba99e1f7b556579da64b1c65a4d97ce24bf119",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_scoop_salt_from_jar_into_cup/Head.png",
+          "sha256": "9d9a956e5e82d61e6d557abc4c187e7568bf42329f751e15118775d9817c6661",
+          "std": 59.99915303269556,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_scoop_salt_from_jar_into_cup/LeftWrist.png",
+          "sha256": "ed71f83b57303ddc8eb6053be7a01018d8c1a4d66625283523fdf953c19b37ed",
+          "std": 54.68657224678717,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_scoop_salt_from_jar_into_cup/RightWrist.png",
+          "sha256": "3ca6f4aa6d36cbf4df74c87044e704cf78e5cf1379d8e1fdbf64d59376d28460",
+          "std": 55.12836233819951,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_scoop_salt_from_jar_into_cup/LeftSide.png",
+          "sha256": "30ba27fd1a77a9832c7c4e786cc902ef87bd0ee6c2bb4ad3470d40fdd1be8873",
+          "std": 57.6923338540878,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_scoop_salt_from_jar_into_cup/RightSide.png",
+          "sha256": "c11f3f5663e71e926b101b8ad0089fa260175845a1d8d023bcea4f35e153f8db",
+          "std": 57.79914159328384,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_scrub_cup_interior",
+      "title": "清洁杯内壁（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_scrub_cup_interior/scene.usda",
+      "scene_sha256": "105a7b7b395864298da5388ab425bad8ec0e3ed2396a188b8d22002925fef3b2",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_scrub_cup_interior/Head.png",
+          "sha256": "901fc0e8bccad7db08da572cee93166adfa7fb6adaf3aa718a1cdf2775935407",
+          "std": 59.990914204068254,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_scrub_cup_interior/LeftWrist.png",
+          "sha256": "2c63748841501ce03414b239e25a45653b2328e429494e5c9499c7dd184b987d",
+          "std": 54.26100316751702,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_scrub_cup_interior/RightWrist.png",
+          "sha256": "9579ba03c101dd41091d9da903f3613377ca6ab538f6596108f7e12db47569ee",
+          "std": 54.71841912123878,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_scrub_cup_interior/LeftSide.png",
+          "sha256": "a93b5acb3acca89554184c8424b052da5cba06c91cf1d9ed6fc63dc9826625c3",
+          "std": 57.59328932719834,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_scrub_cup_interior/RightSide.png",
+          "sha256": "0288b84be4b237dae7f0e1b40c419e1efcf34489aa4a9f4c33ac6e864ccd6ea7",
+          "std": 57.88732402148346,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_seal_box_with_tape",
+      "title": "胶带封箱（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_seal_box_with_tape/scene.usda",
+      "scene_sha256": "5cf693f4680173ba3683cd69c1ce73ad852956e3f6dffd9f7feb519e3a4780bd",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_seal_box_with_tape/Head.png",
+          "sha256": "1a45024cd49f9686212faafa0bfa6551549e074d572ee831fc011285d7ca051a",
+          "std": 59.778519335699876,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_seal_box_with_tape/LeftWrist.png",
+          "sha256": "abd6ae1d2d98578de07fb47c5b6d61c59ec61df262db05a73019dd74ea6bf9d5",
+          "std": 54.46391648395905,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_seal_box_with_tape/RightWrist.png",
+          "sha256": "e19133606b0a68649e38a48dd7d172ed45525357f7f86e4e9ab8d0226ef285bd",
+          "std": 54.59508754463258,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_seal_box_with_tape/LeftSide.png",
+          "sha256": "43af73de8aa3cffb5d4f3ff717aa295a6dbc57d2620c137bef562dc035d82074",
+          "std": 57.59749000751538,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_seal_box_with_tape/RightSide.png",
+          "sha256": "de1285f1b40e73655a99b237927060efbcc61548f437045a5188328b35d12851",
+          "std": 57.56745777480307,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_secure_coiled_cable_with_velcro_tie",
+      "title": "魔术贴捆扎线圈（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_secure_coiled_cable_with_velcro_tie/scene.usda",
+      "scene_sha256": "bb27170ccfbbe01a3bffaec93732d4c672a99b7f535540ed865879c8ff1923cb",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_secure_coiled_cable_with_velcro_tie/Head.png",
+          "sha256": "c2667607efb97f7f9340bc891d50bddf5a29afe48571f1d4fda73f9bbbfb0719",
+          "std": 59.82002723456509,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_secure_coiled_cable_with_velcro_tie/LeftWrist.png",
+          "sha256": "676f1230bba404ecb2fcd81a478307678d57652d980a6f8ac5dcbc65b32ae662",
+          "std": 54.13377053844239,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_secure_coiled_cable_with_velcro_tie/RightWrist.png",
+          "sha256": "ee253125f6f3d981de2ca7909930fbf95d75d53001f728099f506e14042f262b",
+          "std": 53.89586553562195,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_secure_coiled_cable_with_velcro_tie/LeftSide.png",
+          "sha256": "4d1fca51fa3f276ffd0db5a284ea53012c0f99c3158dc8a8213a8b05ae19ed48",
+          "std": 57.673017597644964,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_secure_coiled_cable_with_velcro_tie/RightSide.png",
+          "sha256": "24fc2bc3b82c1168b34a3d846648b8826425ac0fe2cfc580c6f92db8ad095af5",
+          "std": 57.641138499177785,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_sort_utensils",
+      "title": "分类摆放餐具（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_sort_utensils/scene.usda",
+      "scene_sha256": "c2bee82bbcff03f14003055aec2365670f8e5c85eb9bc226d06b03974135f7cb",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_sort_utensils/Head.png",
+          "sha256": "3e4cead6e9c31101c98bc59b174e60eb9b91aa0912a26b791aca78f8cb6b51e7",
+          "std": 61.10165932645377,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_sort_utensils/LeftWrist.png",
+          "sha256": "565c485c7456a8b179f9c99ab226147b05cd6434bac6cfb08f3fd4f593f272cc",
+          "std": 55.88351533167396,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_sort_utensils/RightWrist.png",
+          "sha256": "e6169d1d90caa1ed29d7ad2a9260367bbc898d0cc46add573cf401daf447cef9",
+          "std": 60.20749793573793,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_sort_utensils/LeftSide.png",
+          "sha256": "0a56fef2f3467d8d314796da4942a9a697829bab57d94ca99b9d750306261e77",
+          "std": 57.593530919664225,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_sort_utensils/RightSide.png",
+          "sha256": "58dc9ac5d08dbc58718f8fa051c2280d9f087dd85dc412d2c2d590d3a955ca6e",
+          "std": 58.23503297611313,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_stack_napkins_in_holder",
+      "title": "餐巾放入纸巾座（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_stack_napkins_in_holder/scene.usda",
+      "scene_sha256": "afc6f672d294e932b16c79f34eb0db05aba53f326ea6e36e8c8cfde018914e79",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_stack_napkins_in_holder/Head.png",
+          "sha256": "056005ec368570a72cea35dd7ceec78781d9bef853976cc22a7557c9cc74d0d0",
+          "std": 60.57095329912959,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_stack_napkins_in_holder/LeftWrist.png",
+          "sha256": "4440f000020c91123551256dec86a1b92f7d41f135c1bd36c1b2f98d6d0f2995",
+          "std": 57.03185319337298,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_stack_napkins_in_holder/RightWrist.png",
+          "sha256": "4c17686428b87db1a67ee5c2871580332ef06eb973fd2ecdf6aa45e4caf70fed",
+          "std": 55.411209351195524,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_stack_napkins_in_holder/LeftSide.png",
+          "sha256": "3293c1e05f77e4018a87b6b5c909bb0c788a05a7a4ec1029e1a97f085c170ea2",
+          "std": 57.764750978695076,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_stack_napkins_in_holder/RightSide.png",
+          "sha256": "0c089ea32f0e20fd25cfe8350b8e3eaed3b94c835934967ac62c871594c5b3c6",
+          "std": 57.72501119501692,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_stack_two_plates",
+      "title": "两个盘子堆叠（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_stack_two_plates/scene.usda",
+      "scene_sha256": "b0a4e4de43cd524cf6e490b73e3d6e084dadc20d16d8330080c12d4bdfb13684",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_stack_two_plates/Head.png",
+          "sha256": "69d20b6f5a51c7b76c7591586b3cbf6d5f7b92d4c7cf8d83f8b4a33789af300f",
+          "std": 59.972963489514996,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_stack_two_plates/LeftWrist.png",
+          "sha256": "103002b04be9cdea5082b7b294a17df3c5247b91ec976e9a5e7ffada867ddd36",
+          "std": 54.355451460711556,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_stack_two_plates/RightWrist.png",
+          "sha256": "a8f110425fa39ec02faecfe2e44f10e5113415586cdc05faa16a25ece893a4c5",
+          "std": 54.57127506885144,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_stack_two_plates/LeftSide.png",
+          "sha256": "bd736dd7ca4f96378654557ca6bd62079715a192f951f6949635acf6b9030282",
+          "std": 57.87109320102378,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_stack_two_plates/RightSide.png",
+          "sha256": "7f2d589ecc5f5f52fba7c1045c8748d51d6f021b113fc9e487542c585146ab4d",
+          "std": 57.92490546695445,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_staple_paper",
+      "title": "订书机装订纸张（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_staple_paper/scene.usda",
+      "scene_sha256": "d51cd7c56ca34e113899ec5185a3da53da7f7d456d09dd675ea796cc864a1e98",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_staple_paper/Head.png",
+          "sha256": "17f6e2fd0383bfe9fc79f16eccd88728c2b732a36685a9bdfa33d45a2a548cba",
+          "std": 61.23474703131867,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_staple_paper/LeftWrist.png",
+          "sha256": "cc2ffdd26cf72cc2c6870ffacfb50caecf91fc158f76886d456918e0931dc5b6",
+          "std": 61.28759650086685,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_staple_paper/RightWrist.png",
+          "sha256": "d26690e4ca236f0c50a4549d25efd8885d965d8fd0448cc231ed228589a407d4",
+          "std": 56.04295221203308,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_staple_paper/LeftSide.png",
+          "sha256": "ea7799faac70ddf5f1df6c5cb14fc48bf07b4a169cd3c02bc997a0de8ab52d76",
+          "std": 57.641528777874385,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_staple_paper/RightSide.png",
+          "sha256": "ff712eb51b0ed6432ff382c69af952b93fb7393965dcf92f6c4f70288c8aea8d",
+          "std": 57.77071273404186,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_sweep_waste_into_dustpan",
+      "title": "扫垃圾入簸箕（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_sweep_waste_into_dustpan/scene.usda",
+      "scene_sha256": "b512952b6d2a53d532fe0a1b3722f9f46140389aa7aaeb55c61ceabe2d7c8bb9",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_sweep_waste_into_dustpan/Head.png",
+          "sha256": "ea1dde037b99382095dac8882284a146d95b4f24161f44951c17b20768cb78e9",
+          "std": 60.30484771534884,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_sweep_waste_into_dustpan/LeftWrist.png",
+          "sha256": "af9af4414eef300aa3bc136008e37fdd278f3e785d22372af647afcce0e96794",
+          "std": 54.97135877150629,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_sweep_waste_into_dustpan/RightWrist.png",
+          "sha256": "3cc7af5e53f44ac5921f61ddb023bd264a7ef7fc59c1fea39623c2ae4a4a5c25",
+          "std": 56.24280584925575,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_sweep_waste_into_dustpan/LeftSide.png",
+          "sha256": "707a27b6fae12a7c3e97bf14fe7a6aa64234e4b8c8ff67ea174e1df1acbbc2a5",
+          "std": 57.63886167301369,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_sweep_waste_into_dustpan/RightSide.png",
+          "sha256": "82ba860e7ec523dab5dc3a7829fd012f5890aeb3b8050f26b4f7d48f6a39a672",
+          "std": 57.795518967147444,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_tighten_bottle_cap",
+      "title": "拧紧瓶盖（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_tighten_bottle_cap/scene.usda",
+      "scene_sha256": "1439a2646d11f570531d48eb69bfda08e18416f78f534bff6b54453823dd286e",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_tighten_bottle_cap/Head.png",
+          "sha256": "2167f11b53d1aea676a978de09ac18d4133acb64556da4ce61abf51dbf7a8d0e",
+          "std": 60.03686472255864,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_tighten_bottle_cap/LeftWrist.png",
+          "sha256": "71a0387b65f2f295e5808ebebe9f3f1b1eec640392a5bd0809c352f94c2bb322",
+          "std": 55.321975719692745,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_tighten_bottle_cap/RightWrist.png",
+          "sha256": "1b16593f49d28f17ca9dc14bf7fe59e186869f77704ac894fe40a7762b47be2b",
+          "std": 54.124658331244824,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_tighten_bottle_cap/LeftSide.png",
+          "sha256": "24d0c292d3348cd425d0011f5493e255768b61c0753aaff1ea81a31f20ce89d4",
+          "std": 57.4716276038221,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_tighten_bottle_cap/RightSide.png",
+          "sha256": "b92bb0d78bd2891dca376dde0d6e92251f34d38c141f4b313cb1bd63381b4257",
+          "std": 57.60418325483378,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_tomato_boxed_lunch_packaging",
+      "title": "番茄盒饭打包（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_tomato_boxed_lunch_packaging/scene.usda",
+      "scene_sha256": "97f7e83b41c2742088c403a3329369e22e366813bf37abc568fd217942f609ae",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_tomato_boxed_lunch_packaging/Head.png",
+          "sha256": "a99f6010c381eed1a5d7a11721177ee868f9e51f97464426faa0bfc08b3ba03a",
+          "std": 59.875203401178055,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_tomato_boxed_lunch_packaging/LeftWrist.png",
+          "sha256": "0ebb65b722f3a9144ffad597dbdae6eb0d3122e445d1da583d49283c60c1b352",
+          "std": 55.0878065706696,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_tomato_boxed_lunch_packaging/RightWrist.png",
+          "sha256": "8f0f5011f91cf0de7231ffb754a3b21e8c8da0c9979efa00927e5d095629e7df",
+          "std": 54.64396639440083,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_tomato_boxed_lunch_packaging/LeftSide.png",
+          "sha256": "375a6f242a3033b2a1492b481a8d7d94b50c56967d33b7cfe8ecfbe6a22dbb5d",
+          "std": 57.41927631099414,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_tomato_boxed_lunch_packaging/RightSide.png",
+          "sha256": "181e8c70148df79f94655aa5462697bd323bc0a7e4f6fc6f315bcbe3715bb342",
+          "std": 57.69253050711327,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_transfer_liquid_with_dropper",
+      "title": "滴管转移液体（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_transfer_liquid_with_dropper/scene.usda",
+      "scene_sha256": "22567edd6dacb3e51f093922a73642638911efc446bb7b089d942f7606124ec9",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_transfer_liquid_with_dropper/Head.png",
+          "sha256": "2ca976f9312d88ce22314dcc38bfd901760d84574345f8857d126f4bf03d4e54",
+          "std": 60.02896139662895,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_transfer_liquid_with_dropper/LeftWrist.png",
+          "sha256": "a4cbf37fb8a74422c23abf5552a5b88446c702b4ddbda8531422194eaed87a91",
+          "std": 54.30802336799237,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_transfer_liquid_with_dropper/RightWrist.png",
+          "sha256": "acd3117cd297fa42b67c9875e46c657dda1953a22f9a1861a77e97bb90b29423",
+          "std": 54.70161184678539,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_transfer_liquid_with_dropper/LeftSide.png",
+          "sha256": "4cef9ebe9452a053ad6e41c61d00df607ad7ae7a458e24ef43f447330747da18",
+          "std": 57.66029947634832,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_transfer_liquid_with_dropper/RightSide.png",
+          "sha256": "23117729ed75069526a5df5505a34bb9cb663dceefb9fcdf013542a609af36d9",
+          "std": 57.87376048471471,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_transfer_pills_between_cups",
+      "title": "杯间转移药片（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_transfer_pills_between_cups/scene.usda",
+      "scene_sha256": "94390a1b560f7f8f47261c3cfb7d0d14475dccb1400c37dcfe4848a75112d4c0",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_transfer_pills_between_cups/Head.png",
+          "sha256": "61dcd05bdf7ab4f88b6f3cb354b0cdcacc673363788a99b6dd8f2335ae68edbb",
+          "std": 60.044415143591046,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_transfer_pills_between_cups/LeftWrist.png",
+          "sha256": "aa1648d8ac388582b134fe2fbd327342e94cbd42477df0885c1081aff2b26138",
+          "std": 54.279829569159894,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_transfer_pills_between_cups/RightWrist.png",
+          "sha256": "95819c6b383438a3a6f367221d823860058ad880a4e130cfd3e9a43661c669df",
+          "std": 54.76195411562637,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_transfer_pills_between_cups/LeftSide.png",
+          "sha256": "e0d2bc8e3a4b294d53bcc59d3371edee4cd6773db14855d4f907cc5a9f72abe2",
+          "std": 57.66314626478495,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_transfer_pills_between_cups/RightSide.png",
+          "sha256": "5b135f2171b6403c593b4cba10237c84088fa2cc2b12c9a9c6632bb053b6188b",
+          "std": 58.02294465950834,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_transfer_salt_between_cups_with_spoon",
+      "title": "勺子杯间转移盐（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_transfer_salt_between_cups_with_spoon/scene.usda",
+      "scene_sha256": "3396bd45a032bc6ae34bdcd07f94c8277acc58351220f173bb34b49262acccaf",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_transfer_salt_between_cups_with_spoon/Head.png",
+          "sha256": "10e8e9a7869a733080e7f1cad63e9513763b385618bf288dd695d2b48efb2d2d",
+          "std": 60.069387906568984,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_transfer_salt_between_cups_with_spoon/LeftWrist.png",
+          "sha256": "f2e98a79c1d0e5efea315992723839ca0d30c8d6e8a5a0154902e15675a38ca2",
+          "std": 54.310256969046335,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_transfer_salt_between_cups_with_spoon/RightWrist.png",
+          "sha256": "31740445969675186aec6402b54b5b8e9ac2182ffb18693a8a7bb12ce500927e",
+          "std": 54.765592703969425,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_transfer_salt_between_cups_with_spoon/LeftSide.png",
+          "sha256": "b91e21816c0562474ce05b0c612f7b31f6b2d2a0be3e8073e0e79867c1382680",
+          "std": 57.66984877617923,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_transfer_salt_between_cups_with_spoon/RightSide.png",
+          "sha256": "4e9fceae1dc0f43b179099e517b6f6237ca82f32b9df021c2f6c6a0f157ee1d7",
+          "std": 57.99261272353638,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_turn_book_pages",
+      "title": "翻书页（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_turn_book_pages/scene.usda",
+      "scene_sha256": "f7f82e0d971c04657524c1465134bdd6fbe7629173b31442091fb11a3ac555bb",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_turn_book_pages/Head.png",
+          "sha256": "fc0272d92dec121b5ebde8d4f051b447c44833a40cb4434fccdd452a5d5a3232",
+          "std": 61.576030609481464,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_turn_book_pages/LeftWrist.png",
+          "sha256": "4c28bdea5fb837a792e5df9c46aa6c1434bae66d5307eeb2b832fe23bea65bbd",
+          "std": 54.63758792485601,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_turn_book_pages/RightWrist.png",
+          "sha256": "91bec3cef0639f2480b163372fe2de92d5b59e6769e3835b520818e75ad91945",
+          "std": 57.229371861233396,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_turn_book_pages/LeftSide.png",
+          "sha256": "9285eff99181cdb0a2297b5db60d0a8af45371a860a49e957354c437dad2ffd1",
+          "std": 57.96195792949121,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_turn_book_pages/RightSide.png",
+          "sha256": "c71f7765354d24ad1e97ee4a29d938da82bd897f9e41b68d48d96cf297ca2cc6",
+          "std": 57.79341001093697,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_dex_unscrew_bottle_cap",
+      "title": "旋开瓶盖（本地仿真原型）",
+      "scene": "sharpa/scenes/sharpa_dex_unscrew_bottle_cap/scene.usda",
+      "scene_sha256": "5800505a474a4b8d904ba2bbb811fbaaf72278c425ad0387fb14181d96b783c3",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_dex_unscrew_bottle_cap/Head.png",
+          "sha256": "5ac177db4043642527a8b31c3a0e8df555ce516467ee911aa83fdfef4376b9e2",
+          "std": 60.02409345706074,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_dex_unscrew_bottle_cap/LeftWrist.png",
+          "sha256": "60f12ec73cdb896580e3ee7603dff1a16e99352d018fbb50026177fdaccf918d",
+          "std": 55.2803867780769,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_dex_unscrew_bottle_cap/RightWrist.png",
+          "sha256": "7c3be980fa68df82aa9dec5a8a99dce1ee37d268a3bc5f430fc42405e269f387",
+          "std": 54.09922590268839,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_dex_unscrew_bottle_cap/LeftSide.png",
+          "sha256": "3efe696ae01ae834f225c500ddc98c846dff9a490abef86dfd427a2930968537",
+          "std": 57.6011373075925,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_dex_unscrew_bottle_cap/RightSide.png",
+          "sha256": "abb28752a8da8c58fcb957f2c4ddf0e930efee986709b7a4323e047cc9317c21",
+          "std": 57.65247016154095,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_table_tennis",
+      "title": "桌面缩比乒乓球回击（本地原型）",
+      "scene": "sharpa/scenes/sharpa_table_tennis/scene.usda",
+      "scene_sha256": "f0e5bc91ddcd0a1961f9ab143df292d9c5233a99cebca7ad91c3f96725d84e61",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_table_tennis/Head.png",
+          "sha256": "e7d54f1ed0d0a8e4dc106fc1f5cbdf0737a2f9c61629c40cdf81f74bf0e44232",
+          "std": 58.597189817711616,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_table_tennis/LeftWrist.png",
+          "sha256": "7e1bd253bc0d12b2463cd5a576a7618a23f2d4a1c52fc8fb9fd2ab528a72c80c",
+          "std": 54.20317035737684,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_table_tennis/RightWrist.png",
+          "sha256": "2aeb1469989c6036df49505fda239b16f52e0bb6a4ef3fc7731a1ccb52093847",
+          "std": 53.88619398479896,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_table_tennis/LeftSide.png",
+          "sha256": "a403d879296965af8f04b084eb9ea5795025e0dbdf4bb8239d1a4a2064c7de16",
+          "std": 56.735258507021996,
+          "finite_depth_fraction": 0.6921690538194445
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_table_tennis/RightSide.png",
+          "sha256": "af673de1d2768a88e26a0f89b12cfdf0a23bbcd39b63fe080808ca5c97bdc865",
+          "std": 57.64106971568083,
+          "finite_depth_fraction": 0.6920724826388889
+        }
+      }
+    },
+    {
+      "id": "sharpa_windmill_assembly",
+      "title": "风车转子与套环装配（本地原型）",
+      "scene": "sharpa/scenes/sharpa_windmill_assembly/scene.usda",
+      "scene_sha256": "d900cc581220e0e9e9381e843ae97419209dae7c45d53dbaa9244945e7022c58",
+      "views": {
+        "Head": {
+          "file": "output/views/sharpa_windmill_assembly/Head.png",
+          "sha256": "c2aa6b294d2ab5acf351a149925ab156d2187e14df1353c7262ca42ee3514a45",
+          "std": 60.054771783035704,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/sharpa_windmill_assembly/LeftWrist.png",
+          "sha256": "ee7643c994fcd61c83f6d03906e32b45fd6421226389ec8b2ce024ffdc1319bb",
+          "std": 55.69648317847781,
+          "finite_depth_fraction": 0.8191612413194445
+        },
+        "RightWrist": {
+          "file": "output/views/sharpa_windmill_assembly/RightWrist.png",
+          "sha256": "f1432c13b5df4e1e122065e15df5b4f3dc1165ca392a330b654a02fae0cac055",
+          "std": 55.83751818698323,
+          "finite_depth_fraction": 0.8192697482638889
+        },
+        "LeftSide": {
+          "file": "output/views/sharpa_windmill_assembly/LeftSide.png",
+          "sha256": "1da4489fd71eee158edcc9abbee4afd8f1916e500048a03c90fc7eacb076f618",
+          "std": 57.67705604088894,
+          "finite_depth_fraction": 0.6912706163194444
+        },
+        "RightSide": {
+          "file": "output/views/sharpa_windmill_assembly/RightSide.png",
+          "sha256": "98f65f4a12187e7395500162d6aa33395d3a61573b5d7943809b087cd40dc423",
+          "std": 57.700671357111226,
+          "finite_depth_fraction": 0.6911740451388889
+        }
+      }
+    },
+    {
+      "id": "bimanual_roll_towel",
+      "title": "双灵巧手卷毛巾",
+      "scene": "towel_roll/scene.usda",
+      "scene_sha256": "58143bfa5e90e539b2a3a163c384d81c9f6559d9f4b3c6c6317e822dbe396fbc",
+      "views": {
+        "Head": {
+          "file": "output/views/bimanual_roll_towel/Head.png",
+          "sha256": "e8eeb5d75cdea75df3f16ff511dfbf3473a66bcac7d60ee400b5be39c279ff02",
+          "std": 61.31458665190785,
+          "finite_depth_fraction": 1.0
+        },
+        "LeftWrist": {
+          "file": "output/views/bimanual_roll_towel/LeftWrist.png",
+          "sha256": "251dcebb6698f034d60c723f06304918e1fff02af2b9802569896f3b01481a60",
+          "std": 60.99720079739318,
+          "finite_depth_fraction": 0.9386610243055555
+        },
+        "RightWrist": {
+          "file": "output/views/bimanual_roll_towel/RightWrist.png",
+          "sha256": "d84c31ffa237a9145b0deb244b91e19d1ec5e88f70c3a96e4a9ff6cb527de75e",
+          "std": 59.715879168410225,
+          "finite_depth_fraction": 0.9388020833333334
+        },
+        "LeftSide": {
+          "file": "output/views/bimanual_roll_towel/LeftSide.png",
+          "sha256": "602d653580facca4eb1d669fcbcbfd64440c5cc45a77e2e7238c8208f389f6a4",
+          "std": 58.07977733410189,
+          "finite_depth_fraction": 0.6570095486111112
+        },
+        "RightSide": {
+          "file": "output/views/bimanual_roll_towel/RightSide.png",
+          "sha256": "e0431757ebaf6023d73f718842dc9e5dcbc16f5b30d3fba0568bcda82f605be5",
+          "std": 58.283857631362146,
+          "finite_depth_fraction": 0.6569921875
+        }
+      }
+    }
+  ]
+}

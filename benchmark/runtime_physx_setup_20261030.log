@@ -1,0 +1,33 @@
+Collecting ovphysx==0.7.0.74035321
+  Downloading ovphysx-0.7.0.74035321-py3-none-manylinux_2_35_x86_64.whl.metadata (3.5 kB)
+Collecting physx-usd-schemas
+  Downloading physx_usd_schemas-25.11.2.72696984-py3-none-any.whl.metadata (3.6 kB)
+Collecting numpy
+  Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting scipy
+  Downloading scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting usd-core
+  Downloading usd_core-26.11-cp312-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (1.8 kB)
+Collecting packaging<24,>=20 (from ovphysx==0.7.0.74035321)
+  Downloading packaging-23.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting ovstage==0.3.0.1791986420 (from ovphysx==0.7.0.74035321)
+  Downloading ovstage-0.3.0.1791986420-py3-none-manylinux_2_35_x86_64.whl.metadata (3.1 kB)
+Collecting warp-lang<2,>=1.16 (from ovphysx==0.7.0.74035321)
+  Downloading warp_lang-1.18.0-py3-none-manylinux_2_28_x86_64.whl.metadata (26 kB)
+Downloading ovphysx-0.7.0.74035321-py3-none-manylinux_2_35_x86_64.whl (135.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.8/135.8 MB 12.9 MB/s  0:00:10
+Downloading ovstage-0.3.0.1791986420-py3-none-manylinux_2_35_x86_64.whl (66.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.8/66.8 MB 12.6 MB/s  0:00:05
+Downloading packaging-23.2-py3-none-any.whl (53 kB)
+Downloading warp_lang-1.18.0-py3-none-manylinux_2_28_x86_64.whl (148.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 148.8/148.8 MB 10.9 MB/s  0:00:13
+Downloading physx_usd_schemas-25.11.2.72696984-py3-none-any.whl (79 kB)
+Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 11.0 MB/s  0:00:01
+Downloading scipy-1.18.1-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 13.0 MB/s  0:00:02
+Downloading usd_core-26.11-cp312-none-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (28.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 28.8/28.8 MB 14.1 MB/s  0:00:02
+Installing collected packages: usd-core, physx-usd-schemas, packaging, ovstage, numpy, warp-lang, scipy, ovphysx
+
+Successfully installed numpy-2.5.4 ovphysx-0.7.0.74035321 ovstage-0.3.0.1791986420 packaging-23.2 physx-usd-schemas-25.11.2.72696984 scipy-1.18.1 usd-core-26.11 warp-lang-1.18.0

@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "files_scanned": 274,
+  "representations": {
+    "path": 300,
+    "text": 70,
+    "stl_header": 66,
+    "usd_decoded": 2,
+    "png_metadata": 80,
+    "array_member": 55,
+    "array_header": 55
+  },
+  "external_identity_terms_checked": 36,
+  "findings": [],
+  "scope": "Identifiers and metadata; visual inspection recorded separately in model_integrity.json."
+}

@@ -1,0 +1,21 @@
+WARNING Fri Oct 30 04:57:45 2026: flex 'f' is not rigid and has no equality constraints or passive forces
+Element name 'f', id 0
+
+WARNING Fri Oct 30 04:57:45 2026: flex 'f' is not rigid and has no equality constraints or passive forces
+Element name 'f', id 0
+
+WARNING Fri Oct 30 04:58:17 2026: flex 'f' is not rigid and has no equality constraints or passive forces
+Element name 'f', id 0
+
+WARNING Fri Oct 30 04:58:17 2026: flex 'f' is not rigid and has no equality constraints or passive forces
+Element name 'f', id 0
+
+WARNING Fri Oct 30 05:08:26 2026: flex 'f' is not rigid and has no equality constraints or passive forces
+Element name 'f', id 0
+
+WARNING Fri Oct 30 05:08:26 2026: flex 'f' is not rigid and has no equality constraints or passive forces
+Element name 'f', id 0
+
+WARNING Fri Oct 30 05:13:35 2026: flex 't' is not rigid and has no equality constraints or passive forces
+Element name 't', id 0
+

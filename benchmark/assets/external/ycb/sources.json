@@ -1,0 +1,236 @@
+{
+  "source_page": "https://ycb-benchmarks.s3.amazonaws.com/index.html",
+  "source_page_sha256": "d90b97268e9fd4eaf501efc22d17e27d419e9d94f498c6f6b6f63defd2a49891",
+  "assets": [
+    {
+      "id": "011_banana",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/011_banana_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "bad03e98066dec02ea1536ff2fa58f068efa97e9dbc89fceb4418f1ec633c881",
+      "archive_bytes": 5715660,
+      "obj": "assets/external/ycb/011_banana/google_16k/textured.obj"
+    },
+    {
+      "id": "013_apple",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/013_apple_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "46249b76379bae26a6f78861b5568ceed25cf1e397530a313430b1d94d57320c",
+      "archive_bytes": 5950199,
+      "obj": "assets/external/ycb/013_apple/google_16k/textured.obj"
+    },
+    {
+      "id": "014_lemon",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/014_lemon_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "5b18a5c7b097893cbd1a5c12ef8ee03aa0b62d300a9610377f1b131575da5a45",
+      "archive_bytes": 5501313,
+      "obj": "assets/external/ycb/014_lemon/google_16k/textured.obj"
+    },
+    {
+      "id": "015_peach",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/015_peach_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "f0079b7f6ca8b8413cf38e6859a059453c2d12c76e5089c0c2dff6c68f9718bd",
+      "archive_bytes": 4789671,
+      "obj": "assets/external/ycb/015_peach/google_16k/textured.obj"
+    },
+    {
+      "id": "017_orange",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/017_orange_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "74d70a3d338d03f9c6afd4a8e1d3f8ec7a6f0e52fd0771c33c497e05920b4631",
+      "archive_bytes": 5221002,
+      "obj": "assets/external/ycb/017_orange/google_16k/textured.obj"
+    },
+    {
+      "id": "024_bowl",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/024_bowl_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "ac73b566d4f17c3cd5956684875c3a20dd4c8777821df62f5fee81f6b7751868",
+      "archive_bytes": 7253020,
+      "obj": "assets/external/ycb/024_bowl/google_16k/textured.obj"
+    },
+    {
+      "id": "025_mug",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/025_mug_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "4b640afc1baaa940b66948d1e59426d8da2c5a16558c7c7a118bbe28d0737de5",
+      "archive_bytes": 7658239,
+      "obj": "assets/external/ycb/025_mug/google_16k/textured.obj"
+    },
+    {
+      "id": "029_plate",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/029_plate_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "1604d51aa6b7950a1491e7ffab0f8336a625d0a109e4cfb33b7debc94d670255",
+      "archive_bytes": 10003217,
+      "obj": "assets/external/ycb/029_plate/google_16k/textured.obj"
+    },
+    {
+      "id": "030_fork",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/030_fork_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "6e0ccafeaeb7c1ca112b3b523e9050a9aa22e98a35845ad0964b6ea42f6505a4",
+      "archive_bytes": 4361138,
+      "obj": "assets/external/ycb/030_fork/google_16k/textured.obj"
+    },
+    {
+      "id": "031_spoon",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/031_spoon_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "cb1b73e9fcd2d40076ac051d954c2979fc7dedc988a7ff3434159d7db93b2de8",
+      "archive_bytes": 4515365,
+      "obj": "assets/external/ycb/031_spoon/google_16k/textured.obj"
+    },
+    {
+      "id": "032_knife",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/032_knife_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "d169640d6bb61945c43a02f3966b617d273044f78892d8ab6c0e1d6e69e09f94",
+      "archive_bytes": 4172608,
+      "obj": "assets/external/ycb/032_knife/google_16k/textured.obj"
+    },
+    {
+      "id": "033_spatula",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/033_spatula_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "0e1e538e1d27c3fbb911841c4696cf6044f9f7f55925499fd0371b5d5b1a1344",
+      "archive_bytes": 5372446,
+      "obj": "assets/external/ycb/033_spatula/google_16k/textured.obj"
+    },
+    {
+      "id": "037_scissors",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/037_scissors_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "a70d2be8fae0d79c398ffd360385c885eff32ac5eb608ff4f2ada4f585a994b8",
+      "archive_bytes": 4725522,
+      "obj": "assets/external/ycb/037_scissors/google_16k/textured.obj"
+    },
+    {
+      "id": "040_large_marker",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/040_large_marker_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "393d956da5f6cfe50614829faf4755bdb786c7db95abc1488f3b60505b1e2740",
+      "archive_bytes": 4902250,
+      "obj": "assets/external/ycb/040_large_marker/google_16k/textured.obj"
+    },
+    {
+      "id": "043_phillips_screwdriver",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/043_phillips_screwdriver_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "74db04d49c13cd7cb79a29dd4e25d497970cdaebecd78e34bd6263d8b281b26c",
+      "archive_bytes": 5287317,
+      "obj": "assets/external/ycb/043_phillips_screwdriver/google_16k/textured.obj"
+    },
+    {
+      "id": "048_hammer",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/048_hammer_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "4745093ebe83e71e4ec80f5fa438a42a7175a0df6e5e2c6964a23085bc6ae195",
+      "archive_bytes": 6172350,
+      "obj": "assets/external/ycb/048_hammer/google_16k/textured.obj"
+    },
+    {
+      "id": "056_tennis_ball",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/056_tennis_ball_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "881169924fced3273be4972328fb86c1840ba07ec0e56afe0bff78afb2695df8",
+      "archive_bytes": 5511226,
+      "obj": "assets/external/ycb/056_tennis_ball/google_16k/textured.obj"
+    },
+    {
+      "id": "065-a_cups",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/065-a_cups_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "86fb2b59cf9cc570bc5680d9886eb662f3178675485adaa8fa407d3628ad9e3f",
+      "archive_bytes": 6515156,
+      "obj": "assets/external/ycb/065-a_cups/google_16k/textured.obj"
+    },
+    {
+      "id": "065-b_cups",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/065-b_cups_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "da9156918234bd83dbc7cdbd3ed317e9f46535dd12c49bc139c700df08db6576",
+      "archive_bytes": 7448483,
+      "obj": "assets/external/ycb/065-b_cups/google_16k/textured.obj"
+    },
+    {
+      "id": "065-c_cups",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/065-c_cups_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "d0b2d22a95f8d11715aabcd7ed3cfbf57f1569c4162c9df53a2f58de1b2aeaed",
+      "archive_bytes": 6936476,
+      "obj": "assets/external/ycb/065-c_cups/google_16k/textured.obj"
+    },
+    {
+      "id": "003_cracker_box",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/003_cracker_box_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "0f084b0212274700d416384b9bc290521257d2b15ab66f68768a6a22806226b6",
+      "archive_bytes": 11434893,
+      "obj": "assets/external/ycb/003_cracker_box/google_16k/textured.obj"
+    },
+    {
+      "id": "004_sugar_box",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/004_sugar_box_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "38e5820b942e7db501ba105cfb42ba8b470f27540dbab95324105a52de8617c6",
+      "archive_bytes": 12636314,
+      "obj": "assets/external/ycb/004_sugar_box/google_16k/textured.obj"
+    },
+    {
+      "id": "036_wood_block",
+      "url": "https://ycb-benchmarks.s3.amazonaws.com/data/google/036_wood_block_google_16k.tgz",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "YCB Object and Model Set \u2014 Berk Calli, Arjun Singh, Aaron Walsman, Siddhartha Srinivasa, Pieter Abbeel, Aaron M. Dollar; UC Berkeley / Google scans",
+      "archive_sha256": "df2d86634812e5d3aeecfbfc18f134921538c0093176eaa8247524ea0e684075",
+      "archive_bytes": 11493368,
+      "obj": "assets/external/ycb/036_wood_block/google_16k/textured.obj"
+    }
+  ]
+}

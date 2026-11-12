@@ -1,0 +1,197 @@
+{
+  "id": "sharpa_dex_remove_block_from_box",
+  "title": "取出盒内积木（本地仿真原型）",
+  "task_type": "place_all",
+  "bodies": [
+    {
+      "id": "object_1",
+      "position": [
+        0.18,
+        0.49,
+        0.8177000000000001
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.035,
+            0.035,
+            0.035
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "color": [
+            0.22,
+            0.48,
+            0.65
+          ]
+        }
+      ],
+      "dynamic": true,
+      "mass_kg": 0.07,
+      "prop_kind": "block"
+    },
+    {
+      "id": "support_1",
+      "position": [
+        0.18,
+        0.49,
+        0.7952
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "parts": [
+        {
+          "kind": "cube",
+          "size": [
+            0.18,
+            0.14,
+            0.005
+          ],
+          "position": [
+            0,
+            0,
+            0.0025
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.005,
+            0.14,
+            0.09
+          ],
+          "position": [
+            -0.0875,
+            0,
+            0.045
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.005,
+            0.14,
+            0.09
+          ],
+          "position": [
+            0.0875,
+            0,
+            0.045
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.16999999999999998,
+            0.005,
+            0.09
+          ],
+          "position": [
+            0,
+            -0.0675,
+            0.045
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        },
+        {
+          "kind": "cube",
+          "size": [
+            0.16999999999999998,
+            0.005,
+            0.09
+          ],
+          "position": [
+            0,
+            0.0675,
+            0.045
+          ],
+          "color": [
+            0.38,
+            0.51,
+            0.56
+          ]
+        }
+      ],
+      "dynamic": false,
+      "mass_kg": null,
+      "prop_kind": "box"
+    }
+  ],
+  "goals": [
+    {
+      "body": "object_1",
+      "position": [
+        -0.25,
+        0.39,
+        0.8125
+      ],
+      "orientation_wxyz": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "position_tolerance_m": 0.012,
+      "rotation_tolerance_deg": 12,
+      "contact": "released",
+      "require_prior_hand_contact": true
+    }
+  ],
+  "limitations": [],
+  "source_task": "remove_block_from_box",
+  "source_group": "provisional_tabletop_inventory",
+  "official_source": null,
+  "source_url_candidate": "https://huggingface.co/datasets/Sharpa-Robotics/SharpaDex-v1.0",
+  "source_status": "UNVERIFIED_PROVISIONAL_TASK",
+  "coverage_level": "RIGID_BODY_TASK_APPROXIMATION",
+  "schema_version": 1,
+  "suite": "sharpa_prototypes",
+  "units": "m",
+  "up_axis": "Z",
+  "object_source": "Locally authored primitives; dimensions and masses are design estimates, not vendor data.",
+  "robot_model": "Existing neutral 54-DOF dual arm; not a certified Sharpa robot replica.",
+  "runtime": {
+    "physics_dt_s": 0.004166666666666667,
+    "control_decimation": 8,
+    "settle_steps": 1200,
+    "episode_timeout_s": 30,
+    "success_hold_s": 0.25,
+    "min_contact_force_n": 0.001,
+    "min_contact_bodies": 2,
+    "max_linear_speed_m_s": 0.05,
+    "max_angular_speed_rad_s": 0.25
+  }
+}

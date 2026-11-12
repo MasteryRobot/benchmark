@@ -1,0 +1,1040 @@
+[
+  {
+    "id": "01_pick_spoon",
+    "title": "拿勺子",
+    "object": "spoon",
+    "preferred_hand": "left",
+    "action": "lift",
+    "scene": "scene.usda",
+    "object_prim": "/World/Task/Object",
+    "fixture_prim": "/World/Task/Fixture",
+    "goal_prim": "/World/Task/Goal",
+    "object_design": {
+      "mass": 0.035,
+      "size": [
+        0.04,
+        0.174,
+        0.012
+      ],
+      "long_axis": "Y",
+      "grasp_local": [
+        0,
+        -0.043,
+        0.008
+      ]
+    },
+    "initial_pose_world": [
+      [
+        0.9510565162951536,
+        0.30901699437494745,
+        0.0,
+        -0.25
+      ],
+      [
+        -0.30901699437494745,
+        0.9510565162951536,
+        -0.0,
+        0.42
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0,
+        0.7975
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "goal_pose_world": [
+      [
+        0.9510565162951536,
+        0.30901699437494745,
+        0.0,
+        -0.25
+      ],
+      [
+        -0.30901699437494745,
+        0.9510565162951536,
+        -0.0,
+        0.435
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0,
+        1.01
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_reference_world_m": [
+      -0.26328773075812273,
+      0.3791045697993084,
+      0.8055
+    ],
+    "success": {
+      "position_tolerance_m": 0.015,
+      "rotation_tolerance_deg": 12,
+      "minimum_lift_m": 0.1,
+      "requires_grasp_contact": true
+    },
+    "units": "m",
+    "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+    "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+    "runtime": {
+      "physics_dt_s": 0.004166666666666667,
+      "control_decimation": 8,
+      "settle_steps": 1200,
+      "episode_timeout_s": 20.0,
+      "success_hold_s": 0.25,
+      "max_linear_speed_m_s": 0.05,
+      "max_angular_speed_rad_s": 0.25,
+      "min_contact_force_n": 0.001,
+      "min_contact_bodies": 2,
+      "drop_below_initial_m": 0.08
+    }
+  },
+  {
+    "id": "02_pick_knife",
+    "title": "拿刀具",
+    "object": "knife",
+    "preferred_hand": "right",
+    "action": "lift",
+    "scene": "scene.usda",
+    "object_prim": "/World/Task/Object",
+    "fixture_prim": "/World/Task/Fixture",
+    "goal_prim": "/World/Task/Goal",
+    "object_design": {
+      "mass": 0.095,
+      "size": [
+        0.03,
+        0.211,
+        0.016
+      ],
+      "long_axis": "Y",
+      "grasp_local": [
+        0,
+        -0.045,
+        0
+      ]
+    },
+    "initial_pose_world": [
+      [
+        0.9510565162951536,
+        -0.30901699437494745,
+        0.0,
+        0.25
+      ],
+      [
+        0.30901699437494745,
+        0.9510565162951536,
+        0.0,
+        0.42
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.805
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "goal_pose_world": [
+      [
+        0.9510565162951536,
+        -0.30901699437494745,
+        0.0,
+        0.25
+      ],
+      [
+        0.30901699437494745,
+        0.9510565162951536,
+        0.0,
+        0.435
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.01
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_reference_world_m": [
+      0.26390576474687266,
+      0.37720245676671804,
+      0.805
+    ],
+    "success": {
+      "position_tolerance_m": 0.015,
+      "rotation_tolerance_deg": 12,
+      "minimum_lift_m": 0.1,
+      "requires_grasp_contact": true
+    },
+    "units": "m",
+    "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+    "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+    "runtime": {
+      "physics_dt_s": 0.004166666666666667,
+      "control_decimation": 8,
+      "settle_steps": 1200,
+      "episode_timeout_s": 20.0,
+      "success_hold_s": 0.25,
+      "max_linear_speed_m_s": 0.05,
+      "max_angular_speed_rad_s": 0.25,
+      "min_contact_force_n": 0.001,
+      "min_contact_bodies": 2,
+      "drop_below_initial_m": 0.08
+    }
+  },
+  {
+    "id": "03_pick_phone",
+    "title": "拿手机",
+    "object": "phone",
+    "preferred_hand": "left",
+    "action": "lift",
+    "scene": "scene.usda",
+    "object_prim": "/World/Task/Object",
+    "fixture_prim": "/World/Task/Fixture",
+    "goal_prim": "/World/Task/Goal",
+    "object_design": {
+      "mass": 0.185,
+      "size": [
+        0.075,
+        0.151,
+        0.011
+      ],
+      "long_axis": "Y",
+      "screen_normal": "+Z",
+      "grasp_local": [
+        0,
+        0,
+        0
+      ]
+    },
+    "initial_pose_world": [
+      [
+        0.9510565162951536,
+        0.30901699437494745,
+        0.0,
+        -0.25
+      ],
+      [
+        -0.30901699437494745,
+        0.9510565162951536,
+        -0.0,
+        0.42
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0,
+        0.8140000000000001
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "goal_pose_world": [
+      [
+        0.9510565162951536,
+        0.30901699437494745,
+        0.0,
+        -0.25
+      ],
+      [
+        -0.30901699437494745,
+        0.9510565162951536,
+        -0.0,
+        0.435
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0,
+        1.01
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_reference_world_m": [
+      -0.25,
+      0.42,
+      0.8140000000000001
+    ],
+    "success": {
+      "position_tolerance_m": 0.015,
+      "rotation_tolerance_deg": 12,
+      "minimum_lift_m": 0.1,
+      "requires_grasp_contact": true
+    },
+    "units": "m",
+    "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+    "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+    "runtime": {
+      "physics_dt_s": 0.004166666666666667,
+      "control_decimation": 8,
+      "settle_steps": 1200,
+      "episode_timeout_s": 20.0,
+      "success_hold_s": 0.25,
+      "max_linear_speed_m_s": 0.05,
+      "max_angular_speed_rad_s": 0.25,
+      "min_contact_force_n": 0.001,
+      "min_contact_bodies": 2,
+      "drop_below_initial_m": 0.08
+    }
+  },
+  {
+    "id": "04_phone_portrait_to_landscape",
+    "title": "手机竖屏变横屏",
+    "object": "phone",
+    "preferred_hand": "right",
+    "action": "portrait_to_landscape",
+    "scene": "scene.usda",
+    "object_prim": "/World/Task/Object",
+    "fixture_prim": "/World/Task/Fixture",
+    "goal_prim": "/World/Task/Goal",
+    "object_design": {
+      "mass": 0.185,
+      "size": [
+        0.075,
+        0.151,
+        0.011
+      ],
+      "long_axis": "Y",
+      "screen_normal": "+Z",
+      "grasp_local": [
+        0,
+        0,
+        0
+      ]
+    },
+    "initial_pose_world": [
+      [
+        0.9999999999999999,
+        0.0,
+        0.0,
+        0.25
+      ],
+      [
+        0.0,
+        0.34202014332566877,
+        -0.9396926207859083,
+        0.42
+      ],
+      [
+        0.0,
+        0.9396926207859083,
+        0.34202014332566877,
+        0.8819467928693361
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "goal_pose_world": [
+      [
+        2.2204460492503128e-16,
+        -0.9999999999999999,
+        0.0,
+        0.25
+      ],
+      [
+        0.34202014332566877,
+        7.59437276011507e-17,
+        -0.9396926207859083,
+        0.435
+      ],
+      [
+        0.9396926207859083,
+        2.0865367673337428e-16,
+        0.34202014332566877,
+        1.055
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_reference_world_m": [
+      0.25,
+      0.42,
+      0.8819467928693361
+    ],
+    "success": {
+      "position_tolerance_m": 0.015,
+      "rotation_tolerance_deg": 12,
+      "minimum_lift_m": 0.1,
+      "requires_grasp_contact": true
+    },
+    "units": "m",
+    "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+    "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+    "runtime": {
+      "physics_dt_s": 0.004166666666666667,
+      "control_decimation": 8,
+      "settle_steps": 1200,
+      "episode_timeout_s": 20.0,
+      "success_hold_s": 0.25,
+      "max_linear_speed_m_s": 0.05,
+      "max_angular_speed_rad_s": 0.25,
+      "min_contact_force_n": 0.001,
+      "min_contact_bodies": 2,
+      "drop_below_initial_m": 0.08
+    }
+  },
+  {
+    "id": "05_flip_phone",
+    "title": "手机翻面",
+    "object": "phone",
+    "preferred_hand": "left",
+    "action": "flip",
+    "scene": "scene.usda",
+    "object_prim": "/World/Task/Object",
+    "fixture_prim": "/World/Task/Fixture",
+    "goal_prim": "/World/Task/Goal",
+    "object_design": {
+      "mass": 0.185,
+      "size": [
+        0.075,
+        0.151,
+        0.011
+      ],
+      "long_axis": "Y",
+      "screen_normal": "+Z",
+      "grasp_local": [
+        0,
+        0,
+        0
+      ]
+    },
+    "initial_pose_world": [
+      [
+        0.9510565162951536,
+        0.30901699437494745,
+        0.0,
+        -0.25
+      ],
+      [
+        -0.30901699437494745,
+        0.9510565162951536,
+        -0.0,
+        0.42
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0,
+        0.8140000000000001
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "goal_pose_world": [
+      [
+        0.9510565162951536,
+        -0.30901699437494745,
+        -3.7843667304341506e-17,
+        -0.25
+      ],
+      [
+        -0.30901699437494745,
+        -0.9510565162951536,
+        -1.1647083184890926e-16,
+        0.435
+      ],
+      [
+        0.0,
+        1.2246467991473532e-16,
+        -1.0,
+        1.01
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_reference_world_m": [
+      -0.25,
+      0.42,
+      0.8140000000000001
+    ],
+    "success": {
+      "position_tolerance_m": 0.015,
+      "rotation_tolerance_deg": 12,
+      "minimum_lift_m": 0.1,
+      "requires_grasp_contact": true
+    },
+    "units": "m",
+    "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+    "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+    "runtime": {
+      "physics_dt_s": 0.004166666666666667,
+      "control_decimation": 8,
+      "settle_steps": 1200,
+      "episode_timeout_s": 20.0,
+      "success_hold_s": 0.25,
+      "max_linear_speed_m_s": 0.05,
+      "max_angular_speed_rad_s": 0.25,
+      "min_contact_force_n": 0.001,
+      "min_contact_bodies": 2,
+      "drop_below_initial_m": 0.08
+    }
+  },
+  {
+    "id": "06_reorient_battery",
+    "title": "拿电池调整 pose",
+    "object": "battery",
+    "preferred_hand": "right",
+    "action": "positive_up",
+    "scene": "scene.usda",
+    "object_prim": "/World/Task/Object",
+    "fixture_prim": "/World/Task/Fixture",
+    "goal_prim": "/World/Task/Goal",
+    "object_design": {
+      "mass": 0.023,
+      "size": [
+        0.0145,
+        0.0145,
+        0.051
+      ],
+      "long_axis": "Z",
+      "positive_axis": "+Z",
+      "grasp_local": [
+        0,
+        0,
+        0
+      ]
+    },
+    "initial_pose_world": [
+      [
+        0.9510565162951536,
+        -6.861555643110583e-17,
+        0.30901699437494745,
+        0.25
+      ],
+      [
+        0.30901699437494745,
+        2.11176968422134e-16,
+        -0.9510565162951536,
+        0.42
+      ],
+      [
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.812
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "goal_pose_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.25
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.435
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.01
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_reference_world_m": [
+      0.25,
+      0.42,
+      0.812
+    ],
+    "success": {
+      "position_tolerance_m": 0.015,
+      "rotation_tolerance_deg": 12,
+      "minimum_lift_m": 0.1,
+      "requires_grasp_contact": true
+    },
+    "units": "m",
+    "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+    "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+    "runtime": {
+      "physics_dt_s": 0.004166666666666667,
+      "control_decimation": 8,
+      "settle_steps": 1200,
+      "episode_timeout_s": 20.0,
+      "success_hold_s": 0.25,
+      "max_linear_speed_m_s": 0.05,
+      "max_angular_speed_rad_s": 0.25,
+      "min_contact_force_n": 0.001,
+      "min_contact_bodies": 2,
+      "drop_below_initial_m": 0.08
+    }
+  },
+  {
+    "id": "07_reorient_lighter",
+    "title": "拿打火机调整到使用姿态",
+    "object": "lighter",
+    "preferred_hand": "left",
+    "action": "upright",
+    "scene": "scene.usda",
+    "object_prim": "/World/Task/Object",
+    "fixture_prim": "/World/Task/Fixture",
+    "goal_prim": "/World/Task/Goal",
+    "object_design": {
+      "mass": 0.02,
+      "size": [
+        0.025,
+        0.02,
+        0.067
+      ],
+      "long_axis": "Z",
+      "use_axis": "+Z; striker upward, gas lever toward robot",
+      "grasp_local": [
+        0,
+        0,
+        -0.008
+      ]
+    },
+    "initial_pose_world": [
+      [
+        0.9510565162951536,
+        6.861555643110583e-17,
+        -0.30901699437494745,
+        -0.25
+      ],
+      [
+        -0.30901699437494745,
+        2.11176968422134e-16,
+        -0.9510565162951536,
+        0.42
+      ],
+      [
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.8130000000000001
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "goal_pose_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -0.25
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.435
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.01
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_reference_world_m": [
+      -0.24752786404500043,
+      0.4276084521303612,
+      0.8130000000000001
+    ],
+    "success": {
+      "position_tolerance_m": 0.015,
+      "rotation_tolerance_deg": 12,
+      "minimum_lift_m": 0.1,
+      "requires_grasp_contact": true
+    },
+    "units": "m",
+    "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+    "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+    "runtime": {
+      "physics_dt_s": 0.004166666666666667,
+      "control_decimation": 8,
+      "settle_steps": 1200,
+      "episode_timeout_s": 20.0,
+      "success_hold_s": 0.25,
+      "max_linear_speed_m_s": 0.05,
+      "max_angular_speed_rad_s": 0.25,
+      "min_contact_force_n": 0.001,
+      "min_contact_bodies": 2,
+      "drop_below_initial_m": 0.08
+    }
+  },
+  {
+    "id": "08_pick_lipstick",
+    "title": "拿口红",
+    "object": "lipstick",
+    "preferred_hand": "right",
+    "action": "lift",
+    "scene": "scene.usda",
+    "object_prim": "/World/Task/Object",
+    "fixture_prim": "/World/Task/Fixture",
+    "goal_prim": "/World/Task/Goal",
+    "object_design": {
+      "mass": 0.028,
+      "size": [
+        0.019,
+        0.019,
+        0.073
+      ],
+      "long_axis": "Z",
+      "grasp_local": [
+        0,
+        0,
+        -0.015
+      ]
+    },
+    "initial_pose_world": [
+      [
+        0.9510565162951536,
+        -6.861555643110583e-17,
+        0.30901699437494745,
+        0.25
+      ],
+      [
+        0.30901699437494745,
+        2.11176968422134e-16,
+        -0.9510565162951536,
+        0.42
+      ],
+      [
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.812
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "goal_pose_world": [
+      [
+        0.9510565162951536,
+        -6.861555643110583e-17,
+        0.30901699437494745,
+        0.25
+      ],
+      [
+        0.30901699437494745,
+        2.11176968422134e-16,
+        -0.9510565162951536,
+        0.435
+      ],
+      [
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        1.01
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_reference_world_m": [
+      0.24536474508437578,
+      0.4342658477444273,
+      0.812
+    ],
+    "success": {
+      "position_tolerance_m": 0.015,
+      "rotation_tolerance_deg": 12,
+      "minimum_lift_m": 0.1,
+      "requires_grasp_contact": true
+    },
+    "units": "m",
+    "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+    "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+    "runtime": {
+      "physics_dt_s": 0.004166666666666667,
+      "control_decimation": 8,
+      "settle_steps": 1200,
+      "episode_timeout_s": 20.0,
+      "success_hold_s": 0.25,
+      "max_linear_speed_m_s": 0.05,
+      "max_angular_speed_rad_s": 0.25,
+      "min_contact_force_n": 0.001,
+      "min_contact_bodies": 2,
+      "drop_below_initial_m": 0.08
+    }
+  },
+  {
+    "id": "09_rotate_cotton_swab",
+    "title": "拿棉签转棉签",
+    "object": "swab",
+    "preferred_hand": "left",
+    "action": "roll",
+    "scene": "scene.usda",
+    "object_prim": "/World/Task/Object",
+    "fixture_prim": "/World/Task/Fixture",
+    "goal_prim": "/World/Task/Goal",
+    "object_design": {
+      "mass": 0.0005,
+      "size": [
+        0.0054,
+        0.075,
+        0.0054
+      ],
+      "long_axis": "Y",
+      "roll_marker": "+Z red stripe",
+      "grasp_local": [
+        0,
+        0,
+        0
+      ],
+      "contact_model": "compressed cotton pads approximated by two small box colliders; rigid shaft"
+    },
+    "initial_pose_world": [
+      [
+        0.9510565162951536,
+        0.30901699437494745,
+        0.0,
+        -0.25
+      ],
+      [
+        -0.30901699437494745,
+        0.9510565162951536,
+        -0.0,
+        0.42
+      ],
+      [
+        -0.0,
+        0.0,
+        1.0,
+        0.803
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "goal_pose_world": [
+      [
+        -0.9510565162951536,
+        0.30901699437494745,
+        1.1647083184890926e-16,
+        -0.25
+      ],
+      [
+        0.30901699437494745,
+        0.9510565162951536,
+        -3.7843667304341506e-17,
+        0.435
+      ],
+      [
+        -1.2246467991473532e-16,
+        0.0,
+        -1.0,
+        1.01
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_reference_world_m": [
+      -0.25,
+      0.42,
+      0.803
+    ],
+    "success": {
+      "position_tolerance_m": 0.015,
+      "rotation_tolerance_deg": 12,
+      "minimum_lift_m": 0.1,
+      "requires_grasp_contact": true
+    },
+    "units": "m",
+    "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+    "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+    "runtime": {
+      "physics_dt_s": 0.004166666666666667,
+      "control_decimation": 8,
+      "settle_steps": 1200,
+      "episode_timeout_s": 20.0,
+      "success_hold_s": 0.25,
+      "max_linear_speed_m_s": 0.05,
+      "max_angular_speed_rad_s": 0.25,
+      "min_contact_force_n": 0.001,
+      "min_contact_bodies": 2,
+      "drop_below_initial_m": 0.08
+    }
+  },
+  {
+    "id": "10_pick_scissors",
+    "title": "拿剪刀",
+    "object": "scissors",
+    "preferred_hand": "right",
+    "action": "lift",
+    "scene": "scene.usda",
+    "object_prim": "/World/Task/Object",
+    "fixture_prim": "/World/Task/Fixture",
+    "goal_prim": "/World/Task/Goal",
+    "object_design": {
+      "mass": 0.055,
+      "size": [
+        0.072,
+        0.162,
+        0.009
+      ],
+      "long_axis": "Y",
+      "grasp_local": [
+        0,
+        -0.045,
+        0
+      ],
+      "state": "closed; rigid pickup prop, blade hinge not actuated"
+    },
+    "initial_pose_world": [
+      [
+        0.9510565162951536,
+        -0.30901699437494745,
+        0.0,
+        0.25
+      ],
+      [
+        0.30901699437494745,
+        0.9510565162951536,
+        0.0,
+        0.42
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.801
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "goal_pose_world": [
+      [
+        0.9510565162951536,
+        -0.30901699437494745,
+        0.0,
+        0.25
+      ],
+      [
+        0.30901699437494745,
+        0.9510565162951536,
+        0.0,
+        0.435
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.01
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "grasp_reference_world_m": [
+      0.26390576474687266,
+      0.37720245676671804,
+      0.801
+    ],
+    "success": {
+      "position_tolerance_m": 0.015,
+      "rotation_tolerance_deg": 12,
+      "minimum_lift_m": 0.1,
+      "requires_grasp_contact": true
+    },
+    "units": "m",
+    "object_source": "Locally authored parametric task props; dimensions and masses are design estimates, not manufacturer specifications.",
+    "status": "Scene, reset/control adapter and success evaluator implemented; live runtime verification required; no autonomous manipulation policy.",
+    "runtime": {
+      "physics_dt_s": 0.004166666666666667,
+      "control_decimation": 8,
+      "settle_steps": 1200,
+      "episode_timeout_s": 20.0,
+      "success_hold_s": 0.25,
+      "max_linear_speed_m_s": 0.05,
+      "max_angular_speed_rad_s": 0.25,
+      "min_contact_force_n": 0.001,
+      "min_contact_bodies": 2,
+      "drop_below_initial_m": 0.08
+    }
+  }
+]

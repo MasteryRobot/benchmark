@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "bimanual_roll_towel",
+  "title": "双灵巧手卷毛巾",
+  "suite": "deformable_demos",
+  "scene": "scene.usda",
+  "robot": "../assets/dual_arm/robot.urdf",
+  "workcell": "../tasks/workcell.usdc",
+  "hands": [
+    "left",
+    "right"
+  ],
+  "hand_chain_mapping": {
+    "left": "R",
+    "right": "L"
+  },
+  "towel": {
+    "width_m": 0.36,
+    "length_m": 0.4,
+    "thickness_m": 0.003,
+    "mass_kg": 0.12,
+    "near_y_m": 0.32,
+    "table_height_m": 0.795,
+    "grid_width": 25,
+    "grid_length": 97,
+    "color": [
+      0.12,
+      0.63,
+      0.68
+    ]
+  },
+  "physics": {
+    "preview": "CPU CAD mesh render; not Isaac sensor output",
+    "exploration_backend": "CPU width-coherent inextensible ribbon",
+    "scope": "Reduced-order deformable dynamics with gravity, bending, table friction and self-contact. Bilateral grasp constraints approximate pinches. No measured articulated finger contact forces; not full-physics training success.",
+    "dt_s": 0.002,
+    "iterations": 35,
+    "table_friction": 0.65,
+    "self_friction": 0.5
+  },
+  "success": {
+    "minimum_winding_turns": 1.2,
+    "maximum_length_extent_m": 0.12,
+    "maximum_height_m": 0.1,
+    "maximum_segment_strain": 0.08,
+    "minimum_bilateral_grasp_seconds": 1.0,
+    "release_hold_seconds": 0.6,
+    "maximum_released_speed_m_s": 0.035,
+    "requires_articulated_contact_validation_for_training": true
+  },
+  "source": "Locally designed task. Dimensions and material parameters are explicit uncalibrated design values."
+}

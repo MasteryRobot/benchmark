@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-30T11:16:10.324746+00:00",
+  "task_success": false,
+  "status": "PASS",
+  "backend": "Standalone NVIDIA PhysX 0.7.0.74035321",
+  "scope": "GPU articulation smoke only; not Isaac Sim or task success",
+  "device": "CUDA",
+  "shape": [
+    1,
+    15,
+    7
+  ],
+  "max_link_position_change_m": 0.8944454193115234,
+  "physics_steps": 120,
+  "simulated_seconds": 0.5
+}
